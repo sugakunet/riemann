@@ -1,0 +1,6622 @@
+arXiv:1710.01866v1 [math.NT] 5 Oct 2017
+
+The Selberg trace formula revisited
+Yiannis Sakellaridis 
+
+Abstract
+A new approach to the Selberg trace formula, and more precisely its spectral side, is developed. The approach relies on a notion of "Plancherel decomposition" of "asymptotically finite functions", and may generalize to obtain a general relative trace formula. This is an incomplete first version that will be complemented by an account of the invariant trace formula.
+
+Contents
+
+1 Introduction
+
+2
+
+1.1 The Selberg trace formula . . . . . . . . . . . . . . . . . . . . 2
+
+1.2 Overview of the method . . . . . . . . . . . . . . . . . . . . . 4
+
+1.3 Notational habits . . . . . . . . . . . . . . . . . . . . . . . . . 6
+
+1.4 Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+2 Cusps, asymptotically finite functions, and approximation by con-
+
+stant term
+
+7
+
+2.1 Compactifications . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+2.2 Schwartz and asymptotically finite functions . . . . . . . . . 10
+
+2.3 Regularized integrals . . . . . . . . . . . . . . . . . . . . . . . 13
+
+2.4 Approximation by constant term . . . . . . . . . . . . . . . . 14
+
+2010 Mathematics subject classification. 11F70 Key words and phrases. Selberg trace formula, automorphic forms, Plancherel formula,
+asymptotically finite functions. Department of Mathematics and Computer Science, Rutgers University at Newark, 101
+Warren Street, Smith Hall 216, Newark, NJ 07102. Email: sakellar@rutgers.edu.
+
+1
+
+3 Spectral decomposition in rank one
+
+19
+
+3.1 Paley-Wiener theorem for Schwartz functions on R`^ . . . . 20
+
+3.2 Mellin transform of asymptotically finite functions on the torus 21
+
+3.3 Inner product of asymptotically finite functions on the torus 26
+
+3.4 Preparation for rP GL2s: Cuspidal and Eisenstein parts, pseudo-
+
+Eisenstein series. . . . . . . . . . . . . . . . . . . . . . . . . . 29
+
+3.5 Bounds on vertical strips . . . . . . . . . . . . . . . . . . . . . 35
+
+3.6 Decomposition of the space of asymptotically finite functions 37
+
+3.7 Plancherel decomposition for asymptotically finite functions
+
+on rP GL2s. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+
+4 Rank two
+
+51
+
+4.1 Kernel functions and their constant terms . . . . . . . . . . . 51
+
+4.2 Pseudo-Eisenstein series of asymptotically finite functions . 55
+
+4.3 Variation of the inner product with the exponent . . . . . . . 57
+
+4.4 Inner product with the anti-diagonal term R1{2K,B. . . . . 64
+
+4.5 Inner product with the diagonal term K,B. . . . . . . . . . . 67
+
+4.6 Spectral side of the Selberg trace formula . . . . . . . . . . . 69
+
+5 The geometric side
+
+71
+
+6 The invariant trace formula (TO BE ADDED!)
+
+78
+
+1 Introduction
+1.1 The Selberg trace formula
+Let H " PGL2 over a global field k. For the introduction, we assume that k " Q, and for the rest of the paper we work with k: a number field, but the case of a function field is at worst verbatim, and often easier. We denote by Ak the ring of adeles of k, and by rHs the automorphic quotient HpkqzHpAkq (and similarly for other groups).
+The Selberg trace formula computes a number that "does not exist" (the trace of the operator Rpdgq, where R denotes the action of HpAkq on L2prHsq and  is the space SpHpAkqq of Schwartz functions) by "truncating" the divergent portions of this number in both its geometric and its spectral expansions.
+In its non-invariant form, it arrives at a distribution on HpAkq, which
+
+2
+
+we will denote as TF0; the spectral side reads:
+
+ÿ
+
+TF0pq "
+
+trppqq`
+
+PH^ Aut disc
+
+` 1 trpM p0q 1 0pqq ´ trpM p´zqM 1  i8 pzqzpqqdz. (1.1)
+
+4
+
+4i ´i8
+
+The first sum is indexed by the discrete automorphic spectrum of H
+(which in this case consists of the cuspidal representations and the quadratic
+idele class characters), while for the second line the notation is as follows:
+Let rHsB " ApkqN pAkqzHpAkq, the "boundary degeneration" of rHs, where B denotes a k-Borel subgroup, N its unipotent radical, and A the
+universal Cartan A " B{N . (The space is independent of a choice of B.) When we write, simply, A we will mean the connected Lie group ApRq0 » R^`. We consider the normalized action of the group rAs (and hence also of A) on functions on rHsB:
+
+a
+
+¨
+
+f
+
+pxq
+
+"
+
+´
+
+1 2
+
+paqf
+
+paxq.
+
+(1.2)
+
+Then s
+
+"
+
+C
+
+8
+
+pA
+
+zrH
+
+sB
+
+,
+
+
+
+s 2
+
+q,
+
+the space of smooth functions on rHsB
+
+s
+
+which are  2 -equivariant under the action of A, where  is the modular
+
+character of the Borel subgroup. (Under the unnormalized action this would
+1`s
+be  2 ; in particular, psq " 0 corresponds to unitary induction.)
+
+Finally, M psq : s Ñ ´s is the standard intertwining operator:
+
+
+
+pM psqf qpxq "
+
+f pwnxqdn,
+
+N pAkq
+
+^ 1 where w " ´1 .
+Obviously, the representations s are reducible, and one can further decompose with respect to characters of rAs1 " the group of idele classes of norm one, but this is a compact group and the decomposition of (1.1) to its eigencharacters is a trivial matter.
+The purpose of this paper is to revisit the Selberg trace formula and give a conceptual explanation for the terms in (1.1). This approach should make it easier to develop the analogous theory for the general relative trace formula, something that has not been done yet. Of course, this is a longterm undertaking, as demonstrated by the fact that it contains Arthur's general trace formulas as special cases.
+
+3
+
+1.2 Overview of the method
+
+The main idea behind the proof is to compute the Hilbert-Schmidt inner
+
+product of two convolution operators defined by Schwartz functions 1, 2
+
+on
+
+H,
+
+instead
+
+of
+
+the
+
+trace
+
+of
+
+the
+
+convolution
+
+
+
+"
+
+_
+1
+
+<
+
+2,
+
+where
+
+_1 pgq
+
+"
+
+1pg´1q. (The "inner products" in this paper are, actually, bilinear, by abuse
+
+of language.) This corresponds to viewing the group X " H " PGL2 as
+
+a G " H ^ H-space (by left and right multiplication), and expressing the
+
+trace formula as the relative trace formula for the quotient pX ^ Xq{Gdiag.
+
+Formally, one ends up having to compute the inner product (on rGs) of the
+
+two kernel functions for the operators Rpidgq:
+
+K1 , K2 .
+
+(1.3)
+
+The key point now is understanding what makes this inner product diverge: the kernel functions are "asymptotically finite functions on rGs with trivial exponents", s. §2.2 and Proposition 4.1.1 - this, essentially, means that in some directions towards infinity they behave like eigenfunctions of a multiplicative group, and otherwise are of rapid decay. (In the case of rank one, this is the notion of "extended Schwartz space" introduced by Casselman [Cas93].) If the exponents (= normalized eigencharacters) were not trivial, one would be able to define a regularized, invariant inner product of the two kernel functions (thus arriving at a canonical invariant trace formula).
+However, the exponents being trivial (in a normalized sense), means that no such regularized inner product exists. Thus, the Selberg trace formula is really the constant coefficient of the Laurent expansion that one obtains by deforming exponents and calculating regularized inner products:
+
+K1 , pK2 qs ,
+
+(1.4)
+
+where pK2qs is a deformation of K2 with exponent s, cf. §4.3. Because the expansion has a pole, this coefficient is non-invariant. Of course, this is an alternative way of producing the same expression as with truncation methods, s. Lemma 4.3.1.
+Nonetheless, viewing the trace formula in terms of regularized inner products allows us to define and compute its spectral decomposition as a "Plancherel formula" for the inner product of two asymptotically finite functions. To develop such a Plancherel formula, one can employ the usual techniques of the Plancherel decomposition, due to Selberg and Langlands: pseudo-Eisenstein series, and contour shifts. The input for pseudo-Eisenstein
+
+4
+
+series will now also be asymptotically finite functions (on the boundary de-
+
+generation rGsB " rHsB ^ rHsB), but otherwise the argument is formally
+
+the same. I develop such a Plancherel formula in complete generality in
+
+rank one, s. Theorem 3.7.5. This is not only for "training purposes": such
+
+a Plancherel formula for asymptotically finite functions on rHs can be ap-
+
+plied to obtain the spectral decomposition of a relative trace formula for
+
+PGL2 - s. Example 3.7.6. In rank two, to simplify the analysis I restrict
+
+the Plancherel decomposition to the case where one of the two functions
+
+of the inner product is a kernel function, s. Theorem 4.6.1. However, it is
+
+essential to allow the second function to be general, in order to be able to
+
+approximate it by pseudo-Eisenstein series.
+
+The spectral decomposition gives a conceptual explanation for the terms
+
+of
+
+(1.1):
+
+the
+
+term
+
+1 4
+
+trpM p0q0pqq,
+
+for
+
+example,
+
+shows
+
+up
+
+in
+
+the
+
+decompo-
+
+sition of the inner product of two functions on A2 " R`^2: one is invariant
+
+under the anti-diagonal copy Aadiag, and the other is asymptotically in-
+
+variant under Adiag; the Plancherel formula then includes a discrete term
+
+corresponding to the only character of A2 that is invariant under both Adiag
+
+and Aadiag: the trivial one. To be precise, this describes the restriction to
+
+A ^ A-orbits (times the appropriate volume factor) of two functions that
+
+live on rHsB ^ rHsB. The fact that such functions arise in the spectral de-
+
+composition can be understood using the language of scattering theory: the
+
+constant term of a function on rGs is invariant under an action of the Weyl
+
+group Z{2 ^ Z{2 of G expressed in terms of certain "scattering operators".
+
+(Those will not appear explicitly, but as standard intertwining operators
+
+acting on Mellin transforms, s. Corollary 4.2.2.) In particular, the constant
+
+term of a function on rGs which has exponents in the Adiag-direction, also
+
+has the same exponents along the Aadiag-direction. Of course, in the case of
+
+kernel functions, constant terms are very explicit, s. Proposition 4.1.2.
+
+The integrand trpM p´zqM 1pzqzpqq directly reflects the definition of
+
+the trace formula as the constant coefficient of the Laurent expansion of
+
+(1.4) - equivalently, as the derivative of the Taylor expansion that we ob-
+
+tain by canceling the pole. More precisely, the (relatively arbitary) process
+
+chosen to deform the kernel K2 to a function pK2qs with different ex-
+
+ponent involves multiplication on the second variable (close to the cusp)
+s
+by  2 , where  is the modular character of the Borel viewed as a function
+
+on rHs by fixing an Iwasawa decomposition. (The trace formula depends
+
+on the choice of such a decomposition.) Comparing the constant term of
+
+K2 with the constant term of its modification involves replacing the oper-
+
+ator M1pzqM2pzq, where M1, M2 are the aforementioned intertwining op-
+
+5
+
+erators applied to the first, resp. second variable of rGsB " rHsB ^ rHsB, by M1pzqM2pz ` sq, and taking derivatives one obtains the operator M 1pzq. This is just an impressionistic explanation of the phenomenon, as the actual argument involves a variation of the input of a pseudo-Eisenstein series, s. §4.5.
+On a technical note, for the contour shift I rely on a result of HarishChandra, which states that intertwining operators are of polynomial growth away from their poles, in any bounded vertical strip in the region psq  0. This may be the biggest technical obstacle in generalizing this method to higher rank without hard analysis - but it is conceivable that the result of Harish-Chandra can be generalized. Fortunately, no such estimates on Eisenstein series are needed, which are signifantly more complicated, as they are related to logarithmic derivatives of intertwining operators and, hence, zeroes of L-functions. The trace formula that we obtain by this method is absolutely convergent from the beginning - no hard estimates are needed to establish this.
+Incidentally, such "asymptotically finite" behavior appears for all "theta series" on smooth affine varieties with an action of a reductive group, see [Sak16, §5]. Thus, developing a general Plancherel formula for asymptotically finite functions would give rise to a general relative trace formula, which does not exist yet. This was part of the motivation for the present paper - another one being that I never understood the spectral decomposition of the Selberg trace formula.
+
+1.3 Notational habits
+
+In this paper, the symbol S is reserved for various spaces of Schwartz func-
+
+tions, that is, smooth functions which are of rapid decay together with their
+
+polynomial derivatives. Extensions of such spaces are denoted by S`, pos-
+
+sibly with the appropriate indices. The definitions are given in §2.2.
+
+At several points, it would be more appropriate to be working with
+
+measures, instead of functions. For example, for the group H " PGL2,
+
+setting G " PGL2 ^ PGL2 and considering H as a space with a right G-
+
+action via
+
+h ¨ ph1, h2q " h´1 1hh2,
+
+(1.5)
+
+we have an isomorphism of stacks H{H ´ conj " pH ^ Hq{Gdiag, and this
+induces a canonical isomorphism of the HpF q-conjugacy-coinvariant space of Schwartz measures on HpF q (for any local field F ) with the GdiagpF q-
+coinvariant space of Schwartz measures on HpF q ^ HpF q, s. [Sak16]. Since
+
+6
+
+here we are working with Schwartz functions, we need to fix measures, and some compatibility conditions on the choices of measures are described in §3.4.
+For the convenience of the reader, I systematically use similar symbols for functions on similar spaces. That includes:
+·  for functions on HpAkq, GpAkq;
+·  for functions on rHs, rGs;
+· f for functions on rHsB, rGsB.
+1.4 Acknowledgements
+This proof of the trace formula was presented as part of a course that I taught at the University of Chicago in the Spring Quarter of 2017. I am grateful to the University of Chicago for the invitation, and to the audience of this course for patiently enduring a bad first draft of this paper and the technicalities that come with the trace formula. I would also like to thank Bill Casselman and Erez Lapid for discussing some of these technicalities with me, and providing references that helped me simplify some arguments. This work was supported by NSF grant DMS-1502270.
+2 Cusps, asymptotically finite functions, and approximation by constant term
+What follows is an adaptation of the formalism of asymptotically finite functions of [Sak16] and of the well-known theory of the constant term to the special, simple, case of rHs " rPGL2s and rGs " rPGL2s ^ rPGL2s.
+2.1 Compactifications
+We start with rHs " rPGL2s. Let A » Gm be the universal Cartan of H, that is: the reductive quotient B{N of any Borel subgroup. By abuse of notation, we will also be using A for R`^ " the identity component of GmpRq  Resk{QApRq, in other words the diagonal copy of R`^ in Apk8q. There should be no confusion, since it is Apk8q, not A as an algebraic group, which acts on quotients such as:
+rHsB :" ApkqN pAkqzHpAkq,
+7
+
+the "boundary degeneration" of rHs. In the function field case, the reader should choose a place corresponding to a point defined over the finite base field, and make the necessary translations, replacing R by the corresponding localization of k.
+The reductive Borel-Serre compactification rHs of rHs is the union of rHs with the space 8B :" AzrHsB. To see how they are glued, consider the diagram:
+
+B pkqzH pAk q
+
+(2.1)
+
+H
+
+B
+
+y
+
+&
+
+rH s
+
+rH sB .
+
+The classical picture is:
+
+H
+{ zH
+
+8zH
+
+B
+$ N zH.
+
+Here H is the complex upper half plane,  an arithmetic lattice in SL2pRq,
+
+N  SL2pRq the subgroup of upper triangular matrices, acting by horizon-
+
+tal translation, and 8 "  X N .
+
+In this diagram, the left arrow is an isomorphism in a neighborhood of
+
+the cusp. (A rigorous definition of what "cusp" means is coming up.) We
+
+will call such a neighborhood a "Siegel neighborhood". (Notice that this
+
+is different from a "Siegel set", which is supposed to cover all of rHs.) On
+
+the other hand, the space 8B " AzrHsB is naturally glued to rHsB "at the
+
+cusp": simply consider
+
+R0 ^A rHsB,
+
+(2.2)
+
+where we have identified A with R`^ by an anti-dominant cocharacter (with respect to B).1 Then the cusp is 8B " t0u^A rHsB. (The opposite "infinity" in rHsB, the one we would get if we were glueing 8 to R^`, instead of 0, will be called the "funnel".) We can then glue AzrHsB to BpkqzHpAkq
+obtaining an embedding BpkqzHpAkq, with the topology generated by the open subsets of the latter, and the preimage of open subsets of R0 ^A
+rHsB, and use the identification of BpkqzHpAkq with rHs close to the cusp
+
+1This
+
+identification
+
+A
+
+»
+
+^
+R`
+
+is
+
+convenient
+
+for
+
+the
+
+description
+
+of
+
+compatifications
+
+(be-
+
+cause
+
+it
+
+is
+
+more
+
+convenient
+
+to
+
+embed
+
+^
+R`
+
+into
+
+R,
+
+instead
+
+of
+
+^
+R`
+
+Y
+
+t8u,
+
+but
+
+it
+
+contradicts
+
+standard choices for the spectral decomposition. Therefore, later in this paper we will be
+
+working
+
+with
+
+the
+
+identification
+
+A
+
+»
+
+^
+R`
+
+defined
+
+by
+
+the
+
+dominant
+
+character
+
+
+
+1 2
+
+.
+
+8
+
+to construct the reductive Borel-Serre compactification rHs. As mentioned
+before, a Siegel neighborhood SB of the cusp will be a neighborhood of 8B in rHs, intersected with rHs,2 with the property that it maps isomorphically
+onto its image under the map G of (2.1).
+Now we move to rGs " rHs ^ rHs. Of course, it has a reductive Borel-
+Serre compactification rGs :" rHs ^ rHs, but this is not the one that will
+be relevant for our purposes. A general theory of "equivariant toroidal"
+compactifications was presented in [Sak16]; here, I describe only one of them, denoted rGsD (for "diagonal"), which will be useful for analyzing
+kernel functions. It is obtained by blowing up rGs at the product 8B ^ 8B
+of the two cusps, and then removing 8B ^ rHs Y rHs ^ 8B. Another way to describe it is to consider the partial compactification Y of R`^ ^R`^ obtained by adding a divisor in the direction of the cocharacter t ÞÑ pt, tq (as t Ñ 0); it is isomorphic to R`^ ^ R0 after the non-canonical change of variables pu, vq " p xy , xq or pu, vq " p xy , yq. We then let
+
+rGsBD :" Y ^A^A rGsB,
+
+(2.3)
+
+where3 rGsB " rHsB ^ rHsB, and glue the orbit at infinity to rGs as before, using the diagram (2.1) for rHs ^ rHs. The orbit at infinity will be denoted by 8D; it is isomorphic to AdiagzrGsB.
+Remark 2.1.1 ("Semi-algebraic" topology on rHs and rGs). Since we will be working with Schwartz functions, it makes sense to work with a restricted "semi-algebraic" topology, where neighborhoods are described by polynomial inequalities. Without further mention, when talking about neighborhoods of various orbits at infinity on rGs, rGsD, and the corresponding embeddings of rGsB, we will mean this kind of "semi-algebraic" neighborhoods.
+One way to describe what this means is to choose a Borel subgroup B of H and a good compact subgroup K of GpAkq so that GpAkq " pB ^ BqpAkq ¨ K; hence, rGsB " rA ^ As ¨ K " pA ^ Aq ^ prAs1 ^ rAs1q ¨ K (where rA ^ As is considered as a subspace of rGsB by the choice of B, and rAs1 denotes idele classes of norm 1). Then, our neighborhoods in rGsB should be of the form
+
+2Throughout the paper, when we mention neighborhoods of the cusp in various compactifications, we will be identifying them with intersections with the open orbit
+(rHs, rGs, rHsB etc.); thus, for example, a "compact neighborhood of the cusp in rHs" is
+the intersection with rHs of a compact neighborhood of the cusp in rHs. 3We should really be writing rGsB^B here, since B denotes a Borel subgroup of H, but
+for notational convenience we write just rGsB. The same convention applies to constant terms.
+
+9
+
+(or contain sub-neighborhoods of the form) U " V ^ prAs1 ^ rAs1qK, where V is a subset of the real semi-algebraic torus A^A described by polynomial inequalities. By taking images via (the analog of) (2.1), this induces a notion of semi-algebraic neighborhoods in the vicinity of 8B ^ 8B on rGs, and the analogous construction can be used for any class of parabolic subgroups.
+This remark was not important in the rank-one case, because the orbit at infinity 8B " AzrHsB is compact in that case, thus any neighborhood of the cusp contains a semi-algebraic neighborhood.
+2.2 Schwartz and asymptotically finite functions
+We define a height function g ÞÑ }g} on rHs, whose precise definition is actually not important - only its "polynomial equivalence class" matters. For example, we can fix a Borel subgroup B  H and a good maximal compact subgroup K of HpAkq so that HpAkq " BpAkqK, and a Siegel neighborhood U of the cusp, and set:
+# }g} " 1, if g R U ;
+pbq, if g P U and g " bk, b P BpAkq, k P K.
+We let SprHsq, the Schwartz space of rHs, be the space of smooth functions on rHs which, together with their derivatives under the action of the Lie algebra of Hpk8q, are of rapid decay, that is:
+supp|Xpgq| ¨ }g}rq  8
+rH s
+for any r, where X denotes any element of U phq, the universal enveloping algebra of hpk8q bR C. Its K-invariants, for any open compact subgroup K of the finite adeles of H, naturally form a nuclear Fre´chet space; thus, SprHsq is an "LF -space". In the function field case, one should replace "rapid decay" by compact support, and ignore references to the topology. (There is a way to define a completion of the space that has a similar topology as in the Archimedean case - cf. [Sak13, Appendix A] - but we won't get into that.)
+Similar definitions hold for the space rHsB, and are left to the reader; the Schwartz functions here should be of rapid decay in both the direction of the cusp and the direction of the "funnel". Similar definitions also hold for the spaces rGs, rGsB, etc., and we have: SprGsq " SprHsqb^ SprHsq. For a closed subset U of either of these spaces (say, rHs), we denote by SpU q the space of restrictions of Schwartz functions on the ambient space, endowed with the quotient topology for SprHsq Ñ SpU q.
+10
+
+Remark 2.2.1. Throughout the paper, "rapid decay" will always refer to a function together with its polynomial derivatives.
+
+Let
+
+s
+
+:"
+
+C 8 pAzrH sB ,
+
+
+
+s 2
+
+q,
+
+(2.4)
+
+s
+the space of smooth functions on rHsB which are  2 -eigenfunctions with
+
+respect to the normalized action (1.2) of A » R^`.
+
+Definition 2.2.2. A smooth function f on rHsB will be called "asymptotically finite with exponent s P C" (implicitly: in the direction of the cusp) if there is an element f : P s such that f ´ f : is of rapid decay in a compact Siegel neighborhood of the cusp, while f coincides with an element
+of SprHsBq away from a compact neighborhood of the cusp. The space of asymptotically finite functions on rHsB with exponent s will be denoted by Ss`prHsBq - its K-invariants, for every open compact subgroup K of the finite adeles, naturally form a nuclear Fre´chet space.
+A smooth function  on rHs will be called "asymptotically finite with exponent s P C" if there is an element : P s such that
+
+|SB ´ :|SB P SpSBq,
+
+where SB is any closed Siegel neighborhood of the cusp, and the functions , : are identified as functions on this set by pulling back through the
+maps H , resp. B of (2.1). The space of asymptotically finite functions on rHs with exponent s will be denoted by Ss`prHsq - its K-invariants, for every open compact subgroup of the finite adeles, naturally form a nuclear
+Fre´chet space.
+
+Recall that the action of A on functions on rHsB has been normalized
+
+as
+
+in
+
+(1.2),
+
+so
+
+f
+
+:,
+
+in
+
+the
+
+above
+
+definition,
+
+satisfies
+
+f
+
+:paxq
+
+"
+
+
+
+1`s 2
+
+paqf
+
+:pxq
+
+for
+
+a P A (and same for :). The classical analog for the space zH is that the
+1`s
+function is equal to a multiple of y 2 , up to a function of rapid decay.
+
+The space Ss`prHsq is naturally the space of Schwartz sections of a line
+
+bundle over the reductive Borel-Serre compactification rHs. (Equivalently:
+
+smooth sections, since the space is compact.) The natural Fre´chet space
+
+structure on Ss`prHsqK, mentioned in the definition, is given by the C8-
+
+seminorms
+
+of
+
+
+
+away
+
+from
+
+the
+
+cusp,
+
+of
+
+:
+
+P
+
+s
+
+:"
+
+C 8 pAzrH sB ,
+
+
+
+s 2
+
+q,
+
+and
+
+of
+
+|SB ´ :|SB P SpSBq. (See the definition preceding Remark 2.2.1 for what
+
+the Schwartz space of a closed set means! It is a quotient of the Schwartz
+
+space of an open neighborhood.) A similar description holds for the topol-
+
+ogy on Ss`prHsBq. By the definition, we have short exact sequences:
+
+0 Ñ SprHsBq Ñ Ss`prHsBq Ñ s Ñ 0
+
+(2.5)
+
+11
+
+and
+
+0 Ñ SprHsq Ñ Ss`prHsq Ñ s Ñ 0.
+
+(2.6)
+
+Now we come to rGs " rHs ^ rHs. We will only define asymptotically finite functions with respect to the partial compactification rGsD that we
+saw in the previous section. (For more general definitions, s. [Sak16].) Re-
+call that the orbit at infinity for this compactification is denoted by 8D(» Adiag zrGsB ).
+We normalize the action of A ^ A on C8prGsBq " C8prHsB ^ rHsBq
+as in (1.2) (on each factor). In particular, the action of the diagonal copy
+ta " px, xqu of A is as follows:
+
+a ¨ f pxq " ´1paqf paxq,
+
+while the action of the anti-diagonal copy ta " px, x´1qu of A is equal to the unnormalized action:
+a ¨ f pxq " f paxq.
+
+We first consider, given an s P C, the complex line bundle over 8D
+
+whose
+
+sections
+
+are
+
+p
+
+Adiag
+
+,
+
+
+
+s 2
+
+q
+
+-equivariant
+
+functions
+
+on
+
+rGsB
+
+(under
+
+the
+
+normalized
+
+action);
+
+its
+
+smooth
+
+sections
+
+will
+
+simply
+
+be
+
+denoted
+
+by
+
+C
+
+8
+
+p8D
+
+,
+
+
+
+s 2
+
+q,
+
+or
+
+by
+
+C
+
+8pAdiagzrGs,
+
+
+
+s 2
+
+q.
+
+The following is a very important observation:
+
+Observation 2.2.3. Choose any section of the homomorphism A^A Ñ Adiag,
+
+and any Borel subgroup B of H and compact subgroup K of G such that
+
+GpAkq " pB ^ BqpAkq ¨ K. These data give rise to an identification rGsB " pA ^ Aq ^ prAs1 ^ rAs1qK, and a section  of the quotient map rGsB Ñ
+
+AdiagzrGsB, which we can use to trivialize the bundle defined above, i.e.,
+
+for f
+
+P
+
+C
+
+8
+
+p
+
+A
+
+diag
+
+zrG
+
+s,
+
+
+
+s 2
+
+q
+
+,
+
+we have °f
+
+P
+
+C 8 pAdiag zrGsq.
+
+Then,
+
+whether
+
+°f P SpAdiagzrGsq (i.e., is of rapid decay) does not depend on the chosen
+
+section; more precisely, pull-back via  defines a subspace
+
+S pAdiag zrGs,
+
+
+
+s 2
+
+q
+
+
+
+C 8 pAdiag zrGs,
+
+
+
+s 2
+
+q,
+
+with a Fre´chet space structure that does not depend on the choices made to define .
+s
+Indeed, this is easily seen since the character  2 is of polynomial growth, while elements of SpAdiagzrGsq decay (together with their derivatives) faster than polynomials.
+
+12
+
+Definition 2.2.4. A (smooth) function f on rGsB " rHsB ^ rHsB will be
+
+called "asymptotically finite with exponent s P C" (with respect to the di-
+
+agonal direction D, which will not explicitly appear in the notation) if there
+
+is
+
+an
+
+element
+
+f:
+
+P
+
+s
+
+:"
+
+S pAdiag zrGsB ,
+
+
+
+s 2
+
+q,
+
+and
+
+a
+
+compact
+
+Siegel
+
+neighbor-
+
+hood U of the product 8B ^ 8B of the two cusps in rHs ^ rHs, such that
+
+1. f |UXrGsB ´ f :|UXrGsB P SpU X rGsBq, and
+
+2. f |rGsB U° P SprGsB U°q.
+
+The space of asymptotically finite functions on rGsB with exponent s will be denoted by Ss`prGsBq. Its K ^ K-invariants, for any compact open subgroup K of the finite adeles of H, have a natural nuclear Fre´chet space
+structure. A (smooth) function  on rGs " rHs^rHs will be called "asymptotically
+finite with exponent s P C" if there is an element : P s, and a compact Siegel neighborhood U of the product 8B ^ 8B of the two cusps in rHs ^ rHs) such that:
+
+1. and
+
+|UXrGs ´ :|UXrGs P SpU X rGsq,
+
+2. |rGs U° P SprGs U°q.
+
+The space of asymptotically finite functions on rGs with exponent s will be denoted by Ss`prGsq. Its K ^ K-invariants, for any compact open subgroup K of the finite adeles of H, have a natural nuclear Fre´chet space structure.
+
+By the definition, we have short exact sequences
+
+0 Ñ SprGsBq Ñ Ss`prGsBq Ñ s Ñ 0,
+
+(2.7)
+
+and
+
+0 Ñ SprGsq Ñ Ss`prGsq Ñ s Ñ 0.
+
+(2.8)
+
+2.3 Regularized integrals
+In [Sak16, §5.6], I defined a "regularized integral" of asymptotically finite functions, provided the exponents are not "critical". In the special cases under consideration here, it translates to the following:
+
+13
+
+Proposition 2.3.1. Let s1, s2 P C, and i P Ss`i prHsq (i " 1, 2). Consider any holomorphic section C Q t ÞÑ ft P St`prHsq with fs1`s2 " 12. Then the integral
+
+ftphqdh
+rH s
+converges for ptq ! 0, and has meromorphic continuation with a simple pole at t " s1 ` s2. If, in particular, s1 ` s2  0, its value at t " 0 depends only on 12, and defines an invariant bilinear pairing
+
+Ss`1prHsqb^ Ss`2prHsq, Ñ C
+
+ extending the pairing 1, 2 rHs " rHs 12 on Schwartz spaces.
+The same holds if we replace rHs by rHsB, rGs, or rGsB, with the definitions
+of asympotically finite functions given previously.
+
+The
+
+holomorphic
+
+structure
+
+on
+
+the
+
+family
+
+of
+
+spaces
+
+`
+St
+
+prH
+
+sq,
+
+mentioned
+
+in the definition, can be defined by fixing an Iwasawa decomposition HpAkq "
+1
+BpAkqK, setting pbkq "  2 pbq, picking a smooth cutoff function u on rHs
+
+which is equal to 0 away from a Siegel neighborhood of the cusp and 1 in
+
+a smaller neighborhood, and identifying the spaces via multiplication by p1 ´ uq ` u ¨ t, where the restriction of  to the Siegel neighborhood is
+
+understood as a function on rHs.
+
+Notice that the pairings , are always bilinear in this paper. By
+
+abuse of language, we will be using the term "inner product" to refer to
+
+them.
+
+Definition 2.3.2. When s1 ` s2  0, the invariniant bilinear pairing
+
+Ss`1 prHsqb^ Ss`2 prHsq Ñ C
+
+of the previous proposition will be denoted
+
+°
+
+1 b 2 ÞÑ 1, 2 rHs ° "
+
+12.
+
+rH s
+
+Completely analogous notation will be used for the regularized pairings for the spaces rHsB, rGs, and rGsB.
+
+2.4 Approximation by constant term
+The theorems presented in this section are very classical and well-known; they generalize to any reductive group as in [MW95, Corollaries I.2.8, I.2.11].
+
+14
+
+Again, we start with the rank-one case rHs " rPGL2s. For  P CprHsq, we denote by B P CprHsBq its constant term:
+
+
+Bpgq " pngqdn.
+rN s
+
+(2.9)
+
+Theorem 2.4.1. Fix K " a compact open subgroup of HpAkf q, where Akf " the
+
+finite adeles. (In the function field case, Akf " Ak.)
+
+In the function field case, there is a Siegel neighborhood SB such that |SB " B|SB for all  P C8prHsqK .
+In the number field case, fix also a number r  0. Let Vr  CprHsqK be
+
+the Banach space defined by the norm: }}r " supgPrHsp|pgq| ¨ }g}´rq, and let
+
+V8
+r
+
+
+
+C 8 prH sqK
+
+be
+
+the
+
+Fre´chet
+
+space
+
+of
+
+its
+
+smooth
+
+vectors.
+
+(Hence,
+
+a
+
+complete
+
+system
+
+of
+
+seminorms
+
+on
+
+V8
+r
+
+consists
+
+of
+
+the
+
+seminorms
+
+}}X,r :" }X}r,
+
+for X P U phq, the universal enveloping algebra of hpk8q bR C.) Then, the map  ÞÑ |SB ´ B|SB represents a continuous morphism:
+
+8
+Vr
+
+Ñ
+
+S pSB q,
+
+where SB denotes any closed Siegel neighborhood of the cusp, considered as a subset of BpkqzHpAkq (and the functions , B are "restricted" to this set by pulling back through the maps H , resp. B of (2.1)).
+Example 2.4.2. Let X " N zH, where N  B is the unipotent radical of a chosen Borel subgroup. Consider the morphism
+
+ : SpXpAkqq Ñ C8prHsq
+
+ given by pgq :" PXpkq pgq. Proposition. This map defines a continuous morphism
+
+SpXpAkqq Ñ SprHsq.
+
+Proof. Obviously, the map to C8prHsq is continuous. By generalities about
+representations of moderate growth (s. [BK14]), it will actually be continuous as a map from SpXpAkqq to some Vr8. By Theorem 2.4.1, it is enough to show that the restriction of the constant term pqB to a neighborhood of the cusp coincides with a restriction of an element of SprHsBq.
+
+15
+
+We compute this constant term:
+
+
+
+ÿ
+
+pqBpgq "
+
+pngqdn.
+
+rN s PXpkq
+
+We break up the sum into Borel orbits (Bruhat cells, in this case). It becomes:
+
+
+
+ÿ
+
+ÿ
+
+pqBpgq "
+
+pgq `
+
+pwgq,
+
+PApkq
+
+PApkq N pAkq
+
+where w is the non-trivial element of the Weyl group. The first term is an element of SprHsBq. The second is rapidly decaying
+at the cusp, because in the quotient X N " spec krXsN » Ga (the last isomorphism by identifying the image of the closed Bruhat cell with 0), the action of A is via the character  (which goes to 8 at the cusp).
+
+Example 2.4.3. Let T " Gm ãÑ H " PGL2, X " T zH. We consider the morphism
+ : SpXpAkqq Ñ C8prHsq
+ given by pgq :" PXpkq pgq.
+Proposition. This map defines a continuous morphism
+
+SpXpAkqq Ñ S1`prHsq.
+
+Proof. Again, it is enough to show that the restriction of the constant term
+pqB to a neighborhood of the cusp coincides with a restriction of an element of S1`prHsBq.
+We compute this constant term:
+
+
+
+ÿ
+
+pqBpgq "
+
+pngqdn.
+
+rN s PXpkq
+
+Assume that B has been chosen to contain T (thus furnishing an isomorphism T » A, the universal Cartan). We split the above sum into Borel orbits on Xpkq; there are three of them:
+
+T 1B, T wB, and T B,
+
+where w denotes the non-trivial element of the Weyl group of T in H and  is a representative of the open Borel orbit.
+
+16
+
+The sum becomes:
+
+
+
+
+
+
+
+ÿ
+
+pT 1ngqdn `
+
+pT wngqdn `
+
+pT ngqdn.
+
+N pAkq
+
+N pAkq
+
+PApkq N pAkq
+
+The affine quotient X N " spec krXsN can be identified with Ga by letting 0 be the (common) image of the orbits T 1B and T wB, and then A acts on Ga via the character . Therefore, as paq Ñ 8 the image of the point  ¨ a in X N goes to 8, and from this it is easy to see that the third term is
+rapidly decaying at the cusp. Each of the other two terms is -equivariant
+1
+under the unnormalized ApAkq-action, and hence  2 -equivariant under the normalized ApAkq-action.
+Hence, from the above formula and Theorem 2.4.1, we deduce that  is actually a continuous map into S1`prHsq.
+
+Remark 2.4.4. We see in the above example that the function  is asymptotic not only to an eigenfunction for the group A  Apk8q, but also for all of rAs. This suggests that our compactifications are too large: we could have glued rAszrHsB at infinity. This would have been achieved by replacing (2.3) by
+rAs ^rAs rHsB,
+
+where rAs is the union of rAs with a point as paq Ñ 8. However, for the analysis it will not make any difference which compactification we are using, and the real torus A is easier to handle, notationally.
+Now we move to rank two. The group G " H ^ H has four classes of parabolics, namely: G, H ^ B, B ^ H and B ^ B. For any conjugacy class P " M U of k-parabolics, we denote by rGsP the "boundary degeneration" M pkqU pAkqzGpAkq. (Recall that, by abuse of notation, we denote rGsB^B simply by rGsB.) It carries an action of rAP s, commuting with the GpAkqaction, where AP is the maximal split torus in the center of the Levi quotient M.
+For  P CprGsq, we denote by P P CprGsP q its constant term:
+
+
+P pgq " pugqdu.
+rU s
+
+(2.10)
+
+Consider first the reductive Borel-Serre compactification of rGs:
+
+rGs " rHs ^ rHs.
+
+17
+
+It contains four GpAkq-orbits, parametrized by the classes of parabolics P . We will call "P -cusp" the closure of the orbit corresponding to P ; for example, the B ^H-cusp is the product 8B ^rHs. A "Siegel neighborhood" of a cusp is a semi-algebraic neighborhood, intersected with rGs, on which the left arrow of the diagram
+
+P pkqzGpAkq
+
+G
+
+P
+
+y
+
+&
+
+rGs
+
+rGsP
+
+(2.11)
+
+is an isomorphism onto the image. The theorem that follows is the theorem of approximation by the con-
+stant term, essentially as it appears in [MW95, Corollaries I.2.8, I.2.11]. In it, a Siegel set S is a compact neighborhood of the cusp in the "reductive Borel-Serre compactification" pB ^ BqpkqzGpAkq, which is large enough that it surjects onto rGs. We will afterwards discuss what it means in terms of Siegel neighborhoods, relating it to the statement for the function field case. We endow rGs with the product of the norms } ¨ } on rHs, also to be denoted by } ¨ }.
+
+Theorem 2.4.5. Fix K " a compact open subgroup of GpAkf q.
+
+In the function field case, for every P , there is a Siegel neighborhood SP of the P -cusp such that |SP " P |SP for all  P C8prGsqK .
+
+In the number field case, fix also a number r  0 and a Siegel set S . Let Vr 
+
+CprGsqK be the Banach space defined by the norm: }}r " supgPrHs |pgq|¨}g}´r,
+
+and
+
+let
+
+V8
+r
+
+
+
+C 8 prGsq
+
+be
+
+the
+
+Fre´chet
+
+space
+
+of
+
+its
+
+smooth
+
+vectors.
+
+Then, the map
+
+ÿ  ÞÑ p´1qrkpGq´rkpP qP |S
+
+(2.12)
+
+P
+
+represents a continuous morphism:
+
+8
+Vr
+
+Ñ
+
+S pS
+
+q.
+
+Remark 2.4.6. The theorem has been formulated taking into account that the center of G is trivial/compact. If the center of G was not compact, in the number field case we would need to specify that the rapid decay is in the direction "transverse to the center" - cf. [MW95, Corollary I.2.11] for the complete formulation. It is these central directions that prevent the formulation of the function field case from being true in the number field case -
+
+18
+
+the "leftovers" from the difference between a function and its constant term do not need to be of rapid decay in "central" directions.
+More specifically, on a Siegel neighborhood SB (we use the same shorthand notation for SB^B, B^B as for rGsB) of 8B ^ 8B one does not only see the contributions of B, but also terms that decay rapidly as we approach 8B ^ 8B, but not, for example, as we approach 8B ^ rHs inside of SB. The following picture will help us visualize what is happening:
+Here the UA and UB are (semi-algebraic) neighborhoods of the open orbits in the corresponding cusps, and UC is their complement, all within a Siegel neighborhood SB. The difference  ´ B coincides with the restriction of an element of SprGsq when restricted to UC, but not necessarily on UA or UB. Similarly, p ´ B^H q|UB and p ´ H^Bq|UA coincide with restrictions of elements of SprGsq. Hence,  is approximated by B on UC, by B^H on UB and by H^B on UA; moreover, for each P " H ^ B or B ^ H, the difference P ´ B is of rapid decay as we approach the cusp in a direction transverse to the AP -orbits, but not necessarily in the "central" direction of AP -orbits (i.e., those orbits whose limit is a point of 8B ^ rHs or rHs ^ 8B not belonging to 8B ^ 8B).
+3 Spectral decomposition in rank one
+The goal of this section is to develop a "Plancherel formula" for the (regularized) inner product of asymptotically finite functions on rHs " rPGL2s. It will be our warm-up for the case of rGs " rHs^rHs, on which the Selberg trace formula needs to be understood. But it is also necessary for understanding simpler instances of the relative trace formula, such as the relative trace formula for pX ^ Xq{G, where X " Gmz PGL2 (s. Example 2.4.3).
+Let s1, s2 be two complex numbers, and let i P Ss`i prHsq be two asymptotically finite functions. There is actually no reason to restrict ourselves to
+19
+
+a single exponent at infinity - we could consider functions with several exponents, possibly with multiplicity. This is indeed what we will do in our "model" space R^`, but for notational simplicity we avoid it for rHs.
+As we saw in §2.3, the regularized "inner product"
+° 1, 2 ° " 1phq2phqdh
+rH s
+makes sense and is an HpAkq-invariant bilinear pairing
+Ss`1prHsqb^ Ss`2prHsq Ñ C,
+whenever s1 ` s2  0. Recall that we are using the name and notation of inner product for a bilinear pairing, by abuse of language. Recall also that the exponents refer to the normalized action of A on rHsB, cf. (1.2). Whenever necessary to remind the space on which this bilinear pairing is taken, we will write , rHs ° . Completely analogous definitions and symbols will be used for the boundary degenerations.
+Our model for analyzing the above inner product on rHs is the real group R^`, and we start from that.
+
+3.1 Paley-Wiener theorem for Schwartz functions on R`^
+Theorem 3.1.1. Mellin transform:4
+
+ fpsq " f pxqx´sd^x
+^
+R`
+
+(3.1)
+
+is an isomorphism between SpR^`q and the Fre´chet space HPWpCq of entire functions on C which, on every bounded vertical strip V and for every N satisfy
+
+sup |f psq|p1 ` | psq|qN  8.
+
+(3.2)
+
+sPV
+
+The inverse map is given by
+
+f pxq " 1  `i8 fpsqxsds 2i ´i8
+
+(3.3)
+
+for any  P R.
+
+4Mellin transform is traditionally defined by replacing s by ´s in the above definition; this is unfortunate, because it means that the functional f ÞÑ fpsq would be equivariant with respect to the character parametrized by ´s. We choose this definition, which is compatible with equivariance properties of the map.
+
+20
+
+The Fre´chet space structure is, of course, determined by the norms of the estimate. In the literature, the Paley-Wiener theorem is usually formulated for compactly supported smooth functions, in which case there is also an exponential growth condition in the psq-direction, so let us briefly prove the above version. We denote throughout by B the generator x ddx of the Lie algebra of R^`.
+
+Proof. The Mellin transform is clearly entire, and by standard Fourier theory,
+ xsBN f pxqd^x " p´sqN fpsq,
+^
+R`
+so for m  psq  M and any N , we have an estimate
+
+ |fpsq|| psq|N  x´sBN f pxq d^x 
+^
+R`
+
+
+
+
+
+ x´mBN f pxq d^x ` x´M BN f pxq d^x,
+
+^
+
+^
+
+R`
+
+R`
+
+and both integrals in the last expression are seminorms on SpR^`q.
+Vice versa, Mellin inversion (3.3) satisfies, because of the estimate on vertical strips for f,
+
+xM BN f pxq " 1  `i8 sN fpsqxs`M ds. 2i ´i8
+
+Since the value of  is arbitrary (by a contour shift argument which is allowed, given the estimate on vertical strips for f), we can take  ` M " 0,
+and then we have
+
+
+
+ 1  ´M`i8
+
+xM BN f pxq 
+
+|sN fpsq|ds
+
+2 ´M´i8
+
+for all x, finishing the proof.
+
+3.2 Mellin transform of asymptotically finite functions on the torus
+Let E`, E´ denote two finite multisets of complex numbers, identified with characters ("exponents") of R`^ by associating s P C with the character t ÞÑ ts. The space SpE`,E´q ` pR`^q is the space of smooth functions which coincide with generalized eigenfunctions with the given characters,
+
+21
+
+in neighborhoods of 0 (E`) and 8 (E´), up to Schwartz functions. No-
+tice that if s P C appears with multiplicity, it refers to generalized eigen-
+functions of degree same as the multiplicity, e.g., multiplicity 3 means: t ÞÑ tspc0`c1 log t`c2plog tq2q. The space SpE`,E´q ` pR`^q has a natural Fre´chet space structure, and SpH,Hq ` pR`^q " SpR^`q.
+Let us start with the case E´ " H. Extending the Paley-Wiener theo-
+rem of the previous subsection, we have:
+
+Theorem 3.2.1. Mellin transform (3.1) on SpE ` `,HqpR^`q converges for psq ! 0, admits meromorphic continuation to C with poles at the points of E` and mul-
+tiplicities equal to the multiplicity of the exponents, and defines an isomorphism between SpE`,HqpR`^q and the Fre´chet space HPW pE`,Hq of meromorphic functions on C, with poles at E` (with the given multiplicities), and satisfying the same es-
+timate (3.2) on bounded vertical strips away from neighborhoods of the poles. The
+inverse map is given by (3.3) for any  ! 0.
+
+Proof. Notice that, if 0 P E`, then multiplication by ps ´ 0q defines an
+
+isomorphism
+
+PW
+
+,, PW
+
+HpE`,Hq ÝÑ HpE` t0u,Hq,
+
+where only one copy of 0 is removed from the multiset E`. We will prove, analogously, that the operator pB ´ s0q defines an isomorphism
+
+^,,
+
+^
+
+SpE`,HqpR`q ÝÑ SpE` t0u,HqpR`q,
+
+thus reducing the statement by induction, and by the formula
+
+ppB­ ´ s0qf qpsq " ps ´ s0qfpsq,
+
+to the case of Theorem 3.1.1.
+
+(These statements only use the Mellin transform in the convergent re-
+
+gion, so they also prove its meromorphic continuation.)
+
+To show that the operator pB ´ s0q defines the aforementioned isomor-
+
+phism, assume that
+
+ÿ f pxq ,, Ps1plog xqxs1
+
+s1
+
+as x Ñ 0, where the sum is finite and the Ps1 are polynomials. Then
+
+ÿ1
+
+1
+
+s1
+
+pB ´ s0qf pxq ,, pps ´ s0qPs1plog xq ` Ps1plog xqqx ,
+
+s1
+
+22
+
+so it is immediately clear that pB ´ s0qf P SpE` t0u,HqpR`^q, and the coefficients of its asymptotic expansion depend continuously on the coefficients
+of the asymptotic expansion of f . Moreover, for every N and M we have
+
+sup xM BN pB ´ s0qf pxq   sup xM BN`1f pxq ` |  s0| sup xM BN f pxq ,
+
+x1
+
+x1
+
+x1
+
+and
+
+
+
+~
+
+¸
+
+ sup xM BN x1 
+
+ÿ1
+
+
+
+1
+
+s1 
+
+pB ´ s0qf pxq ´ pps ´ s0qPs1plog xq ` Ps1plog xqqx  "
+
+s1
+
+
+
+
+
+~
+
+¸
+
+ M N
+
+ÿ
+
+ s1 
+
+sup x B pB ´ s0q f pxq ´ Ps1plog xqx  
+
+x1 
+
+s1
+
+
+
+
+
+~
+
+¸
+
+
+
+~
+
+¸
+
+ sup xM BN`1 x1 
+
+ÿ s1     M N f pxq ´ Ps1plog xqx `|s0| sup x B
+
+s1
+
+
+
+x1 
+
+ÿ
+
+ s1 
+
+f pxq ´ Ps1plog xqx  ,
+
+s1
+
+
+
+which shows that the map
+
+pB ´ s0q : SpE`,HqpR`^q Ñ SpE` t0u,HqpR`^q
+
+is continuous. Vice versa, starting from an element F P SpE` t0u,HqpR`^q, the inverse map is
+
+8 pB ´ s0q´1F pxq " ´xs0 t´s0 F ptqd^t,
+x
+
+and it is easy to repeat estimates as above to show continuity in the opposite direction.
+
+Obviously, the analogous theorem will hold for SpH,E´q ` pR`^q, except that Mellin transform converges, and Mellin inversion is given by a continuous integral, for  " 0. To put both E` and E´ together, we need a
+formalism to distinguish whether poles of the Mellin transform belong to E` or E´.
+
+Definition 3.2.2. A charged Laurent expansion at a point s0 P C is an expression of the form
+8
+ÿ L " pa`´n ` a´´nqps ´ s0q´n ` ¨ ¨ ¨ ` pa`´1 ` a´´1qps ´ s0q´1 ` aips ´ s0qi.
+i"0
+
+The positive and negative residues of a charged Laurent expansion at s0 are defined to be Ress"s0L " a´1.
+
+23
+
+In other words, it is a usual Laurent expansion, but with the polar part
+
+split into a "positive" and a "negative" part. Notice that even the zero func-
+
+tion can have non-trivial charged Laurent expansions, with a´i ` " ´a´´i. Let h be a meromorphic function on C, and E " pE`, E´q two multisets
+
+of complex numbers. We will say that h is endowed with charged Laurent
+
+expansions at E if it comes equipped with charged Laurent expansions at
+
+the points of E, where the order of the ` and the ´ polar parts is bounded
+
+by the corresponding multiplicities on E`, E´. (In particular, this places a
+
+restriction on the order of pole of h at points of E.)
+
+We
+
+let
+
+PW
+HpE`,E´q
+
+be
+
+the
+
+Fre´ chet
+
+space
+
+of
+
+meromorphic
+
+functions
+
+on
+
+C,
+
+with poles and charged Laurent expansions determined by pE`, E´q (in
+
+particular, no poles outside of pE`, E´q), and satisfying the same estimate
+
+(3.2) on bounded vertical strips away from neighborhoods of the poles. The
+
+implicit Fre´chet space seminorms here include, separately, the absolute val-
+
+ues of the coefficients a´i. Notational conventions:
+
+· We will be writing
+
+8
+
+ÿ
+
+Laurs0phqpsq "
+
+aips ´ s0qi,
+
+i"´8
+
+with notation as above, where ai " ai when i  0 and ai " 0 for i ! 0. Notice that the Laurent expansion of h at s0 is not Laur`s0phq ` Laur´s0phq, since the non-polar parts are repeated in both. Nonetheless, this is a convenient notational convention.
+
+· For the function h_ : s ÞÑ hp´sq, we switch the charges in the Laurent expansion, i.e.:
+
+Laurs0ph_qpsq " Laur¯´s0phqp´sq.
+
+The idea is, as we shall see, that  denotes on which side of the integration of Mellin inversion the pole should lie.
+
+· For a product h1 ¨ h2 of two functions as above, we set
+
+Laur`s0ph1 ¨ h2qpsq " Laur`s0ph1qpsq ¨ Laur`s0ph2qpsq,
+
+and similarly for negative charges.
+
+24
+
+In our application of this formalism, we will never allow Laur`s0ph1q to have a pole simultaneously with Laur´s0ph2q - if hi " fi, this would be the case when the regularized convolution of f1 and f2 doesn't make sense.
+The reader can check the following:
+
+Lemma 3.2.3. Under the assumption that Laur`s0phiq does not have a pole if Laur´s0phjq does (i, j " 1, 2, i  j), the polar part of Laur`s0ph1 ¨ h2q ` Laur´s0ph1 ¨ h2q coincides with the polar part of h1 ¨ h2.
+
+Now let pE`, E´q be multisets of exponents for R^`, where E` stands for exponents that will appear as x Ñ 0, and E´ for x Ñ 8. On elements
+of the space SpE`,E´qpR`^q, Mellin transform (3.1) can then be understood
+as a regularized integral.
+
+Lemma 3.2.4. The integral (3.1) with f P SpE`,E´qpR`^q, understood as a regularized integral, coincides with the meromorphic continuation of the convergent integral of Theorem 3.2.1 when f P SpE`,HqpR`^q (or f P SpH,E´qpR`^q).
+
+This is immediate from the definitions, and left to the reader. As a corollary, for f P SpE`,E´qpR`^q, Mellin transform f is a well-defined meromorphic function, with poles determined by the multiset E` Y E´, where the
+union of multisets is here taken with the maximum multiplicity. We "embellish" f by assigning charges to its Laurent expansion: Write f " f` ` f´ with f` P SpE`,HqpR`^q and f´ P SpH,E´qpR`^q, and let the "`"-polar part of f be the polar part of f`, and the "´"-polar part be the polar part of f´.
+Clearly, these definitions do not depend on choices. From now on, the Mellin transform f will be understood not just as a meromorphic function on C, but as a
+meromorphic function with charged Laurent expansions.
+
+Theorem 3.2.5. If pE`, E´q are multisets of exponents for R`^ (E` as x Ñ 0, E´ as x Ñ 8), then Mellin transform as above, defines an isomorphism between
+
+SpE`,E´qpR`^q
+
+and
+
+the
+
+Fre´chet
+
+space
+
+PW
+HpE`,E´q
+
+of
+
+meromorphic
+
+functions
+
+on
+
+C,
+
+with poles and charged Laurent expansions determined by pE`, E´q, and sat-
+
+isfying the same estimate (3.2) on bounded vertical strips away from neighborhoods
+
+of the poles.
+
+Proof. We have
+
+SpE`,E´qpR`^q " `SpE`,HqpR`^q ` SpH,E´qpR`^q {SpR`^qdiag,
+
+and
+
+´
+
+¯
+
+HpE`,E´q PW " HpE`,Hq PW ` HpH,E´q PW {HPW,diag,
+
+which reduces us to the previous theorem.
+
+25
+
+Corollary 3.2.6. For f P SpE`,E´qpR`^q we have the Mellin inversion formula:
+
+1  `i8
+
+ÿ
+
+1
+
+ÿ
+
+1
+
+f pxq "
+
+fpsqxsds ´
+
+xs Res`s"s1 fpsq `
+
+xs Res´s"s1 fpsq,
+
+2i ´i8
+
+ps1q
+
+ps1q
+
+(3.4)
+
+where  P R is such that no element of E`, E´ has real part .
+
+If  is allowed to be arbitrary, the corresponding expression is:
+
+f pxq "
+
+1  `i8
+
+ÿ
+
+1
+
+ÿ
+
+1
+
+PV
+
+fpsqxsds ´
+
+xs Res`s"s1 fpsq `
+
+xs Res´s"s1 fpsq
+
+2i
+
+´i8
+
+ps1q
+
+ps1q
+
+1 ÿ s1 ´ 
+
+`
+
+`
+
+x pRess"s1 f psq ´ Ress"s1 f psqq,
+
+2 ps1q"
+
+(3.5)
+
+where P V denotes the Cauchy principal value.
+
+Remark 3.2.7. It is easy to remember the formulas above, when  " 0, as stating that the Plancherel decomposition includes the usual integral over the unitary line, plus discrete contributions (residues) for every exponent that is superunitary; that is, the absolute value of the corresponding character is  1 in the direction where the exponent appears. If there are unitary exponents (= absolute value 1), they produce poles on the unitary line, and half of the corresponding residues are counted (for each direction).
+
+3.3 Inner product of asymptotically finite functions on the torus
+Let E1, E2 be two exponent arrangements, where now Ei stands for a pair pEi`, Ei´q. Let fi P SEipR^`q. Assume that no two exponents s1 P E1`, s2 P E2` satisfy s1 ` s2 " 0, and similarly for E1´, E2´. Then the regularized "inner product"
+° f1, f2 ° " f1pxqf2pxqd^x
+^
+R`
+is defined, in a completely analogous way as in §2.3. (Again, we take all our pairings to be bilinear, but by abuse of language we will be calling them "inner products".)
+The condition on the exponents means the following: Whenever the `-part Laur`s0pf1psqq of the Laurent expansion of f1 around s0 has a pole, the `-part of f2 at ´s0, Laur`´s0pf2psqq, has no pole; and similarly by interchanging f1 with f2, and ` with ´. Notice that in the conventions presented in the previous subsection, Laur`´s0f2 corresponds to Laur´s0 of the function s ÞÑ f2p´sq.
+
+26
+
+Theorem 3.3.1. We have
+
+f1, f2 ° "
+
+1  `i8 f1psqf2p´sqds
+
+2i ´i8
+
+ÿ
+
+ÿ
+
+´
+
+Ress"s1 ` f1psqf2p´sq `
+
+Res´s"s1 f1psqf2p´sq.
+
+ps1q
+
+ps1q
+
+(3.6)
+
+Here  P R is such that no element of E1, E2 has real part . If we want to allow such values of , the analogous expression to (3.5) holds.
+
+Remark 3.3.2. This can be seen as the same statement as (3.4), applied to the regularized convolution f pxq " R^ ° f1pxyqf2pyqd^y of the functions f1 and
+`
+x ÞÑ f2px´1q.
+
+Proof. There are various ways to prove this theorem, including:
+
+1. by using the remark above;
+
+2. by meromorphic continuation from subunitary characters (i.e., modifying the sets of exponents E);
+
+3. by subtracting from each function its superunitary asymptotic part, thus reducing the problem to the case of L2-functions. (This method
+does not generalize to tori of higher rank.)
+
+3.3.3 Extension to functions that are not asymptotically finite
+For our applications to the trace formula, we will need to extend the validity of the above inner product formulas. The reader can skip this technical subsection at first reading, and only return to it when needed. The issue in the case of automorphic functions is that we are going to have to apply our formulas to constant terms, which cannot be controlled very well away from neighborhoods of the cusps. (They involve poles of intertwining operators/Eisenstein series, i.e., zeroes of L-functions.) Thus, we need to weaken our assumptions on the functions, to include functions which in one direction are only asympotically finite "up to an almost-L2 smooth function".
+More specifically, one of our functions, say f1, will indeed be asymptotically finite close to 8, but of rapid decay close to zero. The other, f2, will
+27
+
+be asymptotically finite close to 8, but only asympotically finite "up to an almost-L2 smooth function" close to zero, by which we mean the properties
+stated in the proposition that follows:
+Theorem 3.3.4. Assume that f2 P C8pR^`q is asymptotically finite close to 8, and of moderate growth in a neighborhood of 0. Define the Mellin transform f2pzq " f2,0pzq ` f2,8pzq, where f2 " f2,0 ` f2,8 is a decomposition with f2,8 P S`H,E´pR^ 2 `q and f2,0 of rapid decay close to infty, f2,8 is the (meromorphically continued) Mellin transform of f2,8 as before, and f2,0pzq is the Mellin transform of f2,0, defined by a convergent integral for pzq ! 0. Assume the following about f2:
+
+CONTINUE HERE
+
+· it admits meromorphic continuation, with a finite number of poles, to pzq  0;
+
+· it satisfies the same estimate (3.2) on any vertical strip V of the form a  pzq  0, away from the poles.
+
+Then:
+
+1.
+
+f2
+
+can
+
+be
+
+written
+
+as
+
+f fin
+2
+
+`
+
+f rest,
+2
+
+with
+
+f fin
+2
+
+an asymptotically finite smooth
+
+function
+
+and
+
+f rest
+2
+
+a
+
+smooth
+
+function
+
+which
+
+is
+
+of
+
+rapid
+
+decay
+
+(together
+
+with
+
+its derivatives) close to 8, and lies in L2pR^q, together with its multiplica-
+
+tive derivatives.
+
+2. If f1 P S`pH,E´ pR^ 1 q `q, and no two exponents s1 P E1´, s2 P E2´ satisfy s1 ` s2 " 0, then the regularized inner product
+
+°
+
+
+
+°
+
+°
+
+
+
+f1f2 " f1f2,0 ` f1f2,8 " f1f2fin ` f1f2rest
+
+admits the same decomposition as (3.3.1), with any   0 (and the appropriate modifications as in (3.5) if there are poles on Repzq " ). This includes any terms of the form
+
+Res`s"s1 f1psqf2p´sq " ´f1ps1qRes´s"´s1 f2psq
+
+due to exponents ´s1 of f2 at 8 with ps1q  ; although f2psq may not
+be defined for psq  0, its negatively charged residue is defined, as the negatively charged residue of f2finpsq (equivalently, of f2,8).
+
+Remark 3.3.5. The estimate on vertical strips can be further relaxed to
+
+|fp ` itq| 
+
+Cm
+mr
+
+p1 ` |t| q||
+
+28
+
+plus
+
+L2
+
+on
+
+
+
+"
+
+0,
+
+with
+
+weaker
+
+conclusions
+
+on
+
+f rest,
+2
+
+if
+
+one
+
+is
+
+interested
+
+in
+
+applying such considerations to Eisenstein series and "Fourier-Eisenstein
+
+transforms", cf. [Cas04, §14, Corollary]. However, the present version of the
+
+proposition will be enough for our purposes, and is much easier to prove.
+
+Proof. By Theorem 3.3.1, we may clearly assume that f2,8 " 0. Then f1|x|´ and f2|x| are both L2, for  " 0, and hence we can write the Plancherel
+formula for their product:
+
+
+
+
+
+1 f1f2 "
+
+f1psqf2p´sqds,
+
+2i psq""0
+
+or the Mellin inversion for f2:
+
+
+
+1 f2pxq "
+
+f2p´sqx´sds.
+
+2i psq""0
+
+Our assumptions on f2 allow us to shift the contour to any   0, pick-
+
+ing up residues which (in the expression for f2) are generalized eigenfunc-
+
+tions on R^`. If we take  " 0, the remaining integral represents an L2-
+
+function, if there are no poles on psq " 0. If there are poles on psq " 0,
+
+we
+
+will
+
+again
+
+have
+
+a
+
+principal
+
+value
+
+integral
+
+and
+
+1 2
+
+of
+
+the
+
+corresponding
+
+residue; to see that this still admits the same description, subtract an ele-
+
+ment of SpE,Hq ` pR`^q for some multiset E, whose Mellin transform has the
+
+same poles on psq " 0.
+
+3.4 Preparation for rP GL2s: Cuspidal and Eisenstein parts, pseudoEisenstein series.
+We now return to H " PGL2. We are assuming throughout invariant measures on the various spaces
+under consideration. Tamagawa measures are a good choice, usually, but the precise choices do not matter, as long as they are made compactibly. This means, mainly, two things:
+1. The measures on HpAkq, rHs and BpkqzHpAkq are chosen compatibly with the obvious local homeomorphisms between these spaces. The measure on BpkqzHpAkq induces a measure on rHsB via the quotient map of (2.1), by taking the measure of rN s to be 1.
+
+29
+
+2.
+
+We
+
+will
+
+fix
+
+the
+
+isomorphism
+
+A
+
+»
+
+R`^
+
+via
+
+the
+
+dominant
+
+character
+
+1
+2
+
+(so that the cusp corresponds to 8) - this is opposite to our description
+
+of the reductive Borel-Serre compactification in §2.1, where we used
+
+anti-dominant characters, but corresponds to the classical coordinate
+1
+y 2 on the upper half plane.
+
+3.
+
+Recall
+
+that
+
+s
+
+denotes
+
+the
+
+space
+
+C
+
+8
+
+pA
+
+zrH
+
+sB
+
+,
+
+
+
+s 2
+
+q
+
+,
+
+where
+
+the
+
+eigen-
+
+s
+
+character  2 of A corresponds to the normalized action (1.2). Having
+
+identified A with R^`, we have the usual multiplicative Haar measure d^x " x´1dx on R^`, and can define the Mellin transform of
+
+f P SprHsBq:
+
+  ´ 2 1`s f psqpgq " f pagq paqda P s.
+A
+
+(3.7)
+
+The morphism SprHsBq Q f ÞÑ fpsq P s is compatible with the Mellin transform along the group A " R^`, the way it was previously defined.
+
+4. We define a duality
+
+, s : s b ´s Ñ C
+
+in such a way that that, for f P SprHsBq we have:
+
+
+
+fpsq, fp´sq  "
+
+f pgqfpsqpgqdg.
+
+s rHsB
+
+Equivalently, the choice of measures on rHsB and A " R`^ induces a measure on the appropriate line bundle over AzrHsB, and the product of fpsq and fp´sq is integrated against that measure.
+
+Now we recall some generalities about the Schwartz space of rHs. I refer the reader to Casselman's paper [Cas89] for proofs:
+There is a decomposition
+
+L2prHsq " L2prHsqcusp ` L2prHsEis,
+
+(3.8)
+
+where L2prHsqcusp consists of functions whose constant term vanishes, and L2prHsEis is, by definition, the orthogonal complement of this space.
+It is a slightly non-trivial fact that, if we set SprHsqcusp " L2prHsqcusp X SprHsq and SprHsqEis " L2prHsqEis X SprHsq then we have:
+
+SprHsq " SprHsqcusp ` SprHsqEis.
+
+(3.9)
+
+30
+
+(See [Cas89, Proposition 3.13].) Now consider the pseudo-Eisenstein series morphism
+
+ÿ
+
+pgq "
+
+pgq.
+
+ PB pkqzH pkq
+
+It is the analog of the morphism  of Example 2.4.2, except that our Schwartz function is not taken to be on N zHpAkq, but directly on rHsB. It is usually easier to think of the space N zHpAkq, and we can reduce things to it via the following lemma.
+
+Lemma 3.4.1. The morphism SpN zHpAkqq Ñ SprHsBq given by the sum
+
+ÿ
+
+ ÞÑ
+
+pagq
+
+PApkq
+
+is continuous and surjective.
+
+Proof. Restricting to rAs-orbits on rHsB, this easily becomes a statement about Schwartz functions on Ak^, and their sum over k^ to produce Schwartz functions on rGms. Recalling that we denote by A a subgroup of ApAkq " Ak^ isomorphic to R^`, we have ApAkq " A ^ ApAkq1, hence SpApAkqq " SpAqb^ SpApAkq1q, SprGmsq " SpAqb^ SprGms1q, and the statement follows easily from the surjectivity of the same map from SpApAkq1q to SprGms1q " C 8 prGm s1 q.
+Remark 3.4.2. The space SpN zHpAkqq is closer to the "classical", rather than the adelic, formalism of Eisenstein series. Assume, for simplicity, that k " Q, so that k8 " R, and let us replace the group PGL2 by SL2, so that N z SL2 " A2 tp0, 0qu. Take  " bp8p in this space, with p " 1Nz SL2pZpq when p  8. Then, the morphism  of Example 2.4.2, for g P SL2pRq, is equal to the classical Eisenstein sum:
+
+ÿ
+
+pgq "
+
+8ppm, nq ¨ gq.
+
+pm,nqPZ2,pm,nq"1
+
+(3.10)
+
+Composing the morphism of the previous lemma with the pseudo-Eisenstein morphism, and arguing as in Example 2.4.2, we obtain:
+Proposition 3.4.3. The pseudo-Eisenstein morphism is a continuous morphism
+
+ : SprHsBq Ñ SprHsq,
+
+31
+
+and its composition with the constant terms is given by the formula
+
+pf qB " f ` Rf,
+
+(3.11)
+
+where R is the Radon transform:
+
+
+
+SprHsBq Q f ÞÑ
+
+f pwngqdn P C8prHsBq,
+
+N pAkq
+
+(3.12)
+
+^ 1 where w " ´1 .
+
+The argument in the proof of Proposition 2.4.2 says that the image of the Radon transform consists of functions which are of rapid decay in a neighborhood of the cusp. Below we will give a bound for their growth in the opposite direction (the "funnel").
+The pseudo-Eisenstein morphism is adjoint to the constant term (under the inner product pairings on rHs and rHsB), and therefore its image is contained in SprHsqEis. The following holds:
+
+Proposition 3.4.4 ([Cas89, Lemma 4.2]). The image of  is dense in SprHsqEis.
+
+This statement is not needed for the L2-decomposition (the density in L2prHsqEis is all that is needed, and easier to establish), but it will be useful for our extension of the Plancherel formula to asymptotically finite functions. Before we extend it to those, let us also recall the notion of Eisenstein series, which are the same as pseudo-Eisenstein series when instead of Schwartz functions on rHsB we consider functions induced from idele class characters , i.e., elements of the principal series
+
+Ipq :" IndBpAkq HpAkqp q  12 C8prHsBq.
+
+Elements of Ipq are obtained when we decompose the space SprHsBq
+in terms of characters of rAs. We will instead, for notational and conceptual simplicity, decompose in terms of characters of A » R^`, and denote (as before) the induced space by s:
+
+s
+
+"
+
+C 8 pAzrH sB ,
+
+
+
+s 2
+
+q.
+
+s
+Recall that  s refers to the normalized action of A, (1.2). The J-invariants of the spaces s, for any compact open subgroup J of the finite adeles of H, can be thought of as a holomorphic bundle of Fre´chet spaces over C. (For example, choose a suitable compact subgroup K of HpAkq to identify
+
+32
+
+all of them through their restriction to the compact set rAs1 ¨ K  rHsB - but the structure of Fre´chet bundle does not depend on this choice.) Thus, it makes sense to talk about holomorphic sections, (strongly) meromorphic functionals and morphisms, etc. When not fixing the subgroup J, these notions will refer to the corresponding inductive limit - on these spaces - or projective limit - on their duals. For example, a strongly meromorphic family of functionals on the s will be a family of functionals which is strongly meromorphic when restricted to the J-invariants, for each J.
+By abuse of language, we will refer as "Eisenstein series" to the strongly meromorphic family of morphisms (s. Theorem 3.4.5 below):
+
+E : s Ñ C8prHsq,
+
+which for psq  1 are given by the convergent series
+
+ÿ
+
+f ÞÑ
+
+f pgq.
+
+ PB zH pkq
+
+(3.13)
+
+The Eisenstein series can be thought of as the spectral components of pseudo-Eisenstein series, and, similarly, the spectral components of Radon transforms are the standard intertwining operators
+
+M psq : s Ñ ´s,
+
+given, when psq  1, by the convergent integral:
+
+
+
+M psqFspgq "
+
+Fspwngqdn.
+
+N pAkq
+
+(3.14)
+
+The analog of (3.11) is the formula for the constant term of Eisenstein
+
+series:
+
+EpfsqB " fs ` M psqf´s.
+
+(3.15)
+
+The basic properties of meromorphic continuation of the Eisenstein series and their constant terms are summarized in the following; some of them (such as the simplicity of poles) are established in the process of the L2-decomposition, that we will present and generalize in the next subsection. However, it is not among the goals of the present paper to revisit the proofs of these properties, and therefore we will take them for granted:
+
+Theorem 3.4.5. The Eisenstein series and the standard intertwining operator, given by the convergent expressions (3.13), resp. (3.14), for psq  1, admit strongly meromorphic continuation to C, with no poles on psq " 0 and only
+
+33
+
+a finite number of simple poles for psq  0. Moreover, the intertwining operators
+
+satisfy
+
+M psqM p´sq " Id .
+
+(3.16)
+
+We will refer to the poles of the Eisenstein morphism for psq  0 as "the Eisenstein poles". The last identity of the theorem is only relevant for us on the line psq " 0, since we do not use at any point the meromorphic continuation to psq  0. The only exception, where the meromorphic continuation to psq  0 will be used, will be to obtain an explicit formula in Theorem 3.7.8, which is not used in the rest of the paper.
+
+Proof. This can be reconstructed for the analogous statement for Eisenstein series applied to principal series Ipq, s. [MW95, Chapter IV]. Notice that for any fixed exponent s of A, and any compact open subgroup J of the finite ideles ApAkf q, there is only a finite number of J-invariant characters  of rAs which coincide with the given one on the image of the real torus A. Thus, the J-invariants of s decompose into a finite sum of principal series induced from characters of rAs.
+
+Corollary 3.4.6. The constant term morphism:
+
+SprHsq Ñ C8prHsBq
+
+and the Radon transform (3.12)
+
+R : SprHsBq Ñ C8prHsBq
+
+have image in the space of smooth functions f which close to the cusp are of rapid
+
+decay, and close to the funnel are bounded, together with their derivatives Xf with
+
+X P U phq, by elements of ´1´ , for any  0.
+
+Moreover, if F denotes either the constant term B of some  P SprHsq or the
+
+Radon transform Rf of some f P SprHsBq, the Mellin transform of F , defined as
+
+in (3.7):
+
+  ´ 2 1`s F psqpgq " F pagq paqda P s
+
+(3.17)
+
+A
+
+converges absolutely for psq  ´1, and has meromorphic continuation to psq  0, with no poles on psq " 0 and at most a finite number of simple poles in the region psq  0.
+
+Remark 3.4.7. If we fix an Iwasawa decomposition HpAkq " BpAkqK, the bound on the funnel means that the Rf satisfies |Rf pbkq| ! ´1´ 2 pbq.
+
+34
+
+Proof. The rapid decay the constant term at the cusp follows from the ap-
+
+proximation theorem 2.4.1. The rapid decay of Rf at the cusp is clear from
+
+the definition: when g in (3.12) approaches the cusp, wng approaches the
+
+funnel, where f is of rapid decay. (The details are left to the reader.)
+
+The bound by ´1´ is equivalent to the convergence of Eisenstein se-
+
+ries, resp. the intertwining operator M psq, for psq  1. We will revisit the
+
+proof of this bound in the proof of Proposition 3.6.3.
+
+For the Mellin transforms, immediately from the definitions we have
+
+the formulas
+
+|Bpsq " E´°s,
+
+(3.18)
+
+where
+
+E°
+´s
+
+denotes
+
+the
+
+adjoint
+
+of
+
+the
+
+Eisenstein
+
+morphism
+
+s
+
+Ñ
+
+C 8 prH sq,
+
+and
+
+R|f psq " M p´sqfp´sq,
+
+(3.19)
+
+so the last statement from the properties of Eisenstein series and intertwining operators, as in the preceding theorem.
+
+3.5 Bounds on vertical strips
+We will also need a bound for the growth of the intertwining operators in vertical strips, in order to be able to shift contours of integration. This, of course, is an issue pertinent to number fields only, as for function fields "vertical strips" are compact. The present subsection could be part of the previous one, but I am isolating it because it is the part of the argument for which in higher rank the required results are not available yet - and because of its technical nature, due to which the reader may wish to skip it at first reading, especially if they are primarily interested in function fields.
+The technicalities involved in shifting contours are responsible for a lot of the complications that arise in the spectral decomposition and the trace formula. There are two issues here: the growth of intertwining operators, and the growth of Eisenstein series in vertical strips. The former is part of the latter (since Eisenstein series are approximated by their constant terms in a neighborhood of the cusp), but the latter also involves estimates on Eisenstein series away from the cusps, e.g., on truncated Eisenstein series. In rank one, both can be obtained by existing methods (at least for K8finite functions, in the case of Eisenstein series). However, in view of the situation in higher rank, it is preferable to avoid using bounds for the Eisenstein series themselves, which are much harder to obtain than bounds for the intertwining operators. (The standard argument for bounds on Eisenstein series involves an application of the Maaß-Selberg relations which re-
+
+35
+
+quires estimates on derivatives of intertwining operators, see [M8¨9, FLM11]. Those derivatives are very sensitive to possible zeroes of L-functions near the edge of their criitcal strip, making it hard to control them with purely harmonic-analytic arguments.) Therefore, I only formulate a statement on bounds for intertwining operators:
+
+Theorem 3.5.1. Choose an Iwasawa decomposition HpAkq " BpAkqK, to identify all topological spaces s with C8pK X BpAkqzKq. The intertwining operator
+M psq : s Ñ ´s is of polynomial growth (away from its poles), on any vertical strip of the form 0  psq  a; that is, for every open compact subgroup J of HpAkf q and any seminorm  on C8pK X BpAkqzKqJ there is a finite number of seminorms i on the same space, and polynomials Pi on C, such that
+
+ÿ pM psqf q  |Pipsq|ipf q,
+i
+
+(3.20)
+
+for all f P C8pK X BpAkqzKqJ (thought of as an element of s).
+
+As we shall see in the proof, one can get much more precise estimates about specific seminorms.
+
+Proof. A complete system of seminorms on C8pK X BpAkqzKqJ is given by
+the seminorms pf q " }Xf }L2pKXBpAkqzKq, for X P U phq. Harish-Chandra has proven [HC68, Chapter IV, §8] that, for s "  ` it,   0,
+
+2T     }M psqf }  e p1 ` 2  q}f }
+t
+
+(3.21)
+
+in the L2-norm, for some positive number T . Replacing f by any Xf , this
+
+is easily seen to imply the claim of the theorem.
+
+Inequality (3.21) is stated for K8-invariant functions at the end of the
+
+proof of Lemma 101 in [HC68], but the proof applies without the assump-
+
+tion of K8-finiteness. For the convenience of the reader, I briefly outline
+
+the main steps:
+
+Let us fix a Siegel neighborhood of the cusp of the form U " UT "
+
+tg
+
+"
+
+bk
+
+P
+
+1
+rHsB| 2 pgq
+
+
+
+eT u,
+
+for
+
+large
+
+enough
+
+T;
+
+here,
+
+g
+
+"
+
+bk
+
+refers
+
+to
+
+the Iwasawa decomposition fixed in the theorem. Let v " vT be its in-
+
+dicator function (on rHsB), and denote by v~ the indicator function of the
+
+corresponding neighborhood in rHs.
+
+Consider the truncated Eisenstein series ^T Epfsq " Epfsq ´ pv ¨ fsq ´
+
+pv ¨ M psqfsq. In the convergent region psq  1 for the Eisenstein sum,
+
+this can be written as a convergent series:
+
+^T Epfsq " pFsq,
+
+36
+
+where Fs " fs¨p1´vq´M psqfs¨v. From this, one deduces the Maaß-Selberg relations about the inner product of two truncated Eisenstein series; in our bilinear notation:
+
+^T E pfs1 q, ^T E pfs2 q rHs " es fs 1 ` s2 1 , fs2 ` ´s M ps1qfs 1 ` s2 1 , fs2 ` T ps1`s2q eT p´s1`s2q
+
+eT ps1´s2q
+
+eT p´s1´s2q
+
+` s1 ´ s2 fs1 , M ps2qfs2 ` ´s1 ´ s2 M ps1qfs1 , M ps2qfs2(3.22)
+
+Taking s1 " s "  ` it  0, s2 " s¯, fs¯ " fs, the left hand side is  0, which gives:
+
+e2T 
+
+^ e2iT t
+
+ e´2T 
+
+2 fs, fs ` 2 2it fs, M psqfs ´ 2 M psqfs, M psqfs  0.
+
+Hence, if }fs} " 1 in the norm of L2pK X BpAkqzKq, we get:
+
+e2T  ´ e´2T }M psqfs}2 ` }M psqfs}  0,
+
+2
+
+|t|
+
+^b
+
+
+
+which implies that }M psqfs}  e2T  |t| ` 1 ` t2 2 for   0, whence
+
+(3.21).
+
+Combining this with Corollary 3.4.6, we get: Corollary 3.5.2. Let f P SprHsBq, then R|f psq " M p´sqfp´sq is of rapid decay on any vertical strip of the form a  psq  0, away from the negatives of the Eisenstein poles.
+Proof. This is a combination of the polynomial growth of M p´sq with the rapid decay of fp´sq.
+3.6 Decomposition of the space of asymptotically finite functions
+We now move to asymptotically finite functions, i.e. a space of the form Ss`prHsq. Notice that it makes sense to say that an element of Ss`prHsq is "orthogonal" to a given subspace of SprHsq, since the former are of polynomial growth and the latter are of rapid decay (so their "inner product" converges). We let
+Ss`prHsqEis " Ss`prHsq X SprHsqKcusp.
+37
+
+Consider
+
+the
+
+space
+
+S`
+s
+
+prH
+
+sB
+
+q
+
+of
+
+asymptotically
+
+finite
+
+functions
+
+on
+
+rH
+
+sB
+
+,
+
+where the exponent s is understood to be appearing in the neighborhood
+
+of the cusp, as in Definition 2.2.2. (In particular, elements of Ss`prHsBq are
+
+by definition of rapid decay in the direction of the "funnel".) Extending the
+
+results of §3.4, we have:
+
+Proposition 3.6.1. We have a decomposition
+
+Ss`prHsq " SprHsqcusp ` Ss`prHsqEis.
+
+(3.23)
+
+
+
+`
+
+The pseudo-Eisenstein sum f pgq " PBzHpkq f pgq is convergent on Ss prHsBq,
+
+for any s P C, and maps continuously, with dense image, into Ss`prHsqEis. Its
+
+composition with the constant term is given by the same formula (3.11).
+
+Proof. Convergence of the Eisenstein sum is easier to see by an analog of Lemma 3.4.1, using an auxilliary space
+
+1
+
+â^ 1
+
+^`
+
+SspN zHpAkqq :" vv SpN zHpkvqqbSs pN zHpkv0qq,
+
+0
+
+where v0 is a fixed Archimedean place, and Ss`pN zHpkv0qq denotes smooth
+s
+functions on N zHpkv0q which are asymptotically  2 -eigenfunctions close to the cusp (and of rapid decay in the funnel).
+It can be proven exactly as in Lemma 3.4.1 that the morphism
+
+Ss1 pN zHpAkqq Ñ Ss`prHsBq
+
+given by summation over Apkq-orbits is (continuous and) surjective.5 But
+
+the elements of Ss1 pN zHpAkqq are of rapid decay outside of a compact set in the adelic points of the affine closure spec krHsN of N zH, which proves
+
+convergence of the sum.
+
+This argument also proves absolute convergence of the Radon trans-
+
+form (3.12) (because N -orbits on the affine closure of N zH are closed, hence
+
+the restrictions of elements of Ss1 pN zHpAkqq), and the formula for the con-
+
+stant term (3.11) of the pseudo-Eisenstein sum. As before, the Radon trans-
+
+form
+
+of
+
+an
+
+element
+
+of
+
+S1
+s
+
+pN
+
+zH
+
+pAk
+
+qq
+
+is
+
+of
+
+rapid
+
+decay
+
+close
+
+to
+
+the
+
+cusp,
+
+and
+
+therefore, by (3.11), the image of  lies in Ss`prHsq. By the definitions, it is
+
+contained in Ss`prHsqEis.
+
+This argument (more precisely, formula (3.11)) actually proves a stronger
+
+statement, which will be crucial at various points, so we formulate it as a
+
+lemma:
+
+5As in Remark 3.4.2, the auxilliary space Ss1 pN zHpAkqq is of "classical", rather than adelic, nature; it corresponds to the sum (3.10), but with 8 a function which is asymptotically finite close to the origin (and, again, of rapid decay away from it).
+
+38
+
+Lemma 3.6.2. Consider the short exact sequences:
+
+0 Ñ SprHsBq Ñ Ss`prHsBq Ñ s Ñ 0, 0 Ñ SprHsq Ñ Ss`prHsq Ñ s Ñ 0.
+Since  preserves Schwartz spaces, it induces an endomorphism:
+
+s Ñ s
+
+by passing to the quotients of the above sequences. This map is the identity.
+This proves the remaining assertions, since now for every element  P Ss`prHsq we can subtract f for some f P Ss`prHsBq with the same image in s, and reduce ourselves to the case of SprHsq (cf. (3.9) and Proposition 3.4.4).
+
+We now study the image of Radon transform.
+
+Proposition 3.6.3. Radon transform (3.12), applied to elements of Ss`0prHsBq, has image in the space of smooth functions which close to the cusp are of rapid
+decay, and close to the funnel are bounded (together with their derivatives under
+U phq) by elements of ´´ , for any  0, where  " maxt ps0q, 1u. Therefore, if f P Ss`0prHsBq, the Mellin transform of its Radon transform,
+defined as in (3.17):
+
+
+
+~
+
+´ 2 1`s
+
+pRf qpsqpgq " Rf pagq paqda P s
+
+A
+
+(3.24)
+
+converges for psq  ´. This Mellin transform admits meromorphic continuation to the region psq  0, with poles only the opposites of the (simple) poles of Eisenstein series for psq  0, and the pole ´s0, and uniform rapid decay away from the poles in vertical strips of the form a  psq  0. (If the pole ´s0 coincides with the negative of a pole of Eisenstein series, it may appear with multiplicity 2.)
+
+This is an important proposition, and although very classical in one form or another, I present its proof carefully (modulo some uniformity of the estimates over compact sets, which is easy and left to the reader). The proof includes the proof of convergence of intertwining operators for
+psq  1, which we have stated and used in Corollary 3.4.6. For notational convenience, I will present the proof for SL2 (also denoted by H), instead of PGL2, because the affine closure of N z SL2 is A2, so functions on N z SL2 can be represented as functions of two variables px, yq.
+
+39
+
+Proof. The rapid decay at the cusp of the image of Radon transform is
+
+proven as for rapidly decaying functions.
+
+To prove the stated growth in the funnel, it suffices to show that the
+
+Mellin transform R|f psq converges for psq  ´.
+
+We
+
+may
+
+again
+
+use
+
+the
+
+auxilliary
+
+space
+
+S1
+s0
+
+pN
+
+zH
+
+pAk
+
+qq,
+
+as
+
+in
+
+the
+
+previous
+
+proposition, and assume that f is the image of an element  in this space.
+
+Moreover, at this point it is more convenient to perform Mellin transform
+
+(3.24) over all of rAs, not just the real torus A. (Obviously, they converge simultaneously, because rAs " A ^ rAs1 and rAs1 is compact.) In terms of
+
+, that Mellin transform becomes Eulerian:
+
+
+
+
+
+f pwnaqdn´ 2 p 1`s aqda "
+
+pwnaqdn´ 2 p 1`s aqda "
+
+rAs N pAkq
+
+ApAkq N pAkq
+
+
+
+"
+
+p´t, t´1xqdx|t|´p1`sqd^t,
+
+Ak^ Ak
+
+(3.25)
+
+^t  ^ 1 where we have made the substitutions a " t´1 , w " ´1 , and
+
+have represented  as a function on Ak2.
+
+I will first explain the case s0 " ´1 (so that the elements of Ss`0pN zHpkv0qq
+
+are asymptotically constant close to the cusp); this, as we will see, is essen-
+
+tially the analysis that one would do for the Radon transform on SprHsBq.
+
+The modifications for the general case will be presented afterwards.
+
+In that case, the result follows a fortiori if we show it when the auxilliary space Ss10pN zHpAkqq is replaced by SpAk2q. Then one easily checks that we
+
+have
+
+
+
+
+
+pwnaqdn "
+
+p´t,
+
+t´1xqdx
+
+!
+
+|t|
+
+"
+
+
+
+1 2
+
+paq
+
+(3.26)
+
+N pAkq
+
+Ak
+
+1
+as |t| "  2 paq  1. Moreover, for almost every place v, the corresponding local integral is zero if |av|  1.
+Therefore, the integral (3.25) is bounded by a Tate integral of a Schwartz function on Ak against the measure |t|´sd^t, and hence converges when ´s  1. This proves the desired estimate when s0 " ´1. Notice that the divergence of the integral when p ` q " 1 is of global nature, i.e. is due to the divergence of the Euler product, not of its local factors.
+In the general case, whenever ps0q  ´1 we obviously have the same estimate (3.26), while for ps0q  ´1 the estimate (3.26) remains the same for all places v  v0. For v " v0 it becomes (exercise!) a bound of the form ! maxt|t|, |t|1´ ps0qu. Thus, the integral (3.25) converges as before,
+
+40
+
+except for the fact that for the local factor at v0 to converge we need the
+
+extra condition ´ ps0 ` sq  0.
+
+A better argument, without explicit calculation, which will reduce the
+
+general case to the case of SpN zHpAkqq, and moreover will prove the state-
+
+ment about poles of the Mellin transform, is to observe that for every a P
+
+Apkv0
+
+q,
+
+and
+
+
+
+P
+
+S1
+s0
+
+pN
+
+zH pAk qq,
+
+the
+
+function
+
+s0
+ppa¨q ´  2 paqq P SpN zHpAkqq,
+
+where pa¨q denotes the operator of the action of a, normalized as in (1.2). The Radon transform
+
+
+
+R :  ÞÑ
+
+pwn,qdn
+
+N pAkq
+
+is anti-equivariant with respect to the normalized action of ApAkq, thus
+
+ppa¨q ´ ´ s02 paqqR P R pSpN zHpAkqqq .
+
+Taking Mellin transforms, this gives that:
+
+p
+
+s 2
+
+paq
+
+´
+
+´
+
+s0 2
+
+paqqR}psq
+
+is the Mellin transform of the Radon transform of an element of SpN zHpAkqq, which reduces us to the previous case, with an extra pole at s " s0. (Of course, the "first" pole of the Mellin transform as we let psq grow also determines its domain of convergence.)
+Finally, the statements about meromorphic continuation follow from the identity R|f psq " M p´sqfp´sq, and the analogous properties of intertwining operators (Theorem 3.4.5 and Corollary 3.5.2).
+
+Remark 3.6.4. The meromorphic continuation of R|f psq to psq  0 with only a finite number of poles, together with the decay on vertical strips, imply, by Theorem 3.3.4, that Rf is the sum of an asymptotically finite function with an L2 function (both supported away from the cusp, up to a function of rapid decay).
+This implies the following on constant terms:
+Corollary 3.6.5. The constant term morphism:
+
+Ss`0prHsq Q  ÞÑ B P C8prHsBq
+
+41
+
+has image in the space of smooth functions which close to the cusp are asymptotically finite with exponent s0, and close to the funnel are bounded (together with their derivatives under U phq) by elements of ´´ , for any  0, where  " maxt ps0q, 1u.
+Moreover, if B is written as B,0 `B,8, where B,0 P Ss`0prHsBq and B,8 is of rapid decay in a neighborhood of the cusp, and we define the Mellin transform:
+|Bpsq :" ~ B,0psq ` ~ B,8psq P s,
+where the second summand is given by the convergent integral (3.17) for psq  ´ and the first is understood as the regularization of the corresponding integral, then |Bpsq admits meromorphic continuation to the region psq  0, with poles only the opposites of the (simple) poles of Eisenstein series for psq  0, and the pole ´s0. (If the latter coincides with the opposite of a pole of Eisenstein series, it may appear with multiplicity 2.)
+Proof. For  of the form f , with f P Ss`0prHsBq, this follows from the formula (3.11) for the constant term of pseudo-Eisenstein series, together with Proposition 3.6.3. By Lemma 3.6.2, we can subtract from every  an element of the form f and reduce ourselves to the case of SprHsq, which was addressed in Corollary 3.4.6.
+Remark 3.6.6. It is clear that the image space described in the corollary (as well as in Corollary 3.4.6 and Proposition 3.6.3) have natural topologies as countable strict limits of Fre´chet spaces, and it is clear from the proofs that the morphisms appearing are continuous.
+Remark 3.6.7. One can prove enough about the decay of Eisenstein series in vertical strips in order to deduce the analog of Remark 3.6.4 for constant terms of general elements of Ss`0prHsq; however, we do not need this and will not state it; s. [Cas04].
+
+3.7 Plancherel decomposition for asymptotically finite functions on rP GL2s.
+
+We will need to reproduce the argument of Selberg (and Langlands, in general rank) for the spectral decomposition of L2prHsq, in order to extend it to
+asymptotically finite functions. It will eventually boil down to regularized inner products on rHsB, which can be analyzed using the model of R^`.
+Let i P Ss`i prHsqq, where i " 1, 2 and si P C with s1 ` s2  0. Hence, the regularized "inner product"
+
+° 1, 2 rHs ° " 1pgq2pgqdg
+rH s
+
+(3.27)
+
+42
+
+is defined.
+
+Here is the strategy for developing the "Plancherel decomposition" of
+
+the "inner product" (3.27): First, we assume that i " fi, for some fi P
+
+Ss`i prHsBq (i " 1, 2). We develop a spectral expansion for that case, which
+
+should depend only on the i's, not on the choice of fi. (The map  has non-
+
+trivial kernel.) The expansion will be an integral of bilinear pairings which
+
+are continuous on Ss`1prHsq b Ss`2prHsq; we will prove that this expression
+
+remains
+
+convergent
+
+for
+
+arbitrary
+
+elements
+
+of
+
+S`
+s1
+
+prH
+
+sq
+
+b
+
+S`
+s2
+
+prH
+
+sq
+
+and
+
+hence,
+
+by the density of pseudo-Eisenstein series (Proposition 3.6.1), decomposes
+
+the regularized inner product on the whole space.
+
+We start with the following:
+
+Proposition 3.7.1.
+
+If 1
+
+"
+
+f1
+
+for some f1
+
+P
+
+S`
+s1
+
+prH
+
+sB
+
+q,
+
+we
+
+have:
+
+° 1   `i8
+
+1, 2 rHs "
+
+f1psq, ~ 2,Bp´sq s ds
+
+2i ´i8
+
+ÿ
+
+ÿ
+
+´
+
+Ress"s1 ` f1psq, ~ 2,Bp´sq s `
+
+Ress"s1 ´ f1psq, ~ 2,Bp´sq s(,3.28)
+
+ps1q
+
+ps1q
+
+for any  " 0 not coinciding with the real part of a pole of f1psq or ~ 2,Bp´sq. (If it coincides with the real part of the pole, use the same modification as in (3.5).)
+
+Here p­ 2,Bqpsq denotes the Mellin transform of the constant term 2,B, as described in Corollary 3.6.5. The charges of the Laurent series are taken as ´ for exponents at the cusp, and as ` for exponents at the funnel. More precisely:
+· The Mellin transform f1psq only has a negative, simple pole at s " s1.
+
+· The Mellin transform ~ 2,Bpsq has only one negative, simple pole at s " s2. The rest of its poles are positive, and for psq  0 they consist of the negatives of the Eisenstein poles (which do not lie on the line psq " 0), and the pole ´s2 (if it has real part  0). Notice that if ps2q  0, then it may coincide with the negative of an Eisenstein pole, in which case we will have a non-trivial decomposition of the Laurent expansion at s2 into positive and negative "charges". On the other hand, if ps2q  0, then ´s2 may coincide with the negative of an Eisenstein pole, in which case ~ 2,Bpsq may have a double pole at that point. All other poles are simple. Poles with psq  0, other than the possible "negative" pole at s2, will not be of interest to us.
+By our conventions, the function s ÞÑ ~ 2,Bp´sq will have a positive pole at ´s2, and all other poles negative.
+
+43
+
+· The poles of ~ 2,Bpsq for psq  0 (if we assume its meromorphic continuation, which we haven't stated and are not using) are irrelevant.
+One could take their charges to be negative, but it will play no role. Notice, however, that, as in Theorem 3.3.4, Res´s"s2~ 2,Bps2q makes sense, even if ps2q  0. Indeed, by definition, it only depends on the behavior of 2,B (equivalently: of ) close to the cusp, more precisely on the image in s2 under the equivalent maps of Lemma 3.6.2.
+
+
+
+`
+
+Thus, the sum ps1q Ress"s1 f1psq, ~ 2,Bp´sq s in the above formula
+
+can only contain the term
+
+f1
+
+p´s
+
+2
+
+q,
+
+Res
+
+` s"´s
+
+2
+
+~ 2,B
+
+p´sq
+
+"´
+
+f1
+
+p´s
+
+2
+
+q
+
+,
+
+Res
+
+´ s"
+
+s2
+
+~ 2,B
+
+ps
+
+q
+
+,
+
+and only if p´s2q  . On the other hand, the sum of "negative" residues
+can contain many terms, corresponding to poles of Eisenstein series (with psq    0) and the pole s1 of f1 (which may coincide with a pole of an
+Eisenstein series).
+
+Proof. By adjunction between the pseudo-Eisenstein morphism and the constant term (which continues to hold for the regularized inner products that we are considering), we have:
+
+f1, 2 rHs ° " f1, 2,B rHsB ° .
+
+The constant term 2,B has been described in Corollary 3.6.5. Although it is not asymptotically finite in both directions, it is easy to see that the Plancherel decomposition of Theorem 3.3.1 continues to hold as long as we take pq  0; this amounts to the statement of the proposition.
+
+The formula (3.28) is not yet our "Plancherel" formula, not even in the case of the actual L2prHsq decomposition (e.g., when the i's belong to SprHsq), because its integrand depends on f1 and cannot be understood in terms of 1 alone. To see what must be done, recall the expression (3.11) for 1,B " pf1qB:
+pf1qB " f1 ` Rf1.
+Decomposing its Mellin transform correspondingly, we get (at least for psq  0, cf. Corollary 3.6.5):
+
+p­ f1qBpsq " f1psq ` M p´sqf1p´sq,
+
+(3.29)
+
+44
+
+where M psq denotes the standard intertwining operator (3.14). Thus, to have an expression that only depends on 1, the integrand should (generically) depend on f1psq ` M p´sqf1p´sq, not just fpsq. This is why we have to move the contour of integration in (3.28) to the line  " 0. To avoid using estimates for Eisenstein series on vertical strips, now we assume that 2 " pf2q, as well (with f2 P Ss`2prHsBq. Thus, we have 2,B " f2 ` Rf2, and ~ 2,Bp´sq " f2p´sq ` M psqf2psq. What follows is written under the assumption that ps1q  0  ps2q; if that is not the case, one needs to adjust with principal value integrals as in (3.5).
+The following is a corollary of Theorem 3.3.4 and Corollary 3.5.2.
+
+Corollary 3.7.2. For 2 " pf2q, the formula (3.28) continues to hold for all   0 (with the modifications as in (3.5) when poles lie on the line of integration).
+
+Now we use the functional equation (3.16) of intertwining operators, as well as the (easy) adjunction formula:
+
+M p´sqF1,´s, F2,´s s " F1,´s, M p´sqF2,´s ´s .
+
+(3.30)
+
+This gives:
+
+Proposition 3.7.3.
+
+For 
+
+P
+
+S`
+s0
+
+prH
+
+sq,
+
+the
+
+constant
+
+term
+
+|B
+
+psq
+
+satisfies:
+
+|Bpsq " M p´sq|Bp´sq.
+
+(3.31)
+
+Remark 3.7.4. We will only use this relation on the line psq " 0, so the continuation of |Bpsq to psq  0 is not important.
+
+Proof. This follows from (3.29) and (3.16) when  " f . By continuity of the map  ÞÑ |Bpsq (equivalently, of the Eisenstein series), and of the intertwining operators M psq, it extends to the whole space SprHsq.
+
+We will actually only need this statement for pseudo-Eisenstein series. Applying it to  " 2 " f2, writing ~ 2,Bpsq as
+
+1 2 p~ 2,Bpsq ` M p´sq~ 2,Bp´sqqq ,
+
+combining the terms s in the integral, and using the adjunction (3.30), we get:
+
+ `i8
+
+° "1
+
+f1psq ` M p´sqf1p´sq, ~ 2,Bp´sq  ds
+
+1, 2 rHs 2i 0 s
+
+ÿ´
+
+1
+
+p´s
+
+2
+
+q
+
+,
+
+Res
+
+´ s"
+
+s
+
+2
+
+~ 2,B
+
+ps
+
+q
+
+
+
+¯
+
+`
+
+´
+Ress"s2
+
+f1psq, ~ 2,Bp´sq 
+
+`
+
+f
+
+´s2
+
+s
+
+ps2q0
+
+ÿ
+
+`
+
+Ress"s1 ´ f1psq, ~ 2,Bp´sq s(.3.32)
+
+ps1q0,s1s2
+
+45
+
+ The notation ps2q0 means, of course, that this term appears only if
+
+ps2q  0. (Again, if ps2q " 0 one needs to modify as in (3.5).) Notice that
+
+the pole in the second term on the second line comes from both f1psq and
+
+~ 2,Bp´sq if s1 " s2; otherwise, the term can be written
+
+f1
+
+p
+
+s2
+
+q,
+
+Res
+
+´ s"
+
+s
+
+2
+
+~ 2,B
+
+p´
+
+sq
+
+s
+
+.
+
+2
+
+Now we claim:
+
+Theorem 3.7.5. All integrands in (3.32), including the discrete summands,6 de-
+pend on 1 and 2 alone, not f1 or f2, and extend to continuous functionals on Ss`1 prHsqb^ Ss`2 prHsq.
+For each discrete summand s1 (or s2) on the right hand side of (3.32), let Js1p1, 2q denote the corresponding bilinear form. Notice that s1 runs over the subset of ts1, s2, (poles of Eisenstein series)u with psq  0. The expression
+
+1  `i8 2i 0 ~ 2,Bpsq, ~ 2,Bp´sq s ds `
+
+ÿ Js1 p1, 2q.
+ps1q0
+
+(3.33)
+
+converges absolutely for all 1 b 2 P Ss`1prHsqb^ Ss`2prHsq,7 and is equal to the regularized inner product 1, 2 rHs ° . (If if either of psiq happens to be zero, one needs to introduce the appropriate modifications as in (3.5).)
+Proof. The integrand in the continuous integral can be written
+
+~ 1,Bpsq, ~ 2,Bp´sq s ,
+
+and hence is clearly a continuous function of 1, 2, by continuity of the
+map  ÞÑ |Bpsq (or, equivalently, of the Eisenstein morphism). We first prove the absolute convergence of this integral for an arbitrary element of Ss`1prHsqb^ Ss`2prHsq. For notational simplicity, we still assume that the element is of the form 1 b 2, but the reader can easily reformulate for an
+arbitrary element of the completed tensor product.
+Fix an Archimedean place v. (In the function field case, one can choose
+a place v corresponding to a point that is defined over the finite base field,
+and work with the Bernstein center of Hpkvq.) The Harish-Chandra isomorphism identifies the center zphvq of the complexified Lie algebra with the polynomial ring CrtCsW (we will denote the image of Z by Z), where T is the restriction of scalars to R of the universal Cartan of Hpkvq and tC
+
+6This refers to the summands as they appear in the equation, e.g., the term
+
+´
+
+¯
+
+f1p´s2q, Res´s"s2 ~ 2,B psq ´s ` Res´s"s 2 2 f1psq, ~ 2,B p´sq s as a whole.
+
+7We use 1, 2 for notational simplicity, but the expression and statement of the theorem
+
+is understood to hold for arbitrary elements of the completed tensor product.
+
+46
+
+is the complexification of its Lie algebra.
+
+1
+The character  2
+
+:
+
+T
+
+Ñ
+
+R`^
+
+»
+
+A
+
+gives rise to a map tC Ñ aC, and hence a pull-back map
+
+CraCsW Ñ CrtCsW .
+
+Denote by z0phvq the subring corresponding to the image of this map. Any Z P z0phvq acts on s by the scalar Zpsq, where we have used the identi-
+fication aC » C. It acts on ´s by the same scalar, since W acts on aC by
+s ÞÑ ´s. Let Zi P z0phvq be the element with Harish-Chandra transform Zipsq "
+ps2 ´ s2i q (i " 1, 2). Then Zi acts as zero on si, and hence by (2.6) we have Zii P SprHsq. On the other hand, |Zi| is bounded below away from si, and
+we have:
+
+pZ­ 11qBpsq, pZ­ 22qBp´sq " Z1psqZ2p´sq ~ 1,Bpsq, ~ 2,Bp´sq s ,
+s
+
+so the statement of convergence reduces to the case i P SprHsq. In this setting it is of course known, but I remind that the argument uses a nontrivial element Z P z0phvq that annihilates the discrete summands on the right hand side of (3.32), to arrive at
+
+1  `i8
+
+Z, Z "
+
+|Zpsq|2 |Bpsq, |Bpsq ds.
+
+2i 0
+
+s
+
+Together with the positivity of the hermitian forms in the integrand, this proves absolute convergence.
+Now, the left hand side of the equality is also a continuous function of 1 b 2. Subtracting the continuous integral, we deduce that the same is true for the sum of the discrete terms - call this sum Lpf1, f2q.
+Notice that each of the discrete summands of (3.32) - denote them by L1, L2, . . . - is supported on a different set of points of the spectrum of z0phvq; that is, if we let z0phvq act on the space of functionals by pZLiqpf1, f2q " LipZf1, f2q, the annihilators Ii of the Li's are relatively prime. On the other hand, for fixed f1, f2, it is clear from the expressions of these functionals that the map
+Z ÞÑ LipZf1, f2q
+is a linear combination of the first few derivatives of Z at the corresponding point s1 where the residue in the expression of Li is taken, with coefficients which a priori depend on f1, f2. Taking suitable elements Zj in 
+li Il, we can express these coefficients as a linear combination of the terms LipZjf1, f2q which, by our choice of Zj, is equal to LpZjf1, f2q. Thus,
+
+47
+
+these coefficients are continuous functionals of 1 b 2; taking now Z " 1, we obtain the same conclusion for the functionals Li.
+
+Example 3.7.6. Applying this theorem to the inner product of two asymptotically finite functions of the form  as in Example 2.4.3, we obtain the spectral decomposition of the relative trace formula of [Sak, Theorem 5.3.1].
+The bilinear forms Js1 can be explicated; the reader can skip this part, which is (quite surprisingly!) involved, and not used elsewhere. Of course, if s1  s1, s2, they are equal to the (bilinear) "inner product" of the (regularized) projections of 1, 2 to the discrete automorphic representation that is spanned by residues of Eisenstein series at those points. To see that Js1 factors through these projections is easy, by the equality
+
+Res´s"s1 f1psq, ~ 2,Bp´sq s " Ress"s1 E f1psq, 2 ° .
+
+To show that it is equal to the inner product of these projections requires an inductive argument as in the proof of the theorem, s. the proof of [MW95, V.3.2.(3).(ii)]. Since we are not developing L2-theory here, we will avoid talking about orthogonal projections, and define a bilinear pairing on the residual representation as follows:
+
+Definition 3.7.7. Let s1 be a pole for M psq (equivalently, for the Eisenstein
+
+operator
+
+at
+
+s).
+
+Let
+
+disc
+s1
+
+be
+
+the
+
+image
+
+of
+
+Ress"s1 M psq,
+
+so
+
+we
+
+have
+
+maps
+
+Ress"s1 M psq disc
+
+s1
+
+s1 ãÑ ´s1 .
+
+(3.34)
+
+We define: · A non-degenerate pairing ds1iscb^ ds1isc Ñ C by
+
+v1, v2 disc " v~1, v2  1 " v1, v~2  1 ,
+
+s1
+
+s
+
+´s
+
+(3.35)
+
+were v~i is a preimage of vi under (3.34).
+· When  P SpHpAkqq, an identification of the operator ds1iscpdgq as an element of ds1iscb^ ds1isc by considering the image of s1 pdgq P s1 b^ ´s1 under Ress"s1M1psq or, equivalently, the image of ´s1pdgq P ´s1b^ s1 under Ress"s1M2psq.
+
+It turns out that explicating the forms Js1 in terms of 1, 2 is not quite straightforward, and does not admit a uniform, general answer, because
+
+48
+
+of possible coincidences between the exponents s1, s2 and the Eisenstein
+
+poles (or their opposites). The following theorem describes the answer,
+
+but before we formulate it, we must decompose the representations s in
+
+terms of idele class characters  of rAs. All our notation will be adjusted
+
+by replacing s by , and referring to the corresponding eigenspaces of s.
+
+The forms Js decompose accordingly. Residues are taken with respect to
+
+the same variable, i.e., Res"1 means the residue at s " 0 as  varies in the
+
+family
+
+1
+
+s 2
+
+.
+
+Here is the only point where we will use the meromorphic continuation
+
+of Mellin transforms of constant terms to psq  0; the result will not be
+
+used anywhere else. Moreover, the case where ps1q " 0 or ps2q " 0 is
+
+left to the reader. I remind that  ÞÑ : denotes the asymptotics morphism
+
+of (2.6).
+
+Theorem 3.7.8. 1. Assume that 1  2 and 1  a positive Eisenstein pole, p1q  0. In that case, for 1 " 1 we have
+
+J1 p1, 2q " Ep1:q, 2 .
+
+(3.36)
+
+The analogous formula holds for 1 " 2, if we interchange the indices 1 and 2 in both the hypotheses and the conclusion.
+
+2. Assume that 1 " 2, but  a positive Eisenstein pole, with piq  0. Then the contribution of 1 " 1 " 2 reads
+
+J1 p1, 2q " Res"1 ~ 1,Bpq, ~ 2,Bp´1q ,
+
+(3.37)
+
+unless 1´1 is a (negative) Eisenstein pole, in which case the intertwining operator M pq vanishes at  " 1, and, considering M 1p1q " the derivative of M pq at 1, we have
+
+J1 p1, 2q " Res"1 ~ 1,Bpq, ~ 2,Bp´1q
+
+´
+
+Res
+
+` "
+
+
+
+1
+
+~ 1,B
+
+p
+
+q
+
+,
+
+M
+
+1
+
+p
+
+1
+
+qRes
+
+` "
+
+
+
+1
+
+~ 2,B
+
+p
+
+q
+
+.
+
+(3.38)
+
+3. Assume that 1 " a positive Eisenstein pole, 1  1, 2. Then
+J1 p1, 2q " Res´"1 ~ 1,Bp´1q, Res´"1 ~ 2,Bp´1q , 1 (3.39) where 1  Ip1´1q is the image of Res"1M pq, and , 1 is the "inner product" on 1 given by Definition 3.7.7.
+
+49
+
+4. Finally, assume that 1 " 1 or 1 " 2 is a positive Eisenstein pole. Then
+
+J1 p1, 2q " Res"1 ~ 1,Bpq, ~ 2,Bp´1q .
+
+(3.40)
+
+Proof. It is enough to establish these claims for 1, 2 in the dense subspace spanned by pseudo-Eisenstein series, so let i " fi, i " 1, 2.
+First, it will be helpful to compute the expression
+
+Res"1 ~ 1,Bpq, ~ 2,Bp´1q .
+
+By (3.11), it is equal to
+
+` Res"1
+
+f1pq, f2p´1q
+
+`
+
+M p´1qf1p´1q, f2p´1q
+
+`
+
+` f1pq, M pqf2pq ` M p´1qf1p´1q, M pqf2pq  .
+We number the terms, as they appear, by (I)-(IV). Assume first that 1 " 1  2, 1  0 and  to a positive Eisenstein pole. Then the third line of (3.32) is the residue of the sum of terms (I) & (III), and can be written as 1:, ~ 2,Bp1´1q " E1:, 2 . By symmetry (or direct reasoning, using the second line of (3.32)), the analogous result holds if the indices 1 and 2 are interchanged. Next, assume that 1 " 1 " 2  0 and  to a positive Eisenstein pole. Then the second line of (3.32) is the residue of the sum of terms (I), (III), and (IV). We will express the residue of the second term in terms of 1 and 2: we claim that it is equal to
+
+Res
+
+` "
+
+
+
+2
+
+~ 1,B
+
+p
+
+q
+
+,
+
+M
+
+1
+
+p
+
+2
+
+q
+
+Res
+
+` "
+
+
+
+2
+
+~ 2,B
+
+p
+
+q
+
+(an expression which is symmetric in 1 and 2). Notice, first of all, that the term (II) is holomorphic at  " 2, unless 2´1 is a (negative) pole of the
+
+intertwining operator (equivalently, the Eisenstein series). We can write its
+
+residue as
+
+pRes
+
+
+
+"
+
+
+
+2
+
+M
+
+p
+
+´
+
+1
+
+qq
+
+f1
+
+p
+
+´ 2
+
+1
+
+q,
+
+f2
+
+p
+
+2´
+
+1
+
+q
+
+"
+
+"
+
+pRes
+
+
+
+"
+
+
+
+2
+
+M
+
+p
+
+´
+
+1
+
+qq
+
+f1
+
+p
+
+´ 2
+
+1
+
+q
+
+,
+
+M
+
+1
+
+p
+
+2
+
+qpRes
+
+
+
+"
+
+
+
+2
+
+M
+
+p
+
+´
+
+1
+
+qq
+
+f2
+
+p
+
+2´
+
+1
+
+q
+
+,
+
+and the claim follows.
+
+Next, assume that 1 " a positive Eisenstein pole, 1  1, 2. Then the
+
+third line of (3.32) is equal to the residue of the term (III), and can also be
+
+written as
+
+f1p1q, pRes"1M pqqf2p1q .
+
+50
+
+The second term in this bilinear pairing is equal to Res´"1~ 2,Bp´1q, and the pairing depends only on the image of f1p1q via pRes"1M pqq, which is equal to Res´"1~ 1,Bp´1q. It can thus be written as
+
+Res´"1 ~ 1,Bp´1q, Res´"1 ~ 2,Bp´1q , 1
+
+where 1 is the image of Res"1 ´ M pq. Next, assume that 1 " 1  2 is a positive Eisenstein pole. Then 2 
+1´1 (because 2  ´1 1 , by assumption), and the third line of (3.32) is equal to the residue of the sum of terms (I) and (III). On the other hand, since 1
+
+is a pole of the Eisenstein series (and the intertwining operator), 1´1 is not.
+
+Moreover,
+
+since
+
+1
+
+
+
+
+
+´1 1
+
+,
+
+2
+
+,
+
+2´
+
+1
+
+,
+
+the
+
+terms
+
+(II),
+
+(IV)
+
+are
+
+holomorphic
+
+at
+
+1, thus the contribution of 1 is equal to Res"1 ~ 1,Bpq, ~ 2,Bp´1q . By
+
+symmetry (or direct reasoning, using the second line of (3.32)), the same
+
+holds if 1 " 2  1 is a positive Eisenstein pole.
+
+Finally, consider the case 1 " 1 " 2, a positive Eisenstein pole. Then
+
+the second line of (3.32) is equal to the residue of the sum of the terms (I),
+
+(III), and (IV), but the term (II) has no pole, so again it can be written in the
+
+same way.
+
+4 Rank two
+
+4.1 Kernel functions and their constant terms
+
+Recall that by "asympotically finite functions" on rGs we mean asymptotically finite with respect to the "diagonal" partial compatification rGsD, i.e. elements of the space Ss`prGsq of Definition 2.2.4 - and similarly for rGsB. The theory can be developed more generally, but we will not need it for the
+purposes of the trace formula.
+Recall that we have a short exact sequence
+
+0 Ñ SprGsq Ñ Ss`prGsq Ñ s Ñ 0.
+
+where
+
+s
+
+"
+
+S pAdiag zrGsB ,
+
+
+
+s 2
+
+q.
+
+Let now G " PGL2 ^ PGL2, acting by left and right multiplication on
+
+H " PGL2. For  P SpHpAkqq we set:
+
+ÿ
+
+Kpg1, g2q :" pg1, g2q :"
+
+pg1´1g2q P C8prGsq.
+
+ PH pkq
+
+51
+
+This is of course the kernel of the convolution operator defined by  on automorphic forms; however, since we will not directly compute/regularize its trace, we prefer to think of it as a theta series, an automorphic function on rGs, and try to compute/regularize the inner product of two such (which of course is the trace of the convolution of two operators),
+
+Proposition 4.1.1. The above map  ÞÑ K defines a continuous map
+
+SpHpAkqq Ñ S0`prGsq,
+
+where on the right we have the space of asymptotically finite functions with respect to the "diagonal" embedding rGsD introduced in §2.2, with trivial (normalized) exponent for the Adiag-action.
+
+Proof. We compute constant terms. Consider a proper parabolic P " P1 ^ P2 of G. Of course, each of P1 and P2 is either H, or the Borel B of H. Consider first the case P " B ^ H. Then, for a P B{N ,
+
+ÿ
+
+pqP pa, gq "
+
+pa, gq,
+
+PN zHpkq
+
+where pa, gq " NpAkq  pa´1ngqdn. When a approaches the cusp, i.e., paq Ñ 8, this is of rapid decay.
+Proposition 4.1.2, that follows, calculates the constant term of K with
+respect to P " B ^ B, as a sum of two terms K,B and R1{2K,B, with K,B P 0 " SpAdiagzrGs, 0q. In a neighborhood of the 8B ^ 8B-cusp, the
+term R1{2K,B is of rapid decay. By Theorem 2.4.5, the stated description of K follows.
+
+Before we state the description of the B ^B-constant term that was used
+
+in the last proof, we need fix our notation for Mellin transforms on rGsB.
+
+We have an action of A ^ A on C8prGsBq (normalized as in (1.2)), and its
+
+eigenspaces
+
+are
+
+the
+
+spaces
+
+s1 b^ s2 ,
+
+where
+
+s
+
+"
+
+C
+
+8
+
+p
+
+A
+
+zrH
+
+s,
+
+
+
+s 2
+
+q,
+
+as
+
+before.
+
+Identifying
+
+A
+
+»
+
+R^
+
+as
+
+in
+
+rank
+
+one
+
+(namely,
+
+through
+
+the
+
+character
+
+1
+ 2 ),
+
+the parameters s1, s2
+
+live
+
+in
+
+a°
+C
+
+"
+
+C.
+
+The Mellin transform of an element
+
+f P SprGsBq is the entire section ps1, s2q ÞÑ fps1, s2q P s1b^ s2, given by
+
+ fps1, s2qpgq "
+
+f ppa1, a2qgq´ 1`s1 2 pa1q´ 1`s2 2 pa2qdpa1, a2q.
+
+A^A
+
+(4.1)
+
+We will also apply the transform to functions that are invariant under Adiag or Aadiag (under the normalized action). In those cases, it obviously
+
+52
+
+doesn't make sense as a function of two variables ps1, s2q, but it makes sense as a section over padiagqKC " a°,adiag C , resp. paadiagqKC " a°,diag C ; for example, if the function f is invariant under Aadiag, we will have
+
+  ´ 2 1`s f psqpgq " f ppa, 1qgq paqda.
+A
+
+(4.2)
+
+Strictly speaking, this should be interpreted (and denoted) as a generalized
+
+function
+
+on
+
+a°
+C
+
+^
+
+a°C,
+
+supported
+
+on
+
+the
+
+diagonal;
+
+however,
+
+it
+
+will
+
+always
+
+be
+
+clear from the context whether we are considering the Mellin transform of
+
+a
+
+general
+
+function
+
+on
+
+rGsB
+
+(which
+
+is
+
+a
+
+function
+
+on
+
+a°
+C
+
+^
+
+a°C)
+
+or
+
+of
+
+an
+
+Aadiag-
+
+(or Adiag-)invariant function (in which case it will be denoted as a function
+
+of one variable).
+
+Finally,
+
+we
+
+fix
+
+identifications
+
+padiagqKC
+
+"
+
+a°
+C
+
+and
+
+padiagqKC
+
+"
+
+a°C.
+
+For
+
+the
+
+former,
+
+there
+
+is
+
+a
+
+natural
+
+choice,
+
+namely
+
+the
+
+diagonal
+
+embedding
+
+a°
+C
+
+"
+
+aC°,diag
+
+"
+
+paadiagqKC
+
+
+
+a°
+C
+
+^
+
+a°C.
+
+For the latter, we use the restriction of a
+
+character
+
+to
+
+the
+
+first
+
+copy
+
+in
+
+order
+
+to
+
+identify
+
+with
+
+a°C,
+
+that
+
+is:
+
+a°
+C
+
+Q
+
+s
+
+ÞÑ
+
+ps, ´sq
+
+P
+
+aC°,adiag
+
+"
+
+paadiagqKC
+
+
+
+a°
+C
+
+^ a°C.
+
+Hence,
+
+for
+
+a
+
+function
+
+F
+
+on
+
+rGsB
+
+which is invariant under Aadiag, its Mellin transform Fpsq belongs to sb^ s,
+
+while if the function is invariant under (the normalized action of) Adiag, its Mellin transform Fpsq belongs to sb^ ´s.
+
+Proposition 4.1.2. For the constant term of K we have
+
+pKqB " K,B ` R1{2K,B,
+
+(4.3)
+
+where
+
+
+
+ÿ
+
+K,Bpg1, g2q "
+
+pg1´1ng2qdn
+
+PApkq N pAkq
+
+is the kernel for the convolution action of dh on L2prHsBq, while R1{2K,B is its Radon transform (3.12) in either of the two variables:
+
+
+
+ÿ
+
+R1{2K,Bpg1, g2q "
+
+p
+
+g1´1
+
+n
+
+´ 1
+
+1
+
+w
+
+
+
+n2
+
+g2
+
+q
+
+dpn
+
+1
+
+,
+
+n2
+
+q
+
+.
+
+PApkq N 2pAkq
+
+The map  ÞÑ K,B represents a continuous morphism: SpHpAkqq Ñ 0 " SpAdiagzrGs, 0q,
+
+and the map  ÞÑ R1{2K,B represents a continuous morphism into the subspace
+of C 8 pAadiag zrGsq
+
+53
+
+consisting of those functions which in a neighborhood of the cusp in AadiagzrGs
+are of rapid decay (together with their derivatives), and are bounded by elements of
+´1´ b ´1´ , for any  0 (endowed with its natural topology as a countable strict limit of Fre´chet spaces).
+Therefore, the Mellin transform of K,B is an entire section over padiagqKC " aC°,adiag, while the Mellin transform of R1{2K,B, as a section over paadiagqKC " aC°,diag, is defined by the convergent integral (4.2) (and is holomorphic) when
+psq  ´1 (s P aC°,diag). The latter admits meromorphic continuation to the region psq  0, with poles only the opposites of the (simple) poles of Eisenstein
+series for psq  0.
+Finally, the Mellin transforms of the above functions have the following in-
+variant properties with respect to intertwining operators:
+
+K~ ,Bpsq " M1p´sqM2psqK~ ,Bp´sq,
+
+(4.4)
+
+R1­ {2K,Bpsq " M1p´sqM2p´sqR1­ {2K,Bp´sq,
+
+(4.5)
+
+and
+
+R1­ {2K,Bpsq " M1p´sqK~ ,Bp´sq " M2p´sqK~ ,Bpsq,
+
+(4.6)
+
+where M1 and M2 denote the standard intertwining operators in the first, resp. second variable.
+
+Remark 4.1.3. Although 0 is the trivial character, the notation SpAdiagzrGs, 0q is meant to remind that we are talking about Adiag-invariant functions under the normalized action (1.2); under the unnormalized action, those would be eigenfunctions with eigencharacter . (On the other hand, for Aadiag the normalized and unnormalized actions coincide, so we can unambiguously write C8pAadiagzrGsq.)
+Remark 4.1.4. The embedding
+
+sb^ ´s Ñ Endpsq
+
+(4.7)
+
+identifies
+
+K~ ,Bpsq " spdgq.
+
+(4.8)
+
+The proposition above should be compared with Proposition 3.6.3 and Corollary 3.6.5. In the next susbsections we will generalize some of its statements to arbitrary asymptotically finite functions on rGs.
+
+54
+
+Proof. By the Bruhat decomposition, we have:
+
+
+
+ÿÿ
+
+pqP pa1, a2q "
+
+
+
+pa
+
+´ 1
+
+1
+
+n
+
+´ 1
+
+1
+
+w
+
+
+
+n2
+
+a2
+
+qdpn
+
+1
+
+,
+
+n2
+
+q
+
+,
+
+wPW PApkq N XwN zN ^N pAkq
+
+(4.9)
+
+where W denotes the Weyl group of H.
+
+The summand corresponding to w " 1 varies under paq with respect to
+
+the unnormalized diagonal action of A; with respect to the normalized ac-
+
+tion, this is the trivial character. Otherwise, it is of rapid decay on rAdiagzA^
+
+As. The summand corresponding to w "the non-trivial element of the Weyl
+
+group is invariant under pw,1qAdiag " the anti-diagonal action of A (the nor-
+
+malized and unnormalized action coincide for this group), and as paq Ñ 8
+
+they it is of rapid decay on pa, 1q (or, equivalently, on p1, aq).
+
+The rapid decay of K,B and R1{2K,B in the stated directions is imme-
+
+diate. Notice that
+
+R1{2K,B " R1K,B " R2K,B,
+
+(4.10)
+
+where R1, R2 denote Radon transform in the first, resp. second variable. Also, each HpAkq ^ t1u and t1u ^ HpAkq-orbit on AdiagzrGsB is isomorphic to rHsB, so that by choosing a "semi-algebraic" section of the map rHsB Ñ AzrHsB (as in Observation 2.2.3), we can think of elements of SpAdiagzrGsBq as smooth functions on AzrHsB valued in SprHsBq. The properties of R1{2K,B (and its Mellin transform) now follow from Proposi-
+tion 3.6.3. The relation (4.6) follows from (4.10), while (4.4), when K~ ,Bpsq is interpreted as spdgq (s. (4.8)), is just the statement that spdgqM p´sq " M p´sq  ´spdgq, together with the Maaß-Selberg relation (3.16). Finally, (4.5) follows from the other two.
+
+4.2 Pseudo-Eisenstein series of asymptotically finite functions
+
+Let SprGsqnpr denote the subspace of elements of SprGsq where some non-
+
+trivial constant term (with respect to B^H or H^B) vanishes, and Ss`prGsqprEis " Ss`prGsq X SprGsqKnpr. The index "prEis" stands for "principal Eisenstein",
+
+and the index "npr" for "non-principal".
+
+Notice that, as in rank one, due to Theorem 2.4.5 on approximation by
+
+the
+
+constant
+
+term,
+
+the
+
+integral
+
+of
+
+an
+
+element
+
+of
+
+S`
+s
+
+prGsq
+
+against
+
+an
+
+element
+
+of SprGsqnpr is absolutely convergent, it makes sense to say that an element
+
+of Ss`prGsq is orthogonal to SprGsqnpr.
+
+In analogy to Proposition 3.6.1 and Lemma 3.6.2, we have:
+
+55
+
+Proposition 4.2.1. For every s P C, there is a direct sum decomposition:
+
+Ss`prGsq " Ss`prGsqprEis ` SprGsqnpr.
+
+(4.11)
+
+
+
+`
+
+The pseudo-Eisenstein sum f pgq " PpB^BqzGpkq f pgq is convergent on Ss prGsBq,
+
+for any s P C, and maps continuously, with dense image, into Ss`prGsqprEis. Its
+
+composition with the constant term is given by the formula:
+
+pf qB " f ` R1f ` R2f ` R1R2f,
+
+(4.12)
+
+where, again, R1 and R2 denote Radon transforms in the two variables. Consider the short exact sequences:
+0 Ñ SprGsBq Ñ Ss`prGsBq Ñ s Ñ 0,
+0 Ñ SprGsq Ñ Ss`prGsq Ñ s Ñ 0. Since  preserves Schwartz spaces, it induces an endomorphism:
+
+s Ñ s
+
+by passing to the quotients of the above sequences. This map is the identity.
+The proof is completely analogous to that of Proposition 3.6.1, and will be omitted.
+Now we examine constant terms of pseudo-Eisenstein series, and more generally of asymptotically finite functions on rGs. We have the following analog of Corollary 3.6.5:
+Corollary 4.2.2. The constant term morphism:
+Ss`0prGsq Ñ C8prGsBq
+has image in the space of smooth functions f which have the following properties:
+
+· In a neighborhood of the cusp 8B ^ 8B, they concide with elements of Ss`0 prGsBq.
+· Away from the cusp, they are bounded (together with their derivatives under U pgq) by elements of ´´ b ´´ , for any  0, where  " maxt ps0q, 1u; in particular, their Mellin transform (4.1) makes sense as a regularized integral, for ps1q, ps2q  ´.
+
+56
+
+· Their Mellin transform has meromorphic continuation to
+
+tps1, s2q| ps1q, ps2q  0u,
+
+with simple poles of the form si " ´s1 (i " 1, 2), where s1 is an Eisenstein pole for PGL2, as well as simple poles on the divisors tps1, s2q|  s1  s2 " s0u (for any combination of the signs).
+
+Proof. The proof is completely analogous to that of Corollary 3.6.5, includ-
+
+ing an analog of Proposition 3.6.3, and is left to the reader. I only note that
+
+the pole on the divisor tps1, s2q|s1 ` s2 " s0u appears already for the Mellin
+
+transform
+
+of
+
+an
+
+element
+
+of
+
+S`
+s0
+
+prGsB
+
+q,
+
+and
+
+the
+
+other
+
+poles
+
+will
+
+appear
+
+as
+
+one
+
+calculates the Mellin transform for the constant term of a pseudo-Eisenstein
+
+series, starting from (4.12).
+
+Remark 4.2.3. Again, the target space of this corollary has a natural topology, and the proof shows that the constant term map is continuous with respect to that topology.
+Note that, as in rank one or even our model space R^`, the Mellin transform, thought of as a meromorphic function of two variables, does not completely determine the constant term; one needs a theory of "charged Laurent expansions" to invert the transform. There is an elegant way to do this, but it will be postponed to future work that will treat the case of arbitrary rank. For now, suffice it to observe that the Mellin transform of a non-trivial constant term may be zero - this, in fact, will be the case for kernel functions. All the information for those functions is contained in their "charged Laurent expansions" along the singular hyperplanes, of which we will not make any explicit mention.
+
+4.3 Variation of the inner product with the exponent
+
+The trace formula, as a distribution on HpAkq ^ HpAkq, should be a regularized inner product
+
+° K1 , K2 rGs ° " K1 pg1, g2qK2 pg1, g2qdpg1, g2q
+rGs
+
+(4.13)
+
+between two kernel functions. However, because these are asymptotically finite functions with trivial regularized exponents (cf. Proposition 4.1.1), the inner product does not exist, not even in the regularized sense of §2.3. Therefore, what the trace formula really computes is a Laurent expansion, as the exponent of one of the asymptotically finite functions above varies.
+
+57
+
+More precisely, we will replace K2 by a section s ÞÑ s P Ss`prGsq with  " 0 " K2. The regularized inner product will then be defined for s  0 and will have a simple pole at s " 0:
+K1 , s rGs ° " a´1 s ` a0 ` . . . .
+The coefficient a´1 is an invariant bilinear form on p1, 2q, but it is not very interesting: spectrally, in only depends on the traces trpspidgqq of the convolution operators defined by the i's on parabolically induced automorphic representations, s. Theorem 4.3.4. The traces on cuspidal representations are "contained" in the coefficient a0, which however is not an invariant distribution, and depends not only on 1, 2, but also on the derivative of the section s ÞÑ s at s " 0.
+Since that derivative lives in an infinite-dimensional space, to reduce the number of variables we now make a choice: We choose a maximal compact subgroup K  HpAkq, and a Borel subgroup B, so that HpAkq " BpAkqK. These choices are standard in the theory of the trace formula, and the non-invariant trace formula, thought of as a distribution on pH ^ HqpAkq, depends on them. On the other hand, it will not depend on other choices made below, such as that of a neighborhood of the cusp.
+We let  denote the function on rHsB, or on BpkqzHpAkq, which pulls back to the function
+1
+bk ÞÑ  2 pbq pb P BpAkq, k P Kq
+
+on HpAkq. Since BpkqzHpAkq Ñ rHs is an isomorphism in a neighborhood U of the cusp, we will denote by the same letter the restriction of  to such a neighborhood U , considered as a subset of rHs.
+We impose another condition on the pair pB, Kq, that will only be used to obtain convenient geometric expressions for orbital integrals in Proposition 5.0.4:
+
+For every n P N , w P W , we have pw´1nq  1.
+
+(4.14)
+
+Here, N is the unipotent radical of B, and w any element in the normalizer of a Cartan subgroup of B. (It obviously does not matter which.) The standard choices B " upper triangular matrices, K " the product of Hpovq at non-Archimedean places and of the image of the orthogonal/unitary group for the quadratic/hermitian form represented by the identity matrix, will do.
+
+58
+
+Lemma 4.3.1. · The map f ÞÑ fspg1, g2q :" f pg1, g2q ¨ spg2q is a continuous isomorphism from S0`prGsBq to Ss`prGsBq, and hence can be used to trivialize the family of those Fre´chet spaces over C (the parameter space for s), in order to talk about holomorphic/meromorphic sections. These notions of holomorphic/meromorphic sections do not depend on the choice of K.
+· For f , fs as above, and any F P C8prGsBq which is of moderate growth and coincides with an element of S0`prGsBq in a neighborhood of the cusp, the regularized integral ° F ¨ fs
+rGsB
+represents a continuous morphism from S0`prGsBq to the space of meromorphic functions on C with at most a simple pole at 0.
+
+· The same statement is true if fs is replaced by fU,s, the function which is equal to f away from rHs ^ U , where U is a neighborhood of the cusp in rHs, and equal to fs in rHs ^ U . Moreover, the class
+
+« ° ff
+F ¨ fs
+rGsB
+
+of the regularized integral modulo holomorphic functions which vanish at 0
+
+(equivalently, the ´1- and 0-terms of its Laurent expansion) does not change
+
+if we replace fs by fU,s; in particular, it does not depend on the choice of U .
+
+It represents a continuous map from S0`prGsBq to the 2-dimensional space
+
+of
+
+expressions
+
+of
+
+the
+
+form
+
+a´1 s
+
+`
+
+a0,
+
+where
+
+ai
+
+P
+
+C.
+
+· The same statements are true when F,  P S0`prGsq, for the regularized integral °
+F ¨ U,s.
+rGs
+
+By abuse of notation, we will denote the corresponding terms in its Laurent
+expansion by « ° ff F ¨ s ,
+rGs
+
+although the function s is not defined in this case. (Only U,s is, for a choice of U .)
+
+59
+
+· Assume that r "°Gs F ¨ s " i a´s1 ` a0. Then these coefficients can also be
+recovered by "truncation", as follows: for every T " 0, let UT denote the
+1
+neighborhood of the cusp in rHs which is the image of the subset tbk| 2 pbq  eT u  HpAkq. Then
+
+
+F ¨  " ´a´1T ` a0 ` ope´NT q,
+rGs rHs^UT
+
+(4.15)
+
+for every N  0, where ope´NT q denotes a function whose quotient by e´NT tends to zero, as T Ñ 8.
+
+Proof. The proof is straightforward. I only outline the proof of (4.15): For a fixed T0, let
+
+
+
+
+
+A0 "
+
+F ¨`
+
+pF ¨  ´ F : ¨ :q,
+
+rGs rHs^UT
+
+B pkqzH pAk q^UT0
+
+where F :, : P 0 " SpAdiagzrGs, 0q denote the unique elements which
+are asymptotically equal to F , resp. , and for the second integral UT0 is considered as a subset of BpkqzHpAkq. It is clear from the rapid decay of the difference F  ´ F :: that the second summand is of order ope´NT0q, so
+for any T  T0 we have:
+
+
+
+
+
+F ¨  " A0 `
+
+F : ¨ : ` ope´NT q.
+
+rGs rHs^UT
+
+rHs^pUT0 UT q
+
+The action of eT ´T0 P Adiag maps rHs ^ UT0 bijectively onto rHs ^ UT , and since F :, : are invariant with respect to the normalized action of Adiag - which means that their inner product is invariant under Adiag-translations
+- we have rHs^pUT UT q  F : ¨ : " A´1pT ´ T0q, where
+0
+
+
+
+A´1 "
+
+F : ¨ :.
+
+Adiag zrGsB
+
+(4.16)
+
+Hence
+
+
+F ¨  " A0 ` A´1pT ´ T0q ` ope´NT0 q.
+rGs rHs^UT
+
+Consider now the integral over rGs when  gets replaced by U,s, where U " UT0. Then : gets replaced by : ¨ s, and similarly we have:
+
+
+
+
+
+F ¨ U,s " A0 `
+
+F : ¨ :s ` Opsq,
+
+rGs
+
+rH s^UT0
+
+60
+
+where Opsq refers to the limit as s Ñ 0. It is easy to see that rHs^UT  F : ¨
+0
+:s " ´ s A´1 esT0 for the same constant A´1.
+
+Thus,
+
+« °
+
+ff A´1
+
+rGs F ¨ s " ´ s ` A0 ´ A´1T0,
+
+confirming the last claim, with a´1 " ´A´1 and a0 " A0 ´ A´1T0.
+
+Remark 4.3.2. Since we are only modifying the function  in the second
+
+variable, the pairing
+
+« ° ff
+
+pF, q ÞÑ
+
+F ¨ s
+
+rGs
+
+is invariant under the action of HpAkq on F and  by left multiplication. In particular, if we apply this observation to F " K1,  " K2, and
+we write 1 " 1 < 1 " Lp1dgq1, where L denotes the action by left multiplication and 1 is the delta function at 1 P HpAkq, we see that
+
+« ° ff « ° ff
+
+F ¨ s "
+
+K
+
+p
+
+h,
+
+hq
+
+s U
+
+ph
+
+qdh
+
+.
+
+rGs
+
+rH s
+
+Here U is the function which is equal to  in the Siegel neighborhood
+
+U
+
+"
+
+UT0 ,
+
+and
+
+1
+
+otherwise,
+
+and
+
+
+
+"
+
+_
+1
+
+<
+
+2,
+
+where
+
+_1 pgq
+
+"
+
+1pg´1q.
+
+The
+
+last statement in the above lemma, then, connects this expression to the
+
+coefficients of T for the truncated integral
+
+°
+Kph, hqdh.
+rHs UT
+
+Definition 4.3.3. We define a distribution on HpAkq ^ HpAkq, valued in the
+
+two-dimensional
+
+space
+
+of
+
+expressions
+
+of
+
+the
+
+form
+
+a´1 s
+
+`
+
+a0,
+
+by
+
+" i « ° ff
+
+TFp1 b 2q " K1 , pK2 qs rGs ° "
+
+K1 pK2 qs ,
+
+rGs
+
+(4.17)
+
+in the notation of the above lemma. We will write a´1 " TF´1p1 b 2q and a0 " TF0p1 b2q for the corresponding coefficients of the Laurent expansion. The functional TF0 is (the functional of) the non-invariant Selberg trace formula.
+
+61
+
+Notice that we use the notation TFp1 b 2q for the two-dimensional germ of the Laurent expansion, despite the fact that "Selberg trace formula" (to stick with tradition) refers only to the constant coefficient.
+The coefficient TF´1 is evidently invariant, and can immediately be computed spectrally:
+
+Theorem 4.3.4. We have 1  `i8
+TF´1p1 b 2q " ´ 2i ´i8 sp1dgq, ´sp2dgq ds
+
+(4.18)
+
+for any  P R, where , here denotes the Hilbert-Schmidt inner product of operators.
+
+The Hilbert-Schmidt inner product is understood here as a bilinear pairing between operators on s and operators on ´s. Equivalently, recalling (4.8), it is the contraction pairing between K­ 1,Bpsq P sb^ ´s, and K­ 2,Bp´sq P ´sb^ s.
+
+Proof. This follows directly from Mellin decomposition of the pairing (4.16).
+Notice that for F " K1, f " K2 we have, in the notation of (4.16), F : " K1,B and f : " K2,B, by Proposition 4.1.2.
+
+The strategy for developing the trace formula, now, is the following:
+
+· On the geometric side, we will compute the geometric expansion of the Laurent coefficients of the expression (4.13), perturbed by the parameter s, i.e., of (4.17).
+
+· On the spectral side, there remains to compute a spectral expansion for the constant coefficient of the Laurent expansion (4.17). We will do this by first replacing K2 by  " pf q, a pseudo-Eisenstein series. We will eventually arrive at an integral of terms depending only on , not on f itself. By continuity, we will be able to apply this expression to an arbitrary element of S0`prGsq - in particular, to K2.
+
+The equality of the resulting expansions for (4.17) will then be the noninvariant trace formula. (Strictly speaking, it is the equality of the constant coefficients.) Later, we will also discuss the invariant trace formula.
+Hence, our first goal is to compute:
+
+« ° ff
+K1 pf qs
+rGs
+
+(4.19)
+
+62
+
+Note that, although it is possible, we will not replace K1 by an arbitrary element of S0`prGsq, thus exploiting some features of its constant term, as analyzed in Proposition 4.1.2, that will shorten the analysis.
+The following is an important starting point, extending the various equiv-
+alent descriptions of two-term Laurent expansions in Lemma 4.3.1:
+
+Lemma 4.3.5. We have
+
+« ° ff « ° ff
+
+K1 pf qs "
+
+K1 pfsq ,
+
+rGs
+
+rGs
+
+where fspg1, g2q " spg2qf pg1, g2q, as in Lemma 4.3.1.
+
+Proof. By definition, to compute the left hand side one needs to replace pf q, in a fixed neighborhood rHs ^ U of the cusp, by pf qpg1, g2q ¨ spg2q.
+Let us denote by U the function on rGs which is equal to pg2q on rHs^U ,
+and equal to 1 otherwise. Consider the map
+
+G : pB ^ BqpkqzGpAkq Ñ rGs.
+
+Unravelling the definition of , we see that
+
+« ° ff « ° ff
+
+K1 pf qs "
+
+K1 pf qsU "
+
+rGs
+
+rGs
+
+« ° "
+
+ff
+
+°s
+K1 f GU
+
+.
+
+rGsB
+
+The last integral can be split into two parts: one in rHs ^ U (where U is now considered as a neighborhood of the cusp in rHs), and one over the complement. The latter:
+
+° pK1 qBf G° sU
+rGsB rHs^U
+
+is absolutely convergent for every s because of the rapid decay of f , and hence
+
+« °
+
+ff 
+pK1 qBf G° sU "
+
+pK1 qBf.
+
+rGsB rHs^U
+
+rGsB rHs^U
+
+We arrive at
+
+« ° ff « ° ff
+
+K1 pf qs "
+
+pK1 qBfU,s
+
+rGs
+
+rGsB
+
+63
+
+in the notation of Lemma 4.3.1, which by that lemma is equal to
+« ° ff pK1 qBfs .
+rGsB
+By adjunction between constant term and pseudo-Eisenstein series, this proves the claim.
+Thus, (4.19) is equal to
+« ° ff pK1 qBfs .
+rGsB
+From Proposition 4.1.2 we know that the constant term pK1qB is the sum of two functions K1,B and R1{2K1,B, where K1,B is invariant under the normalized action of Adiag and R1{2K1,B is invariant under Aadiag. We analyze the regularized inner product of each of them with fs separately. For notational convenience, from now on  " 1.
+
+4.4 Inner product with the anti-diagonal term R1{2K,B.
+
+Here, the regularized inner product is actually a convergent integral:
+
+
+R1{2K,B ¨ fs
+rGsB
+
+for all s, therefore we can immediately take s " 0, if we wish - however,
+to fix ideas it is simpler to keep working with general s for a while, since
+s " 0 falls on the unitary spectrum. Since R1{2K,B is invariant under Aadiag, we can write it as:
+
+
+
+^
+
+
+
+R1{2K,Bpgq ¨
+Aadiag zrGsB
+
+fspagqda dg.
+Aadiag
+
+Identifying pA ^ Aq{Aadiag with A via either of the two factors, and acting by it on AadiagzrGs, we recall that the function R1{2K,B is of rapid decay as paq Ñ 8 (i.e., towards the cusp), and of moderate growth in
+the opposite direction, while the function in the inner integral is of rapid
+decay as paq Ñ 0 and of moderate growth towards the cusp. We can thus
+apply Theorem 3.3.4 to spectrally decompose this inner product. Notice
+
+64
+
+that the Mellin transform of the function in the inner integral, under the pA ^ Aq{Aadiag-action, is
+
+
+
+
+
+z ÞÑ ´ p 1`2z a1q fsppa, a1a´1qgqdada1 "
+
+A
+
+A
+
+
+
+
+
+" ´ 2 p 1`z a1a2q
+
+fsppa1, a2qgqda1da2 " fspz, zq.
+
+A^A
+
+Aadiag
+
+Hence we get a spectral decomposition away from the unitary line:
+
+R1{2K,B ¨ fs "  1 R1­ {2K,Bp´zq, fspz, zq dz,  `i8
+
+rGsB
+
+2i ´i8
+
+with  " 0. (Recall from the comments following (4.2) that the Mellin transform of fs is understood as a function of two variables, while the Mellin transform of R1{2K,B is a function of a single variable, living in pa°Cqdiag.)
+Notice that fspz, zq P z b z. Using multiplication by s to identify z with z`s, we can also write:
+fspz, zq " fpz, z ´ sq.
+
+Shifting the contour of integration to  " 0, we pick up the residues of
+R1­ {2K,B corresponding to residual automorphic representations (s. Proposition 4.1.2), and the residue corresponding to the pole of the function pz1, z2q ÞÑ fpz1, z2 ´ sq along the plane s ` aC°,adiag, when psq  0. In the case s " 0, which is the one of interest to us, we need to use a principal value integral
+as in (3.5); this gives:
+
+Proposition 4.4.1. We have
+
+R1{2K,B ¨ f "  1 P V R1­ {2K,Bp´zq, fpz, zq dz `  `i8
+
+rGsB
+
+2i
+
+´i8
+
+` 1 R1­ {2K,Bp0q, Resz"0fpz, zq ´ ÿ Resz"z1 R1­ {2K,Bp´zq, fpz1, z1q (.4.20)
+
+2
+
+pz1q0
+
+To complete the analysis of the inner product with the anti-diagonal term, we explicate the discrete terms; we will also "symmetrize" the continuous contribution with respect to the intertwining operators.
+
+Proposition 4.4.2. Let  " pf q. The discrete terms in (4.20) can be expressed as follows:
+
+65
+
+·
+
+1
+
+R1­ {2K,Bp0q, Resz"0fpz, zq
+
+1 "
+
+M p0q0pdgq, :p0q ,
+
+(4.21)
+
+2
+
+4
+
+where : " f : P 0 " SpAzrGs, 0q is the asymptote of  (or of f ), according to (2.8), its Mellin transform is considered as a Hilbert-Schmidt operator by (4.7), and the pairing on the right is the pairing of Hilbert- Schmidt operators on 0;
+
+·
+
+´ Resz"z1 R1­ {2K,Bp´zq, fpz1, z1q
+
+"
+
+disc
+
+disc 1 1
+
+z1 pdgq, |B pz , z q
+
+,
+
+disc
+z1
+
+(4.22)
+
+where
+
+
+
+"
+
+pf q,
+
+and
+
+disc
+z1
+
+is
+
+the
+
+discrete
+
+automorphic
+
+representation
+
+ob-
+
+tained as the residue of Eisenstein series E : z Ñ C8prHsq at z " z1,
+
+the operator zd1iscpdgq, here, is identified as an element of dz1iscb^ dz1isc as in Definition 3.7.7, and |Bdiscpz1, z1q is the image of |Bdiscpz1, z1q P z1b^ z1
+
+in dz1iscb^ dz1isc under (3.34).
+
+The continuous term can also be written: 1  `i8 K~ ,Bp´zq, M1p´zqfp´z, ´zq ` M2pzqfpz, zq dz. 2i 0
+
+Proof. A simple analysis of Mellin transform on R`^ shows that
+
+
+
+lim z
+
+f
+
+ppa,
+
+aqgq´1´
+
+z 2
+
+paqda
+
+"
+
+f
+
+:pgq,
+
+zÑ0 A
+
+and by integrating this relation over the action of t1u^A against a character, one obtains:
+
+1
+
+1
+
+
+
+1 ´1´ z2
+
+´ 2 1`z1 1 1
+
+lim zf p´z ` z, z q " lim z
+
+f ppa, aa qgq paqda pa qda "
+
+zÑ0
+
+zÑ0 A A
+
+1`z  1 " f :pa1q´ 2 pa1qda1 " fpz1q.
+A
+Thus, Resz"0fpz, zq " 12 fp0q, therefore
+
+1
+
+R1­ {2K,Bp0q, Resz"0fpz, zq
+
+1 "
+
+R1­ {2K,Bp0q, f:p0q
+
+.
+
+2
+
+4
+
+66
+
+Recalling from (4.6) and from (4.8) that R1­ {2K,Bp0q " M p0qK~ ,Bp0q "
+
+M
+
+p0q0pdgq,
+
+this
+
+can
+
+also
+
+be
+
+written
+
+as
+
+1 4
+
+M p0q0pdgq, f:p0q ; this proves
+
+the first claim.
+
+For the second claim, using again the relation (4.6), one sees that the el-
+
+ement ´Resz"z1 R1­ {2K,Bp´zq P ´z1 b^ ´z1 lies in the subspace dz1iscb^ dz1isc and is equal to zd1iscpdgq. Thus, its pairing with fpz1, z1q depends only
+
+on the image of the latter via the quotient Resz"z1M1pzq ¨ Resz"z1M2pzq : z1b^ z1 Ñ dz1iscb^ dz1isc, and by Definition 3.7.7, this is indeed the pairing
+
+dz1iscpdgq, fdiscpz1, z1q . disc
+z1
+Replacing f by B, the image of fdiscpz1, z1q in dz1iscb^ dz1isc does not change, since the other summands of (4.12) will have zero contribution to this residue, since they involve residues of the expression M pzqM p´zq " Id.
+The statement about the continuous term follows from (4.6).
+
+4.5 Inner product with the diagonal term K,B.
+Now we return to (4.17), and analyze the contribution of the summand K,B of pKqB, according to Proposition 4.1.2. Since both K,B and fs have asymptotically finite behavior with respect to the Adiag action in the direction of the cusp, with K,B being of moderate growth and fs being of rapid decay in all other directions, and since K,B is Adiag-invariant (for the normalized action), we can write, for s  0:
+
+°
+
+
+
+K,Bpgqfspgqdg "
+
+° K,Bpgq fsppa, aqgq´1paqdadg "
+
+rGsB
+
+Adiag zrGsB
+
+A
+
+1  `i8
+
+"
+
+K~ ,Bp´zq, fsp´z, zq dz,
+
+2i ´i8
+
+(4.23)
+
+where  is arbitrary. (We will take  " 0.)
+
+Notice that, for s  0, fs is entire when restricted to pa°Cqadiag (which,
+
+we
+
+recall,
+
+we
+
+identify
+
+with
+
+a°
+C
+
+by
+
+restriction
+
+of
+
+the
+
+characters
+
+to
+
+the
+
+first
+
+factor of A). But, of course, as s Ñ 0 its polar hyperplane tends to coin-
+
+cide with pa°Cqadiag. This becomes clearer if we again identify fspz1, z2q with fpz1, z2 ´ sq, identifying the spaces z and z`s via multiplication by s.
+
+This identification will become important here, since we are studying non-
+
+invariant terms, and we will take it for granted from now on. In particular,
+
+67
+
+the derivative M 1psq of M psq makes sense as a (non-equivariant) linear map from s to ´s.
+The residue of the Laurent expansion of (4.23) at s " 0 was computed in Theorem 4.3.4. Now we compute the constant coefficient. It can be written:
+
+« °
+
+ff  i8
+
+
+
+1
+
+d
+
+K,Bpgqfspgqdg "
+
+K~ ,Bp´zq,  s ¨ fpz, z ´ sq dz. 
+
+rGsB
+
+0 2i ´i8
+
+ds s"0
+
+This last expression depends on f , not just on  " pf q. To transform it into one that depends only on , we are going to use relation (4.4), to write it as 12i K~ ,Bp´zq,  i8 d  0 ds  s ¨ fpz, ´z ´ sq ` M1p´zqM2pzq  d  s"0 ds  s ¨ fp´z, z ´ sq dz. s"0
+In the last term, we will replace z ´ s by z ` s, since in any case the expression is computing the constant coefficient of its Laurent expansion. Thus, the last term inside the inner product will become
+
+ d M1p´zqM2pzq  ds  s ¨ fp´z, z ` sq. s"0
+
+Notice that this picks out the constant coefficient of fp´z, z ` sq at s " 0
+
+and then applies the intertwining operator M1p´zqM2pzq. This is different from taking the constant coefficient of M1p´zqM2pz ` sqfp´z, z ` sq, and
+
+to account for that difference we add and subtract the appropriate term, to
+
+obtain:
+
+12i K~ ,Bp´zq,  i8 ^ d  0 ds  s ¨ fpz, ´z ´ sq `  d  s"0 ds  s ¨ M1p´zqM2pz ` sqfp´z, z ` sq s"0
+
+^ d
+
+
+
+
+
+´ K~ ,Bp´zq,
+
+ M1p´zqM2pz ` sq lim sfp´z, z ` sq dz. 
+
+ds s"0
+
+sÑ0
+
+The limit limsÑ0 sfp´z, z ` sq is simply f:p´zq " :p´zq, where f : " : P SpAdiagzrGs, 0q is the asymptotic of f (or of  " pf q). Thus we
+
+obtain:
+
+Proposition 4.5.1. We have
+
+1  i8 ^ "
+2i 0
+
+« ° ff
+K,Bpgqfspgqdg "
+rGsB 0
+
+
+
+d `
+
+
+
+K~ ,Bp´zq,  ds  s fpz, ´z ´ sq ` M1p´zqM2pz ` sqfp´z, z ` sq s"0
+
+¯
+
+´
+
+K~ ,B
+
+p´
+
+z
+
+q,
+
+M1
+
+p´z
+
+q
+
+M
+
+1 2
+
+p
+
+z
+
+q:
+
+p´z
+
+q
+
+dz
+
+(4.24)
+
+68
+
+4.6 Spectral side of the Selberg trace formula
+
+Combining Propositions 4.4.1, 4.4.2, and 4.5.1, we get:
+
+« ° 1 ff Kpgqpfsqpgqdg "
+rGs 0 4
+
+ÿ M p0q0pdgq, :p0q `
+pz1q0
+
+
+
+disc z1
+
+p
+
+
+
+dg
+
+q
+
+,
+
+disc
+z1
+
+pdg
+
+q
+
+` ^ 1 K~ ,Bp´zq, M1p´zqfp´z, ´zq ` M2pzqfpz, zq dz  `i8 2i 0
+
+1  i8
+
+
+
+d
+
+`
+
+
+
+` 2i 0
+
+K~ ,Bp´zq,  ds  s ¨ fpz, ´z ´ sq ` M1p´zqM2pz ` sqfp´z, z ` sq s"0
+
+¯
+
+´
+
+K~ ,B
+
+p´z
+
+q
+
+,
+
+M1
+
+p´z
+
+qM
+
+1 2
+
+pz
+
+q
+
+:
+
+p´z
+
+q
+
+dz
+
+.
+
+We can combine the integrands in the second and third lines into
+
+
+
+d
+
+`
+
+K~ ,Bp´zq,  ds  s ¨ fpz, ´z ´ sq ` M1p´zqfp´z, ´z ´ sq` s"0
+
+`M2pz ` sqfpz, z ` sq ` M1p´zqM2pz ` sqfp´z, z ` sq "
+
+ d " K~ ,Bp´zq,  ds  s ¨ |Bpz, ´z ´ sq . s"0 Now all the integrands are continuous functions of . This implies:
+
+Theorem 4.6.1. For  P SpHpAkqq and  P S0`prGsqprEis with asymptote : P SpAdiagzrGs, 0q, we have a decomposition:
+
+1
+
+:ÿ
+
+r K, s s0 " M p0q0pdgq,  p0q `
+
+
+
+disc z1
+
+p
+
+dg
+
+q,
+
+disc
+z1
+
+pdg
+
+q
+
+4
+
+pz1q0
+
+` 12i K~ ,Bp´zq,  i8 ^ d  0 ds  s ¨ |Bpz, ´z ´ sq s"0
+
+¯
+
+´
+
+K~ ,B
+
+p´z
+
+q,
+
+M1
+
+p´
+
+z
+
+qM
+
+1 2
+
+pz
+
+q:
+
+p´z
+
+q
+
+dz.
+
+(4.25)
+
+Proof. When  " pf q is a pseudo-Eisenstein series, this has already been established. In the general case, by Proposition 4.2.1, we may always subtract a pseudo-Eisenstein series so that the difference is a Schwartz function. This reduces us to the case  P SprGsq " SprHsqb^ SprHsq. But this is the case of the inner product in rank one, since for 1, 2 P SprHsq we have
+
+K, 1 b 2 rGs " 1,  < 2 rHs .
+
+69
+
+Thus, the result is a special case of Theorem 3.7.5.
+
+Finally, specializing to  " 1,  " pK2qprEis, where we have written K2 " pK2 qprEis ` pK2 qnpr
+according to Proposition 4.2.1, the last term disappears. Indeed:
+
+Lemma 4.6.2. When  " pK2qprEis, we have p~ qBpz, ´z ´ sq " 0 for generic values of s.
+
+Proof. Indeed, the map 2 ÞÑ K­ 2,Bpz, ´z ´ sq is a morphism SpHpAkqq Ñ zb^ ´z´s, which has to be zero for generic s because there is no non-zero invariant pairing between (the duals) ´z and z`s.
+The term |Bdiscpz1, z1q of (4.22) can be identified with zd1iscp2dgq under Definition 3.7.7.
+Moreover, under the map zb^ ´z Ñ Endpzq, and given that the adjunction formula (3.30) extends to M 1pzq, the element
+
+1 ­: M1p´zqM2pzqpK2 qB p´zq
+
+"
+
+M1p´zqM21 pzqK­ 2,Bp´zq
+
+P
+
+zb^ ´z
+
+becomes the operator
+
+M p´zq´zp2dgqM 1pzq " zp2dgqM p´zqM 1pzq P Endpzq.
+
+Finally, one easily sees that
+
+ÿ
+
+pK1 qnpr, pK2 qnpr rGs "
+
+p1dgq, p2dgq .
+
+PH^ cAuustp
+
+Thus, we obtain the spectral side of the non-invariant trace formula:
+
+Theorem 4.6.3. For 1, 2 P SpHpAkqq we have a decomposition:
+
+ÿ
+
+r K1 , pK2 qs s0 "
+
+p1dgq, p2dgq `
+
+PH^ cAuustp
+
+ÿ `
+
+
+
+disc z1
+
+p
+
+
+
+1
+
+dg
+
+q,
+
+disc
+z1
+
+p
+
+
+
+2
+
+dg
+
+q
+
+1 `
+
+M p0q0p1dgq, 0p2dgq
+
+pz1q0
+
+4
+
+´ 1 ´zp1dgq, zp2dgqM p´zqM 1  i8 pzq dz 2i 0
+
+(4.26)
+
+Of course, this is the same as (1.1) if we set
+
+
+
+pgq
+
+"
+
+_
+1
+
+<
+
+2pgq
+
+"
+
+1phq2phgqdh.
+
+H pAk q
+
+70
+
+5 The geometric side
+
+For the geometric side I have essentially nothing new to add, so I will just give a brief overview. Once one tries to compute (4.17):
+
+" i « ° ff
+
+TFp1 b 2q " K1 , pK2 qs rGs ° "
+
+K1 pK2 qs
+
+rGs
+
+by expanding the definitions of K1 and K2, one arrives at the following
+
+expression,
+
+where
+
+we
+
+have
+
+set
+
+pgq
+
+"
+
+_
+1
+
+<
+
+2pgq:
+
+»
+
+fi
+
+° -
+
+ÿ ÿ « ° ÿ ff
+
+pg´1gqsU pgqdgfl "
+
+pg´1gqsU pgqdg , (5.1)
+
+rHs PHpkq
+
+o rHs Po
+
+where U is the function which is equal to  in a Siegel neighborhood U
+
+of the cusp in rHs, and 1 otherwise, and o runs over all equivalence classes
+
+in Hpkq, where two elements are equivalent if their Jordan decompositions
+
+have conjugate semisimple parts. Equivalently (for the group PGL2), each
+
+o corresponds to a k-rational point on H " spec krHsH´conj - except for the HH
+traceless classes, which all correspond to the same point of . H
+The two-step Laurent expansion represented by the brackets r s de-
+
+pends continuously on the integrand without the sU factor (which is an
+
+element of S 1`prHsq), which in turn is of rapid decay in the parameter o P H
+
+2
+
+H
+
+(because  is of rapid decay), allowing us to put the brackets inside of the
+
+o-sum. More precisely, the o-summand of the integrand is of rapid decay if
+
+o is regular elliptic, and asymptotically finite with exponent 1 (i.e., normal-
+
+ized
+
+character
+
+1
+2
+
+-
+
+unnormalized
+
+1)
+
+if
+
+o
+
+is
+
+hyperbolic,
+
+or
+
+the
+
+equivalence
+
+class of the identity.
+
+An elliptic class o contributes its orbital integral, multiplied by the vol-
+
+ume of stabilizers:
+
+« °
+
+ff 
+
+ÿ
+
+pg´1gqsU pgqdg "
+
+ÿ pg´1gqdg "
+
+rHs Po
+
+rHs Po
+
+
+
+" VolprHsq
+
+pg´1gqdg,
+
+H pAk qzH pAk q
+
+where  P o is a representative.
+
+71
+
+Now we analyze the other classes. It is easier on the geometric side to work with truncation, so we use Lemma 4.3.1 which here translates to the statement that the coefficients a´1 and a0 of the Laurent expansion of the o-summand in (5.1) are such that the integral
+
+ ÿ pg´1gqdg
+rHs UT Po
+
+(5.2)
+
+is equal to
+
+´ a´1T ` a0 ` ope´NT q
+
+(5.3)
+
+for every N " 0, as T Ñ 8, where UT is the neighborhood of infinity used in (4.15).
+Let us study the case of o " strongly regular hyperbolic (i.e., centralizers are split tori) and choose a point  P opkq with M :" H » Gm, so that its orbit is o " M zHpkq. The basic goal is to obtain an expression for the coefficients of the asymptotic expansion (5.3) which is local.
+For notational simplicity, but also to avoid confusion, we let f be the restriction of  to o, denoted as a function on M zHpAkq; so, we need to evaluate the asymptotic expansion (5.3) of
+
+
+ÿ f pgqdg.
+rHs UT PM zHpkq
+
+(5.4)
+
+We described above the asymptotic behavior of the integrand, but we will study it again using its constant term. As usual, we decompose the corresponding calculation into a sum over B-orbits:
+
+¨
+
+
+
+
+
+ÿ
+
+ÿ
+
+ÿ
+
+
+
+f pgq, "
+
+f pngqdn,
+
+PM zHpkq
+
+B PM pkqzHpkq{Bpkq PApkq{Apkq NzN pAkq
+
+where A is the image of M ´1 X B in A " B{N . The first sum is here finite - in higher rank it is infinite. In any case, it
+can easily be seen that the summands are of rapid decay, unless M  belongs to B. (Compare with Example 2.4.3). Thus:
+
+~
+
+¸
+
+
+
+ÿ
+
+ÿ
+
+f pgq ,,
+
+f pwngqdn,
+
+Po B w N pAkq
+
+where again ,, means that their difference is a rapidly decaying function in a neighborhood of the cusp in rHsB, and the sum on the right is over
+
+72
+
+double M zH{B-cosets (over k) with w´1M w  B - they form a torsor for
+
+the Weyl group of M , hence the notation.
+
+Thus, the coefficients of the asymptotic expansion (5.3) will be the same
+
+if instead of truncating we subtract the above asymptotic expansion, re-
+
+stricted
+
+to
+
+the
+
+neighborhood
+
+U1
+T
+
+of
+
+the
+
+cusp
+
+in
+
+B pkqzH pAk q
+
+which
+
+corre-
+
+sponds to (and maps isomorphically to) UT  rHs:
+
+¨
+
+
+
+
+
+
+
+ÿ
+
+ÿ
+
+ f pgq ´ 1U1T pgq ¨
+
+f pwngqdn,dg.
+
+rHs PM zHpkq
+
+w N pAkq
+
+(5.5)
+
+ We are slightly abusing notation here, since the function g ÞÑ NpAkq f pwngqdn
+
+lives on rHsB (and hence also on BpkqzHpAkq), not on rHs. However, iden-
+
+tifying
+
+UT
+
+and
+
+U1
+T
+
+,
+
+the
+
+restriction
+
+of
+
+this
+
+function
+
+to
+
+U1
+T
+
+makes
+
+sense
+
+as
+
+a
+
+function on rHs.
+
+We now partition M pkqzHpAkq into three sets, two of them denoted by VTw, where w runs over M pkqzHpkq{Bpkq-cosets with w´1M w  B, as in the above sum, and their complement by V rest T . The sets V w T are defined in
+
+terms of the maps M pkqzHpAkq Ñ BpkqzHpAkq defined by w:
+
+M pkqzHpAkq Q x ÞÑ w´1x P BpkqzHpAkq,
+
+and
+
+are
+
+defined
+
+as
+
+the
+
+preimages
+
+of
+
+U1
+T
+
+under
+
+these
+
+maps.
+
+Lemma 5.0.1. For T " 0, the sets VTw, w P W , are disjoint. The set V rest T has compact fibers under the map M pkqzHpAkq Ñ M zHpAkq.
+
+We correspondingly write f " w  fTw ` f rest T for the decomposition of f into its summands, restricted to these sets. The w-summand cancels with
+the corresponding summand of the asymptotics in (5.5):
+
+Lemma 5.0.2. For each w,
+
+¨
+
+
+
+
+
+
+
+ÿ
+
+
+
+fTwpgq ´ 1UT pgq ¨
+
+f pwngqdn,dg " 0.
+
+rHs PM zHpkq
+
+N pAkq
+
+1 Here we identify the function g ÞÑ NpAkq f pwngqdn, restricted to UT  BpkqzHpAkq, as a function on UT  rHs.
+
+Proof. Writing
+
+ÿ
+
+ÿ
+
+fTwpgq "
+
+ÿ fTw p  g q
+
+PM zHpkq
+
+PBzHpkq PM zM wBpkq
+
+73
+
+ÿ
+
+ÿ
+
+" 1U1T pgq
+
+f pgq,
+
+PB zH pkq
+
+PM zM wBpkq
+
+we have
+
+¨
+
+
+
+
+
+
+
+ÿ
+
+
+
+fTwpgq ´ 1UT pgq ¨
+
+f pwngqdn,dg "
+
+rHs PM zHpkq
+
+N pAkq
+
+¨
+
+
+
+
+
+
+
+ÿ
+
+" 1U1T pgq  f pgq ´ f pwngqdn,dg.
+
+B pkqzH pAk q
+
+PM zM wBpkq
+
+N pAkq
+
+ We have M zM wBpkq " wN pkq, and writing the outer integral as rHsB rNs, the expression vanishes.
+
+Corollary 5.0.3. The expression (5.5) is equal to
+ f pxqvT pxqdx,
+M zHpAkq
+where vT pxq " Volta P rM s|@w pw´1axq  eT u, where we remind that
+1
+pbkq "  2 pbq is the height function on BpkqzHpAkq.
+
+Proof. This is just the integral
+
+
+
+
+
+ÿ fTrestphqdh "
+
+fTrestphqdh.
+
+rHs PM zHpkq
+
+M pkqzHpAkq
+
+Finally, we explicate the a´1 and a0 coefficients of the expansion (5.3). To formulate, we need to fix some measures. Let rM s1 denote the idele
+
+classes of norm one, so that rM s " rM s1 ^ R`^ » rAs1 ^ R^`, when we iden-
+
+tify M with the universal Cartan A though any element w. Recall that the
+
+embedding R`^ ãÑ rAs has been fixed to be compatible with the character
+
+1
+2.
+
+We
+
+take
+
+the
+
+usual
+
+measure
+
+dx x
+
+on
+
+R^`,
+
+and
+
+then
+
+choose
+
+any
+
+compatible
+
+measures on rM s1 and M zHpAkq (compatible with our measure on rHs) for
+
+the above formulas to hold.
+
+Proposition 5.0.4. For o " M zH a strongly regular hyperbolic orbit, writing f pgq " pg´1gq, the coefficients of (5.3) are
+
+
+
+a´1 " ´2 VolprM s1q
+
+f pgqdg
+
+M zHpAkq
+
+74
+
+(the orbital integral), and
+
+
+
+a0 "
+
+f pgqvpgqdg,
+
+M zHpAkq
+
+(the weighted orbital integral), where vpgq " v0pgq " Volta P rM s|@w pw´1agq  1u.
+
+Proof. It is easy to see that in the domain (for T ) where the sets V w T are all disjoint (or, more precisely, intersect with measure zero), the expression is linear in T , with linear coefficient equal to 2 VolprM s1q MzHpAkq  f pgqdg.
+By our choice of an Iwasawa pair pB, Kq with property (4.14), this will
+already be true for T " 0.
+
+Remark 5.0.5. In usual expositions of the trace formula, the torus M is iden-
+tified with a subtorus of B, w runs over the Weyl group, so for w " 1 the condition pw´1axq  1 reads paq  1, and hence
+
+vpgq " ´ logppwngqq,
+
+where w is the non-trivial element of the Weyl group and g " ag ¨ ng ¨ kg P M N K is an Iwasawa decomposition for g. Indeed, we may assume that g " ng and then we have pwangq " paq´1pwngq, so the conditions in the definition of vpgq translate to paq  1 and paq  pwngq.
+Remark 5.0.6. If M is chosen inside of the chosen Borel B (and through that, identified with the universal Cartan A), we can write the integral over M zH as an integral over N ^ K, where the measure on K is chosen compatibly with the chosen measure on M zH. More precisely, we have
+
+
+
+
+
+pg´1gqdg "
+
+pk´1n´1nkqdkdn
+
+M zHpAkq
+
+N pAkq K
+
+
+
+"
+
+pk´1nkqdkdn,
+
+N pAkq K
+
+where we have used the fact that  is regular and rational.
+
+There is also a regular hyperbolic orbit (the orbit represented by a with eigenvalues p1, ´1q) which is not strongly regular - that means, centralizers are not connected tori, but disconnected groups whose identity components are tori. This should not be confused with a geometric orbit: this nonstrongly regular hyperbolic orbit belongs to a geometric orbit isomorphic
+
+75
+
+to NGpM qzH, where M is a split torus and NG denotes the normalizer, but its k-points also contain elliptic elements. The analysis of this hyperbolic orbit proceeds as before, by pulling the function f back to M zHpAkq via the quotient map M zH Ñ NGpM qzH. The result is the same formula as in Proposition 5.0.4, but with a coefficient of 12 .
+Finally, we need to analyze the contribution of o " the class of the identity element.
+Remark 5.0.7. The explicit calculation of the contribution of the non-regular classes is not really important! The result is not Eulerian and we don't expect to use it directly. Rather, in every comparison of trace formulas, the equality of irregular summands is deduced indirectly from the equality of regular ones. More important is a property of compatibility with Poisson summation (at the level of Lie algebras), that I will not discuss in this paper.
+
+Proposition 5.0.8. The summand of (5.1) corresponding to o " the class of the identity element is equal to
+s VolprHsqp1q ` rZpF, 1 ´ 2 qs,
+^ ^1 x  where Fpxq " K   k´1 1 k dk and Z denotes the Tate integral
+
+
+
+Zpf, sq "
+
+f pxq|x|sd^x.
+
+Ak ^
+
+The measure on Ak^ is obtained here by fixing compatible measures on ApAkq and K (compatible with our fixed measure on HpAkq), identifying ApAkq » Ak^ via the character ´1.
+
+Proof. Notice that the nilpotent cone can be identified with the affine clo-
+sure of Y :" N zH (i.e. the union of N zH and a "cusp" corresponding to
+the identity element 1), and that the restriction of  to it is of rapid decay at the "funnel" of Y . Thus, the sum Po  pg´1gq can be thought of as a pseudo-Eisenstein series, except that the function we input does not live in
+SpN zHpAkq, but extends (locally, at every place) to a continuous function
+on the affine closure.
+Set f " the restriction of  to the regular nilpotent set, identified with a function on Y pAkq " N zHpAkq. We split the sum Po  pg´1gq into p1q`
+PY pkq f pgq. The first term is constant and hence integrable over rHs. For the other, to calculate the contribution of o to (5.1), it is here preferable to use meromorphic continuation, and replace the term sU by simply s,
+
+76
+
+considered here as a function on Y pAkq. (The details are as in Lemma 4.3.5.) We obtain:
+
+« ° ÿ ff « pg´1gqsU pgqdg " VolprHsqp1q `
+
+ff f pgqspgqdg .
+
+rHs Po
+
+N zHpAkq
+
+Decomposing NzHpAkq  as ApAkq  ´1paq K  , and remembering that  "
+1
+ 2 , we obtain:
+
+,,
+
+
+
+VolprHsqp1q `
+
+F
+
+p
+
+aq|
+
+a|
+
+1´
+
+s 2
+
+d^
+
+a
+
+.
+
+Ak ^
+
+It can easily be seen (locally, at every place) that the function F is a
+
+Schwartz
+
+function
+
+on
+
+Ak .
+
+The
+
+residue
+
+of
+
+Z pF ,
+
+1
+
+´
+
+s 2
+
+q
+
+at
+
+s
+
+"
+
+0
+
+will
+
+therefore
+
+be equal to
+
+  ^ ^ 
+
+´2 VolprGms1qFxp0q " ´2 VolprGms1q
+
+ k´1 1 x k dadx "
+
+Ak K
+
+1
+
+  ^ ^1 x 
+
+" ´ VolprAs1q
+
+ k´1
+
+k dadx.
+
+Ak K
+
+1
+
+Remark 5.0.9. A subtle point here is that one cannot fix measures dx on Ak and d^x on Ak^ which satisfy d^x " dxx . Thus, we are using the standard measure on Ak " N pAkq (which is self-dual with respect to characters of Ak{k), and quite an arbitary measure on ApAkq " Ak^ (chosen compatibly
+with the measure on K). Typically, given a measure on rGms one takes the measure on rGms1 to be the one compatible with the short exact sequence
+
+1
+
+|,| ^
+
+1 Ñ rGms Ñ rGms ÝÑ R` Ñ 1,
+
+and
+
+the
+
+standard
+
+measure
+
+dx x
+
+on
+
+R^`.
+
+However,
+
+for
+
+the
+
+universal
+
+Cartan
+
+A
+
+we have above taken the measure on rAs1 to be the one corresponding to
+
+the short exact sequence
+
+1
+
+1
+
+2 ^
+
+1 Ñ rAs Ñ rAs ÝÝÑ R` Ñ 1.
+
+This explains the disappearance of the factor 2 from the last equality, since
+
+the identification A » Gm was here via the character ´1.
+
+(It
+
+is
+
+clearly
+
+a
+
+poor
+
+choice
+
+to
+
+be
+
+working
+
+with
+
+s
+2
+
+instead
+
+of
+
+s,
+
+which
+
+I
+
+have followed for historical compatibility.)
+
+77
+
+We have shown:
+
+Theorem
+
+5.0.10.
+
+Choose
+
+any
+
+split
+
+torus
+
+M
+
+
+
+H.
+
+Setting
+
+pgq
+
+"
+
+_
+1
+
+< 2,
+
+we
+
+have
+
+
+
+ÿ
+
+TF´1p1 b 2q " ´
+
+VolprAs1q
+
+ `k´1nk dkdn,
+
+PApkq
+
+N pAkq K
+
+(5.6)
+
+and
+
+
+
+ÿ
+
+TF0p1 b 2q "
+
+VolprH sq
+
+pg´1gqdg `
+
+o"rs: elliptic
+
+H pAk qzH pAk q
+
+1 ÿ `
+
+pg´1gqvpgqdg `
+
+2
+PM pkq
+
+M zHpAkq
+
+s VolprHsqp1q ` rZpF, 1 ´ 2 qs0,
+
+(5.7)
+
+^ ^1 x 
+
+where Fpxq " K   k´1
+
+1 k dk.
+
+Equating the spectral and geometric expressions for TF0 from Theorems 4.6.3 and 5.0.10 (see also (1.1)), we get the Selberg trace formula:
+
+Theorem 5.0.11. Let  P SprHsq, then
+
+ÿ
+
+1
+
+1  i8
+
+trppqq ` trpM p0q0pqq ´
+
+trpM p´zqM 1pzqzpqqdz "
+
+4
+PH^ Aut
+
+4i ´i8
+
+disc
+
+
+
+ÿ
+
+"
+
+VolprH sq
+
+pg´1gqdg` 1 ÿ 
+
+pg´1gqvpgqdg`
+
+o"rs: elliptic
+
+H pAk qzH pAk q
+
+2
+PM pkq
+
+M zHpAkq
+
+s VolprHsqp1q ` rZpF, 1 ´ 2 qs0. (5.8)
+
+6 The invariant trace formula (TO BE ADDED!)
+TO BE ADDED.
+
+78
+
+References
+
+[BK14]
+
+Joseph Bernstein and Bernhard Kro¨ tz. Smooth Fre´chet globalizations of Harish-Chandra modules. Israel J. Math., 199(1):45-111, 2014. doi:10.1007/s11856-013-0056-1.
+
+[Cas89] W. Casselman. Introduction to the Schwartz space of zG. Canad. J. Math., 41(2):285-320, 1989. doi:10.4153/CJM-1989-015-6.
+
+[Cas93]
+
+W. Casselman. Extended automorphic forms on the upper half plane. Math. Ann., 296(4):755-762, 1993. doi:10.1007/ BF01445135.
+
+[Cas04]
+
+Bill Casselman. Harmonic analysis of the Schwartz space of zSL2pRq. In Contributions to automorphic forms, geometry, and number theory, pages 163-192. Johns Hopkins Univ. Press, Baltimore, MD, 2004.
+
+[FLM11] Tobias Finis, Erez Lapid, and Werner Mu¨ ller. On the spectral side of Arthur's trace formula--absolute convergence. Ann. of Math. (2), 174(1):173-195, 2011. doi:10.4007/annals.2011.174. 1.5.
+
+[HC68] [M8¨ 9]
+
+Harish-Chandra. Automorphic forms on semisimple Lie groups. Notes by J. G. M. Mars. Lecture Notes in Mathematics, No. 62. Springer-Verlag, Berlin-New York, 1968.
+Werner Mu¨ ller. The trace class conjecture in the theory of automorphic forms. Ann. of Math. (2), 130(3):473-529, 1989. doi: 10.2307/1971453.
+
+[MW95]
+
+C. Moeglin and J.-L. Waldspurger. Spectral decomposition and Eisenstein series, volume 113 of Cambridge Tracts in Mathematics. Cambridge University Press, Cambridge, 1995. Une paraphrase de l'E´ criture [A paraphrase of Scripture]. doi:10.1017/
+CBO9780511470905.
+
+[Sak]
+
+Yiannis Sakellaridis. Beyond endoscopy for the relative trace formula II: global theory. To appear in J. Inst. Math. Jussieu, 109pp. arXiv:1402.3524.
+
+79
+
+[Sak13]
+
+Yiannis Sakellaridis. Beyond endoscopy for the relative trace formula I: Local theory. In Automorphic representations and Lfunctions, volume 22 of Tata Inst. Fundam. Res. Stud. Math., pages 521-590. Tata Inst. Fund. Res., Mumbai, 2013.
+
+[Sak16]
+
+Yiannis Sakellaridis. The Schwartz space of a smooth semialgebraic stack. Selecta Math. (N.S.), 22(4):2401-2490, 2016. doi: 10.1007/s00029-016-0285-3.
+
+80
+
+
