@@ -1,0 +1,255 @@
+\documentclass[12pt,a4paper,twoside]{book}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsthm,amssymb,amsfonts}
+\usepackage{mathtools}
+\usepackage{thmtools}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[backend=biber,style=alphabetic,sorting=nyt]{biblatex}
+\usepackage{makeidx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage{mdframed}
+\usepackage{tcolorbox}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+% Page geometry
+\geometry{
+    a4paper,
+    total={160mm,247mm},
+    left=25mm,
+    top=25mm,
+}
+
+% Bibliography
+\addbibresource{bibliography/references.bib}
+
+% Index
+\makeindex
+
+% Theorem environments
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{algorithm}[theorem]{Algorithm}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{note}[theorem]{Note}
+\newtheorem{observation}[theorem]{Observation}
+
+% Custom environments for highlighted content
+\newtcolorbox{highlight}{
+    colback=yellow!10!white,
+    colframe=yellow!50!black,
+    title=Key Point,
+    fonttitle=\bfseries
+}
+
+\newtcolorbox{openproblem}{
+    colback=red!5!white,
+    colframe=red!50!black,
+    title=Open Problem,
+    fonttitle=\bfseries
+}
+
+\newtcolorbox{historicalnote}{
+    colback=blue!5!white,
+    colframe=blue!50!black,
+    title=Historical Note,
+    fonttitle=\bfseries
+}
+
+% Custom commands
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\zeta}{\zeta}
+\newcommand{\Li}{\operatorname{Li}}
+\newcommand{\RH}{\mathrm{RH}}
+\newcommand{\GRH}{\mathrm{GRH}}
+\newcommand{\LH}{\mathrm{LH}}
+\DeclareMathOperator{\Re}{Re}
+\DeclareMathOperator{\Im}{Im}
+\DeclareMathOperator{\res}{Res}
+\DeclareMathOperator{\ord}{ord}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!50!black,
+    citecolor=green!50!black,
+    urlcolor=red!50!black,
+    bookmarksopen=true,
+    bookmarksnumbered=true,
+    pdftitle={The Riemann Hypothesis: Approaches, Obstructions, and Modern Perspectives},
+    pdfauthor={},
+    pdfsubject={Mathematics - Analytic Number Theory},
+    pdfkeywords={Riemann Hypothesis, Zeta Function, L-functions, Analytic Number Theory}
+}
+
+% Title and author information
+\title{{\Huge \textbf{The Riemann Hypothesis}}\\[1cm]
+{\Large Approaches, Obstructions, and Modern Perspectives}\\[2cm]
+{\large A Comprehensive Mathematical Analysis}}
+
+\author{Compiled from Research Repository}
+
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\tableofcontents
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\input{chapters/preface}
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\input{chapters/introduction}
+
+\mainmatter
+
+% Part I: Foundations and Classical Theory
+\part{Foundations and Classical Theory}
+
+\chapter{The Riemann Zeta Function}
+\label{ch:riemann_zeta}
+\input{chapters/ch01_riemann_zeta}
+
+\chapter{Classical Approaches to the Riemann Hypothesis}
+\label{ch:classical_approaches}
+\input{chapters/ch02_classical_approaches}
+
+\chapter{L-Functions and the Selberg Class}
+\label{ch:l_functions}
+\input{chapters/ch03_l_functions}
+
+% Part II: Modern Operator-Theoretic Approaches
+\part{Modern Operator-Theoretic Approaches}
+
+\chapter{The Hilbert-Pólya Program}
+\label{ch:hilbert_polya}
+\input{chapters/ch04_hilbert_polya}
+
+\chapter{de Branges Theory}
+\label{ch:debranges}
+\input{chapters/ch05_debranges}
+
+\chapter{The Selberg Trace Formula}
+\label{ch:selberg_trace}
+\input{chapters/ch06_selberg_trace}
+
+% Part III: Analytic and Computational Methods
+\part{Analytic and Computational Methods}
+
+\chapter{Integral Transforms and Harmonic Analysis}
+\label{ch:integral_transforms}
+\input{chapters/ch07_integral_transforms}
+
+\chapter{Exponential Sums and Diophantine Analysis}
+\label{ch:exponential_sums}
+\input{chapters/ch08_exponential_sums}
+
+\chapter{Computational Verification and Numerical Evidence}
+\label{ch:computational}
+\input{chapters/ch09_computational}
+
+% Part IV: Obstructions, Doubts, and Defenses
+\part{Obstructions, Doubts, and Defenses}
+
+\chapter{Fundamental Obstructions to Proof}
+\label{ch:obstructions}
+\input{chapters/ch10_obstructions}
+
+\chapter{Doubts and Defenses of the Riemann Hypothesis}
+\label{ch:doubts_defenses}
+\input{chapters/ch11_doubts_defenses}
+
+% Part V: Special Topics and Modern Developments
+\part{Special Topics and Modern Developments}
+
+\chapter{Siegel Modular Forms and Higher-Dimensional Theory}
+\label{ch:siegel}
+\input{chapters/ch12_siegel}
+
+\chapter{Random Matrix Theory and Quantum Chaos}
+\label{ch:random_matrix}
+\input{chapters/ch13_random_matrix}
+
+\chapter{Alternative and Emerging Approaches}
+\label{ch:alternative}
+\input{chapters/ch14_alternative}
+
+% Part VI: Synthesis and Future Directions
+\part{Synthesis and Future Directions}
+
+\chapter{Unified Understanding}
+\label{ch:unified}
+\input{chapters/ch15_unified}
+
+\chapter{Future Research Directions}
+\label{ch:future}
+\input{chapters/ch16_future}
+
+% Appendices
+\appendix
+
+\chapter{Mathematical Prerequisites}
+\label{app:prerequisites}
+\input{appendices/app_a_prerequisites}
+
+\chapter{Detailed Proofs}
+\label{app:proofs}
+\input{appendices/app_b_proofs}
+
+\chapter{Historical Timeline}
+\label{app:timeline}
+\input{appendices/app_c_timeline}
+
+\chapter{Notation and Conventions}
+\label{app:notation}
+\input{appendices/app_d_notation}
+
+\backmatter
+
+\printbibliography[heading=bibintoc,title={Bibliography}]
+
+\printindex
+
+\end{document}

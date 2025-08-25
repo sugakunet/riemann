@@ -1,0 +1,513 @@
+% Chapter 1: The Riemann Zeta Function
+% This chapter provides a comprehensive introduction to the Riemann zeta function,
+% its analytic properties, and fundamental importance in number theory.
+
+\chapter{The Riemann Zeta Function}
+\label{ch:riemann_zeta}
+
+\begin{quote}
+\textit{``Es ist sehr wahrscheinlich, dass alle Wurzeln reell sind. Hiervon wäre allerdings ein strenger Beweis zu wünschen; ich habe indess die Aufsuchung desselben nach einigen flüchtigen vergeblichen Versuchen vorläufig bei Seite gelassen.''} \\
+--- Bernhard Riemann, 1859 \textit{(``It is very probable that all roots are real. A rigorous proof of this would certainly be desirable; however, after some fleeting unsuccessful attempts, I have provisionally set aside the search for it.'')}
+\end{quote}
+
+The Riemann zeta function $\zeta(s)$ stands as one of the most profound and mysterious objects in mathematics. Born from the simple Dirichlet series $\sum_{n=1}^{\infty} n^{-s}$, it has grown to become the central figure in analytic number theory, connecting the distribution of prime numbers to the zeros of a complex function. This chapter establishes the foundational properties of $\zeta(s)$ that underpin all subsequent investigations into the Riemann Hypothesis.
+
+\section{Definition and Basic Properties}
+\label{sec:definition_basic}
+
+\subsection{The Dirichlet Series Definition}
+
+\begin{definition}[Riemann Zeta Function - Original Definition]
+\label{def:zeta_original}
+For $\Re(s) > 1$, the Riemann zeta function is defined by the absolutely convergent Dirichlet series:
+\begin{equation}
+\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s}
+\label{eq:zeta_dirichlet}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Convergence Properties]
+\label{thm:convergence}
+The series \eqref{eq:zeta_dirichlet} has the following convergence properties:
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{Absolute convergence:} The series converges absolutely for $\sigma = \Re(s) > 1$.
+\item \textbf{Uniform convergence:} For any $\sigma_0 > 1$, the series converges uniformly on the half-plane $\Re(s) \geq \sigma_0$.
+\item \textbf{Divergence:} The series diverges for $\Re(s) \leq 1$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+For part (a), when $\sigma > 1$, we have
+\[
+\sum_{n=1}^{\infty} \left|\frac{1}{n^s}\right| = \sum_{n=1}^{\infty} \frac{1}{n^\sigma} = \zeta(\sigma) < \infty
+\]
+by the integral test, since $\int_1^{\infty} x^{-\sigma} dx = \frac{1}{\sigma-1}$ converges for $\sigma > 1$.
+
+For uniform convergence in (b), the Weierstrass M-test applies with majorant $\sum n^{-\sigma_0}$.
+
+For (c), the harmonic series divergence at $s = 1$ extends to the entire line $\Re(s) = 1$ by Abel's theorem, and to $\Re(s) < 1$ since $|n^{-s}| = n^{-\sigma}$ with $n^{-\sigma} \to \infty$ as $n \to \infty$ when $\sigma < 0$.
+\end{proof}
+
+\begin{remark}
+The divergence at $s = 1$ is logarithmic: as $N \to \infty$, 
+\[
+\sum_{n=1}^N \frac{1}{n} = \log N + \gamma + O(N^{-1})
+\]
+where $\gamma = 0.5772156649\ldots$ is the Euler-Mascheroni constant.
+\end{remark}
+
+\subsection{Basic Identities and Properties}
+
+\begin{proposition}[Basic Properties in the Convergence Region]
+\label{prop:basic_properties}
+For $\Re(s) > 1$, the zeta function satisfies:
+\begin{enumerate}[label=(\alph*)]
+\item $\zeta(s)$ is holomorphic
+\item $\zeta'(s) = -\sum_{n=1}^{\infty} \frac{\log n}{n^s}$
+\item $\zeta(s) \neq 0$ (by the Euler product)
+\item $\lim_{s \to \infty} \zeta(s) = 1$
+\item $\lim_{s \to 1^+} (s-1)\zeta(s) = 1$
+\end{enumerate}
+\end{proposition}
+
+\begin{example}[Special Values in Convergence Region]
+Some notable values include:
+\begin{align}
+\zeta(2) &= \frac{\pi^2}{6} = 1.644934\ldots \\
+\zeta(3) &= 1.202056\ldots \quad \text{(Apéry's constant)} \\
+\zeta(4) &= \frac{\pi^4}{90} = 1.082323\ldots \\
+\zeta(6) &= \frac{\pi^6}{945} = 1.017343\ldots
+\end{align}
+\end{example}
+
+\section{Analytic Continuation}
+\label{sec:analytic_continuation}
+
+The power of the zeta function emerges through its analytic continuation beyond the original domain of convergence.
+
+\subsection{The Meromorphic Extension}
+
+\begin{theorem}[Riemann's Analytic Continuation]
+\label{thm:riemann_continuation}
+The function $\zeta(s)$ extends to a meromorphic function on the entire complex plane $\C$ with:
+\begin{enumerate}[label=(\alph*)]
+\item A single simple pole at $s = 1$ with residue $\res_{s=1} \zeta(s) = 1$
+\item Holomorphic everywhere else in $\C$
+\end{enumerate}
+\end{theorem}
+
+There are several methods to achieve this continuation. We present three fundamental approaches.
+
+\subsubsection{Method 1: The Dirichlet Eta Function}
+
+\begin{definition}[Dirichlet Eta Function]
+\label{def:eta_function}
+The Dirichlet eta function (alternating zeta function) is defined for $\Re(s) > 0$ by:
+\begin{equation}
+\eta(s) = \sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^s}
+\label{eq:eta_definition}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Eta-Zeta Relation]
+\label{thm:eta_zeta_relation}
+For $\Re(s) > 1$:
+\begin{equation}
+\eta(s) = (1 - 2^{1-s})\zeta(s)
+\label{eq:eta_zeta_relation}
+\end{equation}
+This provides analytic continuation of $\zeta(s)$ to $\Re(s) > 0$, $s \neq 1$, via:
+\begin{equation}
+\zeta(s) = \frac{\eta(s)}{1 - 2^{1-s}}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+For $\Re(s) > 1$, we compute:
+\begin{align}
+\eta(s) &= \sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n^s} \\
+&= \sum_{n=1}^{\infty} \frac{1}{n^s} - 2\sum_{n=1}^{\infty} \frac{1}{(2n)^s} \\
+&= \zeta(s) - 2 \cdot 2^{-s} \sum_{n=1}^{\infty} \frac{1}{n^s} \\
+&= \zeta(s) - 2^{1-s}\zeta(s) = (1-2^{1-s})\zeta(s)
+\end{align}
+Since $\eta(s)$ converges for $\Re(s) > 0$ by the alternating series test, and $1-2^{1-s} \neq 0$ except at the zeros of $1-2^{1-s}$, the relation provides the desired continuation.
+\end{proof}
+
+\subsubsection{Method 2: Integral Representation}
+
+\begin{theorem}[Integral Representation of Zeta]
+\label{thm:integral_representation}
+For $\Re(s) > 1$:
+\begin{equation}
+\zeta(s) = \frac{1}{\Gamma(s)} \int_0^{\infty} \frac{t^{s-1}}{e^t - 1} dt
+\label{eq:zeta_integral}
+\end{equation}
+This integral extends meromorphically to all $s \in \C$.
+\end{theorem}
+
+\begin{proof}[Proof Sketch]
+Starting with the Gamma function representation $n^{-s} = \frac{1}{\Gamma(s)} \int_0^{\infty} t^{s-1} e^{-nt} dt$, we sum over $n$ to obtain:
+\begin{align}
+\zeta(s) &= \sum_{n=1}^{\infty} \frac{1}{\Gamma(s)} \int_0^{\infty} t^{s-1} e^{-nt} dt \\
+&= \frac{1}{\Gamma(s)} \int_0^{\infty} t^{s-1} \sum_{n=1}^{\infty} e^{-nt} dt \\
+&= \frac{1}{\Gamma(s)} \int_0^{\infty} t^{s-1} \frac{e^{-t}}{1-e^{-t}} dt \\
+&= \frac{1}{\Gamma(s)} \int_0^{\infty} \frac{t^{s-1}}{e^t - 1} dt
+\end{align}
+The interchange of sum and integral is justified for $\Re(s) > 1$.
+\end{proof}
+
+\subsubsection{Method 3: Hermite's Formula}
+
+\begin{theorem}[Hermite's Continuation Formula]
+\label{thm:hermite_formula}
+For $\Re(s) > 0$, $s \neq 1$:
+\begin{equation}
+\zeta(s) = \frac{1}{s-1} + \frac{1}{2} - s \int_1^{\infty} \left(\{x\} - \frac{1}{2}\right) x^{-s-1} dx
+\label{eq:hermite_formula}
+\end{equation}
+where $\{x\} = x - \lfloor x \rfloor$ is the fractional part of $x$.
+\end{theorem}
+
+\begin{historicalnote}
+This formula, due to Charles Hermite, elegantly reveals the pole structure of $\zeta(s)$ and provides a direct path to continuation. The integral converges for $\Re(s) > 0$ since $|\{x\} - 1/2| \leq 1/2$.
+\end{historicalnote}
+
+\subsection{The Laurent Expansion at $s = 1$}
+
+\begin{theorem}[Laurent Expansion]
+\label{thm:laurent_expansion}
+Near $s = 1$, the zeta function has the Laurent expansion:
+\begin{equation}
+\zeta(s) = \frac{1}{s-1} + \gamma + \gamma_1(s-1) + \gamma_2(s-1)^2 + \cdots
+\label{eq:laurent_expansion}
+\end{equation}
+where $\gamma = 0.5772156649\ldots$ is the Euler-Mascheroni constant and $\gamma_k$ are the Stieltjes constants.
+\end{theorem}
+
+\section{The Functional Equation}
+\label{sec:functional_equation}
+
+The functional equation represents one of the most beautiful and profound properties of the zeta function, revealing a deep symmetry that connects values at $s$ and $1-s$.
+
+\subsection{Riemann's Functional Equation}
+
+\begin{theorem}[Riemann's Functional Equation]
+\label{thm:riemann_functional_equation}
+The Riemann zeta function satisfies the functional equation:
+\begin{equation}
+\zeta(s) = 2^s \pi^{s-1} \sin\left(\frac{\pi s}{2}\right) \Gamma(1-s) \zeta(1-s)
+\label{eq:riemann_functional_equation}
+\end{equation}
+for all $s \in \C$.
+\end{theorem}
+
+\begin{proof}[Proof Outline]
+The proof employs techniques from complex analysis and the theory of theta functions. The key steps are:
+\begin{enumerate}
+\item Start with the integral representation of $\zeta(s)$
+\item Use the functional equation of the Gamma function
+\item Apply Poisson's summation formula to relate the theta function $\sum_{n=-\infty}^{\infty} e^{-\pi n^2 t}$ at $t$ and $1/t$
+\item Manipulate the resulting integral transforms to arrive at the functional equation
+\end{enumerate}
+A complete proof would require several pages of technical detail involving contour integration and careful analysis of convergence.
+\end{proof}
+
+\subsection{The Symmetric Form}
+
+\begin{definition}[Xi Function]
+\label{def:xi_function}
+Define the xi function by:
+\begin{equation}
+\xi(s) = \frac{1}{2}s(s-1)\pi^{-s/2}\Gamma\left(\frac{s}{2}\right)\zeta(s)
+\label{eq:xi_definition}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Symmetric Functional Equation]
+\label{thm:symmetric_functional_equation}
+The xi function satisfies the symmetric functional equation:
+\begin{equation}
+\xi(s) = \xi(1-s)
+\label{eq:xi_symmetric}
+\end{equation}
+\end{theorem}
+
+This symmetry about the critical line $\Re(s) = 1/2$ is fundamental to understanding the distribution of zeros.
+
+\subsection{The Completed Zeta Function}
+
+\begin{definition}[Completed Zeta Function]
+\label{def:completed_zeta}
+The completed zeta function is defined as:
+\begin{equation}
+Z(s) = \pi^{-s/2} \Gamma\left(\frac{s}{2}\right) \zeta(s)
+\label{eq:completed_zeta}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Completed Zeta Functional Equation]
+The completed zeta function satisfies:
+\begin{equation}
+Z(s) = Z(1-s)
+\end{equation}
+up to the simple factor structure involving $s(s-1)$.
+\end{theorem}
+
+\section{The Euler Product}
+\label{sec:euler_product}
+
+The connection between the zeta function and the distribution of prime numbers is made explicit through Euler's product formula, one of the most significant discoveries in number theory.
+
+\subsection{Euler's Product Formula}
+
+\begin{theorem}[Euler Product for the Zeta Function]
+\label{thm:euler_product}
+For $\Re(s) > 1$:
+\begin{equation}
+\zeta(s) = \prod_{p \text{ prime}} \frac{1}{1-p^{-s}} = \prod_{p \text{ prime}} \left(1 + p^{-s} + p^{-2s} + p^{-3s} + \cdots\right)
+\label{eq:euler_product}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The proof relies on the fundamental theorem of arithmetic. For $\Re(s) > 1$, the series and product converge absolutely, allowing rearrangement. Consider the finite product over primes $p \leq N$:
+\begin{align}
+\prod_{p \leq N} \frac{1}{1-p^{-s}} &= \prod_{p \leq N} \sum_{k=0}^{\infty} p^{-ks} \\
+&= \sum_{n \in S_N} \frac{1}{n^s}
+\end{align}
+where $S_N$ consists of all positive integers whose prime factors are $\leq N$. As $N \to \infty$, $S_N$ approaches all positive integers, giving the result.
+\end{proof}
+
+\subsection{Number-Theoretic Implications}
+
+\begin{corollary}[Non-vanishing for $\Re(s) > 1$]
+\label{cor:nonvanishing_right}
+$\zeta(s) \neq 0$ for all $\Re(s) > 1$.
+\end{corollary}
+
+\begin{proof}
+Each factor $(1-p^{-s})^{-1}$ in the Euler product is nonzero for $\Re(s) > 1$.
+\end{proof}
+
+\begin{theorem}[Connection to Prime Number Theorem]
+\label{thm:pnt_connection}
+The Prime Number Theorem
+\begin{equation}
+\pi(x) \sim \frac{x}{\log x} \quad \text{as } x \to \infty
+\end{equation}
+is equivalent to the non-vanishing of $\zeta(s)$ on the line $\Re(s) = 1$.
+\end{theorem}
+
+\begin{highlight}
+The Euler product provides the crucial link between the analytic properties of $\zeta(s)$ and the distribution of prime numbers. This connection underlies virtually all applications of the Riemann Hypothesis to number theory.
+\end{highlight}
+
+\subsection{Logarithmic Derivative and von Mangoldt Function}
+
+\begin{definition}[von Mangoldt Function]
+\label{def:vonmangoldt}
+The von Mangoldt function is defined by:
+\begin{equation}
+\Lambda(n) = \begin{cases}
+\log p & \text{if } n = p^k \text{ for some prime } p \text{ and } k \geq 1 \\
+0 & \text{otherwise}
+\end{cases}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Logarithmic Derivative]
+\label{thm:logarithmic_derivative}
+For $\Re(s) > 1$:
+\begin{equation}
+-\frac{\zeta'(s)}{\zeta(s)} = \sum_{n=1}^{\infty} \frac{\Lambda(n)}{n^s}
+\label{eq:logarithmic_derivative}
+\end{equation}
+\end{theorem}
+
+This relationship provides a direct analytical tool for studying prime distribution through the poles and zeros of $\zeta'(s)/\zeta(s)$.
+
+\section{Proven Analytic Properties}
+\label{sec:analytic_properties}
+
+This section compiles the rigorously established analytic properties of $\zeta(s)$, forming the foundation for all subsequent investigations.
+
+\subsection{Growth Estimates and Vertical Line Bounds}
+
+\begin{theorem}[Classical Growth Bounds]
+\label{thm:growth_bounds}
+The following growth estimates hold:
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{For $\sigma > 1$:} $|\zeta(\sigma + it)| \leq \zeta(\sigma)$
+\item \textbf{For $\sigma = 1$ (away from the pole):} $|\zeta(1 + it)| \ll \log(|t| + 2)$
+\item \textbf{Critical line $\sigma = 1/2$:} $|\zeta(1/2 + it)| \ll |t|^{32/205}$ (Huxley, 2005)
+\item \textbf{Critical strip $0 < \sigma < 1$:} $|\zeta(\sigma + it)| \ll |t|^{(1-\sigma)/2} \log |t|$ (convexity bound)
+\end{enumerate}
+\end{theorem}
+
+\begin{openproblem}[Lindelöf Hypothesis]
+The Lindelöf Hypothesis conjectures that for any $\epsilon > 0$:
+\[
+\zeta(1/2 + it) = O(t^{\epsilon})
+\]
+This would be optimal up to the $\epsilon$ factor.
+\end{openproblem}
+
+\subsection{Zero-Free Regions}
+
+Understanding where $\zeta(s) \neq 0$ is crucial for applications to prime number theory.
+
+\begin{theorem}[Classical Zero-Free Region]
+\label{thm:classical_zerofree}
+There exists a constant $c > 0$ such that $\zeta(s) \neq 0$ for:
+\begin{equation}
+\Re(s) > 1 - \frac{c}{\log(|\Im(s)| + 2)}
+\end{equation}
+\end{theorem}
+
+\begin{theorem}[Improved Zero-Free Regions]
+\label{thm:improved_zerofree}
+\textbf{(Korobov-Vinogradov, 1958)} $\zeta(s) \neq 0$ for:
+\begin{equation}
+\Re(s) > 1 - \frac{c'}{(\log |\Im(s)|)^{2/3}(\log \log |\Im(s)|)^{1/3}}
+\end{equation}
+for some constant $c' > 0$ and sufficiently large $|\Im(s)|$.
+\end{theorem}
+
+\subsection{Distribution of Zeros}
+
+\begin{theorem}[Riemann-von Mangoldt Formula]
+\label{thm:riemann_vonmangoldt}
+Let $N(T)$ denote the number of zeros $\rho = \beta + i\gamma$ with $0 < \gamma \leq T$ and $0 < \beta < 1$. Then:
+\begin{equation}
+N(T) = \frac{T}{2\pi} \log \frac{T}{2\pi} - \frac{T}{2\pi} + O(\log T)
+\end{equation}
+\end{theorem}
+
+This shows that zeros are dense along the critical strip, with approximately $T \log T$ zeros up to height $T$.
+
+\begin{theorem}[Zeros on the Critical Line]
+\label{thm:zeros_critical_line}
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{(Hardy, 1914)} Infinitely many zeros lie exactly on $\Re(s) = 1/2$
+\item \textbf{(Selberg, 1942)} A positive proportion of zeros lie on the critical line
+\item \textbf{(Conrey, 1989)} At least 40\% of zeros lie on the critical line
+\end{enumerate}
+\end{theorem}
+
+\subsection{Moment Estimates}
+
+\begin{theorem}[Moments on the Critical Line]
+\label{thm:moments_critical}
+For the $2k$-th moment on the critical line:
+\begin{enumerate}[label=(\alph*)]
+\item $\int_0^T |\zeta(1/2 + it)|^2 dt = T \log(T/2\pi) + (2\gamma - 1)T + O(T^{1/2})$
+\item $\int_0^T |\zeta(1/2 + it)|^4 dt \sim \frac{T}{2\pi^2} (\log T)^4$ (Ingham, 1926)
+\item For general $k$: conjectured asymptotic $\sim c_k T(\log T)^{k^2}$
+\end{enumerate}
+\end{theorem}
+
+\subsection{Special Values and Residues}
+
+\begin{theorem}[Values at Integer Points]
+\label{thm:integer_values}
+\begin{enumerate}[label=(\alph*)]
+\item \textbf{Positive even integers:} $\zeta(2n) = \frac{(-1)^{n+1}(2\pi)^{2n}B_{2n}}{2(2n)!}$
+\item \textbf{Negative integers:} $\zeta(-n) = -\frac{B_{n+1}}{n+1}$
+\item \textbf{At zero:} $\zeta(0) = -\frac{1}{2}$
+\item \textbf{Trivial zeros:} $\zeta(-2n) = 0$ for positive integers $n$
+\end{enumerate}
+where $B_n$ are the Bernoulli numbers.
+\end{theorem}
+
+\begin{example}
+Some explicit values:
+\begin{align}
+\zeta(2) &= \frac{\pi^2}{6} \\
+\zeta(4) &= \frac{\pi^4}{90} \\
+\zeta(-1) &= -\frac{1}{12} \\
+\zeta(-3) &= \frac{1}{120}
+\end{align}
+\end{example}
+
+\subsection{Universality Properties}
+
+\begin{theorem}[Voronin's Universality Theorem]
+\label{thm:voronin_universality}
+Let $K$ be a compact subset of $\{s : 1/2 < \Re(s) < 1\}$ with connected complement, and let $f$ be a non-vanishing continuous function on $K$, holomorphic in the interior. Then for any $\epsilon > 0$:
+\begin{equation}
+\liminf_{T \to \infty} \frac{1}{T} \text{meas}\{t \in [0,T] : \max_{s \in K}|\zeta(s+it) - f(s)| < \epsilon\} > 0
+\end{equation}
+\end{theorem}
+
+\begin{remark}
+This remarkable theorem shows that $\zeta(s)$ can approximate any reasonable holomorphic function through vertical translations. It demonstrates the extraordinary complexity and richness of the zeta function's behavior in the critical strip.
+\end{remark}
+
+\section{Historical Development and Key Contributors}
+\label{sec:historical_development}
+
+\begin{historicalnote}
+The development of zeta function theory spans over two and a half centuries:
+
+\textbf{Euler (1737):} First studied $\sum n^{-s}$ for positive integer $s$, discovered the Euler product formula connecting it to primes.
+
+\textbf{Riemann (1859):} Extended to complex $s$, proved the functional equation, formulated the Riemann Hypothesis, and established the connection to prime distribution.
+
+\textbf{Hadamard \& de la Vallée Poussin (1896):} Proved the Prime Number Theorem by showing $\zeta(1+it) \neq 0$.
+
+\textbf{Hardy (1914):} Proved infinitely many zeros lie on the critical line.
+
+\textbf{Littlewood, Ingham, Titchmarsh (1920s-1930s):} Developed much of the analytic theory we use today.
+
+\textbf{Selberg (1942):} Showed a positive proportion of zeros are on the critical line.
+
+\textbf{Conrey (1989):} Proved at least 40\% of zeros are on the critical line using mollifiers.
+\end{historicalnote}
+
+\section{Chapter Summary and Outlook}
+\label{sec:chapter_summary}
+
+In this foundational chapter, we have established the essential properties of the Riemann zeta function:
+
+\begin{enumerate}
+\item \textbf{Definition and Convergence:} The function begins as a simple Dirichlet series $\sum n^{-s}$ convergent for $\Re(s) > 1$.
+
+\item \textbf{Analytic Continuation:} Through multiple methods (eta function, integral representations, Hermite's formula), $\zeta(s)$ extends meromorphically to all of $\C$ with only a simple pole at $s = 1$.
+
+\item \textbf{Functional Equation:} The profound symmetry $\xi(s) = \xi(1-s)$ reveals the critical line $\Re(s) = 1/2$ as the natural center of investigation.
+
+\item \textbf{Euler Product:} The fundamental connection to prime numbers through $\prod_p (1-p^{-s})^{-1}$ underlies all number-theoretic applications.
+
+\item \textbf{Analytic Properties:} Rigorous bounds on growth, zero-free regions, zero distribution, and special values provide the technical foundation for deeper investigations.
+\end{enumerate}
+
+These properties establish $\zeta(s)$ as far more than a simple infinite series—it is a bridge between the discrete world of integers and primes and the continuous realm of complex analysis. The zeros of this function, particularly those on the critical line, encode fundamental information about the distribution of prime numbers.
+
+\begin{highlight}
+The Riemann Hypothesis asserts that all non-trivial zeros have real part exactly $1/2$. This chapter has prepared the ground for understanding why this conjecture is both natural (given the functional equation symmetry) and profound (given the connections to prime distribution).
+\end{highlight}
+
+In the following chapters, we will explore how this classical theory has inspired numerous approaches to proving the Riemann Hypothesis, from the spectral theory of the Hilbert-Pólya program to modern operator-theoretic methods, each attempting to unlock the deep mysteries encoded in the zeros of $\zeta(s)$.
+
+\section{Exercises and Further Study}
+\label{sec:exercises}
+
+\begin{exercise}
+Prove that $\zeta(2n) \in \pi^{2n} \Q$ for all positive integers $n$ using the Euler product and the theory of symmetric polynomials.
+\end{exercise}
+
+\begin{exercise}
+Show that the functional equation implies $\zeta(-2n) = 0$ for positive integers $n$ (the trivial zeros).
+\end{exercise}
+
+\begin{exercise}
+Use the integral representation to prove that $\zeta(s)$ has no zeros for $\Re(s) > 1$.
+\end{exercise}
+
+\begin{exercise}
+Derive the asymptotic formula for $\sum_{n \leq x} d(n)$ using properties of $\zeta^2(s)$, where $d(n)$ is the number of divisors of $n$.
+\end{exercise}
+
+\begin{exercise}[Advanced]
+Study the Hardy $Z$-function $Z(t) = e^{i\theta(t)} \zeta(1/2 + it)$ where $\theta(t)$ is chosen to make $Z(t)$ real-valued. Show that zeros of $\zeta(s)$ on the critical line correspond to zeros of $Z(t)$.
+\end{exercise}
