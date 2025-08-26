@@ -1,1 +1,259 @@
-% Placeholder for app_a_prerequisites
+% Appendix A: Mathematical Prerequisites
+
+This appendix provides a concise review of the mathematical background required for reading this book. We assume familiarity with undergraduate mathematics but provide key definitions and results for reference.
+
+\section{Complex Analysis}
+
+\subsection{Basic Concepts}
+
+\begin{definition}[Holomorphic Function]
+A function $f: U \to \mathbb{C}$ defined on an open set $U \subseteq \mathbb{C}$ is \emph{holomorphic} (or \emph{analytic}) at $z_0 \in U$ if the derivative
+\[
+f'(z_0) = \lim_{h \to 0} \frac{f(z_0 + h) - f(z_0)}{h}
+\]
+exists. The function is holomorphic on $U$ if it is holomorphic at every point of $U$.
+\end{definition}
+
+\begin{theorem}[Cauchy-Riemann Equations]
+Let $f(z) = u(x,y) + iv(x,y)$ where $z = x + iy$. Then $f$ is holomorphic if and only if $u$ and $v$ have continuous partial derivatives satisfying:
+\[
+\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \quad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}
+\]
+\end{theorem}
+
+\begin{theorem}[Cauchy's Integral Formula]
+If $f$ is holomorphic inside and on a simple closed contour $\gamma$, then for any $z_0$ inside $\gamma$:
+\[
+f(z_0) = \frac{1}{2\pi i} \oint_{\gamma} \frac{f(z)}{z - z_0} dz
+\]
+\end{theorem}
+
+\subsection{Laurent Series and Residues}
+
+\begin{definition}[Laurent Series]
+A function $f$ holomorphic in an annulus $r < |z - z_0| < R$ has a unique Laurent expansion:
+\[
+f(z) = \sum_{n=-\infty}^{\infty} a_n (z - z_0)^n
+\]
+where $a_n = \frac{1}{2\pi i} \oint_{\gamma} \frac{f(w)}{(w - z_0)^{n+1}} dw$ for any circle $\gamma$ in the annulus.
+\end{definition}
+
+\begin{definition}[Residue]
+The \emph{residue} of $f$ at an isolated singularity $z_0$ is $\res_{z=z_0} f(z) = a_{-1}$ in the Laurent expansion.
+\end{definition}
+
+\begin{theorem}[Residue Theorem]
+If $f$ is holomorphic inside and on a simple closed contour $\gamma$ except for isolated singularities $z_1, \ldots, z_n$ inside $\gamma$, then:
+\[
+\oint_{\gamma} f(z) dz = 2\pi i \sum_{k=1}^n \res_{z=z_k} f(z)
+\]
+\end{theorem}
+
+\subsection{Entire and Meromorphic Functions}
+
+\begin{definition}[Entire Function]
+A function holomorphic on all of $\mathbb{C}$ is called \emph{entire}.
+\end{definition}
+
+\begin{definition}[Meromorphic Function]
+A function that is holomorphic except for isolated poles is called \emph{meromorphic}.
+\end{definition}
+
+\begin{theorem}[Hadamard Factorization]
+Any entire function $f$ of finite order $\rho$ can be written as:
+\[
+f(z) = e^{g(z)} z^m \prod_{n=1}^{\infty} E(z/z_n, p)
+\]
+where $g$ is a polynomial of degree at most $\rho$, $m$ is the order of the zero at the origin, $\{z_n\}$ are the non-zero zeros, and $E(z,p)$ is the Weierstrass primary factor.
+\end{theorem}
+
+\section{Number Theory}
+
+\subsection{Arithmetic Functions}
+
+\begin{definition}[Multiplicative Function]
+A function $f: \mathbb{N} \to \mathbb{C}$ is \emph{multiplicative} if $f(1) = 1$ and $f(mn) = f(m)f(n)$ whenever $\gcd(m,n) = 1$. It is \emph{completely multiplicative} if $f(mn) = f(m)f(n)$ for all $m,n$.
+\end{definition}
+
+Important arithmetic functions:
+\begin{itemize}
+\item Euler's totient function: $\phi(n) = \#\{k \leq n : \gcd(k,n) = 1\}$
+\item Möbius function: $\mu(n) = \begin{cases}
+1 & \text{if } n = 1 \\
+(-1)^k & \text{if } n = p_1 \cdots p_k \text{ (distinct primes)} \\
+0 & \text{if } n \text{ has a squared prime factor}
+\end{cases}$
+\item Divisor function: $d(n) = \sum_{d|n} 1$
+\item Sum of divisors: $\sigma(n) = \sum_{d|n} d$
+\item von Mangoldt function: $\Lambda(n) = \begin{cases}
+\log p & \text{if } n = p^k \\
+0 & \text{otherwise}
+\end{cases}$
+\end{itemize}
+
+\begin{theorem}[Möbius Inversion]
+If $f(n) = \sum_{d|n} g(d)$, then $g(n) = \sum_{d|n} \mu(n/d) f(d)$.
+\end{theorem}
+
+\subsection{Dirichlet Characters}
+
+\begin{definition}[Dirichlet Character]
+A \emph{Dirichlet character} modulo $q$ is a completely multiplicative function $\chi: \mathbb{Z} \to \mathbb{C}$ such that:
+\begin{enumerate}
+\item $\chi(n) = 0$ if $\gcd(n,q) > 1$
+\item $\chi(n) = \chi(n')$ if $n \equiv n' \pmod{q}$
+\item $|\chi(n)| = 1$ if $\gcd(n,q) = 1$
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[Orthogonality Relations]
+For Dirichlet characters modulo $q$:
+\[
+\frac{1}{\phi(q)} \sum_{\chi} \chi(m) \overline{\chi}(n) = \begin{cases}
+1 & \text{if } m \equiv n \pmod{q} \\
+0 & \text{otherwise}
+\end{cases}
+\]
+\end{theorem}
+
+\section{Functional Analysis}
+
+\subsection{Hilbert Spaces}
+
+\begin{definition}[Inner Product Space]
+A complex vector space $V$ with an inner product $\langle \cdot, \cdot \rangle: V \times V \to \mathbb{C}$ satisfying:
+\begin{enumerate}
+\item $\langle x, x \rangle \geq 0$ with equality iff $x = 0$
+\item $\langle x, y \rangle = \overline{\langle y, x \rangle}$
+\item $\langle ax + by, z \rangle = a\langle x, z \rangle + b\langle y, z \rangle$
+\end{enumerate}
+\end{definition}
+
+\begin{definition}[Hilbert Space]
+A \emph{Hilbert space} is a complete inner product space (complete with respect to the norm $\|x\| = \sqrt{\langle x, x \rangle}$).
+\end{definition}
+
+\begin{theorem}[Riesz Representation]
+For any continuous linear functional $\phi$ on a Hilbert space $H$, there exists a unique $y \in H$ such that $\phi(x) = \langle x, y \rangle$ for all $x \in H$.
+\end{theorem}
+
+\subsection{Operators}
+
+\begin{definition}[Self-adjoint Operator]
+A linear operator $T: D(T) \to H$ on a Hilbert space is \emph{self-adjoint} if $D(T) = D(T^*)$ and $T = T^*$, where $T^*$ is the adjoint satisfying $\langle Tx, y \rangle = \langle x, T^*y \rangle$.
+\end{definition}
+
+\begin{theorem}[Spectral Theorem]
+Every self-adjoint operator $T$ on a Hilbert space has a spectral decomposition:
+\[
+T = \int_{\mathbb{R}} \lambda \, dE_{\lambda}
+\]
+where $\{E_{\lambda}\}$ is the spectral family of projection operators.
+\end{theorem}
+
+\section{Representation Theory}
+
+\subsection{Group Representations}
+
+\begin{definition}[Group Representation]
+A \emph{representation} of a group $G$ on a vector space $V$ is a homomorphism $\rho: G \to GL(V)$.
+\end{definition}
+
+\begin{definition}[Irreducible Representation]
+A representation is \emph{irreducible} if the only $G$-invariant subspaces are $\{0\}$ and $V$.
+\end{definition}
+
+\begin{theorem}[Schur's Lemma]
+If $\rho_1: G \to GL(V_1)$ and $\rho_2: G \to GL(V_2)$ are irreducible representations and $T: V_1 \to V_2$ is a $G$-equivariant linear map, then either $T = 0$ or $T$ is an isomorphism.
+\end{theorem}
+
+\subsection{Characters}
+
+\begin{definition}[Character]
+The \emph{character} of a representation $\rho$ is the function $\chi_{\rho}(g) = \text{tr}(\rho(g))$.
+\end{definition}
+
+\begin{theorem}[Orthogonality of Characters]
+For finite groups, if $\chi_1$ and $\chi_2$ are characters of irreducible representations:
+\[
+\langle \chi_1, \chi_2 \rangle = \frac{1}{|G|} \sum_{g \in G} \chi_1(g) \overline{\chi_2(g)} = \begin{cases}
+1 & \text{if representations are equivalent} \\
+0 & \text{otherwise}
+\end{cases}
+\]
+\end{theorem}
+
+\section{Differential Geometry}
+
+\subsection{Riemannian Manifolds}
+
+\begin{definition}[Riemannian Metric]
+A \emph{Riemannian metric} on a manifold $M$ is a smooth assignment of an inner product $g_p$ to each tangent space $T_pM$.
+\end{definition}
+
+\begin{definition}[Laplace-Beltrami Operator]
+On a Riemannian manifold, the \emph{Laplace-Beltrami operator} is:
+\[
+\Delta f = \frac{1}{\sqrt{|g|}} \partial_i \left( \sqrt{|g|} g^{ij} \partial_j f \right)
+\]
+where $g^{ij}$ is the inverse metric tensor and $|g|$ is the determinant.
+\end{definition}
+
+\subsection{Hyperbolic Geometry}
+
+\begin{definition}[Upper Half-Plane Model]
+The \emph{hyperbolic upper half-plane} is $\mathbb{H} = \{z \in \mathbb{C} : \Im(z) > 0\}$ with metric:
+\[
+ds^2 = \frac{dx^2 + dy^2}{y^2}
+\]
+\end{definition}
+
+\begin{theorem}[Isometry Group]
+The isometry group of $\mathbb{H}$ is $PSL_2(\mathbb{R})$ acting by Möbius transformations:
+\[
+z \mapsto \frac{az + b}{cz + d}, \quad \begin{pmatrix} a & b \\ c & d \end{pmatrix} \in SL_2(\mathbb{R})
+\]
+\end{theorem}
+
+\section{Modular Forms}
+
+\begin{definition}[Modular Form]
+A \emph{modular form} of weight $k$ for $SL_2(\mathbb{Z})$ is a holomorphic function $f: \mathbb{H} \to \mathbb{C}$ satisfying:
+\begin{enumerate}
+\item $f\left(\frac{az + b}{cz + d}\right) = (cz + d)^k f(z)$ for all $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in SL_2(\mathbb{Z})$
+\item $f$ is holomorphic at infinity (has a Fourier expansion $f(z) = \sum_{n=0}^{\infty} a_n e^{2\pi i nz}$)
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[Dimension Formula]
+The dimension of the space $M_k$ of modular forms of weight $k$ is:
+\[
+\dim M_k = \begin{cases}
+0 & \text{if } k < 0 \text{ or } k \text{ odd} \\
+\lfloor k/12 \rfloor & \text{if } k \equiv 2 \pmod{12} \\
+\lfloor k/12 \rfloor + 1 & \text{otherwise}
+\end{cases}
+\]
+\end{theorem}
+
+\section{Essential Inequalities}
+
+\begin{theorem}[Cauchy-Schwarz Inequality]
+For any inner product space:
+\[
+|\langle x, y \rangle| \leq \|x\| \cdot \|y\|
+\]
+\end{theorem}
+
+\begin{theorem}[Jensen's Inequality]
+For a convex function $\phi$ and probability measure $\mu$:
+\[
+\phi\left(\int f \, d\mu\right) \leq \int \phi(f) \, d\mu
+\]
+\end{theorem}
+
+\begin{theorem}[Phragmén-Lindelöf Principle]
+If $f$ is holomorphic in a sector and continuous on its closure, with $|f(z)| \leq M$ on the boundary, and if $f$ doesn't grow too rapidly, then $|f(z)| \leq M$ throughout the sector.
+\end{theorem}
+
+This appendix provides the essential background for understanding the main text. Readers requiring more detail should consult standard texts in complex analysis, number theory, and functional analysis.

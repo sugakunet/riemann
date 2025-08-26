@@ -1,1 +1,211 @@
-% Placeholder for app_d_notation
+% Appendix D: Notation and Conventions
+
+\section{Number Sets and Basic Notation}
+
+\begin{tabular}{ll}
+$\mathbb{N}$ & Natural numbers $\{1, 2, 3, \ldots\}$ \\
+$\mathbb{Z}$ & Integers $\{\ldots, -2, -1, 0, 1, 2, \ldots\}$ \\
+$\mathbb{Q}$ & Rational numbers \\
+$\mathbb{R}$ & Real numbers \\
+$\mathbb{C}$ & Complex numbers \\
+$\mathbb{H}$ & Upper half-plane $\{z \in \mathbb{C} : \Im(z) > 0\}$ \\
+$\mathbb{F}_q$ & Finite field with $q$ elements \\
+$\mathbb{Z}/n\mathbb{Z}$ & Integers modulo $n$ \\
+\end{tabular}
+
+\section{Complex Analysis Notation}
+
+\begin{tabular}{ll}
+$\Re(z)$ & Real part of $z$ \\
+$\Im(z)$ & Imaginary part of $z$ \\
+$|z|$ & Modulus (absolute value) of $z$ \\
+$\bar{z}$ & Complex conjugate of $z$ \\
+$\arg(z)$ & Argument of $z$ \\
+$s = \sigma + it$ & Standard notation for complex variable \\
+$\rho = \beta + i\gamma$ & Non-trivial zero of $\zeta(s)$ \\
+$\res_{z=a} f(z)$ & Residue of $f$ at $z = a$ \\
+$\ord_{z=a} f(z)$ & Order of zero/pole of $f$ at $z = a$ \\
+\end{tabular}
+
+\section{The Riemann Zeta Function and Related Functions}
+
+\begin{tabular}{ll}
+$\zeta(s)$ & Riemann zeta function \\
+$\eta(s)$ & Dirichlet eta function \\
+$\xi(s)$ & Riemann xi function $= \frac{1}{2}s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)$ \\
+$Z(t)$ & Hardy's Z-function \\
+$S(t)$ & Argument function for $\zeta(1/2 + it)$ \\
+$N(T)$ & Number of zeros with $0 < \Im(\rho) \leq T$ \\
+$N_0(T)$ & Number of zeros on critical line with $0 < \gamma \leq T$ \\
+\end{tabular}
+
+\section{L-Functions}
+
+\begin{tabular}{ll}
+$L(s, \chi)$ & Dirichlet L-function with character $\chi$ \\
+$L(s, f)$ & L-function attached to modular form $f$ \\
+$L(s, E)$ & L-function of elliptic curve $E$ \\
+$\mathcal{S}$ & Selberg class \\
+$\mathcal{S}^{\sharp}$ & Extended Selberg class \\
+$d_F$ & Degree of $F \in \mathcal{S}$ \\
+$Q_F$ & Conductor of $F \in \mathcal{S}$ \\
+\end{tabular}
+
+\section{Number-Theoretic Functions}
+
+\begin{tabular}{ll}
+$\pi(x)$ & Prime counting function \\
+$\psi(x)$ & Chebyshev psi function $= \sum_{p^k \leq x} \log p$ \\
+$\theta(x)$ & Chebyshev theta function $= \sum_{p \leq x} \log p$ \\
+$\Li(x)$ & Logarithmic integral $= \int_2^x \frac{dt}{\log t}$ \\
+$\phi(n)$ & Euler's totient function \\
+$\mu(n)$ & Möbius function \\
+$\Lambda(n)$ & von Mangoldt function \\
+$\tau(n)$ or $d(n)$ & Number of divisors of $n$ \\
+$\sigma(n)$ & Sum of divisors of $n$ \\
+$\omega(n)$ & Number of distinct prime divisors of $n$ \\
+$\Omega(n)$ & Number of prime divisors counted with multiplicity \\
+\end{tabular}
+
+\section{Asymptotic Notation}
+
+\begin{tabular}{ll}
+$f(x) = O(g(x))$ & $|f(x)| \leq C|g(x)|$ for some $C > 0$ and large $x$ \\
+$f(x) = o(g(x))$ & $\lim_{x \to \infty} f(x)/g(x) = 0$ \\
+$f(x) \sim g(x)$ & $\lim_{x \to \infty} f(x)/g(x) = 1$ \\
+$f(x) = \Omega(g(x))$ & $\limsup_{x \to \infty} |f(x)|/|g(x)| > 0$ \\
+$f(x) = \Theta(g(x))$ & $f(x) = O(g(x))$ and $g(x) = O(f(x))$ \\
+$f(x) \ll g(x)$ & Same as $f(x) = O(g(x))$ \\
+$f(x) \asymp g(x)$ & Same as $f(x) = \Theta(g(x))$ \\
+\end{tabular}
+
+\section{Summation and Product Notation}
+
+\begin{tabular}{ll}
+$\sum_{n \leq x}$ & Sum over positive integers $n \leq x$ \\
+$\sum_{p}$ & Sum over prime numbers \\
+$\sum_{p \leq x}$ & Sum over primes $p \leq x$ \\
+$\prod_{p}$ & Product over all primes \\
+$\sum'$ & Sum excluding certain terms (specified in context) \\
+$\sum^*$ & Sum over primitive or reduced terms \\
+$[x]$ & Greatest integer function (floor of $x$) \\
+$\{x\}$ & Fractional part of $x$ \\
+$(a,b)$ or $\gcd(a,b)$ & Greatest common divisor \\
+$[a,b]$ or $\text{lcm}(a,b)$ & Least common multiple \\
+\end{tabular}
+
+\section{Special Functions}
+
+\begin{tabular}{ll}
+$\Gamma(s)$ & Gamma function \\
+$B(x,y)$ & Beta function \\
+$\psi(s)$ & Digamma function $= \Gamma'(s)/\Gamma(s)$ \\
+$K_{\nu}(z)$ & Modified Bessel function of the second kind \\
+$J_{\nu}(z)$ & Bessel function of the first kind \\
+$\text{Ai}(x)$ & Airy function \\
+$e(x)$ & $e^{2\pi i x}$ (exponential with $2\pi i$ factor) \\
+$\log$ & Natural logarithm (base $e$) \\
+\end{tabular}
+
+\section{Modular Forms and Automorphic Functions}
+
+\begin{tabular}{ll}
+$SL_2(\mathbb{Z})$ & Special linear group of $2 \times 2$ integer matrices \\
+$\Gamma_0(N)$ & Congruence subgroup of level $N$ \\
+$M_k(\Gamma)$ & Space of modular forms of weight $k$ for $\Gamma$ \\
+$S_k(\Gamma)$ & Space of cusp forms of weight $k$ for $\Gamma$ \\
+$E_k$ & Eisenstein series of weight $k$ \\
+$\Delta$ & Discriminant modular form \\
+$j(\tau)$ & j-invariant \\
+$q$ & $e^{2\pi i \tau}$ (nome) \\
+\end{tabular}
+
+\section{Operators and Transforms}
+
+\begin{tabular}{ll}
+$T_n$ & Hecke operator \\
+$\mathcal{F}$ & Fourier transform \\
+$\mathcal{M}$ & Mellin transform \\
+$\mathcal{R}$ & Radon transform \\
+$\mathcal{L}$ & Laplace transform \\
+$\Delta$ & Laplacian operator \\
+$\nabla$ & Gradient operator \\
+$\partial/\partial z$ & Wirtinger derivative \\
+$D^{\alpha}$ & Fractional derivative of order $\alpha$ \\
+\end{tabular}
+
+\section{Matrix Groups and Lie Theory}
+
+\begin{tabular}{ll}
+$GL_n$ & General linear group \\
+$SL_n$ & Special linear group \\
+$O(n)$ & Orthogonal group \\
+$U(n)$ & Unitary group \\
+$Sp_{2n}$ & Symplectic group \\
+$\mathfrak{g}$ & Lie algebra (gothic font) \\
+$G(\mathbb{A})$ & Adelic points of algebraic group $G$ \\
+$G_{\mathbb{Q}}$ & Rational points of $G$ \\
+\end{tabular}
+
+\section{Constants}
+
+\begin{tabular}{ll}
+$\gamma$ & Euler-Mascheroni constant $\approx 0.5772\ldots$ \\
+$\pi$ & Circle constant $\approx 3.14159\ldots$ \\
+$e$ & Base of natural logarithm $\approx 2.71828\ldots$ \\
+$\Lambda$ & de Bruijn-Newman constant ($\geq 0$) \\
+$C$ & Generic positive constant (value may change) \\
+$\epsilon$ & Arbitrarily small positive constant \\
+$\delta$ & Small positive constant (fixed in context) \\
+\end{tabular}
+
+\section{Conventions}
+
+\subsection{Branch Cuts}
+\begin{itemize}
+\item $\log z$ has branch cut along negative real axis
+\item $z^s = e^{s \log z}$ inherits branch cut from $\log$
+\item $\arg(z) \in (-\pi, \pi]$ unless otherwise specified
+\end{itemize}
+
+\subsection{Fourier Transform}
+We use the normalization:
+\[
+\hat{f}(\xi) = \int_{-\infty}^{\infty} f(x) e^{-2\pi i x\xi} dx
+\]
+
+\subsection{Contour Integration}
+\begin{itemize}
+\item Contours are oriented counterclockwise unless specified
+\item $\int_{\sigma - i\infty}^{\sigma + i\infty}$ means vertical line with $\Re(s) = \sigma$
+\item Principal value integrals denoted by P.V. or dash through integral
+\end{itemize}
+
+\subsection{Empty Products and Sums}
+\begin{itemize}
+\item Empty products equal 1
+\item Empty sums equal 0
+\end{itemize}
+
+\subsection{Prime Notation}
+\begin{itemize}
+\item $p$ always denotes a prime number
+\item $p_n$ denotes the $n$-th prime
+\item Sum/product over $p$ means over all primes
+\end{itemize}
+
+\section{Abbreviations}
+
+\begin{tabular}{ll}
+RH & Riemann Hypothesis \\
+GRH & Generalized Riemann Hypothesis \\
+ERH & Extended Riemann Hypothesis \\
+LH & Lindelöf Hypothesis \\
+GLH & Generalized Lindelöf Hypothesis \\
+ABC & ABC Conjecture \\
+BSD & Birch and Swinnerton-Dyer Conjecture \\
+PNT & Prime Number Theorem \\
+GUE & Gaussian Unitary Ensemble \\
+RMT & Random Matrix Theory \\
+NCG & Non-commutative Geometry \\
+\end{tabular}
