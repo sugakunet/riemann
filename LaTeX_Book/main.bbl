@@ -218,6 +218,37 @@
       \field{title}{Lectures on Siegel Modular Forms}
       \field{year}{2009}
     \endentry
+    \entry{cassels1967}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=8b0b992b670d7206799e5da2996b7ffa}{%
+           family={Cassels},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi W.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c66ee4ef1ee7ef723af9e806353fea26}{%
+           family={Fröhlich},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{5ce7f714427ad4bb7575e0522d293acd}
+      \strng{fullhash}{5ce7f714427ad4bb7575e0522d293acd}
+      \strng{bibnamehash}{5ce7f714427ad4bb7575e0522d293acd}
+      \strng{editorbibnamehash}{5ce7f714427ad4bb7575e0522d293acd}
+      \strng{editornamehash}{5ce7f714427ad4bb7575e0522d293acd}
+      \strng{editorfullhash}{5ce7f714427ad4bb7575e0522d293acd}
+      \field{labelalpha}{CF67}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{Contains Tate's thesis as Chapter XV}
+      \field{title}{Algebraic Number Theory}
+      \field{year}{1967}
+    \endentry
     \entry{choi2025}{article}{}
       \name{author}{3}{}{%
         {{hash=85fcf48fa88ed022498fd4cdce676041}{%
@@ -1354,6 +1385,33 @@
       \true{nocite}
       \field{pages}{981\bibrangedash 993}
       \range{pages}{13}
+    \endentry
+    \entry{tate1950}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=264c995d4fe9bc722840e0ce9f9b9fd0}{%
+           family={Tate},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Princeton University}%
+      }
+      \strng{namehash}{264c995d4fe9bc722840e0ce9f9b9fd0}
+      \strng{fullhash}{264c995d4fe9bc722840e0ce9f9b9fd0}
+      \strng{bibnamehash}{264c995d4fe9bc722840e0ce9f9b9fd0}
+      \strng{authorbibnamehash}{264c995d4fe9bc722840e0ce9f9b9fd0}
+      \strng{authornamehash}{264c995d4fe9bc722840e0ce9f9b9fd0}
+      \strng{authorfullhash}{264c995d4fe9bc722840e0ce9f9b9fd0}
+      \field{labelalpha}{Tat50}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Published in: Algebraic Number Theory, eds. J.W.S. Cassels and A. Fröhlich, Academic Press 1967, pp. 305-347}
+      \field{title}{Fourier Analysis in Number Fields and {H}ecke's Zeta-Functions}
+      \field{type}{phdthesis}
+      \field{year}{1950}
     \endentry
     \entry{titchmarsh1986}{book}{}
       \name{author}{1}{}{%
