@@ -598,11 +598,11 @@
 \contentsline {subsection}{\numberline {32.5.5}Computational Experiments Needed}{221}{subsection.32.5.5}%
 \contentsline {section}{\numberline {32.6}The Path Forward}{221}{section.32.6}%
 \contentsline {subsection}{\numberline {32.6.1}Lessons from 160 Years of Attempts}{221}{subsection.32.6.1}%
-\contentsline {subsection}{\numberline {32.6.2}Why Optimism Remains Justified}{221}{subsection.32.6.2}%
-\contentsline {subsection}{\numberline {32.6.3}The Role of Young Researchers}{222}{subsection.32.6.3}%
-\contentsline {subsection}{\numberline {32.6.4}Interdisciplinary Opportunities}{223}{subsection.32.6.4}%
-\contentsline {subsection}{\numberline {32.6.5}Final Philosophical Reflections}{223}{subsection.32.6.5}%
-\contentsline {section}{\numberline {32.7}Conclusion: The Continuing Adventure}{225}{section.32.7}%
+\contentsline {subsection}{\numberline {32.6.2}Why Optimism Remains Justified}{222}{subsection.32.6.2}%
+\contentsline {subsection}{\numberline {32.6.3}The Role of Young Researchers}{223}{subsection.32.6.3}%
+\contentsline {subsection}{\numberline {32.6.4}Interdisciplinary Opportunities}{224}{subsection.32.6.4}%
+\contentsline {subsection}{\numberline {32.6.5}Final Philosophical Reflections}{224}{subsection.32.6.5}%
+\contentsline {section}{\numberline {32.7}Conclusion: The Continuing Adventure}{226}{section.32.7}%
 \contentsline {chapter}{\numberline {A}Mathematical Prerequisites}{227}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Complex Analysis}{227}{section.A.1}%
 \contentsline {subsection}{\numberline {A.1.1}Basic Concepts}{227}{subsection.A.1.1}%
@@ -614,13 +614,13 @@
 \contentsline {section}{\numberline {A.3}Functional Analysis}{229}{section.A.3}%
 \contentsline {subsection}{\numberline {A.3.1}Hilbert Spaces}{229}{subsection.A.3.1}%
 \contentsline {subsection}{\numberline {A.3.2}Operators}{229}{subsection.A.3.2}%
-\contentsline {section}{\numberline {A.4}Representation Theory}{229}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Group Representations}{229}{subsection.A.4.1}%
+\contentsline {section}{\numberline {A.4}Representation Theory}{230}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Group Representations}{230}{subsection.A.4.1}%
 \contentsline {subsection}{\numberline {A.4.2}Characters}{230}{subsection.A.4.2}%
 \contentsline {section}{\numberline {A.5}Differential Geometry}{230}{section.A.5}%
 \contentsline {subsection}{\numberline {A.5.1}Riemannian Manifolds}{230}{subsection.A.5.1}%
 \contentsline {subsection}{\numberline {A.5.2}Hyperbolic Geometry}{230}{subsection.A.5.2}%
-\contentsline {section}{\numberline {A.6}Modular Forms}{230}{section.A.6}%
+\contentsline {section}{\numberline {A.6}Modular Forms}{231}{section.A.6}%
 \contentsline {section}{\numberline {A.7}Essential Inequalities}{231}{section.A.7}%
 \contentsline {chapter}{\numberline {B}Detailed Proofs}{233}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Historical Timeline}{235}{appendix.C}%
