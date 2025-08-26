@@ -12,6 +12,7 @@
 \usepackage{enumitem}
 \usepackage{graphicx}
 \usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
 \usepackage{pgfplots}
 \usepackage[backend=biber,style=alphabetic,sorting=nyt]{biblatex}
 \usepackage{makeidx}
@@ -51,7 +52,8 @@
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{example}[theorem]{Example}
 \newtheorem{exercise}[theorem]{Exercise}
-\newtheorem{algorithm}[theorem]{Algorithm}
+% Don't define algorithm as theorem since we use algorithm package
+% \newtheorem{algorithm}[theorem]{Algorithm}
 
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Remark}

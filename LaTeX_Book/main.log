@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  25 AUG 2025 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  25 AUG 2025 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,6 +672,14 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
@@ -1289,49 +1297,9 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 
 Writing index file main.idx
 \c@theorem=\count473
-
-! LaTeX Error: Command \c@algorithm already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \algorithm already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 
-     
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package hyperref Info: Option `colorlinks' set `true' on input line 164.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 164.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 164.
+Package hyperref Info: Option `colorlinks' set `true' on input line 166.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 166.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 166.
 
 \@quotelevel=\count474
 \@quotereset=\count475
@@ -1484,25 +1452,25 @@ LaTeX Warning: Label `ch:future@cref' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-Package hyperref Info: Link coloring ON on input line 175.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+Package hyperref Info: Link coloring ON on input line 177.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1534,7 +1502,7 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 175.
+ on input line 177.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1550,21 +1518,21 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 175.
-Package biblatex Info: Reference segment=0 on input line 175.
-LaTeX Info: Redefining \microtypecontext on input line 175.
-Package microtype Info: Applying patch `item' on input line 175.
-Package microtype Info: Applying patch `toc' on input line 175.
-Package microtype Info: Applying patch `eqnum' on input line 175.
-Package microtype Info: Applying patch `footnote' on input line 175.
-Package microtype Info: Applying patch `verbatim' on input line 175.
+Package biblatex Info: Reference section=0 on input line 177.
+Package biblatex Info: Reference segment=0 on input line 177.
+LaTeX Info: Redefining \microtypecontext on input line 177.
+Package microtype Info: Applying patch `item' on input line 177.
+Package microtype Info: Applying patch `toc' on input line 177.
+Package microtype Info: Applying patch `eqnum' on input line 177.
+Package microtype Info: Applying patch `footnote' on input line 177.
+Package microtype Info: Applying patch `verbatim' on input line 177.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 175.
+LaTeX Info: Redefining \showhyphens on input line 177.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1606,38 +1574,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 180
+LaTeX Font Info:    Trying to load font information for U+msa on input line 182
 .
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 180
+LaTeX Font Info:    Trying to load font information for U+msb on input line 182
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1647,7 +1592,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-]
+
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1713,47 +1661,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.332 ...{-1} Requirement}{122}{subsection.20.3.1}
-                                                  %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...line {20.3.1}The H^{-1} Requirement}
-                                                  \Hy@toclinkend 
-l.332 ...{-1} Requirement}{122}{subsection.20.3.1}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.332 ...{-1} Requirement}{122}{subsection.20.3.1}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.332 ...{-1} Requirement}{122}{subsection.20.3.1}
-                                                  %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1926,21 +1833,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [28
 
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 \part{Foundations and Classical Theory}
-                                              [1
+] [1
 
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 \part{Foundations and Classical Theory}
-                                              [2]
+] [2]
 Chapter 1.
 (./chapters/ch01_riemann_zeta.tex [3
 
@@ -2889,21 +2784,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 18.
 [105]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 \begin{algorithm}[H]
-                         
-Option `H' ignored and `p' used.
-
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 60.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+put line 61.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2914,17 +2796,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [106]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 \begin{algorithm}[H]
-                          
-Option `H' ignored and `p' used.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2938,8 +2809,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.18.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 \item T
-             he number of significant terms grows as $\sqrt{t}$]
+l.157 
+      ]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2949,32 +2820,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [108]
-
-! LaTeX Error: Unicode character γ (U+03B3)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.242 ...m Odlyzko found 1976 values where $|Z((γ
-                                                  _n + γ_{n+1})/2)| < 0.0005$
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character γ (U+03B3)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.242 ...ko found 1976 values where $|Z((γ_n + γ
-                                                  _{n+1})/2)| < 0.0005$
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3001,7 +2846,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[111])
+[111]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3010,7 +2855,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[112]
+[112])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3057,26 +2902,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [120]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.130 \subsection{The H^{-1} Requirement}
-                                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.130 \subsection{The H^{-1} Requirement}
-                                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 130.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3441,71 +3266,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 26.
 [159]
 
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{theorem} on input line 50 ended by \end{equation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 \end{equation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.58 \end{equation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-! LaTeX Error: \begin{document} ended by \end{theorem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \end{theorem}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.59 \end{theorem}
-                  
-Things are pretty mixed up, but I think the worst is over.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3542,7 +3302,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [163]
 Package hyperref Info: bookmark level for unknown argument defaults to 0 on inp
-ut line 301.
+ut line 300.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3554,7 +3314,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [164]
 Package hyperref Info: bookmark level for unknown important defaults to 0 on in
-put line 330.
+put line 329.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3566,7 +3326,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [165]
 Package hyperref Info: bookmark level for unknown philosophicalreflection defau
-lts to 0 on input line 421.
+lts to 0 on input line 420.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3655,215 +3415,6 @@ Package hyperref Info: bookmark level for unknown warning defaults to 0 on inpu
 t line 302.
 
 
-! LaTeX Error: Unknown float option `Z'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `Z' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `r'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `r' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `o'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `o' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `P'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `P' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `r'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `r' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `d'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `d' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `i'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `i' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `c'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `c' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `i'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `i' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `o'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `o' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `n'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `n' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `N'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `N' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `w'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `w' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `o'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `o' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `r'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `r' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `k'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 \begin{algorithm}[Zero Prediction Network]
-                                                
-Option `k' ignored and `p' used.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3873,263 +3424,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [176]
 Package hyperref Info: bookmark level for unknown experiment defaults to 0 on i
-nput line 343.
-
-
-! LaTeX Error: Unknown float option `C'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `C' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `o'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `o' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `n'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `n' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `j'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `j' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `c'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `c' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `u'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `u' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `r'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `r' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `G'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `G' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `n'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `n' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `r'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `r' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `a'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `a' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `i'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `i' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `o'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `o' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `n'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `n' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `S'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `S' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `y'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `y' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `s'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `s' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `e'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `e' ignored and `p' used.
-
-
-! LaTeX Error: Unknown float option `m'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 ...{algorithm}[Conjecture Generation System]
-                                                  
-Option `m' ignored and `p' used.
-
+nput line 344.
 Package hyperref Info: bookmark level for unknown result defaults to 0 on input
- line 388.
+ line 390.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4140,7 +3438,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [177]
 Package hyperref Info: bookmark level for unknown philosophical defaults to 0 o
-n input line 409.
+n input line 411.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4161,7 +3459,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [179]
 Package hyperref Info: bookmark level for unknown historical defaults to 0 on i
-nput line 550.
+nput line 552.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4182,9 +3480,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [181]
 Package hyperref Info: bookmark level for unknown obstacle defaults to 0 on inp
-ut line 613.
+ut line 615.
 Package hyperref Info: bookmark level for unknown philosophy defaults to 0 on i
-nput line 643.
+nput line 645.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4214,7 +3512,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [184]
 Package hyperref Info: bookmark level for unknown conclusion defaults to 0 on i
-nput line 749.
+nput line 751.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4387,81 +3685,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [202]
 
-! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.595 ... minimum width=2.5cm, minimum height=1cm]
-                                                   (Analysis) at (0,3) {Comp...
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.596 ... minimum width=2.5cm, minimum height=1cm]
-                                                   (NumberTheory) at (-3,1.5...
-(That was another \errmessage.)
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.597 ... minimum width=2.5cm, minimum height=1cm]
-                                                   (Spectral) at (-3,-1.5) {...
-(That was another \errmessage.)
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.598 ... minimum width=2.5cm, minimum height=1cm]
-                                                   (Probability) at (0,-3) {...
-(That was another \errmessage.)
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.599 ... minimum width=2.5cm, minimum height=1cm]
-                                                   (Geometry) at (3,-1.5) {A...
-(That was another \errmessage.)
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
-o ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.600 ... minimum width=2.5cm, minimum height=1cm]
-                                                   (Algebra) at (3,1.5) {Alg...
-(That was another \errmessage.)
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4594,10 +3817,7 @@ Runaway argument?
                    \par 
 l.366 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Package hyperref Info: bookmark level for unknown research_problem defaults to 
 0 on input line 385.
 
@@ -4637,10 +3857,7 @@ Runaway argument?
                    \par 
 l.536 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 ! LaTeX Error: \begin{itemize} on input line 530 ended by \end{research_directi
 on}.
@@ -4651,10 +3868,7 @@ Type  H <return>  for immediate help.
                                                   
 l.544 \end{research_direction}
                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 546.
@@ -4683,10 +3897,7 @@ Runaway argument?
                    \par 
 l.589 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 ! LaTeX Error: \begin{itemize} on input line 583 ended by \end{research_directi
 on}.
@@ -4697,10 +3908,7 @@ Type  H <return>  for immediate help.
                                                   
 l.596 \end{research_direction}
                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 Runaway argument?
 {Symbolic Computation**: Computer algebra systems for manipulating L-\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4708,10 +3916,7 @@ Runaway argument?
                    \par 
 l.611 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 ! LaTeX Error: \begin{itemize} on input line 605 ended by \end{research_directi
 on}.
@@ -4722,10 +3927,7 @@ Type  H <return>  for immediate help.
                                                   
 l.625 \end{research_direction}
                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 Package hyperref Info: bookmark level for unknown experiment_list defaults to 0
  on input line 633.
 Runaway argument?
@@ -4735,10 +3937,7 @@ Runaway argument?
                    \par 
 l.637 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {Finite Matrix Models**: Implement various matrix models and study th\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4746,10 +3945,7 @@ Runaway argument?
                    \par 
 l.639 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {Automorphic Form Calculations**: Compute large databases of automorp\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4757,10 +3953,7 @@ Runaway argument?
                    \par 
 l.641 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {de Branges Space Investigations**: Implement computational versions \ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4768,10 +3961,7 @@ Runaway argument?
                    \par 
 l.643 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {Random Matrix Ensemble Tests**: Generate large random matrix ensembl\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4779,10 +3969,7 @@ Runaway argument?
                    \par 
 l.645 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {Quantum Chaos Simulations**: Simulate quantum chaotic systems and co\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4790,10 +3977,7 @@ Runaway argument?
                    \par 
 l.649 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4810,10 +3994,7 @@ Runaway argument?
                    \par 
 l.670 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 ! LaTeX Error: Too deeply nested.
 
@@ -4823,9 +4004,7 @@ Type  H <return>  for immediate help.
                                                   
 l.674 \item
             Pure analysis lacks the arithmetic structure
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 Package hyperref Info: bookmark level for unknown optimism_factors defaults to 
 0 on input line 698.
 
@@ -4837,9 +4016,7 @@ Type  H <return>  for immediate help.
                                                   
 l.701 \item
             Over $3 \times 10^{12}$ zeros verified on the critical line
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 Runaway argument?
 {Deep Connections Discovered**: RH connects to: \begin {itemize} \item \ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4847,10 +4024,7 @@ Runaway argument?
                    \par 
 l.713 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {New Mathematical Structures**: \begin {itemize} \item Higher categor\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -4858,10 +4032,7 @@ Runaway argument?
                    \par 
 l.731 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4881,10 +4052,7 @@ Runaway argument?
                    \par 
 l.763 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 ! LaTeX Error: Too deeply nested.
 
@@ -4894,9 +4062,7 @@ Type  H <return>  for immediate help.
                                                   
 l.766 \item
             View "failures" as contributions to understanding
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 
 ! LaTeX Error: \begin{itemize} on input line 757 ended by \end{guidance}.
 
@@ -4906,10 +4072,7 @@ Type  H <return>  for immediate help.
                                                   
 l.771 \end{guidance}
                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 Package hyperref Info: bookmark level for unknown encouragement defaults to 0 o
 n input line 774.
 Package hyperref Info: bookmark level for unknown collaboration defaults to 0 o
@@ -4928,13 +4091,9 @@ Runaway argument?
 ! File ended while scanning use of \textbf .
 <inserted text> 
                 \par 
-l.273 \input{chapters/ch16_future}
+l.275 \input{chapters/ch16_future}
                                   
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5091,7 +4250,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 296.
+LaTeX Warning: Empty bibliography on input line 298.
 
 No file main.ind.
 
@@ -5102,12 +4261,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.300 \end{document}
+l.302 \end{document}
                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -5118,7 +4274,7 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 84D67CD91EE31EE220AE35346E0EE1F7;151493.
+(rerunfilecheck)             Checksum: 06094F5F382EEC812E2A0612FF0744D8;151517.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -5141,10 +4297,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 353 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 53600 strings out of 474116
- 1185793 string characters out of 5743681
- 2020429 words of memory out of 5000000
- 71935 multiletter control sequences out of 15000+600000
+ 54098 strings out of 474116
+ 1198096 string characters out of 5743681
+ 2040750 words of memory out of 5000000
+ 72428 multiletter control sequences out of 15000+600000
  596946 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,93p,1001b,2702s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5176,10 +4332,10 @@ exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (270 pages, 1215329 bytes).
+Output written on main.pdf (268 pages, 1215404 bytes).
 PDF statistics:
- 6964 PDF objects out of 7423 (max. 8388607)
- 6569 compressed objects within 66 object streams
- 2834 named destinations out of 2984 (max. 500000)
+ 6955 PDF objects out of 7423 (max. 8388607)
+ 6562 compressed objects within 66 object streams
+ 2832 named destinations out of 2984 (max. 500000)
  62277 words of extra memory for PDF output out of 74296 (max. 10000000)
 
