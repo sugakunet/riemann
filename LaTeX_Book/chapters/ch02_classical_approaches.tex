@@ -51,6 +51,211 @@ Despite its appeal, the Hadamard product approach faces fundamental limitations:
 
 The product form reveals structure but does not provide sufficient leverage to determine zero locations precisely.
 
+\section{Von Mangoldt's Explicit Formula}
+
+In 1895, Hans von Mangoldt provided the first rigorous proof of Riemann's explicit formula, establishing a fundamental connection between the zeros of $\zeta(s)$ and the distribution of prime numbers. Edwards \cite{edwards1974} presents this as one of the cornerstones of analytic number theory.
+
+\subsection{The Chebyshev Psi Function}
+
+\begin{definition}[Von Mangoldt Function]
+The von Mangoldt function is defined as:
+\begin{equation}
+\Lambda(n) = \begin{cases}
+\log p & \text{if } n = p^k \text{ for some prime } p \text{ and integer } k \geq 1\\
+0 & \text{otherwise}
+\end{cases}
+\end{equation}
+\end{definition}
+
+\begin{definition}[Chebyshev Psi Function]
+\begin{equation}
+\psi(x) = \sum_{n \leq x} \Lambda(n) = \sum_{p^k \leq x} \log p
+\end{equation}
+\end{definition}
+
+\subsection{Von Mangoldt's Explicit Formula}
+
+\begin{theorem}[Von Mangoldt 1895]
+For $x > 1$ not equal to a prime power:
+\begin{equation}
+\psi(x) = x - \sum_{\rho} \frac{x^{\rho}}{\rho} - \log(2\pi) - \frac{1}{2}\log\left(1 - x^{-2}\right)
+\end{equation}
+where the sum is over all non-trivial zeros $\rho$ of $\zeta(s)$, taken in the order of increasing $|\Im(\rho)|$.
+\end{theorem}
+
+Edwards emphasizes that this formula makes explicit the connection between:
+\begin{itemize}
+\item The main term $x$ (expected number of prime powers)
+\item The oscillating terms $x^{\rho}/\rho$ (deviations from expectation)
+\item The zeros of $\zeta(s)$ (source of oscillations)
+\end{itemize}
+
+\subsection{Convergence and Interpretation}
+
+The convergence of the series requires careful treatment:
+
+\begin{remark}[Conditional Convergence]
+The series $\sum_{\rho} x^{\rho}/\rho$ is conditionally convergent. Von Mangoldt showed that taking zeros in symmetric pairs $\rho, \overline{\rho}$ ensures convergence:
+\begin{equation}
+\sum_{\rho} \frac{x^{\rho}}{\rho} = \lim_{T \to \infty} \sum_{|\Im(\rho)| \leq T} \frac{x^{\rho}}{\rho}
+\end{equation}
+\end{remark}
+
+\subsection{Connection to the Prime Number Theorem}
+
+Von Mangoldt used this formula to provide a new proof of the Prime Number Theorem:
+
+\begin{theorem}[Prime Number Theorem via Explicit Formula]
+The fact that $\zeta(s)$ has no zeros with $\Re(s) = 1$ implies:
+\begin{equation}
+\psi(x) \sim x \quad \text{as } x \to \infty
+\end{equation}
+and hence:
+\begin{equation}
+\pi(x) \sim \frac{x}{\log x}
+\end{equation}
+\end{theorem}
+
+\subsection{The Role of Zero-Free Regions}
+
+Von Mangoldt's formula shows how zero-free regions directly impact prime distribution:
+
+\begin{theorem}[Error Term Control]
+If $\zeta(s)$ has no zeros in the region $\Re(s) > 1 - c/\log T$ for $|\Im(s)| \leq T$, then:
+\begin{equation}
+\psi(x) - x = O(x e^{-c'\sqrt{\log x}})
+\end{equation}
+for some constant $c' > 0$.
+\end{theorem}
+
+\subsection{Implications of the Riemann Hypothesis}
+
+Under RH, von Mangoldt's formula simplifies dramatically:
+
+\begin{theorem}[Explicit Formula Under RH]
+If the Riemann Hypothesis is true, then for $x$ not a prime power:
+\begin{equation}
+\psi(x) = x - \sum_{\gamma} \frac{x^{1/2 + i\gamma}}{1/2 + i\gamma} + O(1)
+\end{equation}
+where $\gamma$ ranges over the imaginary parts of zeros on the critical line.
+\end{theorem}
+
+This gives the optimal error term:
+\begin{equation}
+\psi(x) - x = O(x^{1/2} \log^2 x)
+\end{equation}
+
+\subsection{Von Mangoldt's Contribution to RH Studies}
+
+Edwards \cite{edwards1974} identifies several key contributions:
+
+\begin{enumerate}
+\item \textbf{Rigorous Foundation}: First complete proof of Riemann's heuristic formula
+\item \textbf{Fourier Analysis}: Introduced Fourier inversion techniques to number theory
+\item \textbf{Explicit Connection}: Made the zeros-primes relationship quantitatively precise
+\item \textbf{Error Estimates}: Showed how zero locations control error terms
+\end{enumerate}
+
+\begin{remark}[Historical Note]
+Von Mangoldt's 1895 paper was instrumental in establishing analytic number theory as a rigorous discipline. His techniques, particularly the use of Fourier analysis and contour integration, became standard tools in the field.
+\end{remark}
+
+\subsection{Modern Perspective}
+
+The explicit formula remains central to RH research:
+
+\begin{itemize}
+\item \textbf{Weil's Positivity Criterion}: Reformulates RH using positivity of certain distributions derived from the explicit formula
+\item \textbf{Li's Criterion}: Uses coefficients in the Taylor expansion related to the explicit formula
+\item \textbf{Numerical Verification}: Modern computations verify the formula's predictions with extraordinary precision
+\end{itemize}
+
+The formula demonstrates that the Riemann Hypothesis is fundamentally about the optimal error term in the prime counting function—the zeros of $\zeta(s)$ control the fluctuations of primes around their expected density.
+
+\section{Hardy's Theorem: Infinitely Many Zeros on the Critical Line}
+
+In 1914, G.H. Hardy \cite{hardy1914} achieved a breakthrough by proving that infinitely many zeros of $\zeta(s)$ lie on the critical line. While this falls short of proving RH, it was the first result showing that the critical line contains a significant portion of zeros. Edwards \cite{edwards1974} provides an illuminating exposition of Hardy's original proof technique.
+
+\subsection{Hardy's Original Method}
+
+Hardy's proof employs a clever indirect argument using the properties of certain theta functions and their Fourier transforms.
+
+\begin{definition}[Hardy's G Function]
+Define the function:
+\begin{equation}
+G(x) = \sum_{n=1}^{\infty} e^{-\pi n^2 x^2}
+\end{equation}
+for $x > 0$.
+\end{definition}
+
+\begin{theorem}[Hardy 1914]
+The Riemann zeta function has infinitely many zeros on the critical line $\Re(s) = 1/2$.
+\end{theorem}
+
+\begin{proof}[Proof (Following Edwards' Exposition)]
+The proof proceeds by contradiction using the following key steps:
+
+\textbf{Step 1: Connection to Xi Function}. Consider the function:
+\begin{equation}
+Z(t) = e^{i\vartheta(t)} \zeta\left(\frac{1}{2} + it\right)
+\end{equation}
+where $\vartheta(t) = \Im \log \Gamma\left(\frac{1 + 2it}{4}\right) - \frac{t}{2}\log \pi$.
+
+This function is real-valued for real $t$, and $Z(t) = 0$ if and only if $\zeta(1/2 + it) = 0$.
+
+\textbf{Step 2: The Contradiction Argument}. Assume, for contradiction, that $Z(t)$ has only finitely many zeros for $t > T$ for some large $T$. Then $Z(t)$ would have constant sign for all sufficiently large $t$.
+
+\textbf{Step 3: Integral Transform}. Consider the integral:
+\begin{equation}
+I(a) = \int_T^{\infty} Z(t) t^{-3/4} e^{-at^2} dt
+\end{equation}
+If $Z(t)$ has constant sign for $t > T$, then $I(a)$ would be monotonic in $a$ for $a > 0$.
+
+\textbf{Step 4: Taylor Series Analysis}. However, using the functional equation and properties of the xi function, one can show that:
+\begin{equation}
+I(a) = \sum_{k=0}^{\infty} c_k a^k
+\end{equation}
+where the coefficients $c_k$ change sign infinitely often.
+
+\textbf{Step 5: The Contradiction}. The sign changes in the Taylor coefficients imply that $I(a)$ cannot be monotonic, contradicting the assumption that $Z(t)$ has constant sign for large $t$.
+
+Therefore, $Z(t)$ must have infinitely many zeros, which means $\zeta(1/2 + it)$ has infinitely many zeros.
+\end{proof}
+
+\subsection{Hardy's Key Insight}
+
+As Edwards \cite{edwards1974} emphasizes, Hardy's crucial insight was recognizing that if $\zeta(1/2 + it)$ had only finitely many zeros, certain integral transforms would exhibit monotonic behavior that contradicts their known analytic properties. This indirect approach circumvents the difficulty of directly analyzing individual zeros.
+
+\begin{remark}[Edwards' Commentary]
+Edwards notes that Hardy's proof, while not constructive, established a fundamental property of the zeta function that had eluded mathematicians since Riemann. The method introduced techniques that would later be refined by Hardy-Littlewood and Selberg to prove that a positive proportion of zeros lie on the critical line.
+\end{remark}
+
+\subsection{Quantitative Improvements}
+
+Hardy's qualitative result has been significantly strengthened over the years:
+
+\begin{theorem}[Selberg 1942 \cite{selberg1942}]
+A positive proportion of the non-trivial zeros of $\zeta(s)$ lie on the critical line.
+\end{theorem}
+
+\begin{theorem}[Conrey 1989 \cite{conrey1989}]
+At least $40\%$ of the non-trivial zeros of $\zeta(s)$ lie on the critical line $\Re(s) = 1/2$.
+\end{theorem}
+
+These improvements use refinements of Hardy's original method combined with more sophisticated estimates of exponential sums and moment calculations.
+
+\subsection{Limitations of Hardy's Approach}
+
+Despite its historical importance, Hardy's method has inherent limitations:
+
+\begin{enumerate}
+\item \textbf{Non-constructive Nature}: The proof doesn't provide a method to locate specific zeros on the critical line.
+\item \textbf{Proportion vs. All}: Even the strongest results prove only that a certain proportion (currently 40\%) of zeros are on the critical line, not that all zeros are.
+\item \textbf{Technical Barriers}: The method relies on average behavior rather than pointwise properties, making it difficult to extend to a proof of RH.
+\end{enumerate}
+
+As Edwards concludes, Hardy's theorem represents a major milestone in understanding the distribution of zeta zeros, but new ideas beyond this approach are needed to prove the full Riemann Hypothesis.
+
 \section{The de Bruijn-Newman Constant}
 
 One of the most significant recent developments in RH theory involves the de Bruijn-Newman constant, which provides a precise measure of how "barely true" the Riemann Hypothesis is.

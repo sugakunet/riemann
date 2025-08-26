@@ -8,9 +8,20 @@ The numerical verification of the Riemann Hypothesis represents one of the most 
 
 The computational verification of RH relies fundamentally on the Riemann-Siegel formula, which provides an efficient method for computing $\zeta(s)$ on the critical line.
 
+\subsection{Historical Discovery and Edwards' Contribution}
+
+\begin{historicalnote}
+In 1932, Carl Siegel discovered in Riemann's Nachlass a formula that showed Riemann had computational methods 70 years ahead of his time. Edwards \cite{edwards1974} provides the definitive pedagogical treatment of this discovery, revealing how Riemann actually computed zeros to verify his hypothesis.
+\end{historicalnote}
+
+According to Edwards, the formula begins with Riemann's integral representation:
+\begin{equation}
+\zeta(s) = \frac{\Gamma(1-s)}{2\pi i} \int_{+\infty}^{+\infty} \frac{(-x)^s}{e^x - 1} \cdot \frac{dx}{x}
+\end{equation}
+
 \subsection{Derivation from the Approximate Functional Equation}
 
-The Riemann-Siegel formula emerges from applying the method of stationary phase to the integral representation of $\zeta(s)$ combined with the functional equation.
+The Riemann-Siegel formula emerges from applying the method of stationary phase to the integral representation of $\zeta(s)$ combined with the functional equation. Edwards \cite{edwards1974} emphasizes that Riemann understood the saddle point method before it was formally developed.
 
 \begin{theorem}[Riemann-Siegel Formula \cite{titchmarsh1986}]
 For $s = \frac{1}{2} + it$ with $t > 0$, we have
@@ -32,6 +43,17 @@ R(s) &= (-1)^{N-1} \left(\frac{t}{2\pi}\right)^{-1/4} \sum_{k=0}^{K-1} C_k \left
 \begin{remark}
 The choice $N = \sqrt{t/(2\pi)}$ minimizes the error by balancing the truncation errors in both Dirichlet series. This gives the formula its computational power.
 \end{remark}
+
+\subsubsection{Edwards' Key Insight on Computational Efficiency}
+
+As Edwards \cite{edwards1974} emphasizes, the Riemann-Siegel formula represents a profound improvement over Euler-Maclaurin summation:
+
+\begin{itemize}
+\item \textbf{Euler-Maclaurin}: Requires $O(t)$ terms for computing $\zeta(\frac{1}{2} + it)$
+\item \textbf{Riemann-Siegel}: Needs only $O(\sqrt{t})$ main terms plus correction terms
+\end{itemize}
+
+For $t = 1000$, this means approximately 12 terms versus hundreds---a dramatic computational saving that enabled the verification of millions of zeros.
 
 \subsection{The Hardy Z-function}
 
@@ -71,6 +93,132 @@ The Riemann-Siegel formula achieves remarkable computational efficiency:
 \end{algorithm}
 
 The computational complexity is $O(\sqrt{t})$ for each evaluation, making it feasible to check zeros at enormous heights.
+
+\section{The Euler-Maclaurin Method}
+\label{sec:euler-maclaurin}
+
+Before the discovery of the Riemann-Siegel formula, the Euler-Maclaurin summation formula was the primary computational tool for evaluating $\zeta(s)$. Edwards \cite{edwards1974} provides a comprehensive treatment of this classical method, which remained important for understanding the analytic properties of $\zeta(s)$.
+
+\subsection{The Euler-Maclaurin Formula for Zeta}
+
+\begin{theorem}[Euler-Maclaurin Formula for $\zeta(s)$]
+For $\Re(s) > 0$ and integer $N \geq 1$:
+\begin{align}
+\zeta(s) &= \sum_{n=1}^{N-1} n^{-s} + \frac{N^{1-s}}{s-1} + \frac{1}{2}N^{-s} \\
+&\quad + \sum_{j=1}^{v} \frac{B_{2j}}{(2j)!} \cdot s(s+1)\cdots(s+2j-2) \cdot N^{-s-2j+1} + R_{2v}
+\end{align}
+where $B_{2j}$ are Bernoulli numbers and $R_{2v}$ is the remainder term.
+\end{theorem}
+
+Edwards emphasizes that this formula transforms an infinite series into a finite sum plus correction terms, making computation feasible.
+
+\subsection{Bernoulli Numbers and Convergence}
+
+The Bernoulli numbers appearing in the formula are defined by:
+\begin{equation}
+\frac{x}{e^x - 1} = \sum_{n=0}^{\infty} \frac{B_n}{n!} x^n
+\end{equation}
+
+The first few values are:
+\begin{align}
+B_0 &= 1, \quad B_1 = -\frac{1}{2}, \quad B_2 = \frac{1}{6} \\
+B_4 &= -\frac{1}{30}, \quad B_6 = \frac{1}{42}, \quad B_8 = -\frac{1}{30}
+\end{align}
+
+\begin{remark}[Asymptotic Nature]
+As Edwards notes, the Euler-Maclaurin expansion is asymptotic but not convergent. The optimal truncation point depends on $|s|$ and $N$, requiring careful analysis for practical computation.
+\end{remark}
+
+\subsection{Error Estimates}
+
+Backlund provided rigorous error bounds that were crucial for early verifications:
+
+\begin{theorem}[Backlund's Error Estimate]
+For the remainder term $R_{2v}$ in the Euler-Maclaurin formula:
+\begin{equation}
+|R_{2v-1}| \leq \frac{|s+2v-1|}{\sigma+2v-1} \times |\text{first omitted term}|
+\end{equation}
+where $\sigma = \Re(s)$.
+\end{theorem}
+
+This estimate allows determination of how many terms are needed for desired accuracy.
+
+\subsection{Application to the Critical Line}
+
+For $s = \frac{1}{2} + it$ on the critical line, the formula becomes:
+
+\begin{equation}
+\zeta\left(\frac{1}{2} + it\right) = \sum_{n=1}^{N-1} \frac{1}{n^{1/2 + it}} + \text{correction terms}
+\end{equation}
+
+The main computational challenge is that for large $t$, one needs $N \approx t$ to achieve reasonable accuracy, leading to $O(t)$ computational complexity per evaluation.
+
+\subsection{Stirling's Series Connection}
+
+The Euler-Maclaurin formula is intimately connected to Stirling's approximation for $\log \Gamma(s)$:
+
+\begin{theorem}[Stirling's Series]
+\begin{align}
+\log \Gamma(s) &= \left(s - \frac{1}{2}\right)\log s - s + \frac{1}{2}\log(2\pi) \\
+&\quad + \sum_{j=1}^{v} \frac{B_{2j}}{2j(2j-1)} \cdot s^{-2j+1} + O(s^{-2v-1})
+\end{align}
+\end{theorem}
+
+Edwards shows how this series is essential for computing the functional equation factors when verifying zeros.
+
+\subsection{Historical Computational Achievements}
+
+Using the Euler-Maclaurin method, early pioneers achieved:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Year} & \textbf{Researcher} & \textbf{Zeros Verified} \\
+\hline
+1903 & Gram & 10 \\
+1914 & Backlund & 79 \\
+1925 & Hutchinson & 138 \\
+\hline
+\end{tabular}
+\caption{Pre-Riemann-Siegel computational achievements}
+\end{table}
+
+These calculations, though limited by modern standards, established the empirical foundation for believing RH.
+
+\subsection{Comparison with Riemann-Siegel}
+
+Edwards provides a striking comparison of computational efficiency:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Method} & \textbf{Terms for $t = 1000$} & \textbf{Complexity} \\
+\hline
+Euler-Maclaurin & $\approx 1000$ & $O(t)$ \\
+Riemann-Siegel & $\approx 12 + $ corrections & $O(\sqrt{t})$ \\
+\hline
+\end{tabular}
+\caption{Computational efficiency comparison}
+\end{table}
+
+This dramatic difference explains why the discovery of the Riemann-Siegel formula revolutionized RH verification.
+
+\subsection{Modern Relevance}
+
+While superseded for zero verification, the Euler-Maclaurin method remains important for:
+
+\begin{enumerate}
+\item \textbf{Theoretical Analysis}: Understanding analytic continuation and growth rates
+\item \textbf{High-Precision Values}: Computing $\zeta(s)$ at specific points to extreme accuracy
+\item \textbf{Derivative Computation}: Evaluating $\zeta'(s)$ and higher derivatives
+\item \textbf{Educational Value}: Teaching the connection between discrete sums and continuous integrals
+\end{enumerate}
+
+\begin{remark}[Edwards' Perspective]
+Edwards notes that the Euler-Maclaurin formula, despite its computational limitations, provides crucial insight into the analytic structure of $\zeta(s)$. The appearance of Bernoulli numbers and the asymptotic nature of the expansion reveal deep connections to other areas of mathematics.
+\end{remark}
 
 \section{Numerical Verification History}
 \label{sec:verification-history}
