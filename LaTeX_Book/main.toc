@@ -668,25 +668,24 @@
 \contentsline {subsection}{\numberline {A.5.2}Hyperbolic Geometry}{216}{subsection.A.5.2}%
 \contentsline {section}{\numberline {A.6}Modular Forms}{217}{section.A.6}%
 \contentsline {section}{\numberline {A.7}Essential Inequalities}{217}{section.A.7}%
-\contentsline {chapter}{\numberline {B}Detailed Proofs}{219}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Historical Timeline}{221}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Notation and Conventions}{225}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Number Sets and Basic Notation}{225}{section.D.1}%
-\contentsline {section}{\numberline {D.2}Complex Analysis Notation}{225}{section.D.2}%
-\contentsline {section}{\numberline {D.3}The Riemann Zeta Function and Related Functions}{225}{section.D.3}%
-\contentsline {section}{\numberline {D.4}L-Functions}{226}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Number-Theoretic Functions}{226}{section.D.5}%
-\contentsline {section}{\numberline {D.6}Asymptotic Notation}{226}{section.D.6}%
-\contentsline {section}{\numberline {D.7}Summation and Product Notation}{226}{section.D.7}%
-\contentsline {section}{\numberline {D.8}Special Functions}{227}{section.D.8}%
-\contentsline {section}{\numberline {D.9}Modular Forms and Automorphic Functions}{227}{section.D.9}%
-\contentsline {section}{\numberline {D.10}Operators and Transforms}{227}{section.D.10}%
-\contentsline {section}{\numberline {D.11}Matrix Groups and Lie Theory}{227}{section.D.11}%
-\contentsline {section}{\numberline {D.12}Constants}{228}{section.D.12}%
-\contentsline {section}{\numberline {D.13}Conventions}{228}{section.D.13}%
-\contentsline {subsection}{\numberline {D.13.1}Branch Cuts}{228}{subsection.D.13.1}%
-\contentsline {subsection}{\numberline {D.13.2}Fourier Transform}{228}{subsection.D.13.2}%
-\contentsline {subsection}{\numberline {D.13.3}Contour Integration}{228}{subsection.D.13.3}%
-\contentsline {subsection}{\numberline {D.13.4}Empty Products and Sums}{228}{subsection.D.13.4}%
-\contentsline {subsection}{\numberline {D.13.5}Prime Notation}{228}{subsection.D.13.5}%
-\contentsline {section}{\numberline {D.14}Abbreviations}{229}{section.D.14}%
+\contentsline {chapter}{\numberline {B}Historical Timeline}{219}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Notation and Conventions}{223}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Number Sets and Basic Notation}{223}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Complex Analysis Notation}{223}{section.C.2}%
+\contentsline {section}{\numberline {C.3}The Riemann Zeta Function and Related Functions}{223}{section.C.3}%
+\contentsline {section}{\numberline {C.4}L-Functions}{224}{section.C.4}%
+\contentsline {section}{\numberline {C.5}Number-Theoretic Functions}{224}{section.C.5}%
+\contentsline {section}{\numberline {C.6}Asymptotic Notation}{224}{section.C.6}%
+\contentsline {section}{\numberline {C.7}Summation and Product Notation}{224}{section.C.7}%
+\contentsline {section}{\numberline {C.8}Special Functions}{225}{section.C.8}%
+\contentsline {section}{\numberline {C.9}Modular Forms and Automorphic Functions}{225}{section.C.9}%
+\contentsline {section}{\numberline {C.10}Operators and Transforms}{225}{section.C.10}%
+\contentsline {section}{\numberline {C.11}Matrix Groups and Lie Theory}{225}{section.C.11}%
+\contentsline {section}{\numberline {C.12}Constants}{226}{section.C.12}%
+\contentsline {section}{\numberline {C.13}Conventions}{226}{section.C.13}%
+\contentsline {subsection}{\numberline {C.13.1}Branch Cuts}{226}{subsection.C.13.1}%
+\contentsline {subsection}{\numberline {C.13.2}Fourier Transform}{226}{subsection.C.13.2}%
+\contentsline {subsection}{\numberline {C.13.3}Contour Integration}{226}{subsection.C.13.3}%
+\contentsline {subsection}{\numberline {C.13.4}Empty Products and Sums}{226}{subsection.C.13.4}%
+\contentsline {subsection}{\numberline {C.13.5}Prime Notation}{226}{subsection.C.13.5}%
+\contentsline {section}{\numberline {C.14}Abbreviations}{227}{section.C.14}%
