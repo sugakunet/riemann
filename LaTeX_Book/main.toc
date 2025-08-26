@@ -149,29 +149,29 @@
 \contentsline {subsection}{\numberline {10.3.2}Properties and Applications}{57}{subsection.10.3.2}%
 \contentsline {section}{\numberline {10.4}Ordering and Inclusion Theory}{57}{section.10.4}%
 \contentsline {subsection}{\numberline {10.4.1}The Chain Theorem}{57}{subsection.10.4.1}%
-\contentsline {subsection}{\numberline {10.4.2}Characterization Theorem}{57}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.2}Characterization Theorem}{58}{subsection.10.4.2}%
 \contentsline {subsection}{\numberline {10.4.3}Isometric Embeddings}{58}{subsection.10.4.3}%
 \contentsline {section}{\numberline {10.5}Connection to Krein Theory}{58}{section.10.5}%
 \contentsline {subsection}{\numberline {10.5.1}Entire Operators and n-Entire Operators}{58}{subsection.10.5.1}%
 \contentsline {subsection}{\numberline {10.5.2}Functional Models}{58}{subsection.10.5.2}%
-\contentsline {subsection}{\numberline {10.5.3}Classification Hierarchy}{58}{subsection.10.5.3}%
+\contentsline {subsection}{\numberline {10.5.3}Classification Hierarchy}{59}{subsection.10.5.3}%
 \contentsline {section}{\numberline {10.6}Application to the Riemann Hypothesis}{59}{section.10.6}%
 \contentsline {subsection}{\numberline {10.6.1}de Branges' Strategy}{59}{subsection.10.6.1}%
 \contentsline {subsection}{\numberline {10.6.2}Key Construction for the Zeta Function}{59}{subsection.10.6.2}%
-\contentsline {subsection}{\numberline {10.6.3}Positivity Conditions}{59}{subsection.10.6.3}%
+\contentsline {subsection}{\numberline {10.6.3}Positivity Conditions}{60}{subsection.10.6.3}%
 \contentsline {subsection}{\numberline {10.6.4}Spectral Interpretation}{60}{subsection.10.6.4}%
 \contentsline {section}{\numberline {10.7}The Conrey-Li Gap and Technical Challenges}{60}{section.10.7}%
 \contentsline {subsection}{\numberline {10.7.1}The Gap Identified by Conrey-Li (2000)}{60}{subsection.10.7.1}%
 \contentsline {subsection}{\numberline {10.7.2}Why Positivity Conditions Fail}{60}{subsection.10.7.2}%
-\contentsline {subsection}{\numberline {10.7.3}Computational Obstacles}{60}{subsection.10.7.3}%
+\contentsline {subsection}{\numberline {10.7.3}Computational Obstacles}{61}{subsection.10.7.3}%
 \contentsline {subsection}{\numberline {10.7.4}Current Status and Assessment}{61}{subsection.10.7.4}%
 \contentsline {section}{\numberline {10.8}Strengths and Limitations}{61}{section.10.8}%
 \contentsline {subsection}{\numberline {10.8.1}Strengths of the de Branges Approach}{61}{subsection.10.8.1}%
-\contentsline {subsection}{\numberline {10.8.2}Limitations and Criticisms}{61}{subsection.10.8.2}%
+\contentsline {subsection}{\numberline {10.8.2}Limitations and Criticisms}{62}{subsection.10.8.2}%
 \contentsline {section}{\numberline {10.9}Related Developments and Modern Perspectives}{62}{section.10.9}%
 \contentsline {subsection}{\numberline {10.9.1}The Bombieri-Garrett Limitation}{62}{subsection.10.9.1}%
 \contentsline {subsection}{\numberline {10.9.2}Connection to Random Matrix Theory}{62}{subsection.10.9.2}%
-\contentsline {subsection}{\numberline {10.9.3}Contemporary Applications}{62}{subsection.10.9.3}%
+\contentsline {subsection}{\numberline {10.9.3}Contemporary Applications}{63}{subsection.10.9.3}%
 \contentsline {section}{\numberline {10.10}Conclusion}{63}{section.10.10}%
 \contentsline {subsection}{\numberline {10.10.1}Lasting Contributions}{63}{subsection.10.10.1}%
 \contentsline {subsection}{\numberline {10.10.2}Current Challenges}{63}{subsection.10.10.2}%
@@ -294,28 +294,28 @@
 \contentsline {subsection}{\numberline {18.3.1}The Odlyzko-Schönhage Algorithm}{107}{subsection.18.3.1}%
 \contentsline {subsection}{\numberline {18.3.2}Parallel Computation Strategies}{107}{subsection.18.3.2}%
 \contentsline {subsection}{\numberline {18.3.3}Error Analysis and Verification}{107}{subsection.18.3.3}%
-\contentsline {section}{\numberline {18.4}Edwards' Tracking Problem}{108}{section.18.4}%
+\contentsline {section}{\numberline {18.4}Edwards' Tracking Problem}{107}{section.18.4}%
 \contentsline {subsection}{\numberline {18.4.1}The Impossibility of Term Analysis}{108}{subsection.18.4.1}%
 \contentsline {subsection}{\numberline {18.4.2}Implications for Understanding}{108}{subsection.18.4.2}%
 \contentsline {subsection}{\numberline {18.4.3}Scale Separation Problem}{108}{subsection.18.4.3}%
 \contentsline {section}{\numberline {18.5}Computational Evidence and Patterns}{108}{section.18.5}%
-\contentsline {subsection}{\numberline {18.5.1}Gram Points and Gram's Law}{109}{subsection.18.5.1}%
+\contentsline {subsection}{\numberline {18.5.1}Gram Points and Gram's Law}{108}{subsection.18.5.1}%
 \contentsline {subsection}{\numberline {18.5.2}Lehmer Pairs and Near-Misses}{109}{subsection.18.5.2}%
 \contentsline {subsection}{\numberline {18.5.3}Statistical Distributions}{109}{subsection.18.5.3}%
 \contentsline {subsection}{\numberline {18.5.4}Large Height Computations}{109}{subsection.18.5.4}%
-\contentsline {section}{\numberline {18.6}Limitations of Computation}{110}{section.18.6}%
-\contentsline {subsection}{\numberline {18.6.1}The Finite-Infinite Gap}{110}{subsection.18.6.1}%
+\contentsline {section}{\numberline {18.6}Limitations of Computation}{109}{section.18.6}%
+\contentsline {subsection}{\numberline {18.6.1}The Finite-Infinite Gap}{109}{subsection.18.6.1}%
 \contentsline {subsection}{\numberline {18.6.2}Scale Separation and Emergence}{110}{subsection.18.6.2}%
 \contentsline {subsection}{\numberline {18.6.3}Precision Requirements}{110}{subsection.18.6.3}%
 \contentsline {subsection}{\numberline {18.6.4}The Numerical-Analytical Divide}{110}{subsection.18.6.4}%
 \contentsline {section}{\numberline {18.7}What Computation Teaches Us}{110}{section.18.7}%
-\contentsline {subsection}{\numberline {18.7.1}Positive Evidence}{111}{subsection.18.7.1}%
+\contentsline {subsection}{\numberline {18.7.1}Positive Evidence}{110}{subsection.18.7.1}%
 \contentsline {subsection}{\numberline {18.7.2}Structural Insights}{111}{subsection.18.7.2}%
 \contentsline {subsection}{\numberline {18.7.3}Methodological Advances}{111}{subsection.18.7.3}%
 \contentsline {subsection}{\numberline {18.7.4}Philosophical Implications}{111}{subsection.18.7.4}%
 \contentsline {section}{\numberline {18.8}Future Directions}{111}{section.18.8}%
 \contentsline {subsection}{\numberline {18.8.1}Computational Challenges}{111}{subsection.18.8.1}%
-\contentsline {subsection}{\numberline {18.8.2}Hybrid Approaches}{112}{subsection.18.8.2}%
+\contentsline {subsection}{\numberline {18.8.2}Hybrid Approaches}{111}{subsection.18.8.2}%
 \contentsline {subsection}{\numberline {18.8.3}Beyond Verification}{112}{subsection.18.8.3}%
 \contentsline {section}{\numberline {18.9}Conclusion}{112}{section.18.9}%
 \contentsline {part}{IV\hspace {1em}Obstructions, Doubts, and Defenses}{115}{part.4}%
@@ -363,31 +363,31 @@
 \contentsline {section}{\numberline {22.2}Farmer's Defense (2022)}{134}{section.22.2}%
 \contentsline {subsection}{\numberline {22.2.1}The Four Mistaken Notions}{134}{subsection.22.2.1}%
 \contentsline {subsection}{\numberline {22.2.2}Core Defense Principles}{134}{subsection.22.2.2}%
-\contentsline {subsection}{\numberline {22.2.3}Why Numerical Computation Cannot Provide Reliable Evidence}{134}{subsection.22.2.3}%
+\contentsline {subsection}{\numberline {22.2.3}Why Numerical Computation Cannot Provide Reliable Evidence}{135}{subsection.22.2.3}%
 \contentsline {section}{\numberline {22.3}Carrier Wave Theory}{135}{section.22.3}%
 \contentsline {subsection}{\numberline {22.3.1}Revolutionary Insight About Local vs Distant Zeros}{135}{subsection.22.3.1}%
 \contentsline {subsection}{\numberline {22.3.2}Three Components of Zeta Behavior}{135}{subsection.22.3.2}%
-\contentsline {subsection}{\numberline {22.3.3}Why True Behavior Only Emerges at Scales Like $10^{434}$}{135}{subsection.22.3.3}%
+\contentsline {subsection}{\numberline {22.3.3}Why True Behavior Only Emerges at Scales Like $10^{434}$}{136}{subsection.22.3.3}%
 \contentsline {subsection}{\numberline {22.3.4}Implications for Understanding Large Values}{136}{subsection.22.3.4}%
 \contentsline {section}{\numberline {22.4}Random Matrix Theory Support}{136}{section.22.4}%
 \contentsline {subsection}{\numberline {22.4.1}Connection to GUE Statistics}{136}{subsection.22.4.1}%
-\contentsline {subsection}{\numberline {22.4.2}Pair Correlation Matches}{136}{subsection.22.4.2}%
+\contentsline {subsection}{\numberline {22.4.2}Pair Correlation Matches}{137}{subsection.22.4.2}%
 \contentsline {subsection}{\numberline {22.4.3}Spacing Distributions}{137}{subsection.22.4.3}%
 \contentsline {subsection}{\numberline {22.4.4}Why This Supports RH}{137}{subsection.22.4.4}%
 \contentsline {section}{\numberline {22.5}Response to Specific Doubts}{137}{section.22.5}%
-\contentsline {subsection}{\numberline {22.5.1}Why Davenport-Heilbronn Doesn't Apply to Genuine L-Functions}{137}{subsection.22.5.1}%
+\contentsline {subsection}{\numberline {22.5.1}Why Davenport-Heilbronn Doesn't Apply to Genuine L-Functions}{138}{subsection.22.5.1}%
 \contentsline {subsection}{\numberline {22.5.2}Lehmer Pairs at Predicted Frequencies}{138}{subsection.22.5.2}%
 \contentsline {subsection}{\numberline {22.5.3}Large Values Explained by Carrier Waves}{138}{subsection.22.5.3}%
 \contentsline {subsection}{\numberline {22.5.4}Mean Value Conjectures Consistent with RH}{138}{subsection.22.5.4}%
-\contentsline {section}{\numberline {22.6}The ``Barely True'' Nature of RH}{138}{section.22.6}%
+\contentsline {section}{\numberline {22.6}The ``Barely True'' Nature of RH}{139}{section.22.6}%
 \contentsline {subsection}{\numberline {22.6.1}De Bruijn-Newman Constant $\Lambda \geq 0$}{139}{subsection.22.6.1}%
 \contentsline {subsection}{\numberline {22.6.2}Coming Extraordinarily Close to Failure}{139}{subsection.22.6.2}%
 \contentsline {subsection}{\numberline {22.6.3}What This Means Philosophically}{139}{subsection.22.6.3}%
-\contentsline {subsection}{\numberline {22.6.4}Implications for Proof Strategies}{139}{subsection.22.6.4}%
+\contentsline {subsection}{\numberline {22.6.4}Implications for Proof Strategies}{140}{subsection.22.6.4}%
 \contentsline {section}{\numberline {22.7}Synthesis and Conclusion}{140}{section.22.7}%
 \contentsline {subsection}{\numberline {22.7.1}Resolution of the Doubt-Defense Dialectic}{140}{subsection.22.7.1}%
 \contentsline {subsection}{\numberline {22.7.2}The Current State of Belief}{140}{subsection.22.7.2}%
-\contentsline {subsection}{\numberline {22.7.3}Why RH Remains Unproven}{140}{subsection.22.7.3}%
+\contentsline {subsection}{\numberline {22.7.3}Why RH Remains Unproven}{141}{subsection.22.7.3}%
 \contentsline {subsection}{\numberline {22.7.4}Future Prospects}{141}{subsection.22.7.4}%
 \contentsline {part}{V\hspace {1em}Special Topics and Modern Developments}{143}{part.5}%
 \contentsline {chapter}{\numberline {23}Siegel Modular Forms and Higher-Dimensional Theory}{145}{chapter.23}%
@@ -598,7 +598,7 @@
 \contentsline {subsection}{\numberline {32.5.5}Computational Experiments Needed}{220}{subsection.32.5.5}%
 \contentsline {section}{\numberline {32.6}The Path Forward}{221}{section.32.6}%
 \contentsline {subsection}{\numberline {32.6.1}Lessons from 160 Years of Attempts}{221}{subsection.32.6.1}%
-\contentsline {subsection}{\numberline {32.6.2}Why Optimism Remains Justified}{222}{subsection.32.6.2}%
+\contentsline {subsection}{\numberline {32.6.2}Why Optimism Remains Justified}{221}{subsection.32.6.2}%
 \contentsline {subsection}{\numberline {32.6.3}The Role of Young Researchers}{222}{subsection.32.6.3}%
 \contentsline {subsection}{\numberline {32.6.4}Interdisciplinary Opportunities}{223}{subsection.32.6.4}%
 \contentsline {chapter}{\numberline {A}Mathematical Prerequisites}{225}{appendix.A}%
@@ -617,7 +617,7 @@
 \contentsline {subsection}{\numberline {A.4.2}Characters}{228}{subsection.A.4.2}%
 \contentsline {section}{\numberline {A.5}Differential Geometry}{228}{section.A.5}%
 \contentsline {subsection}{\numberline {A.5.1}Riemannian Manifolds}{228}{subsection.A.5.1}%
-\contentsline {subsection}{\numberline {A.5.2}Hyperbolic Geometry}{229}{subsection.A.5.2}%
+\contentsline {subsection}{\numberline {A.5.2}Hyperbolic Geometry}{228}{subsection.A.5.2}%
 \contentsline {section}{\numberline {A.6}Modular Forms}{229}{section.A.6}%
 \contentsline {section}{\numberline {A.7}Essential Inequalities}{229}{section.A.7}%
 \contentsline {chapter}{\numberline {B}Detailed Proofs}{231}{appendix.B}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  25 AUG 2025 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  25 AUG 2025 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,82 +1248,261 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip160
 \f@nch@O@orf=\skip161
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count464
+\float@exts=\toks60
+\float@box=\box83
+\@float@everytoks=\toks61
+\@floatcapt=\box84
+)
+\@float@every@algorithm=\toks62
+\c@algorithm=\count465
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count466
+\c@ALG@rem=\count467
+\c@ALG@nested=\count468
+\ALG@tlm=\skip162
+\ALG@thistlm=\skip163
+\c@ALG@Lnr=\count469
+\c@ALG@blocknr=\count470
+\c@ALG@storecount=\count471
+\c@ALG@tmpcounter=\count472
+\ALG@tmplength=\skip164
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
 \@indexfile=\write5
 \openout5 = `main.idx'.
 
 
 Writing index file main.idx
-\c@theorem=\count464
+\c@theorem=\count473
 
-! LaTeX Error: Command \zeta already defined.
+! LaTeX Error: Command \c@algorithm already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \newcommand{\zeta}{\zeta}
-                              
+l.55 
+     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Command \Re already defined.
+! LaTeX Error: Command \algorithm already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \DeclareMathOperator{\Re}{Re}
-                                  
+l.55 
+     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Command \Im already defined.
-               Or name \end... illegal, see p.192 of the manual.
+! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \DeclareMathOperator{\Im}{Im}
-                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.55 
+     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 119.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 119.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 119.
+Package hyperref Info: Option `colorlinks' set `true' on input line 164.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 164.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 164.
 
-\@quotelevel=\count465
-\@quotereset=\count466
-(./main.aux)
+\@quotelevel=\count474
+\@quotereset=\count475
+(./main.aux
+
+LaTeX Warning: Label `ch:riemann_zeta' multiply defined.
+
+
+LaTeX Warning: Label `ch:riemann_zeta@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:hilbert_polya' multiply defined.
+
+
+LaTeX Warning: Label `ch:hilbert_polya@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:selberg_trace' multiply defined.
+
+
+LaTeX Warning: Label `ch:selberg_trace@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:exponential_sums' multiply defined.
+
+
+LaTeX Warning: Label `ch:exponential_sums@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:conclusion' multiply defined.
+
+
+LaTeX Warning: Label `sec:conclusion@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:computational' multiply defined.
+
+
+LaTeX Warning: Label `ch:computational@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:obstructions' multiply defined.
+
+
+LaTeX Warning: Label `ch:obstructions@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:bombieri_garrett' multiply defined.
+
+
+LaTeX Warning: Label `sec:bombieri_garrett@cref' multiply defined.
+
+
+LaTeX Warning: Label `thm:bombieri_garrett' multiply defined.
+
+
+LaTeX Warning: Label `thm:bombieri_garrett@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:distribution_constraints' multiply defined.
+
+
+LaTeX Warning: Label `sec:distribution_constraints@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:doubts_defenses' multiply defined.
+
+
+LaTeX Warning: Label `ch:doubts_defenses@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:synthesis' multiply defined.
+
+
+LaTeX Warning: Label `sec:synthesis@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:siegel' multiply defined.
+
+
+LaTeX Warning: Label `ch:siegel@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:random_matrix' multiply defined.
+
+
+LaTeX Warning: Label `ch:random_matrix@cref' multiply defined.
+
+
+LaTeX Warning: Label `conj:berry_keating' multiply defined.
+
+
+LaTeX Warning: Label `conj:berry_keating@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:recent_developments' multiply defined.
+
+
+LaTeX Warning: Label `sec:recent_developments@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:chapter_summary' multiply defined.
+
+
+LaTeX Warning: Label `sec:chapter_summary@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:alternative' multiply defined.
+
+
+LaTeX Warning: Label `ch:alternative@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:unified' multiply defined.
+
+
+LaTeX Warning: Label `ch:unified@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:arithmetic_analytic_gap' multiply defined.
+
+
+LaTeX Warning: Label `sec:arithmetic_analytic_gap@cref' multiply defined.
+
+
+LaTeX Warning: Label `sec:barely_true' multiply defined.
+
+
+LaTeX Warning: Label `sec:barely_true@cref' multiply defined.
+
+
+LaTeX Warning: Label `subsec:proof_strategy_implications' multiply defined.
+
+
+LaTeX Warning: Label `subsec:proof_strategy_implications@cref' multiply defined
+.
+
+
+LaTeX Warning: Label `sec:synthesis_future' multiply defined.
+
+
+LaTeX Warning: Label `sec:synthesis_future@cref' multiply defined.
+
+
+LaTeX Warning: Label `ch:future' multiply defined.
+
+
+LaTeX Warning: Label `ch:future@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-Package hyperref Info: Link coloring ON on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+Package hyperref Info: Link coloring ON on input line 175.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1331,17 +1510,17 @@ Package hyperref Info: Link coloring ON on input line 130.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count467
+\scratchcounter=\count476
 \scratchdimen=\dimen301
-\scratchbox=\box83
-\nofMPsegments=\count468
-\nofMParguments=\count469
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count470
+\scratchbox=\box85
+\nofMPsegments=\count477
+\nofMParguments=\count478
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count479
 \MPscratchDim=\dimen302
-\MPnumerator=\count471
-\makeMPintoPDFobject=\count472
-\everyMPtoPDFconversion=\toks61
+\MPnumerator=\count480
+\makeMPintoPDFobject=\count481
+\everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1355,7 +1534,7 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 130.
+ on input line 175.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1371,21 +1550,21 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 130.
-Package biblatex Info: Reference segment=0 on input line 130.
-LaTeX Info: Redefining \microtypecontext on input line 130.
-Package microtype Info: Applying patch `item' on input line 130.
-Package microtype Info: Applying patch `toc' on input line 130.
-Package microtype Info: Applying patch `eqnum' on input line 130.
-Package microtype Info: Applying patch `footnote' on input line 130.
-Package microtype Info: Applying patch `verbatim' on input line 130.
+Package biblatex Info: Reference section=0 on input line 175.
+Package biblatex Info: Reference segment=0 on input line 175.
+LaTeX Info: Redefining \microtypecontext on input line 175.
+Package microtype Info: Applying patch `item' on input line 175.
+Package microtype Info: Applying patch `toc' on input line 175.
+Package microtype Info: Applying patch `eqnum' on input line 175.
+Package microtype Info: Applying patch `footnote' on input line 175.
+Package microtype Info: Applying patch `verbatim' on input line 175.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 130.
+LaTeX Info: Redefining \showhyphens on input line 175.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1427,15 +1606,38 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 180
 .
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+LaTeX Font Info:    Trying to load font information for U+msb on input line 180
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1445,10 +1647,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1655,33 +1854,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20] (./chapters/introduction.tex
-
-! LaTeX Error: Environment hypothesis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \begin{hypothesis}
-                       [The Riemann Hypothesis]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{hypothesis}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{hypothesis}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[21
+Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on i
+nput line 27.
+ [21
 
 ]
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
@@ -1751,9 +1926,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [28
 
-] [1
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \part{Foundations and Classical Theory}
+                                              [1
 
-] [2]
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \part{Foundations and Classical Theory}
+                                              [2]
 Chapter 1.
 (./chapters/ch01_riemann_zeta.tex [3
 
@@ -1772,10 +1959,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 2.
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 20.
-
-LaTeX Warning: Reference `eq:zeta_dirichlet' on page 5 undefined on input line 
-31.
-
 [5]
 Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
  line 52.
@@ -1865,7 +2048,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12]
 Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
 ut line 496.
-)
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1874,7 +2057,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[13])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1883,11 +2066,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14
+[14]
+Chapter 3.
+(./chapters/ch02_classical_approaches.tex [15
 
 ]
-Chapter 3.
-(./chapters/ch02_classical_approaches.tex [15]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1934,32 +2117,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
-
-! LaTeX Error: Environment hypothesis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 \begin{hypothesis}
-                        [Lindelöf Hypothesis]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{hypothesis}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 \end{hypothesis}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2294,84 +2451,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 10.
-
-! LaTeX Error: Environment axiom undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \begin{axiom}
-                  [Zero Removal Axiom (H1)]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{axiom}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \end{axiom}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment axiom undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \begin{axiom}
-                  [Point Evaluation Axiom (H2)]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{axiom}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \end{axiom}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment axiom undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \begin{axiom}
-                  [Conjugation Axiom (H3)]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{axiom}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \end{axiom}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown axiom defaults to 0 on input 
+line 23.
 [55]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2400,31 +2481,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [58]
+Package hyperref Info: bookmark level for unknown strategy defaults to 0 on inp
+ut line 209.
 
-! LaTeX Error: Environment strategy undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.209 \begin{strategy}
-                      [de Branges' Approach to RH]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{strategy}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 \end{strategy}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (3.57158pt too wide) in paragraph at lines 211--212
+[]\T1/cmr/m/n/12 (-20) Associate to each Dirich-let L-function
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2435,96 +2497,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [59]
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{problem}
-                     [Non-constructive Elements]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.273 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.275 \begin{problem}
-                     [Convergence Issues]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 \begin{problem}
-                     [Boundary Conditions]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment assessment undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \begin{assessment}
-                        [Current State of de Branges Approach]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown problem defaults to 0 on inpu
+t line 271.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2535,161 +2509,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [60]
-
-! LaTeX Error: \begin{document} ended by \end{assessment}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.303 \end{assessment}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment strength undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \begin{strength}
-                      [Deep Theoretical Framework]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{strength}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.319 \end{strength}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment strength undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.321 \begin{strength}
-                      [Successful Applications]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{strength}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.329 \end{strength}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment strength undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.331 \begin{strength}
-                      [Conceptual Clarity]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{strength}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.338 \end{strength}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment limitation undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 \begin{limitation}
-                        [Technical Complexity]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{limitation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.349 \end{limitation}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment limitation undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.351 \begin{limitation}
-                        [Non-constructive Aspects]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{limitation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.358 \end{limitation}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment limitation undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \begin{limitation}
-                        [Unresolved Issues]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown assessment defaults to 0 on i
+nput line 295.
+Package hyperref Info: bookmark level for unknown strength defaults to 0 on inp
+ut line 312.
+Package hyperref Info: bookmark level for unknown limitation defaults to 0 on i
+nput line 342.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2700,19 +2525,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [61]
-
-! LaTeX Error: \begin{document} ended by \end{limitation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.367 \end{limitation}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2803,19 +2615,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [72]
 
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 \begin{problem}
-                     [The Sign Problem]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2824,71 +2623,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [73]
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.321 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.323 \begin{problem}
-                     [Arithmetic-Geometric Gap]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.326 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.328 \begin{problem}
-                     [Global vs Local Nature]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.331 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3037,32 +2771,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 16.
-
-! LaTeX Error: Environment chapterabstract undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \begin{chapterabstract}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{chapterabstract}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \end{chapterabstract}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown chapterabstract defaults to 0
+ on input line 5.
 [93]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3101,7 +2811,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [97]
 Overfull \hbox (10.0219pt too wide) in paragraph at lines 260--261
-[]\T1/cmr/bx/n/12 (-20) Conjecture 16.23 \T1/cmr/m/n/12 (-20) (Dis-per-sive Qua
+[]\T1/cmr/bx/n/12 (-20) Conjecture 16.24 \T1/cmr/m/n/12 (-20) (Dis-per-sive Qua
 n-ti-za-tion)\T1/cmr/bx/n/12 (-20) . []\T1/cmr/m/it/12 (-20) For ex-po-nen-tial
  sums $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/12 z\OT1/cmr/m/n/
 12 (-20) ) = [] \OML/cmm/m/it/12 a[] []\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/12 
@@ -3110,7 +2820,7 @@ in[]z\OT1/cmr/m/n/12 (-20) )$
 
 
 Overfull \hbox (15.6188pt too wide) in paragraph at lines 295--296
-[]\T1/cmr/bx/n/12 (-20) Corollary 16.27 \T1/cmr/m/n/12 (-20) (Ap-pli-ca-tion to
+[]\T1/cmr/bx/n/12 (-20) Corollary 16.28 \T1/cmr/m/n/12 (-20) (Ap-pli-ca-tion to
  L--func-tions)\T1/cmr/bx/n/12 (-20) . []\T1/cmr/m/it/12 (-20) For ex-po-nen-ti
 al sums $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/12 z\OT1/cmr/m/
 n/12 (-20) ) = [] \OML/cmm/m/it/12 a[] []\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/1
@@ -3179,110 +2889,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 18.
 [105]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \begin{algorithm}[H]
+                         
+Option `H' ignored and `p' used.
+
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 60.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61 \caption
-             {Computing $Z(t)$ using Riemann-Siegel}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Environment algorithmic undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 \begin{algorithmic}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.63 \Require
-             {$t > 0$, desired precision $\epsilon$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.64 \State
-            $N \leftarrow \lfloor\sqrt{t/(2\pi)}\rfloor$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.65 \State
-            $\theta \leftarrow \frac{t}{2}\log\frac{t}{2\pi} - \frac{t}{2} -...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.66 \State
-            $S_1 \leftarrow 2\sum_{n=1}^{N} n^{-1/2} \cos(\theta - t\log n)$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.67 \State
-            Compute remainder terms $C_k$ up to required precision
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 \State
-            $Z \leftarrow S_1 + \text{remainder}$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.69 \Return
-            {$Z$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{algorithm} on input line 60 ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \end{algorithmic}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3296,114 +2915,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [106]
 
-! LaTeX Error: \caption outside float.
+! LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 \caption
-              {Parallel Zero Verification}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Environment algorithmic undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \begin{algorithmic}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.147 \Require
-              {Interval $[T_1, T_2]$, number of processors $P$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.148 \State
-             Divide $[T_1, T_2]$ into $P$ subintervals
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.149 \For
-          {each processor $p = 1, \ldots, P$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.150     \State
-                 Verify zeros in subinterval $I_p$ using Turing's method
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.151     \State
-                 Apply Riemann-Siegel with adaptive precision
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.152     \State
-                 Cross-check boundaries with neighboring intervals
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.153 \EndFor
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.154 \State
-             Aggregate results and verify global consistency
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{algorithm} on input line 144 ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 \end{algorithmic}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.144 \begin{algorithm}[H]
+                          
+Option `H' ignored and `p' used.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3413,33 +2933,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[107]
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 \begin{problem}
-                     [Edwards' Tracking Problem]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+[107
+pdfTeX warning (ext4): destination with the same identifier (name{table.18.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.180 \item T
+             he number of significant terms grows as $\sqrt{t}$]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3484,32 +2984,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [109]
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.292 \begin{problem}
-                     [The $10^{434}$ Barrier]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3573,10 +3047,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 20.
-
-LaTeX Warning: Reference `thm:bombieri_garrett' on page 119 undefined on input 
-line 33.
-
 [119]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3714,83 +3184,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [133]
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 \begin{principle}
-                       [Scale Principle 4.2]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 \begin{principle}
-                       [Unitary Matrix Principle 12.1]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 \begin{principle}
-                       [Computational Evidence Principle 12.2]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.185 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown principle defaults to 0 on in
+put line 173.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3823,10 +3218,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [135]
 
-LaTeX Warning: Reference `subsec:large_values' on page 136 undefined on input l
-ine 248.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3836,35 +3227,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [136]
 
-LaTeX Warning: Reference `sec:doubts' on page 137 undefined on input line 325.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.334 \begin{principle}
-                       [Non-RH Linear Combinations]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3873,6 +3235,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [137]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[138]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 384.
@@ -3889,15 +3260,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 384.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[138]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4144,10 +3506,6 @@ l.59 \end{theorem}
 Things are pretty mixed up, but I think the worst is over.
 
 
-LaTeX Warning: Reference `eq:montgomery_formula' on page 160 undefined on input
- line 72.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4157,14 +3515,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [160]
 
-LaTeX Warning: Reference `eq:montgomery_formula' on page 161 undefined on input
- line 123.
-
-
-LaTeX Warning: Reference `eq:gue_correlation' on page 161 undefined on input li
-ne 123.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4173,10 +3523,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [161]
-
-LaTeX Warning: Reference `eq:gue_spacing' on page 162 undefined on input line 1
-84.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4195,31 +3541,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [163]
-
-! LaTeX Error: Environment argument undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 \begin{argument}
-                      [Universality Support for RH]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{argument}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309 \end{argument}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown argument defaults to 0 on inp
+ut line 301.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4230,31 +3553,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [164]
-
-! LaTeX Error: Environment important undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \begin{important}
-                       [Why Statistics Don't Constitute Proof]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{important}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.339 \end{important}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown important defaults to 0 on in
+put line 330.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4265,18 +3565,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [165]
-
-! LaTeX Error: Environment philosophicalreflection undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.420 \begin{philosophicalreflection}
-                                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown philosophicalreflection defau
+lts to 0 on input line 421.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4287,19 +3577,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [166]
-
-! LaTeX Error: \begin{document} ended by \end{philosophicalreflection}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.428 \end{philosophicalreflection}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4362,57 +3639,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [174]
-
-! LaTeX Error: Environment hypothesis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 \begin{hypothesis}
-                        [AdS/CFT and RH]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{hypothesis}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 \end{hypothesis}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment analogy undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 \begin{analogy}
-                     [Prime Counting and Black Hole Entropy]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{analogy}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.269 \end{analogy}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown analogy defaults to 0 on inpu
+t line 261.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4423,31 +3651,217 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [175]
-
-! LaTeX Error: Environment warning undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.301 \begin{warning}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown warning defaults to 0 on inpu
+t line 302.
 
 
-! LaTeX Error: \begin{document} ended by \end{warning}.
+! LaTeX Error: Unknown float option `Z'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 \end{warning}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `Z' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `r'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `r' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `o'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `o' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `P'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `P' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `r'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `r' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `d'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `d' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `c'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `c' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `o'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `o' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `n'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `n' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `N'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `N' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `w'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `w' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `o'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `o' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `r'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `r' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `k'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \begin{algorithm}[Zero Prediction Network]
+                                                
+Option `k' ignored and `p' used.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4458,84 +3872,264 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [176]
-
-! LaTeX Error: Environment experiment undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.343 \begin{experiment}
-                        [L-function Classification]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown experiment defaults to 0 on i
+nput line 343.
 
 
-! LaTeX Error: \begin{document} ended by \end{experiment}.
+! LaTeX Error: Unknown float option `C'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.351 \end{experiment}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `C' ignored and `p' used.
 
 
-! LaTeX Error: Environment experiment undefined.
+! LaTeX Error: Unknown float option `o'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.377 \begin{experiment}
-                        [Zero Spacing Analysis]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `o' ignored and `p' used.
 
 
-! LaTeX Error: \begin{document} ended by \end{experiment}.
+! LaTeX Error: Unknown float option `n'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.386 \end{experiment}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `n' ignored and `p' used.
 
 
-! LaTeX Error: Environment result undefined.
+! LaTeX Error: Unknown float option `j'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.388 \begin{result}
-                    [Computational Findings]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `j' ignored and `p' used.
 
 
-! LaTeX Error: \begin{document} ended by \end{result}.
+! LaTeX Error: Unknown float option `e'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.391 \end{result}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `e' ignored and `p' used.
 
+
+! LaTeX Error: Unknown float option `c'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `c' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `u'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `u' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `r'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `r' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `G'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `G' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `n'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `n' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `r'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `r' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `a'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `a' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `i'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `i' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `o'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `o' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `n'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `n' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `S'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `S' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `y'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `y' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `s'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `s' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `e'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `e' ignored and `p' used.
+
+
+! LaTeX Error: Unknown float option `m'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...{algorithm}[Conjecture Generation System]
+                                                  
+Option `m' ignored and `p' used.
+
+Package hyperref Info: bookmark level for unknown result defaults to 0 on input
+ line 388.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4545,31 +4139,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [177]
-
-! LaTeX Error: Environment philosophical undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.409 \begin{philosophical}
-                           [The Role of AI in Mathematics]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{philosophical}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.411 \end{philosophical}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown philosophical defaults to 0 o
+n input line 409.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4589,44 +4160,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [179]
-
-! LaTeX Error: Environment limitation undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.525 \begin{limitation}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{limitation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.527 \end{limitation}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment historical undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.550 \begin{historical}
-                        [Examples of Revolutionary Approaches]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown historical defaults to 0 on i
+nput line 550.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4638,19 +4173,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [180]
 
-! LaTeX Error: \begin{document} ended by \end{historical}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.557 \end{historical}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4659,135 +4181,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [181]
-
-! LaTeX Error: Environment obstacle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.613 \begin{obstacle}
-                      [Infinite vs. Finite]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{obstacle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.615 \end{obstacle}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment obstacle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.619 \begin{obstacle}
-                      [Analytic Precision]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{obstacle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.621 \end{obstacle}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment obstacle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.625 \begin{obstacle}
-                      [Computational Barriers]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{obstacle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.627 \end{obstacle}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment obstacle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \begin{obstacle}
-                      [Mathematical Rigor]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{obstacle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.633 \end{obstacle}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment philosophy undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.643 \begin{philosophy}
-                        [Mathematical Interconnectedness]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{philosophy}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.645 \end{philosophy}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown obstacle defaults to 0 on inp
+ut line 613.
+Package hyperref Info: bookmark level for unknown philosophy defaults to 0 on i
+nput line 643.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4799,19 +4196,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [182]
 
-! LaTeX Error: Environment assessment undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.689 \begin{assessment}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4821,19 +4205,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [183]
 
-! LaTeX Error: \begin{document} ended by \end{assessment}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.699 \end{assessment}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -4842,32 +4213,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [184]
-
-! LaTeX Error: Environment conclusion undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.748 \begin{conclusion}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{conclusion}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.752 \end{conclusion}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown conclusion defaults to 0 on i
+nput line 749.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4906,31 +4253,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 30.
 [191]
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \begin{insight}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \end{insight}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown insight defaults to 0 on inpu
+t line 41.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4941,32 +4265,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [192]
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 \begin{insight}
-                    [The Random Matrix Miracle]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 \end{insight}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4986,40 +4284,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [194]
 
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \begin{insight}
-                     [The Bridge Principle]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Reference `ch:riemann_zeta' on page 195 undefined on input line 
-216.
-
-
-LaTeX Warning: Reference `ch:exponential_sums' on page 195 undefined on input l
-ine 216.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -5028,39 +4292,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [195]
-
-LaTeX Warning: Reference `ch:hilbert_polya' on page 196 undefined on input line
- 230.
-
-
-LaTeX Warning: Reference `ch:selberg_trace' on page 196 undefined on input line
- 230.
-
-
-! LaTeX Error: Environment question undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276 \begin{question}
-                      [The Central Mystery]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{question}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.278 \end{question}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown question defaults to 0 on inp
+ut line 276.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5071,57 +4304,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [196]
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 \begin{insight}
-                     [The Pedagogical Value of Failure]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.304 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.320 \begin{lesson}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.322 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown lesson defaults to 0 on input
+ line 321.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5133,88 +4317,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [197]
 
-LaTeX Warning: Reference `ch:obstructions' on page 198 undefined on input line 
-327.
-
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.333 \begin{lesson}
-                    [Partial Success is Impossible]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.335 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.350 \begin{lesson}
-                    [Explicit Construction Requirement]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.352 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.363 \begin{lesson}
-                    [Scale Separation]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -5223,32 +4325,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [198]
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.381 \begin{lesson}
-                    [Analytical vs. Computational Insight]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 390.
@@ -5265,88 +4341,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 390.
 
-
-LaTeX Warning: Reference `ch:doubts_defenses' on page 199 undefined on input li
-ne 414.
-
-
-! LaTeX Error: Environment fact undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.416 \begin{fact}
-                  [Lehmer's Discovery]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{fact}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.421 \end{fact}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment fact undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.423 \begin{fact}
-                  [Odlyzko's Observation]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{fact}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 \end{fact}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment interpretation undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.427 \begin{interpretation}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{interpretation}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.429 \end{interpretation}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown fact defaults to 0 on input l
+ine 416.
+Package hyperref Info: bookmark level for unknown interpretation defaults to 0 
+on input line 428.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -5357,84 +4355,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [199]
 
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.459 \begin{principle}
-                       [No Margin for Error]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.461 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.463 \begin{principle}
-                       [Structural Necessity]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.465 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.467 \begin{principle}
-                       [Transcendental Requirements]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.469 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -5444,69 +4364,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [200]
 
-! LaTeX Error: Environment insight undefined.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 \begin{insight}
-                     [Mathematical Unity]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.526 \begin{principle}
-                       [Computational Guidance]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.534 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \begin{principle}
-                       [Computational Limitations]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[201]
+Package hyperref Info: bookmark level for unknown evidence defaults to 0 on inp
+ut line 560.
+Package hyperref Info: bookmark level for unknown prediction defaults to 0 on i
+nput line 569.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5516,124 +4385,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[201]
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.544 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.546 \begin{insight}
-                     [Computation-Theory Dialectic]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.548 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment hypothesis undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.555 \begin{hypothesis}
-                        [Structural Incompleteness]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{hypothesis}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.557 \end{hypothesis}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment evidence undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.559 \begin{evidence}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{evidence}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.567 \end{evidence}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment prediction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.569 \begin{prediction}
-                        [Future Mathematical Development]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{prediction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.577 \end{prediction}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+[202]
 
 ! Package pgfkeys Error: I do not know the key '/tikz/ellipse' and I am going t
 o ignore it. Perhaps you misspelled it.
@@ -5717,171 +4469,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[202]
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.612 \begin{insight}
-                     [RH as Mathematical Nexus]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.614 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment principle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.630 \begin{principle}
-                       [Obstacle Integration]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{principle}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.632 \end{principle}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [203]
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.644 \begin{research_direction}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.652 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.659 \begin{research_direction}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.674 \begin{research_direction}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.682 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.689 \begin{insight}
-                     [The Fundamental Principle]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.691 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown research_direction defaults t
+o 0 on input line 645.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -5892,162 +4482,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [204]
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.693 \begin{insight}
-                     [The Boundary Phenomenon]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.695 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.697 \begin{insight}
-                     [The Universal Truth]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.699 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment reflection undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.706 \begin{reflection}
-                        [The Value of Failed Attempts]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{reflection}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.708 \end{reflection}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment reflection undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.710 \begin{reflection}
-                        [The Role of Synthesis]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{reflection}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.712 \end{reflection}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment reflection undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.714 \begin{reflection}
-                        [The Mathematical Horizon]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{reflection}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.716 \end{reflection}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment conclusion undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.718 \begin{conclusion}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{conclusion}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.724 \end{conclusion}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown reflection defaults to 0 on i
+nput line 706.
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6083,72 +4519,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 32.
+Package hyperref Info: bookmark level for unknown approach defaults to 0 on inp
+ut line 25.
 
-! LaTeX Error: Environment approach undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \begin{approach}
-                     [de Branges-Automorphic Synthesis]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (6.47485pt too wide) in paragraph at lines 27--28
+[]\T1/cmr/bx/n/12 (-20) Automorphic En-hance-ment
+ []
 
 [209]
-
-! LaTeX Error: \begin{document} ended by \end{approach}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 \end{approach}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment approach undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 \begin{approach}
-                     [Statistical Spectral Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{approach}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \end{approach}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment approach undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 \begin{approach}
-                     [Quantum Arithmetic]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -6158,57 +4536,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [210]
-
-! LaTeX Error: \begin{document} ended by \end{approach}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \end{approach}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment framework undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.92 \begin{framework}
-                      [Unified RH Framework]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{framework}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 \end{framework}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 \begin{research_direction}
-                                [Enhanced Zero-Free Regions]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown framework defaults to 0 on in
+put line 92.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6220,71 +4549,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [211]
 
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 \begin{research_direction}
-                                [Subconvexity Progress]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \begin{research_direction}
-                                [Improved Proportion Results]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -6293,71 +4557,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [212]
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 \begin{research_direction}
-                                [Approaching Lindelöf]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment insight undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 \begin{insight}
-                     [Cumulative Progress]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.253 \begin{problem}
-                     [Deficiency Limitations]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -6368,84 +4567,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [213]
 
-! LaTeX Error: \begin{document} ended by \end{problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.260 \end{problem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 \begin{research_direction}
-                                [Generalized Deficiency Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.294 \begin{research_direction}
-                                [New Function Space Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment framework undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309 \begin{framework}
-                       [Arithmetic Quantum Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -6454,57 +4575,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [214]
-
-! LaTeX Error: \begin{document} ended by \end{framework}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.324 \end{framework}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.331 \begin{research_direction}
-                                [Categorical RH Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.346 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment missing_concepts undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.353 \begin{missing_concepts}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown missing_concepts defaults to 
+0 on input line 354.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6526,33 +4598,8 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-
-! LaTeX Error: Environment research_problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.385 \begin{research_problem}
-                              [Partial Degree Results]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 354 ended by \end{research_probl
-em}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown research_problem defaults to 
+0 on input line 385.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -6563,73 +4610,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [216]
 
-! LaTeX Error: Environment research_problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.413 \begin{research_problem}
-                              [Orthogonality Progress]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 354 ended by \end{research_probl
-em}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.427 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.442 \begin{research_problem}
-                              [Grand Lindelöf Approaches]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 354 ended by \end{research_probl
-em}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.456 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_problem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.463 \begin{research_problem}
-                              [L-function Correlation Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -6638,45 +4618,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [217]
-
-! LaTeX Error: \begin{enumerate} on input line 354 ended by \end{research_probl
-em}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.484 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment problem_set undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.491 \begin{problem_set}
-                         [Accessible Research Projects]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 354 ended by \end{problem_set}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.516 \end{problem_set}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown problem_set defaults to 0 on 
+input line 491.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -6687,19 +4630,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [218]
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.528 \begin{research_direction}
-                                [Quantum RH Algorithms]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 Runaway argument?
 {Matrix Element Calculation**: Quantum simulation of operators whose \ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -6738,46 +4668,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 546.
 
 
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.551 \begin{research_direction}
-                                [Ultra-High Precision Verification]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 354 ended by \end{research_direc
-tion}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.581 \begin{research_direction}
-                                [Revolutionary Algorithms]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -6811,19 +4701,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: Environment research_direction undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.603 \begin{research_direction}
-                                [Computer-Assisted Theory]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 Runaway argument?
 {Symbolic Computation**: Computer algebra systems for manipulating L-\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -6849,19 +4726,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: Environment experiment_list undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.632 \begin{experiment_list}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown experiment_list defaults to 0
+ on input line 633.
 Runaway argument?
 {Cross-L-function Correlations**: Study correlations between zeros of\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -6906,15 +4772,6 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[220]
 Runaway argument?
 {Random Matrix Ensemble Tests**: Generate large random matrix ensembl\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -6938,18 +4795,14 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-! LaTeX Error: Environment lesson undefined.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.660 \begin{lesson}
-                    [The Power of Failed Approaches]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[220]
 Runaway argument?
 {Classical Analysis**: Revealed the centrality of the critical line a\ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -6960,19 +4813,6 @@ l.670
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
-
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.671 \begin{lesson}
-                    [The Inevitability of Synthesis]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 ! LaTeX Error: Too deeply nested.
@@ -6986,58 +4826,8 @@ l.674 \item
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-! LaTeX Error: \begin{itemize} on input line 662 ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.680 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment lesson undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.682 \begin{lesson}
-                    [The Role of Obstructions]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{itemize} on input line 662 ended by \end{lesson}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.690 \end{lesson}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment optimism_factors undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.697 \begin{optimism_factors}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+Package hyperref Info: bookmark level for unknown optimism_factors defaults to 
+0 on input line 698.
 
 ! LaTeX Error: Too deeply nested.
 
@@ -7050,15 +4840,6 @@ l.701 \item
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[221]
 Runaway argument?
 {Deep Connections Discovered**: RH connects to: \begin {itemize} \item \ETC.
 ! Paragraph ended before \MT@temp was complete.
@@ -7082,43 +4863,16 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-! LaTeX Error: Environment insight undefined.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.732 \begin{insight}
-                     [The Historical Pattern]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-! LaTeX Error: \begin{enumerate} on input line 698 ended by \end{insight}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.740 \end{insight}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment guidance undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.747 \begin{guidance}
-                      [For New Researchers]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[221]
+Package hyperref Info: bookmark level for unknown guidance defaults to 0 on inp
+ut line 747.
 
 Runaway argument?
 {Technical Mastery**: Deep expertise in at least one major approach \item \ETC.
@@ -7144,15 +4898,6 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[222]
-
 ! LaTeX Error: \begin{itemize} on input line 757 ended by \end{guidance}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -7165,107 +4910,25 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+Package hyperref Info: bookmark level for unknown encouragement defaults to 0 o
+n input line 774.
+Package hyperref Info: bookmark level for unknown collaboration defaults to 0 o
+n input line 788.
 
-! LaTeX Error: Environment encouragement undefined.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.773 \begin{encouragement}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-! LaTeX Error: \begin{enumerate} on input line 698 ended by \end{encouragement}
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.781 \end{encouragement}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment collaboration undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.788 \begin{collaboration}
-                           [Physics-Mathematics Interface]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 698 ended by \end{collaboration}
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.802 \end{collaboration}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment collaboration undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.804 \begin{collaboration}
-                           [Computer Science-Mathematics Interface]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{enumerate} on input line 698 ended by \end{collaboration}
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.818 \end{collaboration}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment collaboration undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.820 \begin{collaboration}
-                           [Other Disciplines]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
+[222])
 Runaway argument?
 {Biology**: Network theory and complex systems \textbf {Engineering**\ETC.
 ! File ended while scanning use of \textbf .
 <inserted text> 
                 \par 
-l.228 \input{chapters/ch16_future}
+l.273 \input{chapters/ch16_future}
                                   
 I suspect you have forgotten a `}', causing me
 to read past where you wanted me to stop.
@@ -7289,11 +4952,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[224]
-Appendix A.
-(./appendices/app_a_prerequisites.tex [225
+[224
 
 ]
+Appendix A.
+(./appendices/app_a_prerequisites.tex [225]
+Overfull \hbox (35.38704pt too wide) in paragraph at lines 95--96
+[]\T1/cmr/m/it/12 (-20) Theorem \T1/cmr/m/n/12 (-20) A.11 (M�bius In-ver-sion)\
+T1/cmr/m/it/12 (-20) . []If $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (-20) (\OML/cmm/
+m/it/12 n\OT1/cmr/m/n/12 (-20) ) = [][] \OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (-20)
+ (\OML/cmm/m/it/12 d\OT1/cmr/m/n/12 (-20) )$\T1/cmr/m/it/12 (-20) , then $\OML/
+cmm/m/it/12 g\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 (-20) ) =
+ [][] \OML/cmm/m/it/12 ^^V\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/12 n=d\OT1/cmr/m
+/n/12 (-20) )\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (-20) (\OML/cmm/m/it/12 d\OT1/cm
+r/m/n/12 (-20) )$\T1/cmr/m/it/12 (-20) . 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -7417,17 +5091,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 251.
+LaTeX Warning: Empty bibliography on input line 296.
 
 No file main.ind.
 
-! LaTeX Error: \begin{enumerate} on input line 698 ended by \end{document}.
+! LaTeX Error: \begin{collaboration} on input line 820 ended by \end{document}.
+
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 \end{document}
+l.300 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7440,19 +5115,11 @@ L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 84D67CD91EE31EE220AE35346E0EE1F7;151493.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  84D67CD91EE31EE220AE35346E0EE1F7;151493.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -7474,13 +5141,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### semi simple group (level 1) entered at line 353 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 50978 strings out of 474116
- 1133316 string characters out of 5743681
- 1949246 words of memory out of 5000000
- 69556 multiletter control sequences out of 15000+600000
- 596945 words of font info for 315 fonts, out of 8000000 for 9000
+ 53600 strings out of 474116
+ 1185793 string characters out of 5743681
+ 2020429 words of memory out of 5000000
+ 71935 multiletter control sequences out of 15000+600000
+ 596946 words of font info for 315 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,1001b,1995s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,1001b,2702s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
@@ -7509,10 +5176,10 @@ exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (268 pages, 1159044 bytes).
+Output written on main.pdf (270 pages, 1215329 bytes).
 PDF statistics:
- 4804 PDF objects out of 5155 (max. 8388607)
- 4432 compressed objects within 45 object streams
- 2606 named destinations out of 2984 (max. 500000)
- 57357 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 6964 PDF objects out of 7423 (max. 8388607)
+ 6569 compressed objects within 66 object streams
+ 2834 named destinations out of 2984 (max. 500000)
+ 62277 words of extra memory for PDF output out of 74296 (max. 10000000)
 

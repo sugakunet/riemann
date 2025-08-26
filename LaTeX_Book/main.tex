@@ -22,6 +22,8 @@
 \usepackage{tcolorbox}
 \usepackage{geometry}
 \usepackage{fancyhdr}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
 
 % Page geometry
 \geometry{
@@ -55,6 +57,48 @@
 \newtheorem{remark}[theorem]{Remark}
 \newtheorem{note}[theorem]{Note}
 \newtheorem{observation}[theorem]{Observation}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
+\newtheorem{principle}[theorem]{Principle}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{question}[theorem]{Question}
+
+% Additional custom environments used in chapters
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{strategy}[theorem]{Strategy}
+\newtheorem{assessment}[theorem]{Assessment}
+\newtheorem{strength}[theorem]{Strength}
+\newtheorem{limitation}[theorem]{Limitation}
+\newtheorem{obstacle}[theorem]{Obstacle}
+\newtheorem{insight}[theorem]{Insight}
+\newtheorem{lesson}[theorem]{Lesson}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{interpretation}[theorem]{Interpretation}
+\newtheorem{evidence}[theorem]{Evidence}
+\newtheorem{prediction}[theorem]{Prediction}
+\newtheorem{reflection}[theorem]{Reflection}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{approach}[theorem]{Approach}
+\newtheorem{framework}[theorem]{Framework}
+\newtheorem{research_direction}[theorem]{Research Direction}
+\newtheorem{research_problem}[theorem]{Research Problem}
+\newtheorem{experiment}[theorem]{Experiment}
+\newtheorem{result}[theorem]{Result}
+\newtheorem{warning}[theorem]{Warning}
+\newtheorem{philosophical}[theorem]{Philosophical Reflection}
+\newtheorem{philosophicalreflection}[theorem]{Philosophical Reflection}
+\newtheorem{philosophy}[theorem]{Philosophy}
+\newtheorem{collaboration}[theorem]{Collaboration}
+\newtheorem{guidance}[theorem]{Guidance}
+\newtheorem{encouragement}[theorem]{Encouragement}
+\newtheorem{argument}[theorem]{Argument}
+\newtheorem{important}[theorem]{Important}
+\newtheorem{analogy}[theorem]{Analogy}
+\newtheorem{historical}[theorem]{Historical Note}
+\newtheorem{chapterabstract}[theorem]{Chapter Abstract}
+\newtheorem{problem_set}[theorem]{Problem Set}
+\newtheorem{optimism_factors}[theorem]{Optimism Factors}
+\newtheorem{missing_concepts}[theorem]{Missing Concepts}
+\newtheorem{experiment_list}[theorem]{Experiment List}
 
 % Custom environments for highlighted content
 \newtcolorbox{highlight}{
@@ -85,13 +129,14 @@
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\F}{\mathbb{F}}
-\newcommand{\zeta}{\zeta}
+% \zeta is already defined by default
 \newcommand{\Li}{\operatorname{Li}}
 \newcommand{\RH}{\mathrm{RH}}
 \newcommand{\GRH}{\mathrm{GRH}}
 \newcommand{\LH}{\mathrm{LH}}
-\DeclareMathOperator{\Re}{Re}
-\DeclareMathOperator{\Im}{Im}
+% \Re and \Im are already defined, use renewcommand
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
 \DeclareMathOperator{\res}{Res}
 \DeclareMathOperator{\ord}{ord}
 
