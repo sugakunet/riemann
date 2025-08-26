@@ -1,0 +1,25 @@
+[0] Config.pm:307> INFO - This is Biber 2.19 running in TOOL mode
+[0] Config.pm:310> INFO - Logfile is '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib.blg'
+[26] biber-darwin:340> INFO - === Mon Aug 25, 2025, 19:13:45
+[41] Biber.pm:4606> INFO - Looking for bibtex file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib'
+[45] bibtex.pm:1713> INFO - LaTeX decoding ...
+[64] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib'
+[147] Biber.pm:1670> INFO - Datamodel validation starting
+[150] Biber.pm:1720> INFO - Datamodel validation complete
+[155] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[155] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[155] Biber.pm:4239> INFO - Sorting list 'tool/global//global/global' of type 'entry' with template 'tool' and locale 'en_US'
+[155] Biber.pm:4245> INFO - No sort tailoring available for locale 'en_US'
+[165] bibtex.pm:440> INFO - Writing '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references_bibertool.bib' with encoding 'UTF-8'
+[165] bibtex.pm:480> INFO - Output to /Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references_bibertool.bib
+[166] Biber.pm:131> WARN - Duplicate entry key: 'iwanieckowalski2004' in file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib', skipping ...
+[166] Biber.pm:131> WARN - Duplicate entry key: 'farmer2022' in file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib', skipping ...
+[166] Biber.pm:131> WARN - Duplicate entry key: 'bourgain2014' in file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib', skipping ...
+[166] Biber.pm:131> WARN - Duplicate entry key: 'plattrigaux2020' in file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib', skipping ...
+[166] Biber.pm:131> WARN - Duplicate entry key: 'rodgerstao2020' in file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib', skipping ...
+[166] Biber.pm:131> WARN - Duplicate entry key: 'davenpoertheilbronn1936' in file '/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib', skipping ...
+[166] Biber.pm:131> WARN - Datamodel: book entry 'koosis1988' (/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib): Invalid value of field 'volume' must be datatype 'integer' - ignoring field
+[166] Biber.pm:131> WARN - Datamodel: book entry 'marklof2007' (/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib): Invalid field 'booktitle' for entrytype 'book'
+[166] Biber.pm:131> WARN - Datamodel: article entry 'ivic2003' (/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib): Invalid field 'publisher' for entrytype 'article'
+[166] Biber.pm:131> WARN - Datamodel: book entry 'vandergeer2008' (/Users/ralph/Projects/Riemann/LaTeX_Book/bibliography/references.bib): Invalid field 'booktitle' for entrytype 'book'
+[166] Biber.pm:133> INFO - WARNINGS: 10

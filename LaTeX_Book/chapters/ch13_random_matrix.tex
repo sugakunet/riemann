@@ -18,7 +18,7 @@ The connection between the zeros of the Riemann zeta function and random matrix 
 
 \subsection{The Original Investigation}
 
-In the early 1970s, Hugh Montgomery was studying the statistical distribution of spacings between zeros of $\zeta(s)$ on the critical line. His investigation would lead to one of the most significant discoveries in analytic number theory.
+In the early 1970s, Hugh Montgomery was studying the statistical distribution of spacings between zeros of $\zeta(s)$ on the critical line. His investigation would lead to one of the most significant discoveries in analytic number theory \cite{montgomery1973}.
 
 \begin{definition}[Normalized Zero Spacings]
 \label{def:normalized_spacings}
@@ -68,7 +68,7 @@ where $F$ is a test function and $\hat{F}$ is its Mellin transform. The pair cor
 \subsection{The Mysterious Connection to Physics}
 
 \begin{historicalnote}
-Montgomery presented his results at a 1972 conference at the Institute for Advanced Study. During tea time, Freeman Dyson approached Montgomery and asked about his formula. When Montgomery wrote down equation \eqref{eq:montgomery_formula}, Dyson was astonished—he recognized it immediately as the pair correlation function for eigenvalues of random matrices from the Gaussian Unitary Ensemble.
+Montgomery presented his results at a 1972 conference at the Institute for Advanced Study. During tea time, Freeman Dyson approached Montgomery and asked about his formula. When Montgomery wrote down equation \eqref{eq:montgomery_formula}, Dyson was astonished—he recognized it immediately as the pair correlation function for eigenvalues of random matrices from the Gaussian Unitary Ensemble \cite{montgomery1973}.
 \end{historicalnote}
 
 \section{The Gaussian Unitary Ensemble (GUE)}
@@ -180,7 +180,7 @@ This distribution exhibits level repulsion: $P_{GUE}(s) \sim s$ as $s \to 0$, me
 
 \begin{theorem}[Numerical Evidence for Zeta Zeros]
 \label{thm:zeta_spacing_numerics}
-Numerical computation of the first $10^9$ zeta zeros shows that their spacing distribution agrees with \eqref{eq:gue_spacing} to high precision, with chi-square goodness-of-fit $p$-values exceeding 0.9.
+Numerical computation of the first $10^9$ zeta zeros shows that their spacing distribution agrees with \eqref{eq:gue_spacing} to high precision, with chi-square goodness-of-fit $p$-values exceeding 0.9 \cite{odlyzko1985}.
 \end{theorem}
 
 \section{Keating-Snaith Moment Conjectures}
@@ -188,7 +188,7 @@ Numerical computation of the first $10^9$ zeta zeros shows that their spacing di
 
 \subsection{Moments of the Zeta Function}
 
-The random matrix connection extends to moments of the zeta function itself, not just the zeros.
+The random matrix connection extends to moments of the zeta function itself, not just the zeros \cite{keatingsaith2000}.
 
 \begin{definition}[Zeta Function Moments]
 \label{def:zeta_moments}
@@ -232,7 +232,7 @@ This connection suggests that $\zeta(1/2 + it)$ behaves statistically like the c
 
 \begin{theorem}[Numerical Evidence for Moment Conjectures]
 \label{thm:moment_numerics}
-For $k = 1, 2, 3, 4$, numerical computation confirms the Keating-Snaith predictions:
+For $k = 1, 2, 3, 4$, numerical computation confirms the Keating-Snaith predictions \cite{keatingsaith2000}:
 \begin{align}
 M_2(T) &= T \log(T/2\pi) + (2\gamma - 1)T + O(T^{1/2}) \\
 M_4(T) &\sim \frac{1}{2\pi^2} T (\log T)^4 \\
@@ -247,11 +247,11 @@ where the higher moment results agree with the conjectured values of $c_3$ and $
 
 \subsection{The Classical-Quantum Connection}
 
-The random matrix connection suggests an even deeper interpretation through quantum chaos theory.
+The random matrix connection suggests an even deeper interpretation through quantum chaos theory \cite{berrykeating1999}.
 
 \begin{conjecture}[Berry-Keating Conjecture]
 \label{conj:berry_keating}
-There exists a classical chaotic Hamiltonian system whose quantum mechanical version has energy eigenvalues that, when appropriately scaled and shifted, coincide with the non-trivial zeros of the Riemann zeta function.
+There exists a classical chaotic Hamiltonian system whose quantum mechanical version has energy eigenvalues that, when appropriately scaled and shifted, coincide with the non-trivial zeros of the Riemann zeta function \cite{berrykeating1999}.
 \end{conjecture}
 
 \subsection{Semiclassical Quantization}
@@ -266,7 +266,7 @@ where $S_\gamma(E)$ is the action along periodic orbit $\gamma$.
 
 \begin{theorem}[Riemann-Siegel as Semiclassical Formula]
 \label{thm:semiclassical_interpretation}
-The Riemann-Siegel formula for $\zeta(1/2 + it)$ has the same mathematical structure as a semiclassical trace formula:
+The Riemann-Siegel formula for $\zeta(1/2 + it)$ has the same mathematical structure as a semiclassical trace formula \cite{berrykeating1999}:
 \begin{equation}
 Z(t) = 2 \sum_{n \leq \sqrt{t/2\pi}} \frac{\cos(\theta(t) - t\log n)}{\sqrt{n}} + O(t^{-1/4})
 \end{equation}
@@ -321,7 +321,7 @@ If the Riemann Hypothesis were false:
 \end{theorem}
 
 \begin{remark}
-None of these violations have been observed in any numerical computation, despite checking the first $3 \times 10^{12}$ zeros and computing moments to high precision.
+None of these violations have been observed in any numerical computation, despite checking the first $3 \times 10^{12}$ zeros and computing moments to high precision \cite{plattrigaux2020}.
 \end{remark}
 
 \subsection{Limitations of the Statistical Evidence}
@@ -382,7 +382,7 @@ which are more tractable than moments but still contain deep information about t
 
 \begin{theorem}[Ratio Conjectures and RMT]
 \label{thm:ratio_conjectures}
-Conrey, Farmer, and Zirnbauer have developed precise conjectures for zeta function ratios based on random matrix theory. These conjectures pass all numerical tests and provide new ways to study the zeros.
+Conrey, Farmer, and Zirnbauer have developed precise conjectures for zeta function ratios based on random matrix theory. These conjectures pass all numerical tests and provide new ways to study the zeros \cite{conrey1989}.
 \end{theorem}
 
 \subsection{Non-Universal Corrections}

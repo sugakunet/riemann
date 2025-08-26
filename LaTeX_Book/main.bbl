@@ -1,0 +1,1471 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bagmazumder2024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f638abd171093240682cd79e18e3d8fd}{%
+           family={Bag},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=db1f2157a9f4f3df0888e43d1e540333}{%
+           family={Mazumder},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d3268546491238c1659845f9773f144}
+      \strng{fullhash}{0d3268546491238c1659845f9773f144}
+      \strng{bibnamehash}{0d3268546491238c1659845f9773f144}
+      \strng{authorbibnamehash}{0d3268546491238c1659845f9773f144}
+      \strng{authornamehash}{0d3268546491238c1659845f9773f144}
+      \strng{authorfullhash}{0d3268546491238c1659845f9773f144}
+      \field{labelalpha}{BM24}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Number Theory}
+      \field{note}{To appear}
+      \field{title}{Weighted exponential sums and the {L}indelöf hypothesis}
+      \field{year}{2024}
+    \endentry
+    \entry{berrykeating1999}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c4ffbcd1b13d6128da27921b5ce5a62}{%
+           family={Berry},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a2a15d1d6b57259c4ea4194070cf0943}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1017c9302e7c6a9dc7fb249df628ac88}
+      \strng{fullhash}{1017c9302e7c6a9dc7fb249df628ac88}
+      \strng{bibnamehash}{1017c9302e7c6a9dc7fb249df628ac88}
+      \strng{authorbibnamehash}{1017c9302e7c6a9dc7fb249df628ac88}
+      \strng{authornamehash}{1017c9302e7c6a9dc7fb249df628ac88}
+      \strng{authorfullhash}{1017c9302e7c6a9dc7fb249df628ac88}
+      \field{labelalpha}{BK99}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SIAM Review}
+      \field{title}{The {R}iemann zeros and eigenvalue asymptotics}
+      \field{volume}{41}
+      \field{year}{1999}
+      \field{pages}{236\bibrangedash 266}
+      \range{pages}{31}
+    \endentry
+    \entry{bombieri1995}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e2d4fa0eea805e9de7709f9c548753f4}{%
+           family={Bombieri},
+           familyi={B\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=271a1f3fa33a1daf0d733b353b64b4ac}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{415663a64ef09cd6a275b72ba1283795}
+      \strng{fullhash}{415663a64ef09cd6a275b72ba1283795}
+      \strng{bibnamehash}{415663a64ef09cd6a275b72ba1283795}
+      \strng{authorbibnamehash}{415663a64ef09cd6a275b72ba1283795}
+      \strng{authornamehash}{415663a64ef09cd6a275b72ba1283795}
+      \strng{authorfullhash}{415663a64ef09cd6a275b72ba1283795}
+      \field{labelalpha}{BG95}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Research Letters}
+      \field{title}{Symmetry breaking and spectral statistics of zeta zeros}
+      \field{volume}{2}
+      \field{year}{1995}
+      \field{pages}{251\bibrangedash 262}
+      \range{pages}{12}
+    \endentry
+    \entry{bookerlee2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66338288bce2abbad8f7165ca114e1eb}{%
+           family={Booker},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=14df193d0c899b3619921f74efeb616e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6f3cd238dadadff4cdfe46e0d6ca8ea}
+      \strng{fullhash}{c6f3cd238dadadff4cdfe46e0d6ca8ea}
+      \strng{bibnamehash}{c6f3cd238dadadff4cdfe46e0d6ca8ea}
+      \strng{authorbibnamehash}{c6f3cd238dadadff4cdfe46e0d6ca8ea}
+      \strng{authornamehash}{c6f3cd238dadadff4cdfe46e0d6ca8ea}
+      \strng{authorfullhash}{c6f3cd238dadadff4cdfe46e0d6ca8ea}
+      \field{labelalpha}{BL16}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forum Mathematicum}
+      \field{title}{The {S}elberg trace formula as a {D}irichlet series}
+      \field{volume}{28}
+      \field{year}{2016}
+      \field{pages}{945\bibrangedash 965}
+      \range{pages}{21}
+    \endentry
+    \entry{bourgain2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b56223d7226802e12deba4ce1c44304f}{%
+           family={Bourgain},
+           familyi={B\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b56223d7226802e12deba4ce1c44304f}
+      \strng{fullhash}{b56223d7226802e12deba4ce1c44304f}
+      \strng{bibnamehash}{b56223d7226802e12deba4ce1c44304f}
+      \strng{authorbibnamehash}{b56223d7226802e12deba4ce1c44304f}
+      \strng{authornamehash}{b56223d7226802e12deba4ce1c44304f}
+      \strng{authorfullhash}{b56223d7226802e12deba4ce1c44304f}
+      \field{labelalpha}{Bou17}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Mathematical Society}
+      \field{number}{1}
+      \field{title}{Decoupling, exponential sums and the {R}iemann zeta function}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{205\bibrangedash 224}
+      \range{pages}{20}
+    \endentry
+    \entry{debranges1968}{book}{}
+      \name{author}{1}{}{%
+        {{hash=308ede516f38c0fe66dfc29b7b06b329}{%
+           family={Branges},
+           familyi={B\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall}%
+      }
+      \strng{namehash}{308ede516f38c0fe66dfc29b7b06b329}
+      \strng{fullhash}{308ede516f38c0fe66dfc29b7b06b329}
+      \strng{bibnamehash}{308ede516f38c0fe66dfc29b7b06b329}
+      \strng{authorbibnamehash}{308ede516f38c0fe66dfc29b7b06b329}
+      \strng{authornamehash}{308ede516f38c0fe66dfc29b7b06b329}
+      \strng{authorfullhash}{308ede516f38c0fe66dfc29b7b06b329}
+      \field{labelalpha}{Bra68}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hilbert Spaces of Entire Functions}
+      \field{year}{1968}
+    \endentry
+    \entry{buzzard2009}{book}{}
+      \name{author}{1}{}{%
+        {{hash=53f5e6ce7b6ed7b1f5dc85457a94fbdc}{%
+           family={Buzzard},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{53f5e6ce7b6ed7b1f5dc85457a94fbdc}
+      \strng{fullhash}{53f5e6ce7b6ed7b1f5dc85457a94fbdc}
+      \strng{bibnamehash}{53f5e6ce7b6ed7b1f5dc85457a94fbdc}
+      \strng{authorbibnamehash}{53f5e6ce7b6ed7b1f5dc85457a94fbdc}
+      \strng{authornamehash}{53f5e6ce7b6ed7b1f5dc85457a94fbdc}
+      \strng{authorfullhash}{53f5e6ce7b6ed7b1f5dc85457a94fbdc}
+      \field{labelalpha}{Buz09}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Lecture Notes, Imperial College London}
+      \field{title}{Lectures on Siegel Modular Forms}
+      \field{year}{2009}
+    \endentry
+    \entry{choi2025}{article}{}
+      \name{author}{3}{}{%
+        {{hash=85fcf48fa88ed022498fd4cdce676041}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=20b4de09eb2c0f6fbdf0febbafea948d}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5b7ae85b03c5b187088b01846c0a6d48}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef3c67ec39264e1e485296a29798ab34}
+      \strng{fullhash}{ef3c67ec39264e1e485296a29798ab34}
+      \strng{bibnamehash}{ef3c67ec39264e1e485296a29798ab34}
+      \strng{authorbibnamehash}{ef3c67ec39264e1e485296a29798ab34}
+      \strng{authornamehash}{ef3c67ec39264e1e485296a29798ab34}
+      \strng{authorfullhash}{ef3c67ec39264e1e485296a29798ab34}
+      \field{labelalpha}{CKL25}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{note}{arXiv:2501.XXXXX}
+      \field{title}{Supersymmetric localization and the {S}elberg trace formula}
+      \field{year}{2025}
+    \endentry
+    \entry{connes1999}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3745cf9244a5815447aea11906514603}{%
+           family={Connes},
+           familyi={C\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3745cf9244a5815447aea11906514603}
+      \strng{fullhash}{3745cf9244a5815447aea11906514603}
+      \strng{bibnamehash}{3745cf9244a5815447aea11906514603}
+      \strng{authorbibnamehash}{3745cf9244a5815447aea11906514603}
+      \strng{authornamehash}{3745cf9244a5815447aea11906514603}
+      \strng{authorfullhash}{3745cf9244a5815447aea11906514603}
+      \field{labelalpha}{Con99}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Selecta Mathematica}
+      \field{title}{Trace formula in noncommutative geometry and the zeros of the {R}iemann zeta function}
+      \field{volume}{5}
+      \field{year}{1999}
+      \field{pages}{29\bibrangedash 106}
+      \range{pages}{78}
+    \endentry
+    \entry{conreyghosh1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cd6704302121def2c196b5d818f5a7bf}{%
+           family={Conrey},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7d701dac6bfdd07817b61371545702da}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5e678358f324ed486b0ca34dfda37a6}
+      \strng{fullhash}{c5e678358f324ed486b0ca34dfda37a6}
+      \strng{bibnamehash}{c5e678358f324ed486b0ca34dfda37a6}
+      \strng{authorbibnamehash}{c5e678358f324ed486b0ca34dfda37a6}
+      \strng{authornamehash}{c5e678358f324ed486b0ca34dfda37a6}
+      \strng{authorfullhash}{c5e678358f324ed486b0ca34dfda37a6}
+      \field{labelalpha}{CG93}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Duke Mathematical Journal}
+      \field{number}{3}
+      \field{title}{On the {S}elberg class of {D}irichlet series: small degrees}
+      \field{volume}{72}
+      \field{year}{1993}
+      \field{pages}{673\bibrangedash 693}
+      \range{pages}{21}
+    \endentry
+    \entry{conrey1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=99f51d1a1151d5fe350cafbbed355fb2}{%
+           family={Conrey},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi Brian},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{99f51d1a1151d5fe350cafbbed355fb2}
+      \strng{fullhash}{99f51d1a1151d5fe350cafbbed355fb2}
+      \strng{bibnamehash}{99f51d1a1151d5fe350cafbbed355fb2}
+      \strng{authorbibnamehash}{99f51d1a1151d5fe350cafbbed355fb2}
+      \strng{authornamehash}{99f51d1a1151d5fe350cafbbed355fb2}
+      \strng{authorfullhash}{99f51d1a1151d5fe350cafbbed355fb2}
+      \field{labelalpha}{Con89}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal für die reine und angewandte Mathematik}
+      \field{title}{More than two fifths of the zeros of the {R}iemann zeta function are on the critical line}
+      \field{volume}{399}
+      \field{year}{1989}
+      \field{pages}{1\bibrangedash 26}
+      \range{pages}{26}
+    \endentry
+    \entry{conreyli2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=99f51d1a1151d5fe350cafbbed355fb2}{%
+           family={Conrey},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi Brian},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=83b0f5a0804dfb16d2c70e48d729c7a9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xian-Jin},
+           giveni={X\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8924639fa257e5eacfe512bf9e0f3fcf}
+      \strng{fullhash}{8924639fa257e5eacfe512bf9e0f3fcf}
+      \strng{bibnamehash}{8924639fa257e5eacfe512bf9e0f3fcf}
+      \strng{authorbibnamehash}{8924639fa257e5eacfe512bf9e0f3fcf}
+      \strng{authornamehash}{8924639fa257e5eacfe512bf9e0f3fcf}
+      \strng{authorfullhash}{8924639fa257e5eacfe512bf9e0f3fcf}
+      \field{labelalpha}{CL00}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Mathematics Research Notices}
+      \field{number}{18}
+      \field{title}{A note on some positivity conditions related to zeta and {L}-functions}
+      \field{volume}{2000}
+      \field{year}{2000}
+      \field{pages}{929\bibrangedash 940}
+      \range{pages}{12}
+    \endentry
+    \entry{davenpoertheilbronn1936}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e7ba95843d38a959a5d44f60147402e4}{%
+           family={Davenport},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d273887f3d666b7c54c2530629dca094}{%
+           family={Heilbronn},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c6b4e9b3285292410bec9a202b510b2}
+      \strng{fullhash}{5c6b4e9b3285292410bec9a202b510b2}
+      \strng{bibnamehash}{5c6b4e9b3285292410bec9a202b510b2}
+      \strng{authorbibnamehash}{5c6b4e9b3285292410bec9a202b510b2}
+      \strng{authornamehash}{5c6b4e9b3285292410bec9a202b510b2}
+      \strng{authorfullhash}{5c6b4e9b3285292410bec9a202b510b2}
+      \field{labelalpha}{DH36}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the London Mathematical Society}
+      \field{title}{On the zeros of certain {D}irichlet series}
+      \field{volume}{11}
+      \field{year}{1936}
+      \field{pages}{181\bibrangedash 185\bibrangessep 307\bibrangedash 312}
+      \range{pages}{11}
+    \endentry
+    \entry{davenport2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=098004464aa538add3565c30327727b3}{%
+           family={Davenport},
+           familyi={D\bibinitperiod},
+           given={Harold},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{098004464aa538add3565c30327727b3}
+      \strng{fullhash}{098004464aa538add3565c30327727b3}
+      \strng{bibnamehash}{098004464aa538add3565c30327727b3}
+      \strng{authorbibnamehash}{098004464aa538add3565c30327727b3}
+      \strng{authornamehash}{098004464aa538add3565c30327727b3}
+      \strng{authorfullhash}{098004464aa538add3565c30327727b3}
+      \field{labelalpha}{Dav00}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Multiplicative Number Theory}
+      \field{year}{2000}
+    \endentry
+    \entry{deligne1974}{article}{}
+      \name{author}{1}{}{%
+        {{hash=876d32ddd7383ddfb7c5ca89662b261d}{%
+           family={Deligne},
+           familyi={D\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{fullhash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{bibnamehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{authorbibnamehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{authornamehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{authorfullhash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \field{extraname}{1}
+      \field{labelalpha}{Del74}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications Mathématiques de l'IHÉS}
+      \field{title}{La conjecture de Weil. {I}}
+      \field{volume}{43}
+      \field{year}{1974}
+      \field{pages}{273\bibrangedash 307}
+      \range{pages}{35}
+    \endentry
+    \entry{deligne1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=876d32ddd7383ddfb7c5ca89662b261d}{%
+           family={Deligne},
+           familyi={D\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{fullhash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{bibnamehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{authorbibnamehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{authornamehash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \strng{authorfullhash}{876d32ddd7383ddfb7c5ca89662b261d}
+      \field{extraname}{2}
+      \field{labelalpha}{Del80}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Publications Mathématiques de l'IHÉS}
+      \field{title}{La conjecture de Weil. {II}}
+      \field{volume}{52}
+      \field{year}{1980}
+      \field{pages}{137\bibrangedash 252}
+      \range{pages}{116}
+    \endentry
+    \entry{edwards1974}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b890a6a5a57a5b9ff10632dd4b6982a8}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{b890a6a5a57a5b9ff10632dd4b6982a8}
+      \strng{fullhash}{b890a6a5a57a5b9ff10632dd4b6982a8}
+      \strng{bibnamehash}{b890a6a5a57a5b9ff10632dd4b6982a8}
+      \strng{authorbibnamehash}{b890a6a5a57a5b9ff10632dd4b6982a8}
+      \strng{authornamehash}{b890a6a5a57a5b9ff10632dd4b6982a8}
+      \strng{authorfullhash}{b890a6a5a57a5b9ff10632dd4b6982a8}
+      \field{labelalpha}{Edw74}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Riemann's Zeta Function}
+      \field{year}{1974}
+    \endentry
+    \entry{farmer2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=92cffda6182129a6b987d4c9e61aca3c}{%
+           family={Farmer},
+           familyi={F\bibinitperiod},
+           given={David\bibnamedelima W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{92cffda6182129a6b987d4c9e61aca3c}
+      \strng{fullhash}{92cffda6182129a6b987d4c9e61aca3c}
+      \strng{bibnamehash}{92cffda6182129a6b987d4c9e61aca3c}
+      \strng{authorbibnamehash}{92cffda6182129a6b987d4c9e61aca3c}
+      \strng{authornamehash}{92cffda6182129a6b987d4c9e61aca3c}
+      \strng{authorfullhash}{92cffda6182129a6b987d4c9e61aca3c}
+      \field{labelalpha}{Far22}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{note}{arXiv:2201.08483}
+      \field{title}{Doubts about the {R}iemann {H}ypothesis}
+      \field{year}{2022}
+    \endentry
+    \entry{favorov2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8d1955719b1e53a58c0e95b104704727}{%
+           family={Favorov},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d1955719b1e53a58c0e95b104704727}
+      \strng{fullhash}{8d1955719b1e53a58c0e95b104704727}
+      \strng{bibnamehash}{8d1955719b1e53a58c0e95b104704727}
+      \strng{authorbibnamehash}{8d1955719b1e53a58c0e95b104704727}
+      \strng{authornamehash}{8d1955719b1e53a58c0e95b104704727}
+      \strng{authorfullhash}{8d1955719b1e53a58c0e95b104704727}
+      \field{labelalpha}{Fav24}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Mathematics}
+      \field{title}{Crystalline measures and {F}ourier quasicrystals}
+      \field{volume}{440}
+      \field{year}{2024}
+    \endentry
+    \entry{garciazacarias2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=051662705d02faea7bee72ef24121e2d}{%
+           family={García-García},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
+           given={Antonio\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=31eb21375a5f835c5a0a69e3ad337ea7}{%
+           family={Zacarías},
+           familyi={Z\bibinitperiod},
+           given={Salomon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4be5362a92521073c873f552dd040fb6}
+      \strng{fullhash}{4be5362a92521073c873f552dd040fb6}
+      \strng{bibnamehash}{4be5362a92521073c873f552dd040fb6}
+      \strng{authorbibnamehash}{4be5362a92521073c873f552dd040fb6}
+      \strng{authornamehash}{4be5362a92521073c873f552dd040fb6}
+      \strng{authorfullhash}{4be5362a92521073c873f552dd040fb6}
+      \field{labelalpha}{GZ19}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Quantum {J}ackiw-{T}eitelboim gravity, {S}elberg trace formula, and random matrix theory}
+      \field{volume}{123}
+      \field{year}{2019}
+    \endentry
+    \entry{vandergeer2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bbee16805e6fb48179f314df29800200}{%
+           family={Geer},
+           familyi={G\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{bbee16805e6fb48179f314df29800200}
+      \strng{fullhash}{bbee16805e6fb48179f314df29800200}
+      \strng{bibnamehash}{bbee16805e6fb48179f314df29800200}
+      \strng{authorbibnamehash}{bbee16805e6fb48179f314df29800200}
+      \strng{authornamehash}{bbee16805e6fb48179f314df29800200}
+      \strng{authorfullhash}{bbee16805e6fb48179f314df29800200}
+      \field{labelalpha}{Gee08}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The 1-2-3 of Modular Forms}
+      \field{title}{Siegel modular forms and their applications}
+      \field{year}{2008}
+      \field{pages}{181\bibrangedash 245}
+      \range{pages}{65}
+    \endentry
+    \entry{grothendieck1965}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fb0e3184fdd2fcd28fa74ca67d7cdcc1}{%
+           family={Grothendieck},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{fullhash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{bibnamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{authorbibnamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{authornamehash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \strng{authorfullhash}{fb0e3184fdd2fcd28fa74ca67d7cdcc1}
+      \field{labelalpha}{Gro65}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Séminaire Bourbaki}
+      \field{title}{Formule de Lefschetz et rationalité des fonctions {L}}
+      \field{volume}{279}
+      \field{year}{1965}
+    \endentry
+    \entry{hardy1914}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9d761c354d534c74e69f17afcc78fea8}{%
+           family={Hardy},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d761c354d534c74e69f17afcc78fea8}
+      \strng{fullhash}{9d761c354d534c74e69f17afcc78fea8}
+      \strng{bibnamehash}{9d761c354d534c74e69f17afcc78fea8}
+      \strng{authorbibnamehash}{9d761c354d534c74e69f17afcc78fea8}
+      \strng{authornamehash}{9d761c354d534c74e69f17afcc78fea8}
+      \strng{authorfullhash}{9d761c354d534c74e69f17afcc78fea8}
+      \field{labelalpha}{Har14}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comptes Rendus de l'Académie des Sciences}
+      \field{title}{Sur les zéros de la fonction {$\zeta(s)$} de {R}iemann}
+      \field{volume}{158}
+      \field{year}{1914}
+      \field{pages}{1012\bibrangedash 1014}
+      \range{pages}{3}
+    \endentry
+    \entry{hasse1936}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7c11cfc495532869d41f6e9b7c71991b}{%
+           family={Hasse},
+           familyi={H\bibinitperiod},
+           given={Helmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c11cfc495532869d41f6e9b7c71991b}
+      \strng{fullhash}{7c11cfc495532869d41f6e9b7c71991b}
+      \strng{bibnamehash}{7c11cfc495532869d41f6e9b7c71991b}
+      \strng{authorbibnamehash}{7c11cfc495532869d41f6e9b7c71991b}
+      \strng{authornamehash}{7c11cfc495532869d41f6e9b7c71991b}
+      \strng{authorfullhash}{7c11cfc495532869d41f6e9b7c71991b}
+      \field{labelalpha}{Has36}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Reine Angew. Math.}
+      \field{title}{Zur Theorie der abstrakten elliptischen Funktionenkörper {III}}
+      \field{volume}{175}
+      \field{year}{1936}
+      \field{pages}{193\bibrangedash 208}
+      \range{pages}{16}
+    \endentry
+    \entry{heath-brown2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5895b52bfd9795ff19a630ff28e5fe17}{%
+           family={Heath-Brown},
+           familyi={H\bibinithyphendelim B\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{fullhash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{bibnamehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{authorbibnamehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{authornamehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{authorfullhash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \field{extraname}{1}
+      \field{labelalpha}{Hea24}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the London Mathematical Society}
+      \field{title}{Recent progress on exponential sums related to the {R}iemann zeta function}
+      \field{volume}{56}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+    \endentry
+    \entry{heathbrown2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5895b52bfd9795ff19a630ff28e5fe17}{%
+           family={Heath-Brown},
+           familyi={H\bibinithyphendelim B\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{fullhash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{bibnamehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{authorbibnamehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{authornamehash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \strng{authorfullhash}{5895b52bfd9795ff19a630ff28e5fe17}
+      \field{extraname}{2}
+      \field{labelalpha}{Hea24}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Number Theory}
+      \field{note}{To appear}
+      \field{title}{Weyl sums and the {R}iemann zeta function}
+      \field{year}{2024}
+    \endentry
+    \entry{helgason1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=58dc689603399bfdd2cc6845c2169b14}{%
+           family={Helgason},
+           familyi={H\bibinitperiod},
+           given={Sigurdur},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Birkhäuser}%
+      }
+      \strng{namehash}{58dc689603399bfdd2cc6845c2169b14}
+      \strng{fullhash}{58dc689603399bfdd2cc6845c2169b14}
+      \strng{bibnamehash}{58dc689603399bfdd2cc6845c2169b14}
+      \strng{authorbibnamehash}{58dc689603399bfdd2cc6845c2169b14}
+      \strng{authornamehash}{58dc689603399bfdd2cc6845c2169b14}
+      \strng{authorfullhash}{58dc689603399bfdd2cc6845c2169b14}
+      \field{labelalpha}{Hel99}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{The Radon Transform}
+      \field{year}{1999}
+    \endentry
+    \entry{ivic2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=093b11dd46947870892c585c4185a6db}{%
+           family={Ivić},
+           familyi={I\bibinitperiod},
+           given={Aleksandar},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{093b11dd46947870892c585c4185a6db}
+      \strng{fullhash}{093b11dd46947870892c585c4185a6db}
+      \strng{bibnamehash}{093b11dd46947870892c585c4185a6db}
+      \strng{authorbibnamehash}{093b11dd46947870892c585c4185a6db}
+      \strng{authornamehash}{093b11dd46947870892c585c4185a6db}
+      \strng{authorfullhash}{093b11dd46947870892c585c4185a6db}
+      \field{labelalpha}{Ivi08}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Riemann Hypothesis: A Resource for the Afficionado and Virtuoso Alike}
+      \field{title}{On some reasons for doubting the {R}iemann hypothesis}
+      \field{year}{2008}
+      \field{pages}{131\bibrangedash 160}
+      \range{pages}{30}
+    \endentry
+    \entry{iwanieckowalski2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=85e1300c818ee15f60919959a5e3ea8b}{%
+           family={Iwaniec},
+           familyi={I\bibinitperiod},
+           given={Henryk},
+           giveni={H\bibinitperiod}}}%
+        {{hash=263aefd39b632bae3020dafd7f2597bd}{%
+           family={Kowalski},
+           familyi={K\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{dd589a6688fffc474943c370d14e8780}
+      \strng{fullhash}{dd589a6688fffc474943c370d14e8780}
+      \strng{bibnamehash}{dd589a6688fffc474943c370d14e8780}
+      \strng{authorbibnamehash}{dd589a6688fffc474943c370d14e8780}
+      \strng{authornamehash}{dd589a6688fffc474943c370d14e8780}
+      \strng{authorfullhash}{dd589a6688fffc474943c370d14e8780}
+      \field{labelalpha}{IK04}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analytic Number Theory}
+      \field{year}{2004}
+    \endentry
+    \entry{kaczorowskiperelli1999}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6fa84c8cc1e455847a05b9946a1bd205}{%
+           family={Kaczorowski},
+           familyi={K\bibinitperiod},
+           given={Jerzy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3809b7930610d4f45771f03b9d46b947}{%
+           family={Perelli},
+           familyi={P\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{fullhash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{bibnamehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{authorbibnamehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{authornamehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{authorfullhash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \field{extraname}{1}
+      \field{labelalpha}{KP99}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mathematica}
+      \field{title}{On the structure of the {S}elberg class, {I}: $0 \leq d \leq 1$}
+      \field{volume}{182}
+      \field{year}{1999}
+      \field{pages}{207\bibrangedash 241}
+      \range{pages}{35}
+    \endentry
+    \entry{kaczorowskiperelli2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6fa84c8cc1e455847a05b9946a1bd205}{%
+           family={Kaczorowski},
+           familyi={K\bibinitperiod},
+           given={Jerzy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3809b7930610d4f45771f03b9d46b947}{%
+           family={Perelli},
+           familyi={P\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{fullhash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{bibnamehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{authorbibnamehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{authornamehash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \strng{authorfullhash}{9335720f108eb9da86fd3ccd19e9a4dc}
+      \field{extraname}{2}
+      \field{labelalpha}{KP20}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Arithmetica}
+      \field{title}{On the structure of the {S}elberg class, {VIII}: Factorization and divisibility theorems}
+      \field{volume}{193}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 31}
+      \range{pages}{31}
+    \endentry
+    \entry{keatingsaith2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a2a15d1d6b57259c4ea4194070cf0943}{%
+           family={Keating},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=075448bd4b3ae29181c6a8dc72e83404}{%
+           family={Snaith},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4abe497672bdc5e2a3d150c1d6ac37da}
+      \strng{fullhash}{4abe497672bdc5e2a3d150c1d6ac37da}
+      \strng{bibnamehash}{4abe497672bdc5e2a3d150c1d6ac37da}
+      \strng{authorbibnamehash}{4abe497672bdc5e2a3d150c1d6ac37da}
+      \strng{authornamehash}{4abe497672bdc5e2a3d150c1d6ac37da}
+      \strng{authorfullhash}{4abe497672bdc5e2a3d150c1d6ac37da}
+      \field{labelalpha}{KS00}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{title}{Random matrix theory and {$\zeta(1/2+it)$}}
+      \field{volume}{214}
+      \field{year}{2000}
+      \field{pages}{57\bibrangedash 89}
+      \range{pages}{33}
+    \endentry
+    \entry{koosis1988}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e50704d4a4fcefb467ec4405e3065dc0}{%
+           family={Koosis},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e50704d4a4fcefb467ec4405e3065dc0}
+      \strng{fullhash}{e50704d4a4fcefb467ec4405e3065dc0}
+      \strng{bibnamehash}{e50704d4a4fcefb467ec4405e3065dc0}
+      \strng{authorbibnamehash}{e50704d4a4fcefb467ec4405e3065dc0}
+      \strng{authornamehash}{e50704d4a4fcefb467ec4405e3065dc0}
+      \strng{authorfullhash}{e50704d4a4fcefb467ec4405e3065dc0}
+      \field{labelalpha}{Koo88}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Logarithmic Integral}
+      \field{volume}{I and II}
+      \field{year}{1988}
+      \true{nocite}
+    \endentry
+    \entry{korobov1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=012315b78c3dfcdfe1991b50a924f42c}{%
+           family={Korobov},
+           familyi={K\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{012315b78c3dfcdfe1991b50a924f42c}
+      \strng{fullhash}{012315b78c3dfcdfe1991b50a924f42c}
+      \strng{bibnamehash}{012315b78c3dfcdfe1991b50a924f42c}
+      \strng{authorbibnamehash}{012315b78c3dfcdfe1991b50a924f42c}
+      \strng{authornamehash}{012315b78c3dfcdfe1991b50a924f42c}
+      \strng{authorfullhash}{012315b78c3dfcdfe1991b50a924f42c}
+      \field{labelalpha}{Kor58}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Uspekhi Mat. Nauk}
+      \field{title}{Estimates of trigonometric sums and their applications}
+      \field{volume}{13}
+      \field{year}{1958}
+      \true{nocite}
+      \field{pages}{185\bibrangedash 192}
+      \range{pages}{8}
+    \endentry
+    \entry{langlands1976}{book}{}
+      \name{author}{1}{}{%
+        {{hash=927c0881958fe9a2e407038f835b93a0}{%
+           family={Langlands},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{927c0881958fe9a2e407038f835b93a0}
+      \strng{fullhash}{927c0881958fe9a2e407038f835b93a0}
+      \strng{bibnamehash}{927c0881958fe9a2e407038f835b93a0}
+      \strng{authorbibnamehash}{927c0881958fe9a2e407038f835b93a0}
+      \strng{authornamehash}{927c0881958fe9a2e407038f835b93a0}
+      \strng{authorfullhash}{927c0881958fe9a2e407038f835b93a0}
+      \field{labelalpha}{Lan76}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Functional Equations Satisfied by {E}isenstein Series}
+      \field{year}{1976}
+    \endentry
+    \entry{li1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=83b0f5a0804dfb16d2c70e48d729c7a9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xian-Jin},
+           giveni={X\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{83b0f5a0804dfb16d2c70e48d729c7a9}
+      \strng{fullhash}{83b0f5a0804dfb16d2c70e48d729c7a9}
+      \strng{bibnamehash}{83b0f5a0804dfb16d2c70e48d729c7a9}
+      \strng{authorbibnamehash}{83b0f5a0804dfb16d2c70e48d729c7a9}
+      \strng{authornamehash}{83b0f5a0804dfb16d2c70e48d729c7a9}
+      \strng{authorfullhash}{83b0f5a0804dfb16d2c70e48d729c7a9}
+      \field{labelalpha}{Li97}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Number Theory}
+      \field{title}{The positivity of a sequence of numbers and the {R}iemann hypothesis}
+      \field{volume}{65}
+      \field{year}{1997}
+      \field{pages}{325\bibrangedash 333}
+      \range{pages}{9}
+    \endentry
+    \entry{littlewood1914}{article}{}
+      \name{author}{1}{}{%
+        {{hash=56dd48151c55dce1b8a073ecf909a238}{%
+           family={Littlewood},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{56dd48151c55dce1b8a073ecf909a238}
+      \strng{fullhash}{56dd48151c55dce1b8a073ecf909a238}
+      \strng{bibnamehash}{56dd48151c55dce1b8a073ecf909a238}
+      \strng{authorbibnamehash}{56dd48151c55dce1b8a073ecf909a238}
+      \strng{authornamehash}{56dd48151c55dce1b8a073ecf909a238}
+      \strng{authorfullhash}{56dd48151c55dce1b8a073ecf909a238}
+      \field{labelalpha}{Lit14}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comptes Rendus}
+      \field{title}{Sur la distribution des nombres premiers}
+      \field{volume}{158}
+      \field{year}{1914}
+      \true{nocite}
+      \field{pages}{1869\bibrangedash 1872}
+      \range{pages}{4}
+    \endentry
+    \entry{marklof2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8f53ec672bc2f151fa5fa744c70f29d7}{%
+           family={Marklof},
+           familyi={M\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{8f53ec672bc2f151fa5fa744c70f29d7}
+      \strng{fullhash}{8f53ec672bc2f151fa5fa744c70f29d7}
+      \strng{bibnamehash}{8f53ec672bc2f151fa5fa744c70f29d7}
+      \strng{authorbibnamehash}{8f53ec672bc2f151fa5fa744c70f29d7}
+      \strng{authornamehash}{8f53ec672bc2f151fa5fa744c70f29d7}
+      \strng{authorfullhash}{8f53ec672bc2f151fa5fa744c70f29d7}
+      \field{labelalpha}{Mar12}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Hyperbolic Geometry and Applications in Quantum Chaos and Cosmology}
+      \field{title}{Selberg's trace formula: an introduction}
+      \field{year}{2012}
+    \endentry
+    \entry{mccarthy2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=927bd6c1dcf1da321f678f41ee663054}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{927bd6c1dcf1da321f678f41ee663054}
+      \strng{fullhash}{927bd6c1dcf1da321f678f41ee663054}
+      \strng{bibnamehash}{927bd6c1dcf1da321f678f41ee663054}
+      \strng{authorbibnamehash}{927bd6c1dcf1da321f678f41ee663054}
+      \strng{authornamehash}{927bd6c1dcf1da321f678f41ee663054}
+      \strng{authorfullhash}{927bd6c1dcf1da321f678f41ee663054}
+      \field{labelalpha}{McC13}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Arithmetical Functions and Dirichlet Series}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{montgomery1973}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d6fc16fe2b971a8009f6a09376b27581}{%
+           family={Montgomery},
+           familyi={M\bibinitperiod},
+           given={Hugh\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6fc16fe2b971a8009f6a09376b27581}
+      \strng{fullhash}{d6fc16fe2b971a8009f6a09376b27581}
+      \strng{bibnamehash}{d6fc16fe2b971a8009f6a09376b27581}
+      \strng{authorbibnamehash}{d6fc16fe2b971a8009f6a09376b27581}
+      \strng{authornamehash}{d6fc16fe2b971a8009f6a09376b27581}
+      \strng{authorfullhash}{d6fc16fe2b971a8009f6a09376b27581}
+      \field{labelalpha}{Mon73}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Analytic Number Theory, Proceedings of Symposia in Pure Mathematics}
+      \field{title}{The pair correlation of zeros of the zeta function}
+      \field{volume}{24}
+      \field{year}{1973}
+      \field{pages}{181\bibrangedash 193}
+      \range{pages}{13}
+    \endentry
+    \entry{odlyzko1985}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5763e72244b318a02691f3fc37f706a2}{%
+           family={Odlyzko},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5763e72244b318a02691f3fc37f706a2}
+      \strng{fullhash}{5763e72244b318a02691f3fc37f706a2}
+      \strng{bibnamehash}{5763e72244b318a02691f3fc37f706a2}
+      \strng{authorbibnamehash}{5763e72244b318a02691f3fc37f706a2}
+      \strng{authornamehash}{5763e72244b318a02691f3fc37f706a2}
+      \strng{authorfullhash}{5763e72244b318a02691f3fc37f706a2}
+      \field{labelalpha}{Odl87}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics of Computation}
+      \field{title}{On the distribution of spacings between zeros of the zeta function}
+      \field{volume}{48}
+      \field{year}{1987}
+      \field{pages}{273\bibrangedash 308}
+      \range{pages}{36}
+    \endentry
+    \entry{plattrigaux2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=672657337855d90e71933e9c33f8753d}{%
+           family={Platt},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e46102c399eccb476a5ed10e696ced7b}{%
+           family={Rigaux},
+           familyi={R\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c1ac38716a3413df9c593c62c0940bc}
+      \strng{fullhash}{4c1ac38716a3413df9c593c62c0940bc}
+      \strng{bibnamehash}{4c1ac38716a3413df9c593c62c0940bc}
+      \strng{authorbibnamehash}{4c1ac38716a3413df9c593c62c0940bc}
+      \strng{authornamehash}{4c1ac38716a3413df9c593c62c0940bc}
+      \strng{authorfullhash}{4c1ac38716a3413df9c593c62c0940bc}
+      \field{labelalpha}{PR20}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics of Computation}
+      \field{title}{Isolating some non-trivial zeros of zeta}
+      \field{volume}{89}
+      \field{year}{2020}
+      \field{pages}{2991\bibrangedash 3010}
+      \range{pages}{20}
+    \endentry
+    \entry{riemann1859}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bda6bb5b38f7bd5e17c19c5121715453}{%
+           family={Riemann},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Monatsberichte der Berliner Akademie}%
+      }
+      \strng{namehash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \strng{fullhash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \strng{bibnamehash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \strng{authorbibnamehash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \strng{authornamehash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \strng{authorfullhash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \field{labelalpha}{Rie59}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Über die Anzahl der Primzahlen unter einer gegebenen Grösse}
+      \field{year}{1859}
+    \endentry
+    \entry{rodgerstao2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3fe4949dfcb1a7f5e9bd351168926bb9}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4cea0d7ce90ed017dfa21b4cee6c72e9}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Terence},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{76d6380c2b7ad3a44657518c9f5a53cb}
+      \strng{fullhash}{76d6380c2b7ad3a44657518c9f5a53cb}
+      \strng{bibnamehash}{76d6380c2b7ad3a44657518c9f5a53cb}
+      \strng{authorbibnamehash}{76d6380c2b7ad3a44657518c9f5a53cb}
+      \strng{authornamehash}{76d6380c2b7ad3a44657518c9f5a53cb}
+      \strng{authorfullhash}{76d6380c2b7ad3a44657518c9f5a53cb}
+      \field{labelalpha}{RT20}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forum of Mathematics, Pi}
+      \field{title}{The {D}e {B}ruijn-{N}ewman constant is non-negative}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{e6}
+      \range{pages}{-1}
+    \endentry
+    \entry{selberg1942}{article}{}
+      \name{author}{1}{}{%
+        {{hash=82a601e1ee96d337cfcc2353681d7bbd}{%
+           family={Selberg},
+           familyi={S\bibinitperiod},
+           given={Atle},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{fullhash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{bibnamehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{authorbibnamehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{authornamehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{authorfullhash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \field{extraname}{1}
+      \field{labelalpha}{Sel42}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Skr. Norske Vid. Akad. Oslo}
+      \field{title}{On the zeros of {R}iemann's zeta-function}
+      \field{volume}{10}
+      \field{year}{1942}
+      \field{pages}{1\bibrangedash 59}
+      \range{pages}{59}
+    \endentry
+    \entry{selberg1992}{article}{}
+      \name{author}{1}{}{%
+        {{hash=82a601e1ee96d337cfcc2353681d7bbd}{%
+           family={Selberg},
+           familyi={S\bibinitperiod},
+           given={Atle},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{fullhash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{bibnamehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{authorbibnamehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{authornamehash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \strng{authorfullhash}{82a601e1ee96d337cfcc2353681d7bbd}
+      \field{extraname}{2}
+      \field{labelalpha}{Sel92}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Amalfi Conference on Analytic Number Theory}
+      \field{title}{Old and new conjectures and results about a class of {D}irichlet series}
+      \field{year}{1992}
+      \field{pages}{367\bibrangedash 385}
+      \range{pages}{19}
+    \endentry
+    \entry{soundararajan2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=db8c7134ab46023e3103bbf8edcf2ca5}{%
+           family={Soundararajan},
+           familyi={S\bibinitperiod},
+           given={Kannan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{fullhash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{bibnamehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{authorbibnamehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{authornamehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{authorfullhash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \field{extraname}{1}
+      \field{labelalpha}{Sou09}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics}
+      \field{title}{Moments of the {R}iemann zeta function}
+      \field{volume}{170}
+      \field{year}{2009}
+      \field{pages}{981\bibrangedash 993}
+      \range{pages}{13}
+    \endentry
+    \entry{soundararajan2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=db8c7134ab46023e3103bbf8edcf2ca5}{%
+           family={Soundararajan},
+           familyi={S\bibinitperiod},
+           given={Kannan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{fullhash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{bibnamehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{authorbibnamehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{authornamehash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \strng{authorfullhash}{db8c7134ab46023e3103bbf8edcf2ca5}
+      \field{extraname}{2}
+      \field{labelalpha}{Sou09}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics}
+      \field{number}{2}
+      \field{title}{Moments of the {R}iemann zeta function}
+      \field{volume}{170}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{981\bibrangedash 993}
+      \range{pages}{13}
+    \endentry
+    \entry{titchmarsh1986}{book}{}
+      \name{author}{1}{}{%
+        {{hash=baf219d417d1941af57ccbb309deb548}{%
+           family={Titchmarsh},
+           familyi={T\bibinitperiod},
+           given={E.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{baf219d417d1941af57ccbb309deb548}
+      \strng{fullhash}{baf219d417d1941af57ccbb309deb548}
+      \strng{bibnamehash}{baf219d417d1941af57ccbb309deb548}
+      \strng{authorbibnamehash}{baf219d417d1941af57ccbb309deb548}
+      \strng{authornamehash}{baf219d417d1941af57ccbb309deb548}
+      \strng{authorfullhash}{baf219d417d1941af57ccbb309deb548}
+      \field{labelalpha}{Tit86}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{note}{Revised by D. R. Heath-Brown}
+      \field{title}{The Theory of the Riemann Zeta-Function}
+      \field{year}{1986}
+    \endentry
+    \entry{vinogradov1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5297197c9299a1fb96a7c04bd225a3ee}{%
+           family={Vinogradov},
+           familyi={V\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5297197c9299a1fb96a7c04bd225a3ee}
+      \strng{fullhash}{5297197c9299a1fb96a7c04bd225a3ee}
+      \strng{bibnamehash}{5297197c9299a1fb96a7c04bd225a3ee}
+      \strng{authorbibnamehash}{5297197c9299a1fb96a7c04bd225a3ee}
+      \strng{authornamehash}{5297197c9299a1fb96a7c04bd225a3ee}
+      \strng{authorfullhash}{5297197c9299a1fb96a7c04bd225a3ee}
+      \field{labelalpha}{Vin58}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Izv. Akad. Nauk SSSR}
+      \field{title}{A new estimate of the function $\zeta(1+it)$}
+      \field{volume}{22}
+      \field{year}{1958}
+      \true{nocite}
+      \field{pages}{161\bibrangedash 164}
+      \range{pages}{4}
+    \endentry
+    \entry{weil1948}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f5987f3b70bd698e3c1139b23bb8026b}{%
+           family={Weil},
+           familyi={W\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Hermann}%
+      }
+      \strng{namehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{fullhash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{bibnamehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{authorbibnamehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{authornamehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{authorfullhash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \field{extraname}{1}
+      \field{labelalpha}{Wei48}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sur les courbes algébriques et les variétés qui s'en déduisent}
+      \field{year}{1948}
+    \endentry
+    \entry{weil1952}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f5987f3b70bd698e3c1139b23bb8026b}{%
+           family={Weil},
+           familyi={W\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{fullhash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{bibnamehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{authorbibnamehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{authornamehash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \strng{authorfullhash}{f5987f3b70bd698e3c1139b23bb8026b}
+      \field{extraname}{2}
+      \field{labelalpha}{Wei52}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications on Pure and Applied Mathematics}
+      \field{title}{Sur les "formules explicites" de la théorie des nombres premiers}
+      \field{volume}{5}
+      \field{year}{1952}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -3,14 +3,14 @@
 
 Despite over 160 years of intense mathematical effort, the Riemann Hypothesis remains unconquered. This chapter examines the fundamental theoretical obstacles that have emerged from sustained attempts to prove RH, revealing why the problem may require mathematical frameworks beyond our current understanding.
 
-As Harold Edwards observed: ``Even today, more than a hundred years later, one cannot really give any solid reasons for saying that the truth of the RH is `probable'... any real reason, any plausibility argument or heuristic basis for the statement, seems entirely lacking.'' Yet as David Farmer demonstrated, there are equally no genuine reasons to doubt RH. This tension between belief without proof and skepticism without counterexample defines the current state of the problem.
+As Harold Edwards observed \cite{edwards1974}: ``Even today, more than a hundred years later, one cannot really give any solid reasons for saying that the truth of the RH is `probable'... any real reason, any plausibility argument or heuristic basis for the statement, seems entirely lacking.'' Yet as David Farmer demonstrated \cite{farmer2022}, there are equally no genuine reasons to doubt RH. This tension between belief without proof and skepticism without counterexample defines the current state of the problem.
 
 \section{The Bombieri-Garrett Spectral Limitation}
 \label{sec:bombieri_garrett}
 
 The Hilbert-P\'olya program, seeking a self-adjoint operator whose eigenvalues correspond to the non-trivial zeros of $\zeta(s)$, faces a fundamental obstruction discovered by Bombieri and Garrett.
 
-\begin{theorem}[Bombieri-Garrett Limitation]
+\begin{theorem}[Bombieri-Garrett Limitation \cite{bombieri1995}]
 \label{thm:bombieri_garrett}
 At most a fraction of the non-trivial zeros of $\zeta(s)$ can be spectral parameters of any self-adjoint operator constructed via natural automorphic methods.
 \end{theorem}
@@ -24,7 +24,7 @@ The obstruction arises from the interplay between two mathematical facts:
 \item \textbf{Montgomery's pair correlation conjecture}: The zeros of $\zeta(s)$ exhibit statistical behavior matching random unitary matrices, specifically:
 \end{itemize}
 
-\begin{conjecture}[Montgomery Pair Correlation]
+\begin{conjecture}[Montgomery Pair Correlation \cite{montgomery1973}]
 For $T \to \infty$, the pair correlation function of normalized zero spacings approaches:
 $$R_2(\alpha) = 1 - \left(\frac{\sin(\pi \alpha)}{\pi \alpha}\right)^2$$
 This matches the correlation function for eigenvalues of random unitary matrices.
@@ -45,7 +45,7 @@ The regular behavior of $\zeta(s)$ on $\Re(s) = 1$ forces the discrete spectrum 
 \end{proof}
 
 \begin{remark}
-This result represents ``the first purely new result'' in the Hilbert-P\'olya program according to Bombieri and Garrett. It suggests that even finding an operator with some zeros as eigenvalues would not prove (or disprove) RH, as the fraction of capturable zeros is strictly limited.
+This result represents ``the first purely new result'' in the Hilbert-P\'olya program according to Bombieri and Garrett \cite{bombieri1995}. It suggests that even finding an operator with some zeros as eigenvalues would not prove (or disprove) RH, as the fraction of capturable zeros is strictly limited.
 \end{remark}
 
 \subsection{Implications for the Hilbert-P\'olya Program}
@@ -92,13 +92,13 @@ For de Branges' approach to RH to work, certain positivity conditions must be sa
 \item \textbf{Spectral positivity}: The resulting operators must have non-negative spectrum corresponding to the critical line.
 \end{enumerate}
 
-\begin{theorem}[Conrey-Li Gap]
+\begin{theorem}[Conrey-Li Gap \cite{conreyli2000}]
 \label{thm:conrey_li_gap}
 The positivity conditions required for de Branges' approach to the Riemann Hypothesis are \textbf{not satisfied}.
 \end{theorem}
 
 \begin{proof}[Proof sketch]
-Conrey and Li (2000) demonstrated that:
+Conrey and Li (2000) \cite{conreyli2000} demonstrated that:
 \begin{enumerate}
 \item The explicit construction of structure functions $E_\chi(z)$ fails at critical points
 \item Required positivity conditions can be shown to be violated through specific counterexamples
@@ -119,7 +119,7 @@ The Conrey-Li gap represents a major blow to operator-theoretic approaches to RH
 \end{itemize}
 
 \begin{remark}
-The Conrey-Li result effectively closes off what appeared to be the most promising operator-theoretic approach to RH, forcing researchers to seek entirely different mathematical frameworks.
+The Conrey-Li result \cite{conreyli2000} effectively closes off what appeared to be the most promising operator-theoretic approach to RH, forcing researchers to seek entirely different mathematical frameworks.
 \end{remark}
 
 \section{Distribution Theory Constraints}
@@ -223,7 +223,7 @@ where $N = \lfloor \sqrt{t/(2\pi)} \rfloor$ and $R(t)$ is a remainder term with 
 
 \subsection{The Tracking Problem}
 
-Edwards identified several fundamental obstacles to using the Riemann-Siegel formula for analytical progress:
+Edwards \cite{edwards1974} identified several fundamental obstacles to using the Riemann-Siegel formula for analytical progress:
 
 \begin{enumerate}
 \item \textbf{Infinite number of terms}: The number of significant terms grows with $t$, making analysis increasingly complex.
@@ -240,7 +240,7 @@ The Riemann-Siegel formula provides minimal analytical insight into the distribu
 \end{theorem}
 
 \begin{proof}[Argument]
-The formula suffers from what Edwards calls ``the ugly truth'':
+The formula suffers from what Edwards calls \cite{edwards1974} ``the ugly truth'':
 \begin{itemize}
 \item Each zero requires analysis of $\sim \sqrt{t}$ terms
 \item Coefficients become increasingly complicated with height

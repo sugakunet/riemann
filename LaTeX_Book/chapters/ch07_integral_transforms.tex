@@ -6,7 +6,7 @@ The theory of integral transforms provides a powerful framework for understandin
 \section{The Radon Transform and Applications}
 \label{sec:radon-transform}
 
-The Radon transform, developed by Johann Radon in 1917, integrates functions over hyperplanes and has found profound applications ranging from medical imaging to the analysis of $L$-functions. Its geometric intuition—recovering a function from its integrals over various subspaces—mirrors the analytic continuation problem for zeta functions.
+The Radon transform, developed by Johann Radon in 1917 \cite{helgason1999}, integrates functions over hyperplanes and has found profound applications ranging from medical imaging to the analysis of $L$-functions. Its geometric intuition—recovering a function from its integrals over various subspaces—mirrors the analytic continuation problem for zeta functions.
 
 \subsection{Definition and Basic Properties}
 
@@ -20,7 +20,7 @@ Each hyperplane $\xi$ can be parametrized as:
 $$\xi = \{x \in \mathbb{R}^n : \langle x, \omega \rangle = p\}$$
 where $\omega \in S^{n-1}$ is a unit normal vector and $p \in \mathbb{R}$ is the signed distance to the origin.
 
-\begin{theorem}[Schwartz Theorem]
+\begin{theorem}[Schwartz Theorem \cite{helgason1999}]
 The Radon transform $f \mapsto \hat{f}$ is a linear one-to-one mapping of $\mathcal{S}(\mathbb{R}^n)$ onto $\mathcal{S}_H(P^n)$, where:
 \begin{itemize}
 \item $\mathcal{S}(\mathbb{R}^n)$ denotes the space of rapidly decreasing functions
@@ -34,7 +34,7 @@ This theorem establishes the Radon transform as an isomorphism between function 
 
 The remarkable property of the Radon transform is that functions can be recovered from their hyperplane integrals.
 
-\begin{theorem}[Radon Inversion Formula]
+\begin{theorem}[Radon Inversion Formula \cite{helgason1999}]
 A function $f$ can be recovered from its Radon transform via:
 $$c \cdot f = (-L)^{(n-1)/2}((\hat{f})^{\vee})$$
 where:
@@ -53,7 +53,7 @@ where $d\mu$ is the rotation-invariant measure on hyperplanes through $x$.
 
 The Radon transform exhibits a fundamental relationship with the Fourier transform that illuminates its power:
 
-\begin{theorem}[Fourier-Radon Relationship]
+\begin{theorem}[Fourier-Radon Relationship \cite{helgason1999}]
 For a function $f$ on $\mathbb{R}^n$:
 $$\tilde{f}(s\omega) = \int_{-\infty}^{\infty} \hat{f}(\omega,r) e^{-isr} \, dr$$
 \end{theorem}
@@ -74,7 +74,7 @@ The support theorem for the Radon transform—if $\hat{f}(\xi) = 0$ for all hype
 
 \subsection{Support Theorem and Microlocal Analysis}
 
-\begin{theorem}[Support Theorem]
+\begin{theorem}[Support Theorem \cite{helgason1999}]
 Let $f \in C(\mathbb{R}^n)$ satisfy:
 \begin{enumerate}
 \item $|x|^k f(x)$ is bounded for each integer $k > 0$
@@ -100,7 +100,7 @@ $$\mathcal{M}[f](s) = \int_0^{\infty} f(x) x^{s-1} \, dx$$
 The inverse Mellin transform recovers $f$:
 $$f(x) = \frac{1}{2\pi i} \int_{\sigma-i\infty}^{\sigma+i\infty} \mathcal{M}[f](s) x^{-s} \, ds$$
 
-\begin{theorem}[Mellin-Dirichlet Connection]
+\begin{theorem}[Mellin-Dirichlet Connection \cite{titchmarsh1986}]
 The Riemann zeta function admits the Mellin representation:
 $$\zeta(s) = \frac{1}{\Gamma(s)} \int_0^{\infty} \frac{t^{s-1}}{e^t - 1} \, dt$$
 for $\operatorname{Re}(s) > 1$.
@@ -123,7 +123,7 @@ This transforms the discrete sum into a continuous integral, enabling powerful a
 
 One of the most important tools for extracting arithmetic information from Dirichlet series:
 
-\begin{theorem}[Perron's Formula]
+\begin{theorem}[Perron's Formula \cite{titchmarsh1986}]
 For a Dirichlet series $f(s) = \sum a_n n^{-s}$ with abscissa of convergence $\sigma_c$, the summatory function $F(x) = \sum_{n \leq x} a_n$ satisfies:
 $$F(x) = \frac{1}{2\pi i} \lim_{T \to \infty} \int_{\sigma-iT}^{\sigma+iT} \frac{f(w)}{w} x^w \, dw$$
 for $\sigma > \max(0, \sigma_c)$.
@@ -142,10 +142,10 @@ Starting from:
 $$\zeta(s) = \frac{1}{\Gamma(s)} \int_0^{\infty} \frac{t^{s-1}}{e^t - 1} \, dt$$
 
 Split the integral at $t = 1$ and use the functional equation of the theta function:
-$$\vartheta(t) = \sum_{n=-\infty}^{\infty} e^{-\pi n^2 t} = t^{-1/2} \vartheta(t^{-1})$$
+$$\vartheta(t) = \sum_{n=-\infty}^{\infty} e^{-\pi n^2 t} = t^{-1/2} \vartheta(t^{-1})$$ \cite{titchmarsh1986}
 
 This yields the functional equation:
-$$\pi^{-s/2} \Gamma(s/2) \zeta(s) = \pi^{-(1-s)/2} \Gamma((1-s)/2) \zeta(1-s)$$
+$$\pi^{-s/2} \Gamma(s/2) \zeta(s) = \pi^{-(1-s)/2} \Gamma((1-s)/2) \zeta(1-s)$$ \cite{riemann1859,titchmarsh1986}
 \end{example}
 
 \section{Poisson Summation and Dual Methods}
@@ -155,7 +155,7 @@ Poisson summation provides a fundamental duality between discrete sums and conti
 
 \subsection{Classical Poisson Formula}
 
-\begin{theorem}[Poisson Summation Formula]
+\begin{theorem}[Poisson Summation Formula \cite{titchmarsh1986}]
 For a suitable function $f$ on $\mathbb{R}$:
 $$\sum_{n=-\infty}^{\infty} f(n) = \sum_{n=-\infty}^{\infty} \hat{f}(2\pi n)$$
 where $\hat{f}$ is the Fourier transform of $f$.
@@ -172,7 +172,7 @@ $$\vartheta(z, \tau) = \sum_{n=-\infty}^{\infty} e^{\pi i n^2 \tau + 2\pi i n z}
 for $\operatorname{Im}(\tau) > 0$.
 \end{definition}
 
-\begin{theorem}[Theta Functional Equation]
+\begin{theorem}[Theta Functional Equation \cite{titchmarsh1986}]
 The theta function satisfies:
 $$\vartheta(z, -1/\tau) = (-i\tau)^{1/2} e^{\pi i z^2/\tau} \vartheta(z/\tau, \tau)$$
 \end{theorem}
@@ -278,7 +278,7 @@ where the product is over all places $v$ of the number field.
 
 The Selberg trace formula exemplifies harmonic analysis on groups:
 
-\begin{theorem}[Selberg Trace Formula]
+\begin{theorem}[Selberg Trace Formula \cite{selberg1992,marklof2007}]
 For a test function $h$ on $\mathbb{R}^+$:
 \begin{multline}
 \sum_{j} h(\lambda_j) = \frac{\text{vol}(\Gamma \backslash \mathfrak{h})}{4\pi} \int_0^{\infty} r \tanh(\pi r) h(r) \, dr \\
@@ -302,7 +302,7 @@ $$\mathbb{A} = \mathbb{A}_f \times \mathbb{A}_{\infty}$$
 where $\mathbb{A}_f$ is the finite adeles and $\mathbb{A}_{\infty}$ contains the archimedean completions.
 \end{definition}
 
-\begin{theorem}[Strong Approximation]
+\begin{theorem}[Strong Approximation \cite{langlands1976}]
 $G(\mathbb{Q}) \backslash G(\mathbb{A})/G(\mathbb{A}_{\infty}) K$ is compact for suitable choices of compact open subgroup $K \subset G(\mathbb{A}_f)$.
 \end{theorem}
 
@@ -312,7 +312,7 @@ This compactness is crucial for the spectral theory underlying $L$-functions.
 
 The Langlands program provides the overarching framework:
 
-\begin{conjecture}[Langlands Reciprocity]
+\begin{conjecture}[Langlands Reciprocity \cite{langlands1976}]
 There exists a bijection between:
 \begin{itemize}
 \item $n$-dimensional irreducible representations of $\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$
@@ -368,7 +368,7 @@ If the zeros of $\zeta(s)$ correspond to eigenvalues of a self-adjoint operator 
 Contemporary research continues to develop these connections:
 
 \begin{example}[Quantum Chaos]
-The Montgomery-Dyson conjecture connecting zeta zeros to random matrix eigenvalues suggests that transform methods from quantum mechanics—particularly the Wigner transform—might provide new insights into the Riemann Hypothesis.
+The Montgomery-Dyson conjecture \cite{montgomery1973} connecting zeta zeros to random matrix eigenvalues suggests that transform methods from quantum mechanics—particularly the Wigner transform—might provide new insights into the Riemann Hypothesis.
 \end{example}
 
 \begin{example}[Arithmetic Quantum Chaos]

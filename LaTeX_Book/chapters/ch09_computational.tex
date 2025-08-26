@@ -12,7 +12,7 @@ The computational verification of RH relies fundamentally on the Riemann-Siegel 
 
 The Riemann-Siegel formula emerges from applying the method of stationary phase to the integral representation of $\zeta(s)$ combined with the functional equation.
 
-\begin{theorem}[Riemann-Siegel Formula]
+\begin{theorem}[Riemann-Siegel Formula \cite{titchmarsh1986}]
 For $s = \frac{1}{2} + it$ with $t > 0$, we have
 \begin{align}
 \zeta(s) &= \sum_{n=1}^{N} n^{-s} + \chi(s) \sum_{n=1}^{N} n^{s-1} + R(s)
@@ -44,7 +44,7 @@ Z(t) = e^{i\theta(t)} \zeta\left(\frac{1}{2} + it\right)
 where $\theta(t)$ is the argument of $\zeta(1/2 + it)$ chosen to make $Z(t)$ real-valued.
 \end{definition}
 
-\begin{theorem}[Properties of Z(t)]
+\begin{theorem}[Properties of Z(t) \cite{titchmarsh1986}]
 The Hardy Z-function satisfies:
 \begin{enumerate}
 \item $Z(t)$ is real-valued for real $t$
@@ -80,9 +80,9 @@ The computational verification of RH has a rich history spanning over a century.
 \subsection{Early Calculations}
 
 \begin{itemize}
-\item \textbf{Riemann (1859)}: Hand-calculated the first few zeros, establishing the pattern
+\item \textbf{Riemann (1859)} \cite{riemann1859}: Hand-calculated the first few zeros, establishing the pattern
 \item \textbf{Gram (1903)}: Extended calculations and discovered Gram's law
-\item \textbf{Hardy \& Littlewood (1921)}: Systematic verification of 138 zeros
+\item \textbf{Hardy \& Littlewood (1921)} \cite{hardy1914}: Systematic verification of 138 zeros
 \end{itemize}
 
 \subsection{Turing's Revolutionary Approach}
@@ -107,9 +107,9 @@ Turing's insight was crucial: rather than finding individual zeros, verify that 
 \textbf{Year} & \textbf{Researcher(s)} & \textbf{Zeros Verified} & \textbf{Height Range} \\
 \hline
 1986 & van de Lune et al. & $1.5 \times 10^9$ & $t \leq 545,439,823$ \\
-1992 & Odlyzko & $10^{12}$ & Various ranges \\
+1992 & Odlyzko \cite{odlyzko1985} & $10^{12}$ & Various ranges \\
 2004 & Gourdon \& Demichel & $10^{13}$ & $t \leq 2.4 \times 10^{12}$ \\
-2020 & Platt & $3 \times 10^{12}$ & $t \leq 3.06 \times 10^{10}$ \\
+2020 & Platt \cite{plattrigaux2020} & $3 \times 10^{12}$ & $t \leq 3.06 \times 10^{10}$ \\
 \hline
 \end{tabular}
 \caption{Major computational verification milestones}
@@ -126,7 +126,7 @@ Modern verification relies on sophisticated algorithms that push computational b
 
 \subsection{The Odlyzko-Schönhage Algorithm}
 
-\begin{theorem}[Odlyzko-Schönhage Algorithm]
+\begin{theorem}[Odlyzko-Schönhage Algorithm \cite{odlyzko1985}]
 For computing many values of $\zeta(s)$ simultaneously:
 \begin{enumerate}
 \item Use FFT-based methods to evaluate the Dirichlet series
@@ -157,7 +157,7 @@ Modern verification employs massive parallelization:
 
 \subsection{Error Analysis and Verification}
 
-\begin{theorem}[Error Bounds in Riemann-Siegel]
+\begin{theorem}[Error Bounds in Riemann-Siegel \cite{titchmarsh1986}]
 The truncation error in the Riemann-Siegel formula satisfies:
 \begin{align}
 |R(s)| \leq C \cdot t^{-1/4} \exp\left(-\frac{\pi\sqrt{t}}{2}\right)
@@ -185,7 +185,7 @@ We cannot analytically track how individual terms in the Riemann-Siegel formula 
 \end{problem}
 
 \begin{quote}
-Edwards noted: "The ugly truth is that the Riemann-Siegel formula... provides almost no insight into the question of the location of the zeros."
+Edwards noted \cite{edwards1974}: "The ugly truth is that the Riemann-Siegel formula... provides almost no insight into the question of the location of the zeros."
 \end{quote}
 
 \subsection{Implications for Understanding}
@@ -198,7 +198,7 @@ We can verify that zeros lie on the critical line to extraordinary precision, bu
 
 \subsection{Scale Separation Problem}
 
-Farmer's analysis reveals that meaningful analytical behavior emerges only at astronomical scales:
+Farmer's analysis \cite{farmer2022} reveals that meaningful analytical behavior emerges only at astronomical scales:
 
 \begin{theorem}[Carrier Wave Scale]
 The "true nature" of $\zeta(s)$ behavior is revealed only at scales of $\sqrt{\log\log T}$, meaning genuine anomalies would appear around heights:
@@ -224,7 +224,7 @@ The Gram points $g_n$ are solutions to:
 where $\theta(t)$ is the argument of $\zeta(1/2 + it)$.
 \end{definition}
 
-\begin{theorem}[Gram's Law]
+\begin{theorem}[Gram's Law \cite{titchmarsh1986}]
 "Usually" there is exactly one zero of $Z(t)$ in each interval $(g_n, g_{n+1})$.
 \end{theorem}
 
@@ -239,7 +239,7 @@ Instances where $Z(t)$ has very small values between consecutive zeros, approach
 Notable examples:
 \begin{itemize}
 \item At $t \approx 17143.7$: $|Z(t)| < 6 \times 10^{-9}$
-\item Odlyzko found 1976 values where $|Z((\gamma_n + \gamma_{n+1})/2)| < 0.0005$
+\item Odlyzko \cite{odlyzko1985} found 1976 values where $|Z((\gamma_n + \gamma_{n+1})/2)| < 0.0005$
 \end{itemize}
 
 \begin{remark}
@@ -250,7 +250,7 @@ These "near-misses" demonstrate that RH is "barely true" - the function comes ex
 
 Computational studies reveal that zero spacings follow predictions from random matrix theory:
 
-\begin{theorem}[Montgomery-Dyson Connection]
+\begin{theorem}[Montgomery-Dyson Connection \cite{montgomery1973}]
 The pair correlation function of zeta zeros matches that of eigenvalues from the Gaussian Unitary Ensemble (GUE):
 \begin{align}
 R_2(u) = 1 - \left(\frac{\sin(\pi u)}{\pi u}\right)^2

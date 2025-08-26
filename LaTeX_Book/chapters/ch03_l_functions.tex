@@ -2,7 +2,7 @@
 % Label is in main.tex
 
 \begin{quote}
-\textit{``The Selberg class provides a unified framework for understanding the deep structural properties shared by all L-functions arising from number theory and automorphic representation theory.''} --- Atle Selberg, 1992
+\textit{``The Selberg class provides a unified framework for understanding the deep structural properties shared by all L-functions arising from number theory and automorphic representation theory.''} --- Atle Selberg, 1992 \cite{selberg1992}
 \end{quote}
 
 \section{Introduction}
@@ -215,16 +215,16 @@ The degree conjecture has been proven for small degrees through a series of rema
 \begin{theorem}[Complete Classification for Small Degrees]
 The following results have been established:
 
-\textbf{Degree 0:} $\mathcal{S}_0 = \{1\}$ (Conrey-Ghosh, 1993)
+\textbf{Degree 0:} $\mathcal{S}_0 = \{1\}$ \cite{conreyghosh1993}
 
-\textbf{Degrees $0 < d < 1$:} $\mathcal{S}_d = \emptyset$ (Richert 1957, Conrey-Ghosh 1992)
+\textbf{Degrees $0 < d < 1$:} $\mathcal{S}_d = \emptyset$ \cite{conreyghosh1993}
 
-\textbf{Degree 1:} Complete classification (Kaczorowski-Perelli, 1999)
+\textbf{Degree 1:} Complete classification \cite{kaczorowskiperelli1999}
 $\mathcal{S}_1$ consists exactly of $\zeta(s)$ and shifted Dirichlet L-functions $L(s+i\tau, \chi)$
 
-\textbf{Degrees $1 < d < 2$:} $\mathcal{S}_d = \emptyset$ (Kaczorowski-Perelli, 2002, 2011)
+\textbf{Degrees $1 < d < 2$:} $\mathcal{S}_d = \emptyset$ \cite{kaczorowskiperelli2020}
 
-\textbf{All degrees $d < 5/3$:} The degree conjecture is proven (Kaczorowski-Perelli)
+\textbf{All degrees $d < 5/3$:} The degree conjecture is proven \cite{kaczorowskiperelli2020}
 \end{theorem}
 
 \begin{proof}[Proof Strategy for $1 < d < 2$]
@@ -297,7 +297,7 @@ If $f$ is a newform of weight $k$ and level $N$, then $L(s,f) \in \mathcal{S}$ w
 \item Degree: $d_f = 2$
 \item Conductor: $Q = N$
 \item Functional equation involving $\Gamma(s + (k-1)/2)$
-\item The coefficients $a_n$ satisfy the Ramanujan conjecture: $|a_p| \leq 2p^{(k-1)/2}$
+\item The coefficients $a_n$ satisfy the Ramanujan conjecture: $|a_p| \leq 2p^{(k-1)/2}$ \cite{iwanieckowalski2004}
 \end{itemize}
 \end{theorem}
 
@@ -463,13 +463,13 @@ by Conjecture B. Similarly for the other factorization, giving uniqueness.
 If $\rho: \text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}) \to \text{GL}_n(\mathbb{C})$ is an irreducible representation with $n > 1$, then $L(s,\rho)$ is entire.
 \end{conjecture}
 
-\begin{theorem}[Murty's Result]
+\begin{theorem}[Murty's Result \cite{iwanieckowalski2004}]
 Selberg's Conjecture B implies the Artin conjecture.
 \end{theorem}
 
 \begin{proof}[Proof Sketch]
 \begin{enumerate}
-\item Use Brauer induction to write $L(s,\rho) = L(s,\chi_1)/L(s,\chi_2)$ where $\chi_1, \chi_2$ are products of Hecke L-functions.
+\item Use Brauer induction to write $L(s,\rho) = L(s,\chi_1)/L(s,\chi_2)$ where $\chi_1, \chi_2$ are products of Hecke L-functions \cite{langlands1976}.
 
 \item Both numerator and denominator belong to $\mathcal{S}$ with primitive factorizations.
 
@@ -493,7 +493,7 @@ Selberg's Conjecture B implies the Artin conjecture.
 \subsection{Connection to the Langlands Program}
 
 \begin{theorem}[Solvable Case of Langlands Reciprocity]
-Assume Conjecture B. Let $K/\mathbb{Q}$ be a Galois extension with solvable group $G$, and let $\chi$ be an irreducible character of degree $n$. Then there exists an irreducible cuspidal automorphic representation $\pi$ of $\text{GL}_n(\mathbb{A}_\mathbb{Q})$ such that $L(s,\chi) = L(s,\pi)$.
+Assume Conjecture B. Let $K/\mathbb{Q}$ be a Galois extension with solvable group $G$, and let $\chi$ be an irreducible character of degree $n$. Then there exists an irreducible cuspidal automorphic representation $\pi$ of $\text{GL}_n(\mathbb{A}_\mathbb{Q})$ such that $L(s,\chi) = L(s,\pi)$ \cite{langlands1976}.
 \end{theorem}
 
 This result shows how Selberg's analytic conjectures provide an alternative pathway to fundamental results in the Langlands program, at least for solvable Galois groups.

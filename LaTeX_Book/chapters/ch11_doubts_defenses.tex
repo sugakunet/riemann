@@ -22,7 +22,7 @@ where $\zeta$ is the Riemann zeta function and the branch is chosen so that $Z(t
 \end{definition}
 
 \begin{theorem}[Lehmer Phenomenon]
-The function $Z(t)$ has a negative local maximum of approximately $-0.52625$ at $t \approx 2.47575$. Furthermore, Odlyzko found 1976 values where 
+The function $Z(t)$ has a negative local maximum of approximately $-0.52625$ at $t \approx 2.47575$. Furthermore, Odlyzko \cite{odlyzko1985} found 1976 values where 
 \begin{equation}
 \left|Z\left(\frac{\gamma_n + \gamma_{n+1}}{2}\right)\right| < 0.0005
 \end{equation}
@@ -40,7 +40,7 @@ The Lehmer phenomenon reveals that the zeta function exhibits behavior that is r
 
 Perhaps the most troubling argument against RH comes from the work of Davenport and Heilbronn, who constructed a function that satisfies many of the same properties as the Riemann zeta function but violates its analogue of RH.
 
-\begin{theorem}[Davenport-Heilbronn Construction]
+\begin{theorem}[Davenport-Heilbronn Construction \cite{davenpoertheilbronn1936}]
 Define the function
 \begin{equation}
 f(s) = 5^{-s}\left[\zeta(s,1/5) + \tan\theta\,\zeta(s,2/5) - \tan\theta\,\zeta(s,3/5) - \zeta(s,4/5)\right]
@@ -106,7 +106,7 @@ M_{2k}(T) = T P_k^2(\log T) + E_k(T)
 where $P_k(x)$ is a polynomial of degree $k^2$ and $E_k(T)$ is an error term.
 \end{conjecture}
 
-\begin{theorem}[Ivić's Argument]
+\begin{theorem}[Ivić's Argument \cite{ivic2003}]
 If $E_k(T) = \Omega(T^{k/4})$ for $k \geq 5$, then this contradicts the Lindelöf Hypothesis, and consequently RH.
 \end{theorem}
 
@@ -118,7 +118,7 @@ The issue is that computational evidence suggests the error terms $E_k(T)$ might
 Perhaps the most philosophically troubling argument against RH comes from Harold Edwards' observation about the complete absence of plausibility arguments.
 
 \begin{quote}
-``Even today, more than a hundred years later, one cannot really give any solid reasons for saying that the truth of the RH is 'probable'... any real reason, any plausibility argument or heuristic basis for the statement, seems entirely lacking.''
+``Even today, more than a hundred years later, one cannot really give any solid reasons for saying that the truth of the RH is 'probable'... any real reason, any plausibility argument or heuristic basis for the statement, seems entirely lacking.'' \cite{edwards1974}
 \end{quote}
 
 \begin{remark}
@@ -134,7 +134,7 @@ But none of these constitute a genuine plausibility argument for why RH itself s
 \section{Farmer's Defense (2022)}
 \label{sec:farmer_defense}
 
-In 2022, David Farmer published a comprehensive defense of RH titled ``No Reasons to Doubt the Riemann Hypothesis,'' which systematically addresses the major arguments for doubting RH. Farmer's defense is built around identifying and refuting what he calls ``mistaken notions'' about the zeta function.
+In 2022, David Farmer published \cite{farmer2022} a comprehensive defense of RH titled ``No Reasons to Doubt the Riemann Hypothesis,'' which systematically addresses the major arguments for doubting RH. Farmer's defense is built around identifying and refuting what he calls ``mistaken notions'' about the zeta function.
 
 \subsection{The Four Mistaken Notions}
 \label{subsec:mistaken_notions}
@@ -262,7 +262,7 @@ One of the strongest pieces of evidence supporting RH comes from random matrix t
 The Gaussian Unitary Ensemble (GUE) is the probability distribution on $n \times n$ Hermitian matrices with entries that are independent Gaussian random variables.
 \end{definition}
 
-\begin{theorem}[RMT-Zeta Connection]
+\begin{theorem}[RMT-Zeta Connection \cite{montgomery1973,keatingsaith2000}]
 The zeros of $\zeta(s)$ on the critical line exhibit statistical behavior that matches the eigenvalues of random matrices from the Gaussian Unitary Ensemble.
 \end{theorem}
 
@@ -276,7 +276,7 @@ This connection is remarkable because:
 \subsection{Pair Correlation Matches}
 \label{subsec:pair_correlation}
 
-\begin{theorem}[Montgomery's Pair Correlation]
+\begin{theorem}[Montgomery's Pair Correlation \cite{montgomery1973}]
 Let $\gamma_n$ denote the imaginary parts of nontrivial zeros of $\zeta(s)$. The pair correlation function
 \begin{equation}
 R_2(x) = \lim_{T \to \infty} \frac{1}{N(T)} \sum_{\substack{\gamma_n, \gamma_m \leq T \\ \gamma_n \neq \gamma_m}} \mathbf{1}_{\left[\frac{2\pi(\gamma_n - \gamma_m)}{\log T} \in [x, x+dx]\right]}
@@ -290,7 +290,7 @@ R_2^{\text{GUE}}(x) = 1 - \left(\frac{\sin(\pi x)}{\pi x}\right)^2
 \subsection{Spacing Distributions}
 \label{subsec:spacing_distributions}
 
-\begin{theorem}[Spacing Statistics]
+\begin{theorem}[Spacing Statistics \cite{keatingsaith2000}]
 The distribution of normalized spacings between consecutive zeros of $\zeta(s)$ matches the spacing distribution for GUE eigenvalues.
 \end{theorem}
 
@@ -392,7 +392,7 @@ The de Bruijn-Newman constant $\Lambda$ is defined as the supremum of all real $
 has only real zeros, where $\Phi(t)$ is related to the Riemann $\xi$-function.
 \end{definition}
 
-\begin{theorem}[Newman's Conjecture - Proved 2018]
+\begin{theorem}[Newman's Conjecture - Proved 2018 \cite{rodgerstao2020}]
 $\Lambda \geq 0$.
 \end{theorem}
 
@@ -465,7 +465,7 @@ Each major argument for doubting RH can be systematically addressed:
 \begin{theorem}[Mathematical Community Consensus]
 The mathematical community's continued belief in RH is based on:
 \begin{enumerate}
-\item \textbf{Positive evidence}: 40\% of zeros proven on critical line, extensive numerical verification, random matrix theory connections
+\item \textbf{Positive evidence}: 40\% of zeros proven on critical line \cite{conrey1989}, extensive numerical verification, random matrix theory connections
 \item \textbf{Systematic doubt resolution}: Farmer's defense addresses all major skeptical arguments
 \item \textbf{Theoretical consistency}: RH fits coherently with broader mathematical structures
 \item \textbf{Absence of genuine counterevidence}: No argument against RH survives careful analysis

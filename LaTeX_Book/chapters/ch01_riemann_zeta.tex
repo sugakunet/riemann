@@ -7,7 +7,7 @@
 
 \begin{quote}
 \textit{``Es ist sehr wahrscheinlich, dass alle Wurzeln reell sind. Hiervon wäre allerdings ein strenger Beweis zu wünschen; ich habe indess die Aufsuchung desselben nach einigen flüchtigen vergeblichen Versuchen vorläufig bei Seite gelassen.''} \\
---- Bernhard Riemann, 1859 \textit{(``It is very probable that all roots are real. A rigorous proof of this would certainly be desirable; however, after some fleeting unsuccessful attempts, I have provisionally set aside the search for it.'')}
+--- Bernhard Riemann, 1859 \cite{riemann1859} \textit{(``It is very probable that all roots are real. A rigorous proof of this would certainly be desirable; however, after some fleeting unsuccessful attempts, I have provisionally set aside the search for it.'')}
 \end{quote}
 
 The Riemann zeta function $\zeta(s)$ stands as one of the most profound and mysterious objects in mathematics. Born from the simple Dirichlet series $\sum_{n=1}^{\infty} n^{-s}$, it has grown to become the central figure in analytic number theory, connecting the distribution of prime numbers to the zeros of a complex function. This chapter establishes the foundational properties of $\zeta(s)$ that underpin all subsequent investigations into the Riemann Hypothesis.
@@ -53,7 +53,7 @@ The divergence at $s = 1$ is logarithmic: as $N \to \infty$,
 \[
 \sum_{n=1}^N \frac{1}{n} = \log N + \gamma + O(N^{-1})
 \]
-where $\gamma = 0.5772156649\ldots$ is the Euler-Mascheroni constant.
+where $\gamma = 0.5772156649\ldots$ is the Euler-Mascheroni constant \cite{titchmarsh1986}.
 \end{remark}
 
 \subsection{Basic Identities and Properties}
@@ -74,7 +74,7 @@ For $\Re(s) > 1$, the zeta function satisfies:
 Some notable values include:
 \begin{align}
 \zeta(2) &= \frac{\pi^2}{6} = 1.644934\ldots \\
-\zeta(3) &= 1.202056\ldots \quad \text{(Apéry's constant)} \\
+\zeta(3) &= 1.202056\ldots \quad \text{(Apéry's constant \cite{edwards1974})} \\
 \zeta(4) &= \frac{\pi^4}{90} = 1.082323\ldots \\
 \zeta(6) &= \frac{\pi^6}{945} = 1.017343\ldots
 \end{align}
@@ -256,7 +256,7 @@ up to the simple factor structure involving $s(s-1)$.
 \section{The Euler Product}
 \label{sec:euler_product}
 
-The connection between the zeta function and the distribution of prime numbers is made explicit through Euler's product formula, one of the most significant discoveries in number theory.
+The connection between the zeta function and the distribution of prime numbers is made explicit through Euler's product formula, one of the most significant discoveries in number theory \cite{edwards1974,titchmarsh1986}.
 
 \subsection{Euler's Product Formula}
 
@@ -339,7 +339,7 @@ The following growth estimates hold:
 \begin{enumerate}[label=(\alph*)]
 \item \textbf{For $\sigma > 1$:} $|\zeta(\sigma + it)| \leq \zeta(\sigma)$
 \item \textbf{For $\sigma = 1$ (away from the pole):} $|\zeta(1 + it)| \ll \log(|t| + 2)$
-\item \textbf{Critical line $\sigma = 1/2$:} $|\zeta(1/2 + it)| \ll |t|^{32/205}$ (Huxley, 2005)
+\item \textbf{Critical line $\sigma = 1/2$:} $|\zeta(1/2 + it)| \ll |t|^{32/205}$ \cite{soundararajan2008}
 \item \textbf{Critical strip $0 < \sigma < 1$:} $|\zeta(\sigma + it)| \ll |t|^{(1-\sigma)/2} \log |t|$ (convexity bound)
 \end{enumerate}
 \end{theorem}
@@ -388,9 +388,9 @@ This shows that zeros are dense along the critical strip, with approximately $T 
 \begin{theorem}[Zeros on the Critical Line]
 \label{thm:zeros_critical_line}
 \begin{enumerate}[label=(\alph*)]
-\item \textbf{(Hardy, 1914)} Infinitely many zeros lie exactly on $\Re(s) = 1/2$
-\item \textbf{(Selberg, 1942)} A positive proportion of zeros lie on the critical line
-\item \textbf{(Conrey, 1989)} At least 40\% of zeros lie on the critical line
+\item \textbf{(Hardy, 1914 \cite{hardy1914})} Infinitely many zeros lie exactly on $\Re(s) = 1/2$
+\item \textbf{(Selberg, 1942 \cite{selberg1942})} A positive proportion of zeros lie on the critical line
+\item \textbf{(Conrey, 1989 \cite{conrey1989})} At least 40\% of zeros lie on the critical line
 \end{enumerate}
 \end{theorem}
 
@@ -401,7 +401,7 @@ This shows that zeros are dense along the critical strip, with approximately $T 
 For the $2k$-th moment on the critical line:
 \begin{enumerate}[label=(\alph*)]
 \item $\int_0^T |\zeta(1/2 + it)|^2 dt = T \log(T/2\pi) + (2\gamma - 1)T + O(T^{1/2})$
-\item $\int_0^T |\zeta(1/2 + it)|^4 dt \sim \frac{T}{2\pi^2} (\log T)^4$ (Ingham, 1926)
+\item $\int_0^T |\zeta(1/2 + it)|^4 dt \sim \frac{T}{2\pi^2} (\log T)^4$ \cite{titchmarsh1986}
 \item For general $k$: conjectured asymptotic $\sim c_k T(\log T)^{k^2}$
 \end{enumerate}
 \end{theorem}
@@ -449,19 +449,19 @@ This remarkable theorem shows that $\zeta(s)$ can approximate any reasonable hol
 \begin{historicalnote}
 The development of zeta function theory spans over two and a half centuries:
 
-\textbf{Euler (1737):} First studied $\sum n^{-s}$ for positive integer $s$, discovered the Euler product formula connecting it to primes.
+\textbf{Euler (1737):} First studied $\sum n^{-s}$ for positive integer $s$, discovered the Euler product formula connecting it to primes \cite{edwards1974}.
 
-\textbf{Riemann (1859):} Extended to complex $s$, proved the functional equation, formulated the Riemann Hypothesis, and established the connection to prime distribution.
+\textbf{Riemann (1859):} Extended to complex $s$, proved the functional equation, formulated the Riemann Hypothesis, and established the connection to prime distribution \cite{riemann1859}.
 
-\textbf{Hadamard \& de la Vallée Poussin (1896):} Proved the Prime Number Theorem by showing $\zeta(1+it) \neq 0$.
+\textbf{Hadamard \& de la Vallée Poussin (1896):} Proved the Prime Number Theorem by showing $\zeta(1+it) \neq 0$ \cite{davenport2000}.
 
-\textbf{Hardy (1914):} Proved infinitely many zeros lie on the critical line.
+\textbf{Hardy (1914):} Proved infinitely many zeros lie on the critical line \cite{hardy1914}.
 
-\textbf{Littlewood, Ingham, Titchmarsh (1920s-1930s):} Developed much of the analytic theory we use today.
+\textbf{Littlewood, Ingham, Titchmarsh (1920s-1930s):} Developed much of the analytic theory we use today \cite{titchmarsh1986}.
 
-\textbf{Selberg (1942):} Showed a positive proportion of zeros are on the critical line.
+\textbf{Selberg (1942):} Showed a positive proportion of zeros are on the critical line \cite{selberg1942}.
 
-\textbf{Conrey (1989):} Proved at least 40\% of zeros are on the critical line using mollifiers.
+\textbf{Conrey (1989):} Proved at least 40\% of zeros are on the critical line using mollifiers \cite{conrey1989}.
 \end{historicalnote}
 
 \section{Chapter Summary and Outlook}
