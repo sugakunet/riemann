@@ -72,9 +72,25 @@ This web of connections suggests that RH is not merely a technical statement abo
 
 Riemann's 1859 paper \emph{\"Uber die Anzahl der Primzahlen unter einer gegebenen Gr\"o{\ss}e} laid the groundwork not just for RH but for analytic number theory as a field. His explicit formula connecting prime powers to zeta zeros made clear the central role of the critical line.
 
-The early 20th century saw foundational work by Hadamard and de la Vall\'ee Poussin, who proved the Prime Number Theorem by showing $\zeta(s) \neq 0$ on $\Re(s) = 1$. Hardy proved in 1914 that infinitely many zeros lie on the critical line, while Hardy and Littlewood developed the circle method and established the modern framework for studying L-functions.
+\subsubsection*{Early Attempts and False Claims}
 
-By 1950, mathematicians had established that a positive proportion of zeros lie on the critical line and had developed powerful tools including the functional equation, Hadamard's theorem on entire functions, and the beginnings of what would become the Selberg trace formula.
+The first significant claim of a proof came from Thomas Stieltjes in 1885. The Dutch mathematician, in correspondence with Hermite and in a note to the Comptes Rendus, claimed to have proven something even stronger than RH -- the Mertens conjecture, which would imply RH. He wrote that ``the proof is very arduous'' and promised to simplify it, but the proof never appeared. This claim is now thoroughly discredited, as the Mertens conjecture itself was disproved by Odlyzko and te Riele in 1985 using lattice reduction algorithms.
+
+The Mertens conjecture, formulated independently by Franz Mertens in 1897, stated that $|M(x)|/\sqrt{x} < 1$ where $M(x)$ is the sum of the M\"obius function. Despite computational verification up to $10^9$ by von Sterneck in 1912, the conjecture is false -- a striking example of how numerical evidence can be misleading in number theory.
+
+\subsubsection*{Foundational Breakthroughs}
+
+The early 20th century saw genuine progress. Hadamard and de la Vall\'ee Poussin proved the Prime Number Theorem by showing $\zeta(s) \neq 0$ on $\Re(s) = 1$. 
+
+In 1914, two landmark results appeared. Hardy proved that infinitely many zeros lie on the critical line -- the first rigorous evidence that at least some zeros satisfy RH. His proof used the transformation formula of the Jacobi theta function. The same year, Littlewood proved a surprising oscillation result: the difference $\pi(x) - \Li(x)$ changes sign infinitely often, contradicting the belief (held by Gauss and Riemann) that $\pi(x) < \Li(x)$ always. This led to the concept of the Skewes number, originally estimated as $e^{e^{e^{79}}}$ assuming RH.
+
+In 1908, Ernst Lindel\"of proposed his hypothesis that $\zeta(1/2 + it) = O(t^\epsilon)$ for any $\epsilon > 0$. While weaker than RH, the Lindel\"of hypothesis remains unproven and represents one of the major open problems in the field.
+
+\subsubsection*{Hidden Computations Revealed}
+
+A remarkable discovery came in 1932 when Carl Ludwig Siegel found the Riemann-Siegel formula in Riemann's unpublished manuscripts from the 1850s. This revealed that Riemann had performed extensive numerical calculations of zeros, showing his hypothesis wasn't mere intuition but based on computational evidence. The formula became a fundamental tool for all subsequent numerical verification of RH.
+
+By 1950, mathematicians had established that a positive proportion of zeros lie on the critical line (Hardy-Littlewood 1921 proved $\gg T$ zeros, Selberg 1942 improved this to $\gg T \log T$) and had developed powerful tools including the functional equation, Hadamard's theorem on entire functions, and the beginnings of what would become the Selberg trace formula.
 
 \subsection*{The Modern Era (1950-2000)}
 
