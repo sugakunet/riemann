@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  25 AUG 2025 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  25 AUG 2025 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1297,9 +1297,9 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 
 Writing index file main.idx
 \c@theorem=\count473
-Package hyperref Info: Option `colorlinks' set `true' on input line 166.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 166.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 166.
+Package hyperref Info: Option `colorlinks' set `true' on input line 168.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 168.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 168.
 
 \@quotelevel=\count474
 \@quotereset=\count475
@@ -1458,25 +1458,25 @@ LaTeX Warning: Label `sec:conclusion@cref' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-Package hyperref Info: Link coloring ON on input line 177.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+Package hyperref Info: Link coloring ON on input line 179.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1508,7 +1508,7 @@ e
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 177.
+ on input line 179.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1524,21 +1524,21 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 177.
-Package biblatex Info: Reference segment=0 on input line 177.
-LaTeX Info: Redefining \microtypecontext on input line 177.
-Package microtype Info: Applying patch `item' on input line 177.
-Package microtype Info: Applying patch `toc' on input line 177.
-Package microtype Info: Applying patch `eqnum' on input line 177.
-Package microtype Info: Applying patch `footnote' on input line 177.
-Package microtype Info: Applying patch `verbatim' on input line 177.
+Package biblatex Info: Reference section=0 on input line 179.
+Package biblatex Info: Reference segment=0 on input line 179.
+LaTeX Info: Redefining \microtypecontext on input line 179.
+Package microtype Info: Applying patch `item' on input line 179.
+Package microtype Info: Applying patch `toc' on input line 179.
+Package microtype Info: Applying patch `eqnum' on input line 179.
+Package microtype Info: Applying patch `footnote' on input line 179.
+Package microtype Info: Applying patch `verbatim' on input line 179.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 177.
+LaTeX Info: Redefining \showhyphens on input line 179.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1580,7 +1580,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 182
+LaTeX Font Info:    Trying to load font information for U+msa on input line 184
 .
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1588,7 +1588,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 182
+LaTeX Font Info:    Trying to load font information for U+msb on input line 184
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -3787,26 +3787,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [212]
 
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.195 \end{research_direction}
-                              
-Things are pretty mixed up, but I think the worst is over.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3815,26 +3795,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [213]
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.283 \end{research_direction}
-                              
-Things are pretty mixed up, but I think the worst is over.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3845,46 +3805,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [214]
 
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.311 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.311 \end{research_direction}
-                              
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.358 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.358 \end{research_direction}
-                              
-Things are pretty mixed up, but I think the worst is over.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3893,31 +3813,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [215]
-Package hyperref Info: bookmark level for unknown missing_concepts defaults to 
-0 on input line 366.
-Package hyperref Info: bookmark level for unknown research_problem defaults to 
-0 on input line 399.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.416 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.416 \end{research_problem}
-                            
-Things are pretty mixed up, but I think the worst is over.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3928,46 +3823,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [216]
 
-! LaTeX Error: \begin{document} ended by \end{research_problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.447 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.447 \end{research_problem}
-                            
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{research_problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.479 \end{research_problem}
-                            
-Things are pretty mixed up, but I think the worst is over.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3976,28 +3831,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [217]
-
-! LaTeX Error: \begin{document} ended by \end{research_problem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.510 \end{research_problem}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.510 \end{research_problem}
-                            
-Things are pretty mixed up, but I think the worst is over.
-
 Package hyperref Info: bookmark level for unknown problem_set defaults to 0 on 
-input line 517.
+input line 474.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4009,15 +3845,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [218]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 574.
+(hyperref)                removing `math shift' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 574.
+(hyperref)                removing `superscript' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 574.
+(hyperref)                removing `math shift' on input line 527.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4028,37 +3864,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [219]
-
-! LaTeX Error: \begin{document} ended by \end{research_direction}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 \end{research_direction}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.605 \end{research_direction}
-                              
-Things are pretty mixed up, but I think the worst is over.
-
 Runaway argument?
 {Symbolic Computation**: Computer algebra systems for manipulating L-\ETC.
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.647 
+l.587 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
+Package hyperref Info: bookmark level for unknown experiment_list defaults to 0
+ on input line 608.
+Runaway argument?
+{Cross-L-function Correlations**: Study correlations between zeros of\ETC.
+! Paragraph ended before \MT@temp was complete.
+<to be read again> 
+                   \par 
+l.612 
+      
+? 
+Runaway argument?
+{Finite Matrix Models**: Implement various matrix models and study th\ETC.
+! Paragraph ended before \MT@temp was complete.
+<to be read again> 
+                   \par 
+l.614 
+      
+? 
+Runaway argument?
+{Automorphic Form Calculations**: Compute large databases of automorp\ETC.
+! Paragraph ended before \MT@temp was complete.
+<to be read again> 
+                   \par 
+l.616 
+      
+? 
+Runaway argument?
+{de Branges Space Investigations**: Implement computational versions \ETC.
+! Paragraph ended before \MT@temp was complete.
+<to be read again> 
+                   \par 
+l.618 
+      
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4068,99 +3915,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [220]
-Package hyperref Info: bookmark level for unknown experiment_list defaults to 0
- on input line 668.
-
-Runaway argument?
-{Cross-L-function Correlations**: Study correlations between zeros of\ETC.
-! Paragraph ended before \MT@temp was complete.
-<to be read again> 
-                   \par 
-l.672 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{Finite Matrix Models**: Implement various matrix models and study th\ETC.
-! Paragraph ended before \MT@temp was complete.
-<to be read again> 
-                   \par 
-l.674 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{Automorphic Form Calculations**: Compute large databases of automorp\ETC.
-! Paragraph ended before \MT@temp was complete.
-<to be read again> 
-                   \par 
-l.676 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{de Branges Space Investigations**: Implement computational versions \ETC.
-! Paragraph ended before \MT@temp was complete.
-<to be read again> 
-                   \par 
-l.678 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 Runaway argument?
 {Random Matrix Ensemble Tests**: Generate large random matrix ensembl\ETC.
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.680 
+l.620 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {Quantum Chaos Simulations**: Simulate quantum chaotic systems and co\ETC.
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.684 
+l.624 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Runaway argument?
 {Classical Analysis**: Revealed the centrality of the critical line a\ETC.
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.705 
+l.645 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Package hyperref Info: bookmark level for unknown optimism_factors defaults to 
-0 on input line 733.
+? 
 Runaway argument?
 {Deep Connections Discovered**: RH connects to: \begin {itemize} \item \ETC.
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.751 
+l.688 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4175,27 +3961,19 @@ Runaway argument?
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.768 
+l.705 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Package hyperref Info: bookmark level for unknown guidance defaults to 0 on inp
-ut line 784.
+? 
 Runaway argument?
 {Technical Mastery**: Deep expertise in at least one major approach \item \ETC.
 ! Paragraph ended before \MT@temp was complete.
 <to be read again> 
                    \par 
-l.803 
+l.736 
       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 Package hyperref Info: bookmark level for unknown encouragement defaults to 0 o
-n input line 813.
+n input line 746.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4205,9 +3983,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [222]
-Package hyperref Info: bookmark level for unknown collaboration defaults to 0 o
-n input line 828.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -4217,31 +3992,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [223]
-
-! LaTeX Error: Environment final_thought undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.924 \begin{final_thought}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{itemize} on input line 797 ended by \end{final_thought}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.930 \end{final_thought}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown final_thought defaults to 0 o
+n input line 846.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4252,32 +4004,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [224]
-
-! LaTeX Error: Environment final_assessment undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.939 \begin{final_assessment}
-                              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{itemize} on input line 797 ended by \end{final_assessment
-}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.957 \end{final_assessment}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Info: bookmark level for unknown final_assessment defaults to 
+0 on input line 861.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4469,22 +4197,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 298.
+LaTeX Warning: Empty bibliography on input line 300.
 
 No file main.ind.
 
-! LaTeX Error: \begin{itemize} on input line 797 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 730 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 \end{document}
+l.304 \end{document}
                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -4503,22 +4228,22 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 7)
 
-### semi simple group (level 7) entered at line 797 (\begingroup)
-### semi simple group (level 6) entered at line 736 (\begingroup)
-### semi simple group (level 5) entered at line 697 (\begingroup)
-### semi simple group (level 4) entered at line 695 (\begingroup)
-### semi simple group (level 3) entered at line 668 (\begingroup)
-### semi simple group (level 2) entered at line 667 (\begingroup)
-### semi simple group (level 1) entered at line 641 (\begingroup)
+### semi simple group (level 7) entered at line 730 (\begingroup)
+### semi simple group (level 6) entered at line 673 (\begingroup)
+### semi simple group (level 5) entered at line 637 (\begingroup)
+### semi simple group (level 4) entered at line 635 (\begingroup)
+### semi simple group (level 3) entered at line 608 (\begingroup)
+### semi simple group (level 2) entered at line 607 (\begingroup)
+### semi simple group (level 1) entered at line 581 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 54127 strings out of 474116
- 1198941 string characters out of 5743681
- 2040891 words of memory out of 5000000
- 72447 multiletter control sequences out of 15000+600000
+ 54118 strings out of 474116
+ 1198536 string characters out of 5743681
+ 2041986 words of memory out of 5000000
+ 72470 multiletter control sequences out of 15000+600000
  596919 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,93p,1001b,1830s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,1001b,1828s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
@@ -4547,10 +4272,10 @@ exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (270 pages, 1222872 bytes).
+Output written on main.pdf (270 pages, 1221721 bytes).
 PDF statistics:
- 6983 PDF objects out of 7423 (max. 8388607)
- 6588 compressed objects within 66 object streams
- 2844 named destinations out of 2984 (max. 500000)
+ 6946 PDF objects out of 7423 (max. 8388607)
+ 6551 compressed objects within 66 object streams
+ 2812 named destinations out of 2984 (max. 500000)
  62293 words of extra memory for PDF output out of 74296 (max. 10000000)
 

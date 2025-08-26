@@ -578,7 +578,7 @@
 \contentsline {subsection}{\numberline {32.2.3}Positive Proportion on Critical Line: Beyond 41\%}{212}{subsection.32.2.3}%
 \contentsline {subsection}{\numberline {32.2.4}Lindelöf Hypothesis as Intermediate Goal}{213}{subsection.32.2.4}%
 \contentsline {subsection}{\numberline {32.2.5}Value of Incremental Progress}{213}{subsection.32.2.5}%
-\contentsline {section}{\numberline {32.3}New Mathematical Structures Needed}{214}{section.32.3}%
+\contentsline {section}{\numberline {32.3}New Mathematical Structures Needed}{213}{section.32.3}%
 \contentsline {subsection}{\numberline {32.3.1}Beyond Deficiency (1,1) Operators}{214}{subsection.32.3.1}%
 \contentsline {subsection}{\numberline {32.3.2}Non-Classical Function Spaces}{214}{subsection.32.3.2}%
 \contentsline {subsection}{\numberline {32.3.3}Arithmetic Quantum Mechanics}{215}{subsection.32.3.3}%
