@@ -642,6 +642,39 @@
       \field{pages}{181\bibrangedash 245}
       \range{pages}{65}
     \endentry
+    \entry{grosszagier1986}{article}{}
+      \name{author}{2}{}{%
+        {{hash=981443a317d443897cef5b9c3bbcfe0d}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Benedict\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=352b894a0121be31576ee2f0a4b12d83}{%
+           family={Zagier},
+           familyi={Z\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{164894a969574dd0937235ee53db772e}
+      \strng{fullhash}{164894a969574dd0937235ee53db772e}
+      \strng{bibnamehash}{164894a969574dd0937235ee53db772e}
+      \strng{authorbibnamehash}{164894a969574dd0937235ee53db772e}
+      \strng{authornamehash}{164894a969574dd0937235ee53db772e}
+      \strng{authorfullhash}{164894a969574dd0937235ee53db772e}
+      \field{labelalpha}{GZ86}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inventiones Mathematicae}
+      \field{number}{2}
+      \field{title}{Heegner points and derivatives of {L}-series}
+      \field{volume}{84}
+      \field{year}{1986}
+      \true{nocite}
+      \field{pages}{225\bibrangedash 320}
+      \range{pages}{96}
+    \endentry
     \entry{grothendieck1965}{article}{}
       \name{author}{1}{}{%
         {{hash=fb0e3184fdd2fcd28fa74ca67d7cdcc1}{%
@@ -1188,6 +1221,31 @@
       \field{pages}{273\bibrangedash 308}
       \range{pages}{36}
     \endentry
+    \entry{patterson2018}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=1bbd8625d5c07aef20aa78c3e4f00f67}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bbd8625d5c07aef20aa78c3e4f00f67}
+      \strng{fullhash}{1bbd8625d5c07aef20aa78c3e4f00f67}
+      \strng{bibnamehash}{1bbd8625d5c07aef20aa78c3e4f00f67}
+      \strng{authorbibnamehash}{1bbd8625d5c07aef20aa78c3e4f00f67}
+      \strng{authornamehash}{1bbd8625d5c07aef20aa78c3e4f00f67}
+      \strng{authorfullhash}{1bbd8625d5c07aef20aa78c3e4f00f67}
+      \field{labelalpha}{Pat18}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Perspectives on the {R}iemann {H}ypothesis}
+      \field{month}{6}
+      \field{title}{The context of {R}iemann's paper on the distribution of prime numbers}
+      \field{venue}{AIM Workshop, Bristol}
+      \field{year}{2018}
+    \endentry
     \entry{plattrigaux2020}{article}{}
       \name{author}{2}{}{%
         {{hash=672657337855d90e71933e9c33f8753d}{%
@@ -1219,6 +1277,32 @@
       \field{pages}{2991\bibrangedash 3010}
       \range{pages}{20}
     \endentry
+    \entry{polymath2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a49730a11ce5eb7c81f6ba8fa933e8c0}{%
+           family={{Polymath, D. H. J.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a49730a11ce5eb7c81f6ba8fa933e8c0}
+      \strng{fullhash}{a49730a11ce5eb7c81f6ba8fa933e8c0}
+      \strng{bibnamehash}{a49730a11ce5eb7c81f6ba8fa933e8c0}
+      \strng{authorbibnamehash}{a49730a11ce5eb7c81f6ba8fa933e8c0}
+      \strng{authornamehash}{a49730a11ce5eb7c81f6ba8fa933e8c0}
+      \strng{authorfullhash}{a49730a11ce5eb7c81f6ba8fa933e8c0}
+      \field{labelalpha}{Pol19}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in the Mathematical Sciences}
+      \field{number}{3}
+      \field{title}{Effective approximation of heat flow evolution of the {R}iemann $\xi$ function, and a new upper bound for the de {B}ruijn-{N}ewman constant}
+      \field{volume}{6}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{31}
+      \range{pages}{1}
+    \endentry
     \entry{riemann1859}{book}{}
       \name{author}{1}{}{%
         {{hash=bda6bb5b38f7bd5e17c19c5121715453}{%
@@ -1243,6 +1327,35 @@
       \field{labeltitlesource}{title}
       \field{title}{Über die Anzahl der Primzahlen unter einer gegebenen Grösse}
       \field{year}{1859}
+    \endentry
+    \entry{roberts2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6e66e52eb4186198edad6240f4ce6fdd}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d25d8a1e916239fa2ac8e7e392d3765c}{%
+           family={Rodriguez\bibnamedelima Villegas},
+           familyi={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{170d6d510042f07a125a383fca72626e}
+      \strng{fullhash}{170d6d510042f07a125a383fca72626e}
+      \strng{bibnamehash}{170d6d510042f07a125a383fca72626e}
+      \strng{authorbibnamehash}{170d6d510042f07a125a383fca72626e}
+      \strng{authornamehash}{170d6d510042f07a125a383fca72626e}
+      \strng{authorfullhash}{170d6d510042f07a125a383fca72626e}
+      \field{labelalpha}{RR21}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{Hypergeometric {M}otives}
+      \field{volume}{arXiv:2109.00027}
+      \field{year}{2021}
     \endentry
     \entry{rodgerstao2020}{article}{}
       \name{author}{2}{}{%
@@ -1274,6 +1387,30 @@
       \field{year}{2020}
       \field{pages}{e6}
       \range{pages}{-1}
+    \endentry
+    \entry{rodriguez2018}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d25d8a1e916239fa2ac8e7e392d3765c}{%
+           family={Rodriguez\bibnamedelima Villegas},
+           familyi={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d25d8a1e916239fa2ac8e7e392d3765c}
+      \strng{fullhash}{d25d8a1e916239fa2ac8e7e392d3765c}
+      \strng{bibnamehash}{d25d8a1e916239fa2ac8e7e392d3765c}
+      \strng{authorbibnamehash}{d25d8a1e916239fa2ac8e7e392d3765c}
+      \strng{authornamehash}{d25d8a1e916239fa2ac8e7e392d3765c}
+      \strng{authorfullhash}{d25d8a1e916239fa2ac8e7e392d3765c}
+      \field{labelalpha}{Rod18}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{$p$-adic hypergeometrics}
+      \field{volume}{arXiv:1803.10802}
+      \field{year}{2018}
     \endentry
     \entry{selberg1942}{article}{}
       \name{author}{1}{}{%
@@ -1385,6 +1522,38 @@
       \true{nocite}
       \field{pages}{981\bibrangedash 993}
       \range{pages}{13}
+    \endentry
+    \entry{taorodgers2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4cea0d7ce90ed017dfa21b4cee6c72e9}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Terence},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3fe4949dfcb1a7f5e9bd351168926bb9}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{49c92c59b7a316c2b6d071edf0f64947}
+      \strng{fullhash}{49c92c59b7a316c2b6d071edf0f64947}
+      \strng{bibnamehash}{49c92c59b7a316c2b6d071edf0f64947}
+      \strng{authorbibnamehash}{49c92c59b7a316c2b6d071edf0f64947}
+      \strng{authornamehash}{49c92c59b7a316c2b6d071edf0f64947}
+      \strng{authorfullhash}{49c92c59b7a316c2b6d071edf0f64947}
+      \field{labelalpha}{TR20}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forum of Mathematics, Pi}
+      \field{note}{Originally posted as arXiv:1801.05914 in 2018}
+      \field{title}{The {D}e {B}ruijn-{N}ewman constant is non-negative}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{e6}
+      \range{pages}{-1}
     \endentry
     \entry{tate1950}{thesis}{}
       \name{author}{1}{}{%
@@ -1522,6 +1691,31 @@
       \field{year}{1952}
       \field{pages}{1\bibrangedash 9}
       \range{pages}{9}
+    \endentry
+    \entry{zhang2018}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=25bbf4047d900f3760c65b01ee899dba}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{25bbf4047d900f3760c65b01ee899dba}
+      \strng{fullhash}{25bbf4047d900f3760c65b01ee899dba}
+      \strng{bibnamehash}{25bbf4047d900f3760c65b01ee899dba}
+      \strng{authorbibnamehash}{25bbf4047d900f3760c65b01ee899dba}
+      \strng{authornamehash}{25bbf4047d900f3760c65b01ee899dba}
+      \strng{authorfullhash}{25bbf4047d900f3760c65b01ee899dba}
+      \field{labelalpha}{Zha18}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Perspectives on the {R}iemann {H}ypothesis}
+      \field{month}{6}
+      \field{title}{Positivity of {L}-functions and ``completion of the square''}
+      \field{venue}{AIM Workshop, Bristol}
+      \field{year}{2018}
     \endentry
   \enddatalist
 \endrefsection

@@ -553,38 +553,38 @@
 \contentsline {subsection}{\numberline {14.6.2}Pattern Recognition in L-functions}{170}{subsection.14.6.2}%
 \contentsline {subsection}{\numberline {14.6.3}Automated Conjecture Generation}{171}{subsection.14.6.3}%
 \contentsline {subsection}{\numberline {14.6.4}Computational Experiments}{171}{subsection.14.6.4}%
-\contentsline {subsection}{\numberline {14.6.5}Limitations of ML Approaches}{171}{subsection.14.6.5}%
+\contentsline {subsection}{\numberline {14.6.5}Limitations of ML Approaches}{172}{subsection.14.6.5}%
 \contentsline {section}{\numberline {14.7}Arithmetic Quantum Mechanics}{172}{section.14.7}%
 \contentsline {subsection}{\numberline {14.7.1}Quantum Systems over Finite Fields}{172}{subsection.14.7.1}%
-\contentsline {subsection}{\numberline {14.7.2}Arithmetic Dynamics}{172}{subsection.14.7.2}%
-\contentsline {subsection}{\numberline {14.7.3}Quantum Graphs}{172}{subsection.14.7.3}%
+\contentsline {subsection}{\numberline {14.7.2}Arithmetic Dynamics}{173}{subsection.14.7.2}%
+\contentsline {subsection}{\numberline {14.7.3}Quantum Graphs}{173}{subsection.14.7.3}%
 \contentsline {subsection}{\numberline {14.7.4}Ihara Zeta Functions}{173}{subsection.14.7.4}%
-\contentsline {subsection}{\numberline {14.7.5}Connections to RH}{173}{subsection.14.7.5}%
+\contentsline {subsection}{\numberline {14.7.5}Connections to RH}{174}{subsection.14.7.5}%
 \contentsline {section}{\numberline {14.8}Assessment of Alternative Approaches}{174}{section.14.8}%
 \contentsline {subsection}{\numberline {14.8.1}Why Alternative Approaches Matter}{174}{subsection.14.8.1}%
-\contentsline {subsection}{\numberline {14.8.2}Common Themes Emerging}{174}{subsection.14.8.2}%
-\contentsline {subsubsection}{Spectral Realization}{174}{section*.61}%
+\contentsline {subsection}{\numberline {14.8.2}Common Themes Emerging}{175}{subsection.14.8.2}%
+\contentsline {subsubsection}{Spectral Realization}{175}{section*.61}%
 \contentsline {subsubsection}{Geometric Realization}{175}{section*.62}%
 \contentsline {subsubsection}{Statistical and Probabilistic Perspectives}{175}{section*.63}%
-\contentsline {subsubsection}{Computational and Algorithmic Aspects}{175}{section*.64}%
-\contentsline {subsection}{\numberline {14.8.3}Fundamental Obstacles Persist}{175}{subsection.14.8.3}%
-\contentsline {subsubsection}{The Infinity Problem}{175}{section*.65}%
-\contentsline {subsubsection}{Precision Requirements}{175}{section*.66}%
+\contentsline {subsubsection}{Computational and Algorithmic Aspects}{176}{section*.64}%
+\contentsline {subsection}{\numberline {14.8.3}Fundamental Obstacles Persist}{176}{subsection.14.8.3}%
+\contentsline {subsubsection}{The Infinity Problem}{176}{section*.65}%
+\contentsline {subsubsection}{Precision Requirements}{176}{section*.66}%
 \contentsline {subsubsection}{Computational Limitations}{176}{section*.67}%
 \contentsline {subsubsection}{Rigor vs. Intuition}{176}{section*.68}%
 \contentsline {subsection}{\numberline {14.8.4}What We Learn from Diversity}{176}{subsection.14.8.4}%
 \contentsline {subsubsection}{Mathematical Unity}{176}{section*.69}%
-\contentsline {subsubsection}{Problem Robustness}{176}{section*.70}%
-\contentsline {subsubsection}{Tool Development}{176}{section*.71}%
-\contentsline {subsubsection}{Interdisciplinary Benefits}{176}{section*.72}%
-\contentsline {subsection}{\numberline {14.8.5}Future Promise and Limitations}{176}{subsection.14.8.5}%
-\contentsline {subsubsection}{Most Promising Directions}{176}{section*.73}%
+\contentsline {subsubsection}{Problem Robustness}{177}{section*.70}%
+\contentsline {subsubsection}{Tool Development}{177}{section*.71}%
+\contentsline {subsubsection}{Interdisciplinary Benefits}{177}{section*.72}%
+\contentsline {subsection}{\numberline {14.8.5}Future Promise and Limitations}{177}{subsection.14.8.5}%
+\contentsline {subsubsection}{Most Promising Directions}{177}{section*.73}%
 \contentsline {subsubsection}{Persistent Challenges}{177}{section*.74}%
-\contentsline {subsubsection}{Realistic Assessment}{177}{section*.75}%
-\contentsline {section}{\numberline {14.9}Synthesis and Future Directions}{177}{section.14.9}%
-\contentsline {subsection}{\numberline {14.9.1}Key Insights from Alternative Approaches}{177}{subsection.14.9.1}%
+\contentsline {subsubsection}{Realistic Assessment}{178}{section*.75}%
+\contentsline {section}{\numberline {14.9}Synthesis and Future Directions}{178}{section.14.9}%
+\contentsline {subsection}{\numberline {14.9.1}Key Insights from Alternative Approaches}{178}{subsection.14.9.1}%
 \contentsline {subsection}{\numberline {14.9.2}Remaining Challenges}{178}{subsection.14.9.2}%
-\contentsline {subsection}{\numberline {14.9.3}Future Research Directions}{178}{subsection.14.9.3}%
+\contentsline {subsection}{\numberline {14.9.3}Future Research Directions}{179}{subsection.14.9.3}%
 \contentsline {chapter}{\numberline {15}The Arithmetic Perspective: Function Fields and the Weil Conjectures}{181}{chapter.15}%
 \contentsline {section}{\numberline {15.1}Introduction: Why Function Fields Matter}{181}{section.15.1}%
 \contentsline {subsection}{\numberline {15.1.1}The Power of Analogy}{181}{subsection.15.1.1}%

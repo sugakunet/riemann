@@ -308,11 +308,14 @@ HGMs offer unprecedented computational accessibility:
 
 The Hodge numbers are computed via the ``zigzag algorithm'':
 
-\begin{algorithm}[Zigzag Procedure]
+\begin{algorithm}[h]
+\caption{Zigzag Procedure}
 \label{alg:zigzag}
-Input: Family parameter $Q = q_\infty/q_0$ \\
-Output: Hodge vector $h = (h^{w,0}, \ldots, h^{0,w})$ \\
-Method: Analyze interlacing patterns of roots of $q_\infty$ and $q_0$ on the unit circle
+\begin{algorithmic}
+\State \textbf{Input:} Family parameter $Q = q_\infty/q_0$
+\State \textbf{Output:} Hodge vector $h = (h^{w,0}, \ldots, h^{0,w})$
+\State \textbf{Method:} Analyze interlacing patterns of roots of $q_\infty$ and $q_0$ on the unit circle
+\end{algorithmic}
 \end{algorithm}
 
 \subsubsection{Point Counts and L-Functions}
