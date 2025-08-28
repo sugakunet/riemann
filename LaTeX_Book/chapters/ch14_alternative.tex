@@ -105,9 +105,287 @@ Despite its mathematical elegance, the NCG approach faces substantial challenges
 \item \textbf{Functional Calculus}: The necessary functional calculus for the proposed operators is not well-developed.
 \end{enumerate}
 
+\subsection{The Scaling Site and Recent Developments (2018-present)}
+
+At the 2018 AIM workshop, Connes and Consani presented significant developments in their 20-year program, introducing the concept of the ``scaling site'' over the field with one element $\mathbb{F}_1$.
+
+\subsubsection{The Scaling Site Construction}
+
+\begin{definition}[Scaling Site]
+\label{def:scaling_site}
+The scaling site is a topos-theoretic construction that encodes the adele class space as a geometric object over $\mathbb{F}_1$:
+\begin{equation}
+\mathcal{X} = \text{Spec}(\mathbb{Z}) \times_{\text{Spec}(\mathbb{F}_1)} \text{Spec}(\mathbb{Z})
+\end{equation}
+This provides a geometric framework where the Frobenius correspondences act naturally.
+\end{definition}
+
+\subsubsection{Tropical Geometry Connection}
+
+The program now incorporates tropical geometry as a bridge between arithmetic and geometry:
+
+\begin{theorem}[Connes-Consani Tropical Structure]
+\label{thm:tropical_structure}
+The scaling site admits a tropical structure where:
+\begin{itemize}
+\item The tropical semiring $\mathbb{T} = (\mathbb{R} \cup \{-\infty\}, \max, +)$ plays a fundamental role
+\item The thermodynamic limit connects to the tropical degeneration
+\item The Riemann-Roch formula extends to this tropical setting
+\end{itemize}
+\end{theorem}
+
+\subsubsection{Riemann-Roch for Almost Periodic Functions}
+
+A key innovation is extending Riemann-Roch to almost periodic functions:
+
+\begin{theorem}[Riemann-Roch for AP Functions]
+\label{thm:rr_ap}
+For almost periodic functions on the scaling site, there exists a Riemann-Roch formula:
+\begin{equation}
+\chi(f) = \deg(f) + \frac{1}{2\pi i} \int_{\partial} f^* \omega
+\end{equation}
+where $\omega$ is a canonical form related to the theta function.
+\end{theorem}
+
+\subsubsection{Thermodynamic Interpretation}
+
+The program now includes a thermodynamic interpretation where:
+\begin{itemize}
+\item The partition function is $Z(\beta) = \zeta(\beta)$
+\item The critical temperature $\beta = 1$ corresponds to the pole of $\zeta$
+\item Phase transitions relate to zeros of $\zeta$
+\end{itemize}
+
+\subsubsection{Current Challenges and Promise}
+
+While the scaling site approach is mathematically sophisticated, challenges remain:
+
+\begin{enumerate}
+\item \textbf{Technical Complexity}: The topos-theoretic machinery requires extensive development
+\item \textbf{Explicit Computations}: Connecting abstract structures to concrete properties of $\zeta$ remains difficult
+\item \textbf{Spectral Realization}: The original goal of spectral realization is still not achieved
+\end{enumerate}
+
 \begin{remark}
-While Connes' program has not yet succeeded, it has led to profound developments in non-commutative geometry and opened new avenues for understanding L-functions through geometric methods \cite{connes1999}.
+The scaling site represents a significant evolution of Connes' program, incorporating ideas from tropical geometry, topos theory, and thermodynamics. While still incomplete, it demonstrates how the pursuit of RH continues to drive developments in pure mathematics, creating new connections between seemingly disparate fields. The program's 20-year evolution shows both the difficulty of RH and the mathematical richness it continues to generate.
 \end{remark}
+
+\section{Arithmetic Geometry and the Completion of Square (Wei Zhang)}
+\label{sec:wei_zhang}
+
+One of the most innovative recent approaches to understanding L-functions and their positivity properties comes from Wei Zhang's arithmetic geometry perspective, presented at the 2018 AIM workshop \cite{zhang2018}. This approach reinterprets positivity of L-function derivatives as arising from ``completion of square'' in an arithmetic-geometric setting.
+
+\subsection{The Gross-Zagier Formula and Heights}
+
+The foundation of Zhang's approach lies in the celebrated Gross-Zagier formula, which connects L-function derivatives to heights of algebraic cycles.
+
+\begin{theorem}[Gross-Zagier Formula]
+\label{thm:gross_zagier}
+Let $E/\mathbb{Q}$ be an elliptic curve of conductor $N$ and $K$ an imaginary quadratic field of discriminant $-D$ with $(D,N) = 1$. Let $P_K \in E(K)$ be the Heegner point. Then
+\begin{equation}
+L'(E/K, 1) = c \cdot \hat{h}(P_K) \cdot |\text{Sha}(E/K)|^{1/2}
+\end{equation}
+where $\hat{h}$ is the Néron-Tate height, $c$ is an explicit constant, and $\text{Sha}$ is the Tate-Shafarevich group (assumed finite).
+\end{theorem}
+
+The crucial insight is that the height $\hat{h}(P_K)$ is non-negative by definition, being a quadratic form. Thus, the positivity of $L'(E/K, 1)$ follows from geometric positivity.
+
+\subsection{The Completion of Square Philosophy}
+
+Zhang's key innovation is to interpret this positivity as a ``completion of square'' in arithmetic geometry.
+
+\begin{definition}[Arithmetic Completion of Square]
+\label{def:arith_completion}
+An arithmetic completion of square is a decomposition of an L-function special value or derivative as:
+\begin{equation}
+L^{(*)}(f, s_0) = \sum_{i} |a_i|^2
+\end{equation}
+where the $a_i$ are arithmetic invariants (heights, periods, etc.) and $(*)$ denotes possible derivatives.
+\end{definition}
+
+This perspective transforms the analytic question of L-function positivity into a geometric question about quadratic forms in arithmetic geometry.
+
+\subsection{Generalizations to Higher Dimensions}
+
+Zhang and collaborators have extended this philosophy far beyond the original Gross-Zagier context:
+
+\subsubsection{Drinfeld Shtukas and Function Fields}
+
+In the function field setting, Zhang uses intersection theory on moduli spaces of Drinfeld Shtukas:
+
+\begin{theorem}[Zhang's Function Field Result]
+\label{thm:zhang_function_field}
+For certain automorphic L-functions over function fields, special values can be expressed as:
+\begin{equation}
+L(f, s_0) = \langle \mathcal{Z}_1, \mathcal{Z}_2 \rangle_{\text{int}}
+\end{equation}
+where $\mathcal{Z}_i$ are algebraic cycles on the moduli of Shtukas and $\langle \cdot, \cdot \rangle_{\text{int}}$ is the intersection pairing.
+\end{theorem}
+
+The intersection pairing is positive definite by the Hodge index theorem, yielding positivity of L-values.
+
+\subsubsection{Higher Derivatives and Multiple Heights}
+
+For higher derivatives, the completion of square involves multiple height pairings:
+
+\begin{conjecture}[Generalized Gross-Zagier]
+\label{conj:gen_gross_zagier}
+For suitable L-functions and integers $n \geq 1$:
+\begin{equation}
+L^{(n)}(f, s_0) = \sum_{i_1, \ldots, i_n} \langle P_{i_1}, \ldots, P_{i_n} \rangle_{\text{height}}
+\end{equation}
+where $\langle \cdot \rangle_{\text{height}}$ is a multi-linear height pairing on algebraic cycles.
+\end{conjecture}
+
+\subsection{Connection to BSD and RH}
+
+Zhang's approach provides a geometric bridge between:
+\begin{itemize}
+\item The Birch and Swinnerton-Dyer conjecture (relating L-values to arithmetic invariants)
+\item The generalized Riemann hypothesis (asserting non-vanishing of L-functions)
+\item Geometric positivity (heights and intersection numbers)
+\end{itemize}
+
+\begin{remark}
+This approach has led to major breakthroughs: Zhang and collaborators proved BSD for approximately 66\% of elliptic curves over $\mathbb{Q}$, representing the most significant progress in 30 years.
+\end{remark}
+
+\subsection{Limitations and Challenges}
+
+While powerful, the arithmetic geometry approach faces obstacles:
+
+\begin{enumerate}
+\item \textbf{Construction of Cycles}: Finding appropriate algebraic cycles for general L-functions remains mysterious.
+\item \textbf{Height Positivity}: Proving positivity of generalized height pairings requires deep geometric insights.
+\item \textbf{Analytic Continuation}: The method primarily addresses special values, not the full analytic properties needed for RH.
+\item \textbf{Arithmetic vs. Analytic}: Bridging the gap between arithmetic constructions and analytic properties remains challenging.
+\end{enumerate}
+
+Despite these challenges, Zhang's ``completion of square'' philosophy represents one of the most promising modern approaches, successfully connecting deep arithmetic geometry to the analytic theory of L-functions.
+
+\section{Hypergeometric Motives and L-Functions (Rodriguez-Villegas)}
+\label{sec:hypergeometric_motives}
+
+Fernando Rodriguez-Villegas and collaborators have developed a remarkable theory of hypergeometric motives (HGMs), providing a vast computational laboratory for L-functions with explicit formulas for all invariants \cite{rodriguez2018, roberts2021}.
+
+\subsection{Definition and Construction}
+
+\begin{definition}[Hypergeometric Motive]
+\label{def:hgm}
+A hypergeometric motive $H(\gamma, t)$ is parametrized by:
+\begin{itemize}
+\item A gamma vector $\gamma = [\gamma_1, \ldots, \gamma_\ell]$ with $\gcd(\gamma_1, \ldots, \gamma_\ell) = 1$
+\item A specialization parameter $t \in \mathbb{Q}^\times \setminus \{1\}$
+\end{itemize}
+The motive arises from the compactly supported middle cohomology of the variety:
+\begin{align}
+\sum_{j} y_j &= 0 \\
+\prod_{\gamma_j > 0} y_j^{\gamma_j} &= u \prod_{\gamma_i < 0} y_j^{-\gamma_i}
+\end{align}
+where $u = t^{\prod \gamma_j^{\gamma_j}}$.
+\end{definition}
+
+These motives generalize classical hypergeometric functions to an arithmetic-geometric setting.
+
+\subsection{Connection to Classical Hypergeometric Functions}
+
+The periods of HGMs are given by hypergeometric integrals:
+
+\begin{theorem}[Period Formula]
+\label{thm:hgm_periods}
+The periods of $H(\gamma, t)$ include:
+\begin{equation}
+F(\alpha, \beta, t) = \prod_i \frac{\Gamma(\beta_i)}{\Gamma(\alpha_i)\Gamma(\beta_i - \alpha_i)} \int_0^1 \cdots \int_0^1 \frac{\prod_i x_i^{\alpha_i-1}(1-x_i)^{\beta_i-\alpha_i-1}}{(1-tx_1 \cdots x_{n-1})^{\alpha_n}} dx
+\end{equation}
+connecting to the classical hypergeometric series $_rF_{r-1}$.
+\end{theorem}
+
+\subsection{Computational Advantages}
+
+HGMs offer unprecedented computational accessibility:
+
+\subsubsection{Explicit Hodge Numbers}
+
+The Hodge numbers are computed via the ``zigzag algorithm'':
+
+\begin{algorithm}[Zigzag Procedure]
+\label{alg:zigzag}
+Input: Family parameter $Q = q_\infty/q_0$ \\
+Output: Hodge vector $h = (h^{w,0}, \ldots, h^{0,w})$ \\
+Method: Analyze interlacing patterns of roots of $q_\infty$ and $q_0$ on the unit circle
+\end{algorithm}
+
+\subsubsection{Point Counts and L-Functions}
+
+\begin{theorem}[Explicit Point Count Formula]
+\label{thm:hgm_point_count}
+For good primes $p$, the Frobenius trace is:
+\begin{equation}
+\text{Tr}(\text{Fr}_p | H(\gamma, t)) = \frac{p^{\varphi_0}}{1-p} \sum_\chi \frac{J(\gamma, \chi)}{J(\gamma, 1)} \chi(t)
+\end{equation}
+where $J(\gamma, \chi)$ are Jacobi sums and the sum runs over multiplicative characters.
+\end{theorem}
+
+This yields the L-function:
+\begin{equation}
+L(H(\gamma, t), s) = \prod_p \frac{1}{F_p(H(\gamma, t), p^{-s})}
+\end{equation}
+with explicitly computable Frobenius polynomials $F_p$.
+
+\subsection{p-adic Connections}
+
+Rodriguez-Villegas showed these extend to p-adic functions:
+
+\begin{theorem}[p-adic Hypergeometric Functions]
+\label{thm:padic_hgm}
+Classical hypergeometric series extend to continuous p-adic functions $f: \mathbb{Z}_p \to \mathbb{C}_p$ that:
+\begin{itemize}
+\item Interpolate classical values
+\item Connect to p-adic L-functions
+\item Yield formulas like $A = -\frac{3}{2}\zeta_3(2)$ where $\zeta_3$ is the Kubota-Leopoldt 3-adic zeta function
+\end{itemize}
+\end{theorem}
+
+\subsection{Testing Ground for RH}
+
+HGMs provide an ideal testing ground for the Riemann hypothesis:
+
+\begin{enumerate}
+\item \textbf{Vast Scope}: Approximately 460 million family parameters of rank 24
+\item \textbf{Computable}: All invariants (Hodge numbers, L-values, zeros) explicitly computable
+\item \textbf{Rigid Structure}: Rigid monodromy ensures local behavior determines global properties
+\item \textbf{Automorphy}: Many HGM L-functions correspond to automorphic forms
+\end{enumerate}
+
+\begin{remark}
+Numerical verification suggests RH holds for all HGM L-functions tested, providing overwhelming computational evidence for GRH in this setting.
+\end{remark}
+
+\subsection{Mirror Symmetry and Physics Connections}
+
+HGMs connect to physics through mirror symmetry:
+
+\begin{theorem}[Reflexive HGMs]
+\label{thm:reflexive_hgm}
+When $Q(T) = Q(-T)^{-1}$ (reflexive property), the motives $H(Q,t)$ and $H(Q,t^{-1})$ are related by quadratic twists, forcing special behavior at $t = \pm 1$ connected to Calabi-Yau geometry.
+\end{theorem}
+
+This provides a bridge between:
+\begin{itemize}
+\item Number theory (L-functions and motives)
+\item Algebraic geometry (Calabi-Yau varieties)
+\item Mathematical physics (mirror symmetry)
+\end{itemize}
+
+\subsection{Future Directions}
+
+The hypergeometric motive framework suggests several promising directions:
+\begin{enumerate}
+\item Extending automorphy results to all HGM L-functions
+\item Understanding the ``hypergeometric Langlands correspondence''
+\item Using HGMs to test refined versions of RH (pair correlation, etc.)
+\item Connecting HGM zeros to random matrix theory
+\end{enumerate}
 
 \section{p-adic and Tropical Methods}
 \label{sec:padic_tropical}

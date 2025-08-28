@@ -1,0 +1,10 @@
+Priority Papers for Riemann
+============================================================
+
+✓ [2505.21192v4] Quantum Hamiltonian for RH avoiding spectral obstacles
+✓ [2507.10193v1] Finite-size corrections for zeta verification
+✓ [2503.21682v1] Twisted moments method avoiding Conrey-Li gap
+✓ [2501.02746v1] Non-Hermitian matrix bounds for RH
+✓ [2502.04514v1] Spectral bootstrap for improved zero spacing
+✓ [2411.17872v1] Relativistic quantum approach to RH
+✓ [2505.07736v1] Function field L-functions and transfer principles
